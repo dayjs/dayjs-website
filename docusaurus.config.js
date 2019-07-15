@@ -9,7 +9,7 @@ module.exports = {
   title: 'DAYJS ORGANIZATION',
   tagline:
     '⏰ Fast 2KB immutable date library alternative to Moment.js with the same modern API.',
-  url: 'https://dayjs.github.io',
+  url: 'https://dayjs.github.io/website',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'dayjs', // Usually your GitHub org/user name.
