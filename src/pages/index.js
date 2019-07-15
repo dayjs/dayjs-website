@@ -28,7 +28,8 @@ function Home() {
     {
       title: '💪 Immutable & 🔥 Chainable',
       descriptions: [
-        'With immutable and chainable support, you can safely and easily to modify the existing dayjs() in Day.js.',
+        'With immutable and chainable support, you can safely and easily to modify the existing dayjs instance in Day.js.',
+        'All operations will be intuitive.',
         'Without any pains from now!'
       ]
     },
@@ -43,8 +44,8 @@ function Home() {
       title: '🌈 Multiple Languages Support',
       descriptions: [
         'Not only in JavaScript!',
-        'You can also use Day.js in other languages. Like day.dart, day.rs (In Rust)...',
-        'We will try our best to support more languages.'
+        'You can also use Day.js in other languages. Like day.dart, day.rs (In Rust), day.clj (In Clojure)...',
+        'We will try our best to support more languages in the future.'
       ]
     }
   ]
