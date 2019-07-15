@@ -1,0 +1,470 @@
+{
+  "entrypoints": [
+    "main"
+  ],
+  "origins": {
+    "common": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      0
+    ],
+    "@theme/BlogTagsPostsPage": [
+      0,
+      2,
+      3,
+      1
+    ],
+    "@theme/BlogTagsListPage": [
+      0,
+      2,
+      3,
+      1
+    ],
+    "@theme/BlogPostPage": [
+      0,
+      2,
+      3,
+      1
+    ],
+    "@theme/DocLegacyPage": [
+      0,
+      2,
+      3,
+      1
+    ],
+    "@theme/DocLegacyItem": [
+      0,
+      2,
+      3,
+      1
+    ],
+    "@theme/BlogListPage": [
+      0,
+      2,
+      3,
+      1
+    ],
+    "@theme/NotFound": [
+      0,
+      2,
+      3,
+      1
+    ],
+    "prism-react-renderer": [
+      0,
+      1,
+      2
+    ],
+    "/Users/g1eny0ung/work/dayjs/website/src/pages/index.js": [
+      0,
+      1,
+      3
+    ],
+    "/Users/g1eny0ung/work/dayjs/website/blog/2019-05-28-hola.md": [
+      0,
+      4
+    ],
+    "/Users/g1eny0ung/work/dayjs/website/blog/2019-05-29-hello-world.md": [
+      0,
+      5
+    ],
+    "/Users/g1eny0ung/work/dayjs/website/blog/2019-05-30-welcome.md": [
+      0,
+      6
+    ],
+    "/Users/g1eny0ung/work/dayjs/website/blog/2019-05-30-welcome.md?truncated=true": [
+      0,
+      7
+    ],
+    "/Users/g1eny0ung/work/dayjs/website/blog/2019-05-28-hola.md?truncated=true": [
+      0,
+      8
+    ],
+    "/Users/g1eny0ung/work/dayjs/website/blog/2019-05-29-hello-world.md?truncated=true": [
+      0,
+      9
+    ],
+    "/Users/g1eny0ung/work/dayjs/website/docs/doc1.md": [
+      0,
+      10
+    ],
+    "/Users/g1eny0ung/work/dayjs/website/docs/doc2.md": [
+      0,
+      11
+    ],
+    "/Users/g1eny0ung/work/dayjs/website/docs/doc3.md": [
+      0,
+      12
+    ],
+    "/Users/g1eny0ung/work/dayjs/website/docs/mdx.md": [
+      0,
+      13
+    ],
+    "/Users/g1eny0ung/work/dayjs/website/.docusaurus/docusaurus-plugin-content-docs/docs-b5f.json": [
+      14
+    ],
+    "main": [
+      29,
+      15
+    ],
+    "/Users/g1eny0ung/work/dayjs/website/.docusaurus/docusaurus-plugin-content-blog/blog-2019-05-30-welcome-4e0.json": [
+      16
+    ],
+    "/Users/g1eny0ung/work/dayjs/website/.docusaurus/docusaurus-plugin-content-blog/blog-c06.json": [
+      17
+    ],
+    "/Users/g1eny0ung/work/dayjs/website/.docusaurus/docusaurus-plugin-content-blog/blog-tags-docusaurus-0e0.json": [
+      18
+    ],
+    "/Users/g1eny0ung/work/dayjs/website/.docusaurus/docusaurus-plugin-content-blog/blog-tags-facebook-038.json": [
+      19
+    ],
+    "/Users/g1eny0ung/work/dayjs/website/.docusaurus/docusaurus-plugin-content-blog/blog-tags-hello-039.json": [
+      20
+    ],
+    "/Users/g1eny0ung/work/dayjs/website/.docusaurus/docusaurus-plugin-content-blog/blog-tags-hola-ea2.json": [
+      21
+    ],
+    "/Users/g1eny0ung/work/dayjs/website/.docusaurus/docusaurus-plugin-content-pages/index.json": [
+      22
+    ],
+    "/Users/g1eny0ung/work/dayjs/website/.docusaurus/docusaurus-plugin-content-docs/docs-doc-1-6ac.json": [
+      23
+    ],
+    "/Users/g1eny0ung/work/dayjs/website/.docusaurus/docusaurus-plugin-content-docs/docs-doc-2-29a.json": [
+      24
+    ],
+    "/Users/g1eny0ung/work/dayjs/website/.docusaurus/docusaurus-plugin-content-docs/docs-doc-3-72e.json": [
+      25
+    ],
+    "/Users/g1eny0ung/work/dayjs/website/.docusaurus/docusaurus-plugin-content-docs/docs-mdx-04f.json": [
+      26
+    ],
+    "/Users/g1eny0ung/work/dayjs/website/.docusaurus/docusaurus-plugin-content-blog/blog-2019-05-28-hola-af7.json": [
+      27
+    ],
+    "/Users/g1eny0ung/work/dayjs/website/.docusaurus/docusaurus-plugin-content-blog/blog-2019-05-29-hello-world-826.json": [
+      28
+    ],
+    "runtime~main": [
+      15,
+      29
+    ],
+    "/Users/g1eny0ung/work/dayjs/website/.docusaurus/docusaurus-plugin-content-blog/blog-tags-tags-4c2.json": [
+      30
+    ]
+  },
+  "assets": {
+    "0": {
+      "js": [
+        {
+          "file": "common.66e6ff648f111812e40a.js",
+          "hash": "66e6ff648f111812e40a",
+          "publicPath": "/common.66e6ff648f111812e40a.js"
+        }
+      ]
+    },
+    "1": {
+      "css": [
+        {
+          "file": "vendors.ddc4ff9f6cce4662771d.css",
+          "hash": "ddc4ff9f6cce4662771d",
+          "publicPath": "/vendors.ddc4ff9f6cce4662771d.css"
+        }
+      ],
+      "js": [
+        {
+          "file": "vendors.ddc4ff9f6cce4662771d.js",
+          "hash": "ddc4ff9f6cce4662771d",
+          "publicPath": "/vendors.ddc4ff9f6cce4662771d.js"
+        }
+      ]
+    },
+    "2": {
+      "js": [
+        {
+          "file": "prism-react-renderer.966d6a81d249757d4c20.js",
+          "hash": "966d6a81d249757d4c20",
+          "publicPath": "/prism-react-renderer.966d6a81d249757d4c20.js"
+        }
+      ]
+    },
+    "3": {
+      "css": [
+        {
+          "file": "component---users-g-1-eny-0-ung-work-dayjs-website-src-pages-index-js-05-e-42f.b58621ec6ee4493a984b.css",
+          "hash": "b58621ec6ee4493a984b",
+          "publicPath": "/component---users-g-1-eny-0-ung-work-dayjs-website-src-pages-index-js-05-e-42f.b58621ec6ee4493a984b.css"
+        }
+      ],
+      "js": [
+        {
+          "file": "component---users-g-1-eny-0-ung-work-dayjs-website-src-pages-index-js-05-e-42f.b58621ec6ee4493a984b.js",
+          "hash": "b58621ec6ee4493a984b",
+          "publicPath": "/component---users-g-1-eny-0-ung-work-dayjs-website-src-pages-index-js-05-e-42f.b58621ec6ee4493a984b.js"
+        }
+      ]
+    },
+    "4": {
+      "js": [
+        {
+          "file": "content---blog-2019-05-28-holac-73-63e.1ea9a96ac32618cd4d4b.js",
+          "hash": "1ea9a96ac32618cd4d4b",
+          "publicPath": "/content---blog-2019-05-28-holac-73-63e.1ea9a96ac32618cd4d4b.js"
+        }
+      ]
+    },
+    "5": {
+      "js": [
+        {
+          "file": "content---blog-2019-05-29-hello-worldb-76-cc7.8244b2da44cf2c039004.js",
+          "hash": "8244b2da44cf2c039004",
+          "publicPath": "/content---blog-2019-05-29-hello-worldb-76-cc7.8244b2da44cf2c039004.js"
+        }
+      ]
+    },
+    "6": {
+      "js": [
+        {
+          "file": "content---blog-2019-05-30-welcome-11-b-74f.b05a664c55a8c06589d9.js",
+          "hash": "b05a664c55a8c06589d9",
+          "publicPath": "/content---blog-2019-05-30-welcome-11-b-74f.b05a664c55a8c06589d9.js"
+        }
+      ]
+    },
+    "7": {
+      "js": [
+        {
+          "file": "content---blog-4-cf-d67.01602c0b6de597268c39.js",
+          "hash": "01602c0b6de597268c39",
+          "publicPath": "/content---blog-4-cf-d67.01602c0b6de597268c39.js"
+        }
+      ]
+    },
+    "8": {
+      "js": [
+        {
+          "file": "content---blog-680-7d6.4bce2e26e83ad93472b5.js",
+          "hash": "4bce2e26e83ad93472b5",
+          "publicPath": "/content---blog-680-7d6.4bce2e26e83ad93472b5.js"
+        }
+      ]
+    },
+    "9": {
+      "js": [
+        {
+          "file": "content---blogc-03-550.695ccf31a4ebf142f478.js",
+          "hash": "695ccf31a4ebf142f478",
+          "publicPath": "/content---blogc-03-550.695ccf31a4ebf142f478.js"
+        }
+      ]
+    },
+    "10": {
+      "js": [
+        {
+          "file": "content---docs-doc-18-c-6-314.1322c03ee5e14f97c72c.js",
+          "hash": "1322c03ee5e14f97c72c",
+          "publicPath": "/content---docs-doc-18-c-6-314.1322c03ee5e14f97c72c.js"
+        }
+      ]
+    },
+    "11": {
+      "js": [
+        {
+          "file": "content---docs-doc-2-ed-5-659.3299fc5af450c2769349.js",
+          "hash": "3299fc5af450c2769349",
+          "publicPath": "/content---docs-doc-2-ed-5-659.3299fc5af450c2769349.js"
+        }
+      ]
+    },
+    "12": {
+      "js": [
+        {
+          "file": "content---docs-doc-3-aed-58d.3ad813cf85cc8402657c.js",
+          "hash": "3ad813cf85cc8402657c",
+          "publicPath": "/content---docs-doc-3-aed-58d.3ad813cf85cc8402657c.js"
+        }
+      ]
+    },
+    "13": {
+      "js": [
+        {
+          "file": "content---docs-mdxb-16-5fb.3be7349952f9e17f6105.js",
+          "hash": "3be7349952f9e17f6105",
+          "publicPath": "/content---docs-mdxb-16-5fb.3be7349952f9e17f6105.js"
+        }
+      ]
+    },
+    "14": {
+      "js": [
+        {
+          "file": "docsMetadata---docs-7-cf-25b.8890581fc95078ec2539.js",
+          "hash": "8890581fc95078ec2539",
+          "publicPath": "/docsMetadata---docs-7-cf-25b.8890581fc95078ec2539.js"
+        }
+      ]
+    },
+    "15": {
+      "css": [
+        {
+          "file": "main.3b1af724826a30fc9224.css",
+          "hash": "3b1af724826a30fc9224",
+          "publicPath": "/main.3b1af724826a30fc9224.css"
+        }
+      ],
+      "js": [
+        {
+          "file": "main.3b1af724826a30fc9224.js",
+          "hash": "3b1af724826a30fc9224",
+          "publicPath": "/main.3b1af724826a30fc9224.js"
+        }
+      ]
+    },
+    "16": {
+      "js": [
+        {
+          "file": "metadata---blog-2019-05-30-welcome-0-f-4-d87.85c12b956d69626d387b.js",
+          "hash": "85c12b956d69626d387b",
+          "publicPath": "/metadata---blog-2019-05-30-welcome-0-f-4-d87.85c12b956d69626d387b.js"
+        }
+      ]
+    },
+    "17": {
+      "js": [
+        {
+          "file": "metadata---blog-573-4b9.8b5d319daf1e6fbb7bba.js",
+          "hash": "8b5d319daf1e6fbb7bba",
+          "publicPath": "/metadata---blog-573-4b9.8b5d319daf1e6fbb7bba.js"
+        }
+      ]
+    },
+    "18": {
+      "js": [
+        {
+          "file": "metadata---blog-tags-docusauruse-04-139.fccfddfb5ea07a978b9a.js",
+          "hash": "fccfddfb5ea07a978b9a",
+          "publicPath": "/metadata---blog-tags-docusauruse-04-139.fccfddfb5ea07a978b9a.js"
+        }
+      ]
+    },
+    "19": {
+      "js": [
+        {
+          "file": "metadata---blog-tags-facebookecc-b5b.46d61768c81a7b222fae.js",
+          "hash": "46d61768c81a7b222fae",
+          "publicPath": "/metadata---blog-tags-facebookecc-b5b.46d61768c81a7b222fae.js"
+        }
+      ]
+    },
+    "20": {
+      "js": [
+        {
+          "file": "metadata---blog-tags-hellocf-3-9c9.60f99766652f57ffb174.js",
+          "hash": "60f99766652f57ffb174",
+          "publicPath": "/metadata---blog-tags-hellocf-3-9c9.60f99766652f57ffb174.js"
+        }
+      ]
+    },
+    "21": {
+      "js": [
+        {
+          "file": "metadata---blog-tags-holafb-2-d86.487204e6fdfb95d257fa.js",
+          "hash": "487204e6fdfb95d257fa",
+          "publicPath": "/metadata---blog-tags-holafb-2-d86.487204e6fdfb95d257fa.js"
+        }
+      ]
+    },
+    "22": {
+      "js": [
+        {
+          "file": "metadata---df-5-bf3.22a32199648b5338cfe2.js",
+          "hash": "22a32199648b5338cfe2",
+          "publicPath": "/metadata---df-5-bf3.22a32199648b5338cfe2.js"
+        }
+      ]
+    },
+    "23": {
+      "js": [
+        {
+          "file": "metadata---docs-doc-1401-065.d771c41fb66e4cb0ebc5.js",
+          "hash": "d771c41fb66e4cb0ebc5",
+          "publicPath": "/metadata---docs-doc-1401-065.d771c41fb66e4cb0ebc5.js"
+        }
+      ]
+    },
+    "24": {
+      "js": [
+        {
+          "file": "metadata---docs-doc-289-e-43b.6561c8ebba3b7924a08d.js",
+          "hash": "6561c8ebba3b7924a08d",
+          "publicPath": "/metadata---docs-doc-289-e-43b.6561c8ebba3b7924a08d.js"
+        }
+      ]
+    },
+    "25": {
+      "js": [
+        {
+          "file": "metadata---docs-doc-3935-6cb.6f5d8be479e82981531f.js",
+          "hash": "6f5d8be479e82981531f",
+          "publicPath": "/metadata---docs-doc-3935-6cb.6f5d8be479e82981531f.js"
+        }
+      ]
+    },
+    "26": {
+      "js": [
+        {
+          "file": "metadata---docs-mdx-19-b-cc2.4ccad168717fcad802dd.js",
+          "hash": "4ccad168717fcad802dd",
+          "publicPath": "/metadata---docs-mdx-19-b-cc2.4ccad168717fcad802dd.js"
+        }
+      ]
+    },
+    "27": {
+      "js": [
+        {
+          "file": "nextItem---blog-2019-05-29-hello-world-8-ac-9e2.e715a718e7e144268a2e.js",
+          "hash": "e715a718e7e144268a2e",
+          "publicPath": "/nextItem---blog-2019-05-29-hello-world-8-ac-9e2.e715a718e7e144268a2e.js"
+        }
+      ]
+    },
+    "28": {
+      "js": [
+        {
+          "file": "nextItem---blog-2019-05-30-welcome-7-b-4-c5b.739a06a6be45ff3e51d5.js",
+          "hash": "739a06a6be45ff3e51d5",
+          "publicPath": "/nextItem---blog-2019-05-30-welcome-7-b-4-c5b.739a06a6be45ff3e51d5.js"
+        }
+      ]
+    },
+    "29": {
+      "js": [
+        {
+          "file": "runtime~main.4c9f792a2a789005e548.js",
+          "hash": "4c9f792a2a789005e548",
+          "publicPath": "/runtime~main.4c9f792a2a789005e548.js"
+        }
+      ]
+    },
+    "30": {
+      "js": [
+        {
+          "file": "tags---blog-tags-8-ca-e08.55e1d7fbb8422c3c0159.js",
+          "hash": "55e1d7fbb8422c3c0159",
+          "publicPath": "/tags---blog-tags-8-ca-e08.55e1d7fbb8422c3c0159.js"
+        }
+      ]
+    }
+  }
+}
