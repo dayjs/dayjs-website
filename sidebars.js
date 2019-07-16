@@ -7,7 +7,8 @@
 
 module.exports = {
   docs: {
-    Docusaurus: ['doc1', 'doc2', 'doc3'],
-    Features: ['mdx'],
-  },
-};
+    'Day.js': ['Roadmap'],
+    'Getting Started': ['Installation'],
+    'API Documentation': ['api/Parsing']
+  }
+}

@@ -22,7 +22,7 @@ module.exports = {
         src: 'img/logo.png'
       },
       links: [
-        { to: 'docs/doc1', label: 'Docs', position: 'right' },
+        { to: 'docs/Installation', label: 'Docs', position: 'right' },
         { to: 'blog', label: 'Blog', position: 'right' },
         {
           href: 'https://github.com/dayjs',
@@ -39,7 +39,7 @@ module.exports = {
           items: [
             {
               label: 'Docs',
-              to: 'docs/doc1'
+              to: 'docs/Installation'
             }
           ]
         },
@@ -61,7 +61,7 @@ module.exports = {
             },
             {
               label: 'Roadmap',
-              to: 'https://github.com/dayjs/roadmap'
+              to: 'docs/Roadmap'
             }
           ]
         }

@@ -65,15 +65,15 @@ function Home() {
           <div className={styles.buttons}>
             <Link
               className="button button--secondary button--lg"
-              to={withBaseUrl('docs/doc1')}
+              to={withBaseUrl('docs/Installation')}
             >
               GET STARTED
             </Link>
             <Link
               className="button button--secondary button--lg"
-              to={withBaseUrl('docs/doc1')}
+              to={withBaseUrl('docs/api/Parsing')}
             >
-              READ THE DOCS
+              API DOCUMENTATION
             </Link>
           </div>
         </div>
