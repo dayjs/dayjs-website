@@ -8,6 +8,8 @@ You can use Day.js in mutiple ways:
 
 ## Via NPM Or Yarn
 
+Usually this is the most common way to use dayjs:
+
 ```
 npm install dayjs --save
 ```
@@ -15,8 +17,6 @@ npm install dayjs --save
 ```
 yarn add dayjs
 ```
-
-Then:
 
 ```js
 import dayjs from 'dayjs'
@@ -50,5 +50,4 @@ Use `axel`:
 axel -an 8 https://unpkg.com/dayjs -o dayjs.min.js
 ```
 
-Or any download tools you favourite.
- 
+Or any download tools you favorite.

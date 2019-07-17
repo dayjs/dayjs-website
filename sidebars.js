@@ -7,8 +7,17 @@
 
 module.exports = {
   docs: {
-    'Day.js': ['Roadmap'],
+    'Day.js': ['Roadmap', 'Contributing'],
     'Getting Started': ['Installation'],
-    'API Documentation': ['api/Parsing']
+    'API Documentation': [
+      'api/Parsing',
+      'api/GetandSet',
+      'api/Manipulating',
+      'api/Displaying',
+      'api/Query',
+      'api/UTC'
+    ],
+    Plugins: ['Plugins'],
+    Internationalization: ['Internationalization']
   }
 }

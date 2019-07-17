@@ -38,8 +38,12 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Docs',
+              label: 'Installation',
               to: 'docs/Installation'
+            },
+            {
+              label: 'API Documentation',
+              to: 'docs/api/Parsing'
             }
           ]
         },
@@ -62,6 +66,10 @@ module.exports = {
             {
               label: 'Roadmap',
               to: 'docs/Roadmap'
+            },
+            {
+              label: 'Contributing',
+              to: 'docs/Contributing'
             }
           ]
         }
