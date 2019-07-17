@@ -44,6 +44,14 @@ module.exports = {
             {
               label: 'API Documentation',
               to: 'docs/api/Parsing'
+            },
+            {
+              label: 'Plugins',
+              to: 'docs/Plugins'
+            },
+            {
+              label: 'Internationalization',
+              to: 'docs/Internationalization'
             }
           ]
         },
@@ -63,6 +71,15 @@ module.exports = {
               label: 'Blog',
               to: 'blog'
             },
+            {
+              label: 'GitHub',
+              to: 'https://github.com/dayjs'
+            }
+          ]
+        },
+        {
+          title: 'Organization',
+          items: [
             {
               label: 'Roadmap',
               to: 'docs/Roadmap'
