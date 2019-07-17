@@ -1,0 +1,64 @@
+/* your custom css */
+
+.navigationSlider .slidingNav ul li a {
+  font-weight: bold;
+}
+
+.customHomeContainer {
+  background: #dd5b4c;
+  color: #fff;
+}
+
+.projectTitles h2 {
+  margin: 2rem 0;
+}
+
+.projectTitle {
+  color: #fff;
+  font-size: 3rem;
+}
+
+.projectSecondTitle {
+  font-size: 3rem;
+}
+
+.customPromoButton {
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.customPromoButton:hover {
+  background: #fff;
+  color: #dd5b4c;
+}
+
+.customMainContainer .container.paddingTop {
+  padding-top: 30px;
+}
+
+.customMainContainer .container.paddingBottom {
+  padding-bottom: 30px;
+}
+
+.customMainContainer .container .gridBlock .blockContent > div p {
+  color: grey;
+  font-size: 1.2rem;
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
+  .projectSecondTitle {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+}
+
+@media only screen and (max-width: 1023px) {
+}
+
+@media only screen and (min-width: 1400px) {
+}
+
+@media only screen and (min-width: 1500px) {
+}
