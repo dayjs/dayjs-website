@@ -54,7 +54,7 @@ dayjs.unix(1318781876.721)
 
 ## Custom Parse Format
 
-- parse custom formats `dayjs("12-25-1995", "MM-DD-YYYY")` in plugin [`CustomParseFormat`](./Plugin.md#customparseformat)
+- parse custom formats `dayjs("12-25-1995", "MM-DD-YYYY")` in plugin [`CustomParseFormat`](/website/docs/Plugins#customparseformat)
 
 ## Clone `.clone() | dayjs(original: Dayjs)`
 
