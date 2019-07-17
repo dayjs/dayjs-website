@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[24],{37:function(e){e.exports=JSON.parse('{"permalink":"/website/","source":"/Users/g1eny0ung/work/dayjs/website/src/pages/index.js"}')}}]);
