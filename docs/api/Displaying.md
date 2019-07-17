@@ -59,8 +59,8 @@ dayjs('2019-01-25').format('DD/MM/YYYY') // '25/01/2019'
 | `A`    | AM PM            |                                       |
 | `a`    | am pm            |                                       |
 
-- More available formats `Q Do k kk X x ...` in plugin [`AdvancedFormat`](./Plugin.md#advancedformat)
-- Localized format options `L LT LTS ...` in plugin [`LocalizedFormat`](./Plugin.md#localizedFormat)
+- More available formats `Q Do k kk X x ...` in plugin [`AdvancedFormat`](/website/docs/Plugins#advancedformat)
+- Localized format options `L LT LTS ...` in plugin [`LocalizedFormat`](/website/docs/Plugins#localizedFormat)
 
 ## Difference `.diff(compared: Dayjs, unit?: string, float?: boolean)`
 
