@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[24],{54:function(a){a.exports=JSON.parse('{"id":"Roadmap","title":"Roadmap","sidebar_label":"Roadmap","description":"","source":"/Users/g1eny0ung/work/dayjs/website/docs/Roadmap.md","permalink":"/website/docs/Roadmap","sidebar":"docs","category":"Day.js","next":"Installation","next_title":"Installation"}')}}]);
