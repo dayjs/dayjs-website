@@ -5,13 +5,13 @@ authorURL: https://github.com/g1eny0ung
 authorImageURL: https://avatars3.githubusercontent.com/u/15034155
 ---
 
-We are building the website of dayjs.
+We are building the next website of dayjs.
 
-Now all the documentation is on the GitHub, we will decide to migrate them to there.
+Also, we will decide to migrate the existing docs to here.
 
 The new dayjs website will contains:
 
-- DAY.JS Org's Roadmap
+- The roadmap of DAY.JS Org
 - All docs of dayjs
 - All docs' translations
 - (Maybe something new 😉)
