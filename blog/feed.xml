@@ -4,7 +4,7 @@
         <title>DAY.JS ORGANIZATION Blog</title>
         <link>https://dayjs.github.io/website/website/blog</link>
         <description>The best place to stay up-to-date with the latest DAY.JS ORGANIZATION news and events.</description>
-        <lastBuildDate>Tue, 24 Oct 2017 06:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 18 Jul 2019 06:00:00 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -14,42 +14,19 @@
         </image>
         <copyright>Copyright © 2019 DAYJS. Built with Docusaurus.</copyright>
         <item>
-            <title><![CDATA[New Version 1.0.0]]></title>
-            <link>https://dayjs.github.io/website/website/blog/2017/10/24/new-version-1.0.0.html</link>
-            <guid>https://dayjs.github.io/website/website/blog/2017/10/24/new-version-1.0.0.html</guid>
-            <pubDate>Tue, 24 Oct 2017 06:00:00 GMT</pubDate>
-            <description><![CDATA[<p>This blog post will test file name parsing issues when periods are present.</p> ]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Adding RSS Support]]></title>
-            <link>https://dayjs.github.io/website/website/blog/2017/09/26/adding-rss.html</link>
-            <guid>https://dayjs.github.io/website/website/blog/2017/09/26/adding-rss.html</guid>
-            <pubDate>Tue, 26 Sep 2017 06:00:00 GMT</pubDate>
-            <description><![CDATA[<p>This is a test post.</p> <p>A whole bunch of other information.</p> ]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Adding RSS Support - RSS Truncation Test]]></title>
-            <link>https://dayjs.github.io/website/website/blog/2017/09/25/testing-rss.html</link>
-            <guid>https://dayjs.github.io/website/website/blog/2017/09/25/testing-rss.html</guid>
-            <pubDate>Mon, 25 Sep 2017 06:00:00 GMT</pubDate>
-            <description><![CDATA[<p>1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890</p>
-<p>This should be truncated.</p>
-]]></description>
-        </item>
-        <item>
-            <title><![CDATA[New Blog Post]]></title>
-            <link>https://dayjs.github.io/website/website/blog/2017/04/10/blog-post-two.html</link>
-            <guid>https://dayjs.github.io/website/website/blog/2017/04/10/blog-post-two.html</guid>
-            <pubDate>Mon, 10 Apr 2017 06:00:00 GMT</pubDate>
-            <description><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus elementum massa eget nulla aliquet sagittis. Proin odio tortor, vulputate ut odio in, ultrices ultricies augue. Cras ornare ultrices lorem malesuada iaculis. Etiam sit amet libero tempor, pulvinar mauris sed, sollicitudin sapien.</p>
-]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Blog Title]]></title>
-            <link>https://dayjs.github.io/website/website/blog/2016/03/11/blog-post.html</link>
-            <guid>https://dayjs.github.io/website/website/blog/2016/03/11/blog-post.html</guid>
-            <pubDate>Fri, 11 Mar 2016 06:00:00 GMT</pubDate>
-            <description><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus elementum massa eget nulla aliquet sagittis. Proin odio tortor, vulputate ut odio in, ultrices ultricies augue. Cras ornare ultrices lorem malesuada iaculis. Etiam sit amet libero tempor, pulvinar mauris sed, sollicitudin sapien.</p>
+            <title><![CDATA[The progress of the new dayjs website]]></title>
+            <link>https://dayjs.github.io/website/website/blog/2019/07/18/the-progress-of-dayjs-website.html</link>
+            <guid>https://dayjs.github.io/website/website/blog/2019/07/18/the-progress-of-dayjs-website.html</guid>
+            <pubDate>Thu, 18 Jul 2019 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>We are building the website of dayjs.</p>
+<p>Now all the documentation is on the GitHub, we will decide to migrate them to there.</p>
+<p>The new dayjs website will contains:</p>
+<ul>
+<li>DAY.JS Org's Roadmap</li>
+<li>All docs of dayjs</li>
+<li>All docs' translations</li>
+<li>(Maybe something new 😉)</li>
+</ul>
 ]]></description>
         </item>
     </channel>
