@@ -14,11 +14,11 @@
         <link href="https://dayjs.github.io/website/website/blog/2019/07/18/the-progress-of-dayjs-website.html">
         </link>
         <updated>2019-07-18T06:00:00Z</updated>
-        <summary type="html"><![CDATA[<p>We are building the website of dayjs.</p>
-<p>Now all the documentation is on the GitHub, we will decide to migrate them to there.</p>
+        <summary type="html"><![CDATA[<p>We are building the next website of dayjs.</p>
+<p>Also, we will decide to migrate the existing docs to here.</p>
 <p>The new dayjs website will contains:</p>
 <ul>
-<li>DAY.JS Org's Roadmap</li>
+<li>The roadmap of DAY.JS Org</li>
 <li>All docs of dayjs</li>
 <li>All docs' translations</li>
 <li>(Maybe something new 😉)</li>
