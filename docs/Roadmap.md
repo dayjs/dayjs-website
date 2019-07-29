@@ -6,6 +6,8 @@ sidebar_label: Roadmap
 
 Development roadmap for the dayjs community.
 
+> Note: if you change the roadmap, please remember syncing the changes to [dayjs/website](https://github.com/dayjs/website) and vice versa.
+
 ## Why started this
 
 The original idea of the roadmap can be founded in [https://github.com/iamkun/dayjs/issues/627](https://github.com/iamkun/dayjs/issues/627).
