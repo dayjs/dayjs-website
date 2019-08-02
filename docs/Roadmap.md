@@ -51,7 +51,7 @@ Until Now, dayjs has covered:
 
 ## Document Migration Progress
 
-We are going to use https://v2.docusaurus.io/ to generate the new documentation.
+We are going to use https://docusaurus.io/ to generate the new documentation.
 
 Current progress: **50%**
 

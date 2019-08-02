@@ -12,6 +12,8 @@ const CompLibrary = require('../../core/CompLibrary.js')
 const Container = CompLibrary.Container
 const GridBlock = CompLibrary.GridBlock
 
+const translate = require('../../server/translate.js').translate
+
 class HomeSplash extends React.Component {
   render() {
     const { siteConfig, language = '' } = this.props
@@ -33,8 +35,11 @@ class HomeSplash extends React.Component {
           {siteConfig.tagline}
         </h2>
         <h3>
-          🤟 It can be used not only in JavaScript but also supports more
-          languages!
+          🤟{' '}
+          <translate desc="support more languages">
+            It can be used not only in JavaScript but also supports more
+            languages!
+          </translate>
         </h3>
       </div>
     )
@@ -103,18 +108,32 @@ class Index extends React.Component {
             layout="twoColumn"
             contents={[
               {
-                title: '👀 Easy To Use',
-                content: `Day.js is a minimalist JavaScript library that
-                  parses, validates, manipulates, and displays dates and times for modern browsers
-                  with a largely Moment.js-compatible API. 
-                  If you use Moment.js, you already know how to use Day.js.`
+                title: (
+                  <translate desc="title:Easy To Use">👀 Easy To Use</translate>
+                ),
+                content: (
+                  <translate desc="content:Easy To Use">
+                    Day.js is a minimalist JavaScript library that parses,
+                    validates, manipulates, and displays dates and times for
+                    modern browsers with a largely Moment.js-compatible API. If
+                    you use Moment.js, you already know how to use Day.js.
+                  </translate>
+                )
               },
               {
-                title: '🌈 Multiple Languages Support',
-                content: `Not only in JavaScript!
-                  You can also use Day.js in other languages. Like day.dart, day.rs (In Rust), day.clj (In Clojure)...
-                  We will try our best to support more languages in the future.
-                `
+                title: (
+                  <translate desc="title:Multiple Languages Support">
+                    🌈 Multiple Languages Support
+                  </translate>
+                ),
+                content: (
+                  <translate desc="content:Multiple Languages Support">
+                    Not only in JavaScript! You can also use Day.js in other
+                    languages. Like day.dart, day.rs (In Rust), day.clj (In
+                    Clojure)... We will try our best to support more languages
+                    in the future.
+                  </translate>
+                )
               }
             ]}
           />
@@ -123,24 +142,45 @@ class Index extends React.Component {
             layout="threeColumn"
             contents={[
               {
-                title: '💪 Immutable & 🔥 Chainable',
-                content: `With immutable and chainable support,
-                  you can safely and easily to modify the existing dayjs instance in Day.js.
-                  All operations will be intuitive.
-                  Without any pains from now!
-                `
+                title: (
+                  <translate desc="title:Immutable And Chainable">
+                    💪 Immutable And 🔥 Chainable
+                  </translate>
+                ),
+                content: (
+                  <translate desc="content:Immutable And Chainable">
+                    With immutable and chainable support, you can safely and
+                    easily to modify the existing dayjs instance in Day.js. All
+                    operations will be intuitive. Without any pains from now!
+                  </translate>
+                )
               },
               {
-                title: '⚙️ Powerful Plugin Systems',
-                content: `Want more functionalities? The Plugin Systems will take you flying!
-                  A plugin is an independent module that can be added to Day.js
-                  to extend functionality or add new features.`
+                title: (
+                  <translate desc="title:Powerful Plugin Systems">
+                    ⚙️ Powerful Plugin Systems
+                  </translate>
+                ),
+                content: (
+                  <translate desc="content:Powerful Plugin Systems">
+                    Want more functionalities? The Plugin Systems will take you
+                    flying! A plugin is an independent module that can be added
+                    to Day.js to extend functionality or add new features.
+                  </translate>
+                )
               },
               {
-                title: '🌐 I18n Support',
-                content: `Day.js has great support for internationalization.
-                  But none of them will be included in your build unless you use it.
-                `
+                title: (
+                  <translate desc="title:I18n Support">
+                    🌐 I18n Support
+                  </translate>
+                ),
+                content: (
+                  <translate desc="content:I18n Support">
+                    Day.js has great support for internationalization. But none
+                    of them will be included in your build unless you use it.
+                  </translate>
+                )
               }
             ]}
           />
