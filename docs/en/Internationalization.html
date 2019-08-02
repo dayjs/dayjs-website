@@ -1,0 +1,190 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Internationalization · DAY.JS ORGANIZATION</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="&lt;p&gt;Day.js has great support for internationalization.&lt;/p&gt;
+"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Internationalization · DAY.JS ORGANIZATION"/><meta property="og:type" content="website"/><meta property="og:url" content="https://dayjs.github.io/website/website/"/><meta property="og:description" content="&lt;p&gt;Day.js has great support for internationalization.&lt;/p&gt;
+"/><meta name="twitter:card" content="summary"/><link rel="shortcut icon" href="/website/img/favicon.ico"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css"/><link rel="alternate" type="application/atom+xml" href="https://dayjs.github.io/website/website/blog/atom.xml" title="DAY.JS ORGANIZATION Blog ATOM Feed"/><link rel="alternate" type="application/rss+xml" href="https://dayjs.github.io/website/website/blog/feed.xml" title="DAY.JS ORGANIZATION Blog RSS Feed"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script src="/website/js/scrollSpy.js"></script><link rel="stylesheet" href="/website/css/main.css"/><script src="/website/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/website/en"><img class="logo" src="/website/img/logo.png" alt="DAY.JS ORGANIZATION"/><h2 class="headerTitleWithLogo">DAY.JS ORGANIZATION</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><span><li><a id="languages-menu" href="#"><img class="languages-icon" src="/website/img/language.svg" alt="Languages icon"/>English</a><div id="languages-dropdown" class="hide"><ul id="languages-dropdown-items"><li><a href="/website/docs/zh-CN/Internationalization">中文</a></li><li><a href="/website/docs/ja/Internationalization">日本語</a></li><li><a href="/website/docs/ko/Internationalization">한국어</a></li><li><a href="/website/docs/pt-BR/Internationalization">Português (Brasil)</a></li><li><a href="/website/docs/es-ES/Internationalization">Español</a></li></ul></div></li><script>
+        const languagesMenuItem = document.getElementById("languages-menu");
+        const languagesDropDown = document.getElementById("languages-dropdown");
+        languagesMenuItem.addEventListener("click", function(event) {
+          event.preventDefault();
+
+          if (languagesDropDown.className == "hide") {
+            languagesDropDown.className = "visible";
+          } else {
+            languagesDropDown.className = "hide";
+          }
+        });
+      </script></span><li class="siteNavGroupActive"><a href="/website/docs/en/Installation" target="_self">Docs</a></li><li class=""><a href="/website/blog/" target="_self">Blog</a></li><li class=""><a href="https://github.com/dayjs" target="_self">GitHub</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>Internationalization</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">Day.js</h3><ul class=""><li class="navListItem"><a class="navItem" href="/website/docs/en/Roadmap">Roadmap</a></li><li class="navListItem"><a class="navItem" href="/website/docs/en/Contributing">Contributing</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Getting Started</h3><ul class=""><li class="navListItem"><a class="navItem" href="/website/docs/en/Installation">Installation</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">API Documentation</h3><ul class=""><li class="navListItem"><a class="navItem" href="/website/docs/en/api/Parsing">Parsing</a></li><li class="navListItem"><a class="navItem" href="/website/docs/en/api/GetandSet">Get and Set</a></li><li class="navListItem"><a class="navItem" href="/website/docs/en/api/Manipulating">Manipulating</a></li><li class="navListItem"><a class="navItem" href="/website/docs/en/api/Displaying">Displaying</a></li><li class="navListItem"><a class="navItem" href="/website/docs/en/api/Query">Query</a></li><li class="navListItem"><a class="navItem" href="/website/docs/en/api/UTC">UTC</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Plugins</h3><ul class=""><li class="navListItem"><a class="navItem" href="/website/docs/en/Plugins">Plugin List</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Internationalization</h3><ul class=""><li class="navListItem navListItemActive"><a class="navItem" href="/website/docs/en/Internationalization">Internationalization</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle">Internationalization</h1></header><article><div><span><p>Day.js has great support for internationalization.</p>
+<p>But none of them will be included in your build unless you use that.</p>
+<p>By default, Day.js comes with English (United States) locale.</p>
+<p>You can load multiple locales and switch between them easily.</p>
+<p><a href="https://github.com/iamkun/dayjs/tree/dev/src/locale">List of supported locales</a></p>
+<p>You are super welcome to add a locale by opening a pull request. :+1:</p>
+<h2><a class="anchor" aria-hidden="true" id="api"></a><a href="#api" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>API</h2>
+<h4><a class="anchor" aria-hidden="true" id="changing-locale-globally"></a><a href="#changing-locale-globally" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Changing locale globally</h4>
+<ul>
+<li>Returns locale string</li>
+</ul>
+<pre><code class="hljs css language-js"><span class="hljs-keyword">import</span> <span class="hljs-string">'dayjs/locale/es'</span>
+<span class="hljs-keyword">import</span> de <span class="hljs-keyword">from</span> <span class="hljs-string">'dayjs/locale/de'</span>
+dayjs.locale(<span class="hljs-string">'es'</span>) <span class="hljs-comment">// use loaded locale globally</span>
+dayjs.locale(<span class="hljs-string">'de-german'</span>, de) <span class="hljs-comment">// use locale and update default name string</span>
+<span class="hljs-keyword">const</span> customizedLocaleObject = { ... } <span class="hljs-comment">// More details can be found in Customize section below.</span>
+dayjs.locale(customizedLocaleObject) <span class="hljs-comment">// use customize locale</span>
+dayjs.locale(<span class="hljs-string">'en'</span>) <span class="hljs-comment">// switch back to default English locale globally</span>
+</code></pre>
+<ul>
+<li>Changing the global locale doesn't affect existing instances.</li>
+</ul>
+<h4><a class="anchor" aria-hidden="true" id="changing-locales-locally"></a><a href="#changing-locales-locally" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Changing locales locally</h4>
+<ul>
+<li>Returns a new <code>Dayjs</code> object by switching to new locale.</li>
+</ul>
+<p>Exactly the same as <code>dayjs#locale</code>, but only use locale in a specific instance.</p>
+<pre><code class="hljs css language-js"><span class="hljs-keyword">import</span> <span class="hljs-string">'dayjs/locale/es'</span>
+dayjs()
+  .locale(<span class="hljs-string">'es'</span>)
+  .format() <span class="hljs-comment">// use loaded locale locally</span>
+dayjs(<span class="hljs-string">'2018-4-28'</span>, { <span class="hljs-attr">locale</span>: <span class="hljs-string">'es'</span> }) <span class="hljs-comment">// through constructor</span>
+</code></pre>
+<h2><a class="anchor" aria-hidden="true" id="installation"></a><a href="#installation" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Installation</h2>
+<ul>
+<li>Via NPM:</li>
+</ul>
+<pre><code class="hljs css language-javascript"><span class="hljs-keyword">import</span> <span class="hljs-string">'dayjs/locale/es'</span> <span class="hljs-comment">// load on demand</span>
+<span class="hljs-comment">// require('dayjs/locale/es') // CommonJS</span>
+<span class="hljs-comment">// import locale_es from 'dayjs/locale/es' -&gt; load and get locale_es locale object</span>
+
+dayjs.locale(<span class="hljs-string">'es'</span>) <span class="hljs-comment">// use locale globally</span>
+dayjs()
+  .locale(<span class="hljs-string">'es'</span>)
+  .format() <span class="hljs-comment">// use locale in a specific instance</span>
+</code></pre>
+<ul>
+<li>Via CDN:</li>
+</ul>
+<pre><code class="hljs css language-html"><span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"https://unpkg.com/dayjs"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Load locale as window.dayjs_locale_NAME --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"https://unpkg.com/dayjs/locale/zh-cn"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">script</span>&gt;</span><span class="javascript">
+  dayjs.locale(<span class="hljs-string">'zh-cn'</span>)
+  dayjs()
+    .locale(<span class="hljs-string">'zh-cn'</span>)
+    .format()
+  <span class="hljs-comment">// get locale object</span>
+  <span class="hljs-keyword">var</span> customLocale = <span class="hljs-built_in">window</span>.dayjs_locale_zh_cn <span class="hljs-comment">// zh-cn -&gt; zh_cn</span>
+</span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+</code></pre>
+<h2><a class="anchor" aria-hidden="true" id="customize"></a><a href="#customize" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Customize</h2>
+<p>You could create your own locale.</p>
+<p>Feel free to open a pull request to share your locale.</p>
+<p>Template of a Day.js locale Object.</p>
+<pre><code class="hljs css language-javascript"><span class="hljs-keyword">const</span> localeObject = {
+  <span class="hljs-attr">name</span>: <span class="hljs-string">'es'</span>, <span class="hljs-comment">// name String</span>
+  weekdays: <span class="hljs-string">'Domingo_Lunes ...'</span>.split(<span class="hljs-string">'_'</span>), <span class="hljs-comment">// weekdays Array</span>
+  weekdaysShort: <span class="hljs-string">'Sun_M'</span>.split(<span class="hljs-string">'_'</span>), <span class="hljs-comment">// OPTIONAL, short weekdays Array, use first three letters if not provided</span>
+  weekdaysMin: <span class="hljs-string">'Su_Mo'</span>.split(<span class="hljs-string">'_'</span>), <span class="hljs-comment">// OPTIONAL, min weekdays Array, use first two letters if not provided</span>
+  weekStart: <span class="hljs-number">1</span>, <span class="hljs-comment">// OPTIONAL, set the start of a week. If the value is 1, Monday will be the start of week instead of Sunday。</span>
+  months: <span class="hljs-string">'Enero_Febrero ... '</span>.split(<span class="hljs-string">'_'</span>), <span class="hljs-comment">// months Array</span>
+  monthsShort: <span class="hljs-string">'Jan_F'</span>.split(<span class="hljs-string">'_'</span>), <span class="hljs-comment">// OPTIONAL, short months Array, use first three letters if not provided</span>
+  ordinal: <span class="hljs-function"><span class="hljs-params">n</span> =&gt;</span> <span class="hljs-string">`<span class="hljs-subst">${n}</span>º`</span>, <span class="hljs-comment">// ordinal Function (number) =&gt; return number + output</span>
+  formats: {
+    <span class="hljs-comment">// abbreviated format options allowing localization</span>
+    LTS: <span class="hljs-string">'h:mm:ss A'</span>,
+    <span class="hljs-attr">LT</span>: <span class="hljs-string">'h:mm A'</span>,
+    <span class="hljs-attr">L</span>: <span class="hljs-string">'MM/DD/YYYY'</span>,
+    <span class="hljs-attr">LL</span>: <span class="hljs-string">'MMMM D, YYYY'</span>,
+    <span class="hljs-attr">LLL</span>: <span class="hljs-string">'MMMM D, YYYY h:mm A'</span>,
+    <span class="hljs-attr">LLLL</span>: <span class="hljs-string">'dddd, MMMM D, YYYY h:mm A'</span>,
+    <span class="hljs-comment">// lowercase/short, optional formats for localization</span>
+    l: <span class="hljs-string">'D/M/YYYY'</span>,
+    <span class="hljs-attr">ll</span>: <span class="hljs-string">'D MMM, YYYY'</span>,
+    <span class="hljs-attr">lll</span>: <span class="hljs-string">'D MMM, YYYY h:mm A'</span>,
+    <span class="hljs-attr">llll</span>: <span class="hljs-string">'ddd, MMM D, YYYY h:mm A'</span>
+  },
+  <span class="hljs-attr">relativeTime</span>: {
+    <span class="hljs-comment">// relative time format strings, keep %s %d as the same</span>
+    future: <span class="hljs-string">'in %s'</span>, <span class="hljs-comment">// e.g. in 2 hours, %s been replaced with 2hours</span>
+    past: <span class="hljs-string">'%s ago'</span>,
+    <span class="hljs-attr">s</span>: <span class="hljs-string">'a few seconds'</span>,
+    <span class="hljs-attr">m</span>: <span class="hljs-string">'a minute'</span>,
+    <span class="hljs-attr">mm</span>: <span class="hljs-string">'%d minutes'</span>,
+    <span class="hljs-attr">h</span>: <span class="hljs-string">'an hour'</span>,
+    <span class="hljs-attr">hh</span>: <span class="hljs-string">'%d hours'</span>, <span class="hljs-comment">// e.g. 2 hours, %d been replaced with 2</span>
+    d: <span class="hljs-string">'a day'</span>,
+    <span class="hljs-attr">dd</span>: <span class="hljs-string">'%d days'</span>,
+    <span class="hljs-attr">M</span>: <span class="hljs-string">'a month'</span>,
+    <span class="hljs-attr">MM</span>: <span class="hljs-string">'%d months'</span>,
+    <span class="hljs-attr">y</span>: <span class="hljs-string">'a year'</span>,
+    <span class="hljs-attr">yy</span>: <span class="hljs-string">'%d years'</span>
+  },
+  <span class="hljs-attr">meridiem</span>: <span class="hljs-function">(<span class="hljs-params">hour, minute, isLowercase</span>) =&gt;</span> {
+    <span class="hljs-comment">// OPTIONAL, AM/PM</span>
+    <span class="hljs-keyword">return</span> hour &gt; <span class="hljs-number">12</span> ? <span class="hljs-string">'PM'</span> : <span class="hljs-string">'AM'</span>
+  }
+}
+</code></pre>
+<p>Template of a Day.js locale file.</p>
+<pre><code class="hljs css language-javascript"><span class="hljs-keyword">import</span> dayjs <span class="hljs-keyword">from</span> <span class="hljs-string">'dayjs'</span>
+
+<span class="hljs-keyword">const</span> locale = { ... } <span class="hljs-comment">// Your Day.js locale Object.</span>
+
+dayjs.locale(locale, <span class="hljs-literal">null</span>, <span class="hljs-literal">true</span>) <span class="hljs-comment">// load locale for later use</span>
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> locale
+</code></pre>
+</span></div></article></div><div class="docLastUpdate"><em>Last updated on 7/17/2019 by Yue Yang</em></div><div class="docs-prevnext"><a class="docs-prev button" href="/website/docs/en/Plugins"><span class="arrow-prev">← </span><span>Plugin List</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#api">API</a></li><li><a href="#installation">Installation</a></li><li><a href="#customize">Customize</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/website/" class="nav-home"><img src="/website/img/logo.png" alt="DAY.JS ORGANIZATION" width="48" height="48"/></a><div><h5>Docs</h5><a href="/website/docs/en/Installation">Installation</a><a href="/website/docs/en/api/Parsing">API Documentation</a><a href="/website/docs/en/Plugins">Plugins</a><a href="/website/docs/en/Internationalization">Internationalization</a></div><div><h5>Community</h5><a href="https://gitter.im/iamkun/dayjs" target="_blank" rel="noreferrer noopener">Gitter</a></div><div><h5>Social</h5><a href="/website/blog">Blog</a><a href="https://github.com/dayjs" target="_blank">GitHub</a><a class="github-button" href="https://github.com/iamkun/dayjs" data-icon="octicon-star" data-count-href="/iamkun/dayjs/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">dayjs</a></div><div><h5>Organization</h5><a href="/website/docs/en/Roadmap">Roadmap</a><a href="/website/docs/en/Contributing">Contributing</a></div></section><section class="copyright">Copyright © 2019 DAYJS. Built with Docusaurus.</section></footer></div></body></html>
