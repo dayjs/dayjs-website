@@ -6,8 +6,6 @@ sidebar_label: Roadmap
 
 Development roadmap for the dayjs community.
 
-> Note: if you change the roadmap, please remember syncing the changes to [dayjs/website](https://github.com/dayjs/website) and vice versa.
-
 ## Why started this
 
 The original idea of the roadmap can be founded in [https://github.com/iamkun/dayjs/issues/627](https://github.com/iamkun/dayjs/issues/627).
@@ -37,7 +35,7 @@ Until Now, dayjs has covered:
 ### JavaScript
 
 - Author: [iamkun](https://github.com/iamkun)
-- Github: https://github.com/iamkun/dayjs
+- GitHub: https://github.com/iamkun/dayjs
 - maintainers:
   - [iamkun](https://github.com/iamkun)
   - [g1eny0ung](https://github.com/g1eny0ung)
@@ -45,7 +43,7 @@ Until Now, dayjs has covered:
 ### Dart
 
 - Author: [g1eny0ung](https://github.com/g1eny0ung)
-- Github: https://github.com/dayjs/day.dart
+- GitHub: https://github.com/dayjs/day.dart
 - maintainers:
   - [g1eny0ung](https://github.com/g1eny0ung)
 
@@ -53,9 +51,10 @@ Until Now, dayjs has covered:
 
 We are going to use https://docusaurus.io/ to generate the new documentation.
 
-Current progress: **50%**
+Current progress: **80%**
 
 - 2019-07-17: We have already migrated the en docs of dayjs.
+- 2019-08-02: Add Translations in website.
 
 ## How To Contribute
 
