@@ -14,7 +14,7 @@ You can load multiple locales and switch between them easily.
 
 [List of supported locales](https://github.com/iamkun/dayjs/tree/dev/src/locale)
 
-You are super welcome to add a locale by opening a pull request. :+1:
+You are super welcome to add a locale by opening a pull request. 👍
 
 ## API
 
