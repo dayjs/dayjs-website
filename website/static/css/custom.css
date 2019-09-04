@@ -5,7 +5,7 @@
 }
 
 .customHomeContainer {
-  background: #dd5b4c;
+  background: #ff5f4c;
   color: #fff;
 }
 
@@ -29,7 +29,7 @@
 
 .customPromoButton:hover {
   background: #fff;
-  color: #dd5b4c;
+  color: #ee5f4c;
 }
 
 .customMainContainer .container.paddingTop {
