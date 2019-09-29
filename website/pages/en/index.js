@@ -164,7 +164,7 @@ class Index extends React.Component {
                 content: (
                   <translate desc="content:Powerful Plugin Systems">
                     Want more functionalities? The Plugin Systems will take you
-                    flying! A plugin is an independent module that can be added
+                    flying. A plugin is an independent module that can be added
                     to Day.js to extend functionality or add new features.
                   </translate>
                 )

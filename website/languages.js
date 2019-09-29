@@ -178,4 +178,5 @@ const languages = [
   },
   { enabled: false, name: '繁體中文', tag: 'zh-TW' }
 ]
+
 module.exports = languages
