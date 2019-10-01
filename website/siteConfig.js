@@ -80,7 +80,7 @@ const siteConfig = {
   // Add custom scripts here that would be placed in <script> tags.
   scripts: ['https://buttons.github.io/buttons.js'],
 
-  stylesheets: ['https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css'],
+  stylesheets: ['https://unpkg.com/bulma@0.7.5/css/bulma.min.css'],
 
   // On page navigation for the current documentation page.
   onPageNav: 'separate',
