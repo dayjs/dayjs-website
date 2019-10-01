@@ -13,8 +13,7 @@ const users = []
 
 const siteConfig = {
   title: 'DAY.JS ORGANIZATION', // Title for your website.
-  tagline:
-    '⏰ Fast 2KB immutable date library alternative to Moment.js with the same modern API.',
+  tagline: '⏰ Fast 2KB immutable date library alternative to Moment.js with the same modern API.',
   url: 'https://dayjs.github.io/website', // Your website URL
   baseUrl: '/website/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
@@ -46,8 +45,8 @@ const siteConfig = {
 
   /* Colors for website */
   colors: {
-    primaryColor: '#ff5f4c',
-    secondaryColor: '#ee5f4c'
+    primaryColor: '#fb6052',
+    secondaryColor: '#eb6052'
   },
 
   /* Custom fonts for website */
@@ -65,7 +64,13 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} DAYJS. Built with Docusaurus.`,
+  copyright: `Copyright © ${new Date().getFullYear()} DAY.JS. Built with Docusaurus.`,
+
+  docsSideNavCollapsible: true,
+
+  editUrl: 'https://github.com/dayjs/website/blob/master/docs/',
+
+  scrollToTop: true,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
@@ -74,6 +79,8 @@ const siteConfig = {
 
   // Add custom scripts here that would be placed in <script> tags.
   scripts: ['https://buttons.github.io/buttons.js'],
+
+  stylesheets: ['https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css'],
 
   // On page navigation for the current documentation page.
   onPageNav: 'separate',

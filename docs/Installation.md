@@ -4,17 +4,17 @@ title: Installation
 sidebar_label: Installation
 ---
 
-You can use Day.js in mutiple ways:
+You can have multiple ways to use `dayjs`:
 
-## Via NPM Or Yarn
+## Via npm or yarn
 
 Usually this is the most common way to use dayjs:
 
-```
+```sh
 npm install dayjs --save
 ```
 
-```
+```sh
 yarn add dayjs
 ```
 
@@ -30,7 +30,7 @@ dayjs().format()
 
 ```html
 <!-- Latest compiled and minified JavaScript -->
-<script src="https://unpkg.com/dayjs"></script>
+<script src="//unpkg.com/dayjs"></script>
 <script>
   dayjs().format()
 </script>
@@ -40,13 +40,13 @@ dayjs().format()
 
 Use `curl`:
 
-```
+```sh
 curl -L https://unpkg.com/dayjs -o dayjs.min.js
 ```
 
 Use `axel`:
 
-```
+```sh
 axel -an 8 https://unpkg.com/dayjs -o dayjs.min.js
 ```
 

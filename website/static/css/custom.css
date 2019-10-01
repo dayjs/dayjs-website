@@ -1,64 +1,161 @@
-/* your custom css */
-
-.navigationSlider .slidingNav ul li a {
-  font-weight: bold;
+:root {
+  --main-color: #fb6052;
+  --main-background: #fff;
+  --main-text-color: #000;
+  --main-text-color-light: rgba(0, 0, 0, 0.7);
+  --clock-opacity: 1;
 }
 
-.customHomeContainer {
-  background: #ff5f4c;
-  color: #fff;
+[data-theme='dark'] {
+  --main-color: #fb6052;
+  --main-background: #20232a;
+  --main-text-color: #fff;
+  --main-text-color-light: rgba(255, 255, 255, 0.7);
+  --clock-opacity: 0.6;
 }
 
-.projectTitles h2 {
-  margin: 2rem 0;
+.button {
+  height: auto;
 }
 
-.projectTitle {
-  color: #fff;
-  font-size: 3rem;
-}
+@media only screen and (max-width: 767px) {
+  .columns {
+    margin: 0;
+  }
 
-.projectSecondTitle {
-  font-size: 3rem;
-}
+  .title.is-1 {
+    font-size: 2.5rem;
+  }
 
-.customPromoButton {
-  color: #fff;
-  border: 2px solid #fff;
-}
-
-.customPromoButton:hover {
-  background: #fff;
-  color: #ee5f4c;
-}
-
-.customMainContainer .container.paddingTop {
-  padding-top: 30px;
-}
-
-.customMainContainer .container.paddingBottom {
-  padding-bottom: 30px;
-}
-
-.customMainContainer .container .gridBlock .blockContent > div p {
-  color: grey;
-  font-size: 1.2rem;
-}
-
-@media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
-  .projectSecondTitle {
-    font-size: 2rem;
+  .title.is-3 {
+    font-size: 1.5rem;
   }
 }
 
-@media only screen and (min-width: 1024px) {
+.fixedHeaderContainer {
+  background: #20232a;
 }
 
-@media only screen and (max-width: 1023px) {
+.fixedHeaderContainer a:hover {
+  color: #fff;
 }
 
-@media only screen and (min-width: 1400px) {
+.navigationSlider .slidingNav ul {
+  background: #20232a;
 }
 
-@media only screen and (min-width: 1500px) {
+.dayjs-home-banner {
+  position: relative;
+  background: var(--main-background);
+  overflow: hidden;
+}
+
+/* @media only screen and (max-width: 767px) {
+  .dayjs-home-banner {
+    overflow: hidden;
+  }
+} */
+
+.dayjs-home-banner .banner-body {
+  z-index: 1;
+}
+
+.dayjs-home-banner .banner-title,
+.dayjs-home-banner .banner-subtitle {
+  color: var(--main-text-color);
+}
+
+.dayjs-home-banner .banner-title {
+  margin-bottom: 1em;
+}
+
+.dayjs-home-banner .banner-buttons button {
+  margin: 1em 1em 0 0;
+  padding-top: calc(0.375em - 1px);
+  padding-right: 0.75em;
+  padding-bottom: calc(0.375em - 1px);
+  padding-left: 0.75em;
+  background: var(--main-background);
+  color: var(--main-text-color);
+  border-color: var(--main-text-color);
+  font-weight: 600;
+}
+
+.dayjs-home-banner .banner-buttons button:hover {
+  background: var(--main-color);
+  color: #fff;
+  border-color: var(--main-color);
+}
+
+#banner-clock .paths > g {
+  fill-opacity: var(--clock-opacity);
+}
+
+.dayjs-home-install {
+  margin-top: -4rem;
+  padding: 0 0.75em;
+  z-index: 1;
+}
+
+.dayjs-home-install .title {
+  color: var(--main-text-color);
+}
+
+.dayjs-home-install .install-content {
+  width: 300px;
+  margin-bottom: 2em;
+  padding: 0.75em 1.5em;
+  background: var(--main-background);
+  color: var(--main-text-color);
+  border: 1px solid var(--main-text-color);
+  border-radius: 3px;
+}
+
+.dayjs-home-install .install-content p:last-child {
+  margin-bottom: 0;
+}
+
+.dayjs-home-intro {
+  padding: 2em 0.75em;
+  background: var(--main-background);
+}
+
+.dayjs-home-intro .intro-header {
+  margin-bottom: -1em;
+  color: var(--main-text-color);
+}
+
+.dayjs-home-intro .intro-column {
+  margin: 1em 0;
+}
+
+.dayjs-home-intro .intro-column:last-child {
+  margin-bottom: 3em;
+}
+
+.dayjs-home-intro .intro-title {
+  color: var(--main-text-color);
+}
+
+.dayjs-home-intro .intro-content {
+  width: 85%;
+  color: var(--main-text-color-light);
+}
+
+#theme-switch {
+  padding: 0 0.5em;
+  line-height: 2.2;
+  cursor: pointer;
+  user-select: none;
+}
+
+@media screen and (max-width: 1023px) {
+  #theme-switch {
+    line-height: 3.4;
+  }
+}
+
+.nav-footer .sitemap .nav-home {
+  padding: 0;
+  opacity: 1;
 }
