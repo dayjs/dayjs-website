@@ -124,8 +124,10 @@ function Intro() {
   return (
     <div className="dayjs-home-intro">
       <div className="container">
-        <h3 className="title is-2 intro-header">Features</h3>
         <div className="columns is-multiline">
+          <div className="column is-full">
+            <h3 className="title is-2 intro-header">Features</h3>
+          </div>
           {intros.map((intro, index) => (
             <div key={index} className="column is-half intro-column">
               <h3 className="title is-3 intro-title">{intro.title}</h3>
