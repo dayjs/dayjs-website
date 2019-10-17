@@ -10,7 +10,7 @@ function BannerBackground() {
           top: '50%',
           left: '50%',
           marginTop: '100px',
-          transform: 'translate(-50%, -35%)'
+          transform: 'translate(-50%, -50%)'
         }}
       />
       <script src="//unpkg.com/d3" />

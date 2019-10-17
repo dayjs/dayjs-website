@@ -1,6 +1,6 @@
 :root {
   --main-color: #fb6052;
-  --main-background: #fff;
+  --main-background: #eee;
   --main-text-color: #000;
   --main-text-color-light: rgba(0, 0, 0, 0.7);
   --clock-opacity: 1;
@@ -156,6 +156,7 @@
 }
 
 .nav-footer .sitemap .nav-home {
+  margin: 0;
   padding: 0;
   opacity: 1;
 }
