@@ -71,55 +71,6 @@ class Banner extends React.Component {
   }
 }
 
-let intros = [
-  {
-    title: <translate>👀 Easy To Use</translate>,
-    content: (
-      <translate>
-        Day.js is a minimalist JavaScript library that parses, validates, manipulates, and displays dates and times for
-        modern browsers with a largely Moment.js-compatible API. If you use Moment.js, you already know how to use
-        Day.js.
-      </translate>
-    )
-  },
-  {
-    title: <translate>🌈 Multiple Languages Support</translate>,
-    content: (
-      <translate>
-        Not only in JavaScript! You can also use Day.js in other languages. Like day.dart, day.rs (In Rust), day.clj (In
-        Clojure). We will try our best to support more languages in the future.
-      </translate>
-    )
-  },
-  {
-    title: <translate>💪 Immutable And 🔥 Chainable</translate>,
-    content: (
-      <translate>
-        With immutable and chainable support, you can safely and easily to modify the existing dayjs instance in Day.js.
-        All operations will be intuitive. Without any pains from now!
-      </translate>
-    )
-  },
-  {
-    title: <translate>⚙️ Powerful Plugin Systems</translate>,
-    content: (
-      <translate>
-        Want more functionalities? The Plugin Systems will take you flying. A plugin is an independent module that can
-        be added to Day.js to extend functionality or add new features.
-      </translate>
-    )
-  },
-  {
-    title: <translate>🌐 I18n Support</translate>,
-    content: (
-      <translate>
-        Day.js has great support for internationalization. But none of them will be included in your build unless you
-        use it.
-      </translate>
-    )
-  }
-]
-
 function Intro() {
   return (
     <div className="dayjs-home-intro">
@@ -128,12 +79,62 @@ function Intro() {
           <div className="column is-full">
             <h3 className="title is-2 intro-header">Features</h3>
           </div>
-          {intros.map((intro, index) => (
-            <div key={index} className="column is-half intro-column">
-              <h3 className="title is-3 intro-title">{intro.title}</h3>
-              <p className="content is-medium has-text-weight-semibold intro-content">{intro.content}</p>
-            </div>
-          ))}
+          <div className="column is-half intro-column">
+            <h3 className="title is-3 intro-title">
+              <translate>👀 Easy To Use</translate>
+            </h3>
+            <p className="content is-medium has-text-weight-semibold intro-content">
+              <translate>
+                Day.js is a minimalist JavaScript library that parses, validates, manipulates, and displays dates and
+                times for modern browsers with a largely Moment.js-compatible API. If you use Moment.js, you already
+                know how to use Day.js.
+              </translate>
+            </p>
+          </div>
+          <div className="column is-half intro-column">
+            <h3 className="title is-3 intro-title">
+              <translate>🌈 Multiple Languages Support</translate>
+            </h3>
+            <p className="content is-medium has-text-weight-semibold intro-content">
+              <translate>
+                Not only in JavaScript! You can also use Day.js in other languages. Like day.dart, day.rs (In Rust),
+                day.clj (In Clojure). We will try our best to support more languages in the future.
+              </translate>
+            </p>
+          </div>
+          <div className="column is-half intro-column">
+            <h3 className="title is-3 intro-title">
+              <translate>💪 Immutable And 🔥 Chainable</translate>
+            </h3>
+            <p className="content is-medium has-text-weight-semibold intro-content">
+              <translate>
+                With immutable and chainable support, you can safely and easily to modify the existing dayjs instance in
+                Day.js. All operations will be intuitive. Without any pains from now!
+              </translate>
+            </p>
+          </div>
+          <div className="column is-half intro-column">
+            <h3 className="title is-3 intro-title">
+              <translate>⚙️ Powerful Plugin Systems</translate>
+            </h3>
+            <p className="content is-medium has-text-weight-semibold intro-content">
+              <translate>
+                Want more functionalities? The Plugin Systems will take you flying. A plugin is an independent module
+                that can be added to Day.js to extend functionality or add new features.
+              </translate>
+            </p>
+          </div>
+          <div className="column is-half intro-column">
+            <h3 className="title is-3 intro-title">
+              <translate>🌐 I18n Support</translate>
+            </h3>
+            <p className="content is-medium has-text-weight-semibold intro-content">
+              <translate>
+                Day.js has great support for internationalization. But none of them will be included in your build
+                unless you use it.
+              </translate>
+            </p>
+          </div>
         </div>
       </div>
     </div>
