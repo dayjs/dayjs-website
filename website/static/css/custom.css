@@ -4,6 +4,7 @@
   --main-text-color: #000;
   --main-text-color-light: rgba(0, 0, 0, 0.7);
   --clock-opacity: 1;
+  --banner-background: rgba(238, 238, 238, 0.6);
 }
 
 [data-theme='dark'] {
@@ -12,6 +13,7 @@
   --main-text-color: #fff;
   --main-text-color-light: rgba(255, 255, 255, 0.7);
   --clock-opacity: 0.6;
+  --banner-background: transparent;
 }
 
 .button {
@@ -57,6 +59,7 @@
 } */
 
 .dayjs-home-banner .banner-body {
+  background: var(--banner-background);
   z-index: 1;
 }
 
@@ -92,8 +95,8 @@
 }
 
 .dayjs-home-install {
-  margin-top: -4rem;
   padding: 0 0.75em;
+  background: var(--banner-background);
   z-index: 1;
 }
 
