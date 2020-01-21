@@ -5,14 +5,14 @@
         <link>https://dayjs.github.io/website/website/blog</link>
         <description>The best place to stay up-to-date with the latest DAY.JS ORGANIZATION news and events.</description>
         <lastBuildDate>Thu, 18 Jul 2019 06:00:00 GMT</lastBuildDate>
-        <docs>http://blogs.law.harvard.edu/tech/rss</docs>
-        <generator>Feed for Node.js</generator>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
         <image>
             <title>DAY.JS ORGANIZATION Blog</title>
             <url>https://dayjs.github.io/website/website/img/logo.png</url>
             <link>https://dayjs.github.io/website/website/blog</link>
         </image>
-        <copyright>Copyright © 2019 DAY.JS. Built with Docusaurus.</copyright>
+        <copyright>Copyright © 2020 DAY.JS. Built with Docusaurus.</copyright>
         <item>
             <title><![CDATA[The progress of the new dayjs website]]></title>
             <link>https://dayjs.github.io/website/website/blog/2019/07/18/the-progress-of-dayjs-website.html</link>
