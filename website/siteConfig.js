@@ -31,7 +31,7 @@ const siteConfig = {
   headerLinks: [
     { languages: true },
     { doc: 'Installation', label: 'Docs' },
-    { blog: true, label: 'Blog' },
+    // { blog: true, label: 'Blog' },
     { href: 'https://github.com/dayjs', label: 'GitHub' }
   ],
 
