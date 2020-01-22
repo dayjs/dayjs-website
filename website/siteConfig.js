@@ -12,7 +12,7 @@
 const users = []
 
 const siteConfig = {
-  title: 'DAY.JS ORGANIZATION', // Title for your website.
+  title: 'Day.js', // Title for your website.
   tagline: '⏰ Fast 2KB immutable date library alternative to Moment.js with the same modern API.',
   url: 'https://dayjs.github.io/website', // Your website URL
   baseUrl: '/website/', // Base URL for your project */
@@ -64,7 +64,7 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} DAY.JS. Built with Docusaurus.`,
+  copyright: `Copyright © ${new Date().getFullYear()} Day.js`,
 
   docsSideNavCollapsible: true,
 
@@ -78,7 +78,7 @@ const siteConfig = {
   },
 
   // Add custom scripts here that would be placed in <script> tags.
-  scripts: ['https://buttons.github.io/buttons.js'],
+  // scripts: ['https://buttons.github.io/buttons.js'],
 
   stylesheets: ['https://unpkg.com/bulma@0.7.5/css/bulma.min.css'],
 
@@ -88,10 +88,14 @@ const siteConfig = {
   cleanUrl: true,
 
   // Show documentation's last contributor's name.
-  enableUpdateBy: true,
+  // enableUpdateBy: true,
 
   // Show documentation's last update time.
-  enableUpdateTime: true,
+  // enableUpdateTime: true,
+
+  // For sites with a sizable amount of content, set collapsible to true.
+  // Expand/collapse the links and subcategories under categories.
+  docsSideNavCollapsible: true,
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
