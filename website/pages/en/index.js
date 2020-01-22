@@ -54,14 +54,14 @@ class Banner extends React.Component {
                 It can be used not only in JavaScript but also supports more languages!
               </translate>
             </h2>
-            <div className="banner-buttons">
+            {/* <div className="banner-buttons">
               <a href={docUrl('Installation')}>
                 <button className="button is-normal">GET STARTED</button>
               </a>
               <a href={docUrl('api/Parsing')}>
                 <button className="button is-normal">API DOCUMENTATION</button>
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
         <Install />

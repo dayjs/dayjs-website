@@ -30,7 +30,7 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     { languages: true },
-    { doc: 'Installation', label: 'Docs' },
+    { doc: 'installation/installation', label: 'Docs' },
     // { blog: true, label: 'Blog' },
     { href: 'https://github.com/dayjs', label: 'GitHub' }
   ],

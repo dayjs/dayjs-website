@@ -1,16 +1,15 @@
 {
   "docs": {
-    "Day.js": ["Roadmap", "Contributing"],
-    "Getting Started": ["Installation"],
-    "API Documentation": [
-      "api/Parsing",
-      "api/GetandSet",
-      "api/Manipulating",
-      "api/Displaying",
-      "api/Query",
-      "api/UTC"
-    ],
-    "Plugins": ["Plugins"],
-    "Internationalization": ["Internationalization"]
+    "Installation": ["installation/installation", "installation/node-js", "installation/browser", "installation/typescript", "installation/download"],
+    "Parse": ["parse/parse", "parse/now", "parse/string", "parse/string-format", "parse/unix-timestamp-milliseconds","parse/unix-timestamp", "parse/date", "parse/dayjs-clone", "parse/is-valid"],
+    "Get + Set": ["get-set/get-set", "get-set/millisecond", "get-set/second", "get-set/minute", "get-set/hour", "get-set/date", "get-set/day", "get-set/month", "get-set/year", "get-set/get", "get-set/set"],
+    "Manipulate": ["manipulate/manipulate", "manipulate/add", "manipulate/subtract", "manipulate/start-of", "manipulate/end-of", "manipulate/utc-offset"],
+    "Display": ["display/display", "display/format", "display/difference", "display/unix-timestamp-milliseconds", "display/unix-timestamp", "display/days-in-month", "display/as-javascript-date", "display/as-json", "display/as-iso-string", "display/as-string"],
+    "Query": ["query/query","query/is-before","query/is-same","query/is-after","query/is-a-dayjs"],
+    "i18n": ["i18n/i18n", "i18n/changing-locale", "i18n/instance-locale", "i18n/loading-into-nodejs", "i18n/loading-into-browser", "i18n/getting-locale", "i18n/getting-locale"],
+    "Plugins": ["plugin/plugin", "plugin/loading-into-nodejs", "plugin/loading-into-browser", "plugin/utc", "plugin/advanced-format", "plugin/localized-format", "plugin/relative-time", "plugin/is-leap-year", "plugin/buddhist-era", "plugin/is-same-or-after", "plugin/is-same-or-before", "plugin/is-between", "plugin/day-of-year", "plugin/week-day", "plugin/iso-weeks-in-year", "plugin/quarter-of-year", "plugin/custom-parse-format", "plugin/to-array", "plugin/to-object", "plugin/min-max", "plugin/calendar", "plugin/update-locale"]
+  },
+  "docs-other": {
+    "Other": []
   }
 }
