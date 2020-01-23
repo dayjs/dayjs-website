@@ -2,21 +2,21 @@
 <rss version="2.0">
     <channel>
         <title>Day.js Blog</title>
-        <link>https://dayjs.github.io/website/website/blog</link>
+        <link>https://dayjs.github.io/website/blog</link>
         <description>The best place to stay up-to-date with the latest Day.js news and events.</description>
         <lastBuildDate>Thu, 18 Jul 2019 06:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
             <title>Day.js Blog</title>
-            <url>https://dayjs.github.io/website/website/img/logo.png</url>
-            <link>https://dayjs.github.io/website/website/blog</link>
+            <url>https://dayjs.github.io/website/img/logo.png</url>
+            <link>https://dayjs.github.io/website/blog</link>
         </image>
         <copyright>Copyright © 2020 Day.js</copyright>
         <item>
             <title><![CDATA[The progress of the new dayjs website]]></title>
-            <link>https://dayjs.github.io/website/website/blog/2019/07/18/the-progress-of-dayjs-website.html</link>
-            <guid>https://dayjs.github.io/website/website/blog/2019/07/18/the-progress-of-dayjs-website.html</guid>
+            <link>https://dayjs.github.io/website/blog/2019/07/18/the-progress-of-dayjs-website.html</link>
+            <guid>https://dayjs.github.io/website/blog/2019/07/18/the-progress-of-dayjs-website.html</guid>
             <pubDate>Thu, 18 Jul 2019 06:00:00 GMT</pubDate>
             <description><![CDATA[<p>We are building the next website of dayjs.</p>
 <p>Also, we will decide to migrate the existing docs to here.</p>
