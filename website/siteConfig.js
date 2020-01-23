@@ -15,7 +15,7 @@ const siteConfig = {
   title: 'Day.js', // Title for your website.
   tagline: '⏰ Fast 2KB immutable date library alternative to Moment.js with the same modern API.',
   url: 'https://dayjs.github.io/website', // Your website URL
-  baseUrl: '/website/', // Base URL for your project */
+  baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
