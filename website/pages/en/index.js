@@ -6,7 +6,6 @@
  */
 
 const React = require('react')
-const BannerBackground = require(process.cwd() + '/core/BannerBackground.js')
 
 const translate = require('../../server/translate.js').translate
 
@@ -65,7 +64,6 @@ class Banner extends React.Component {
           </div>
         </div>
         <Install />
-        <BannerBackground />
       </div>
     )
   }
