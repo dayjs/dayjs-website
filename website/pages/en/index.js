@@ -122,38 +122,6 @@ function Intro() {
   )
 }
 
-function ThemeSwitch() {
-  return (
-    <script
-      dangerouslySetInnerHTML={{
-        __html: `
-          var nav = document.querySelector('.nav-site.nav-site-internal')
-          var themeSwitch = document.createElement('li')
-          themeSwitch.setAttribute('id', 'theme-switch')
-          themeSwitch.append('☀️')
-          nav.append(themeSwitch)
-          themeSwitch.onclick = function() {
-            switchTheme()
-          }
-
-          var theme = 'light'
-          function switchTheme() {
-            if (theme === 'light') {
-                document.documentElement.setAttribute('data-theme', 'dark')
-                themeSwitch.textContent = '🌙'
-                theme = 'dark'
-            } else {
-                document.documentElement.setAttribute('data-theme', 'light')
-                theme = 'light'
-                themeSwitch.textContent = '☀️'
-            }    
-          }
-          `
-      }}
-    />
-  )
-}
-
 function DayJS(props) {
   const { config: siteConfig, language = 'en' } = props
 
@@ -161,7 +129,6 @@ function DayJS(props) {
     <React.Fragment>
       <Banner siteConfig={siteConfig} language={language} />
       <Intro />
-      <ThemeSwitch />
     </React.Fragment>
   )
 }
