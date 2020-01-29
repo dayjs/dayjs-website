@@ -38,18 +38,9 @@ class Footer extends React.Component {
           <div>
             <h5>Community</h5>
             <a
-              href="https://gitter.im/iamkun/dayjs"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              Gitter
-            </a>
-          </div>
-          <div>
-            <h5>Social</h5>
-            <a
               className="github-button"
               href={this.props.config.repoUrl}
+              target="_blank"
               data-icon="octicon-star"
               data-count-href="/iamkun/dayjs/stargazers"
               data-show-count="true"
@@ -58,11 +49,12 @@ class Footer extends React.Component {
             >
               GitHub
             </a>
-          </div>
-          <div>
-            <h5>Organization</h5>
-            <a href={this.docUrl('Contributing', this.props.language)}>
-              Contributing
+            <a
+              href="https://gitter.im/iamkun/dayjs"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              Gitter
             </a>
           </div>
         </section>
