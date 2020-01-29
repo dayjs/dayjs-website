@@ -47,12 +47,6 @@ class Banner extends React.Component {
           <div className="container">
             <h1 className="title is-1 banner-title">{siteConfig.title}</h1>
             <h2 className="subtitle has-text-weight-semibold banner-subtitle">{siteConfig.tagline}</h2>
-            <h2 className="subtitle has-text-weight-semibold banner-subtitle">
-              🤟{' '}
-              <translate desc="support more languages">
-                It can be used not only in JavaScript but also supports more languages!
-              </translate>
-            </h2>
             {/* <div className="banner-buttons">
               <a href={docUrl('Installation')}>
                 <button className="button is-normal">GET STARTED</button>
@@ -86,17 +80,6 @@ function Intro() {
                 Day.js is a minimalist JavaScript library that parses, validates, manipulates, and displays dates and
                 times for modern browsers with a largely Moment.js-compatible API. If you use Moment.js, you already
                 know how to use Day.js.
-              </translate>
-            </p>
-          </div>
-          <div className="column is-half intro-column">
-            <h3 className="title is-3 intro-title">
-              <translate>🌈 Multiple Languages Support</translate>
-            </h3>
-            <p className="content is-medium has-text-weight-semibold intro-content">
-              <translate>
-                Not only in JavaScript! You can also use Day.js in other languages. Like day.dart, day.rs (In Rust),
-                day.clj (In Clojure). We will try our best to support more languages in the future.
               </translate>
             </p>
           </div>

@@ -60,7 +60,6 @@ class Footer extends React.Component {
           </div>
           <div>
             <h5>Social</h5>
-            <a href={`${this.props.config.baseUrl}blog`}>Blog</a>
             <a href="https://github.com/dayjs" target="_blank">
               GitHub
             </a>
@@ -78,7 +77,6 @@ class Footer extends React.Component {
           </div>
           <div>
             <h5>Organization</h5>
-            <a href={this.docUrl('Roadmap', this.props.language)}>Roadmap</a>
             <a href={this.docUrl('Contributing', this.props.language)}>
               Contributing
             </a>
