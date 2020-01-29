@@ -60,6 +60,7 @@ class Footer extends React.Component {
         </section>
 
         <section className="copyright">{this.props.config.copyright}</section>
+        <script src="https://buttons.github.io/buttons.js" async></script>
       </footer>
     )
   }
