@@ -100,7 +100,8 @@ const siteConfig = {
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
   repoUrl: 'https://github.com/iamkun/dayjs',
-  cname: 'day.js.org'
+  cname: 'day.js.org',
+  gaTrackingId: 'UA-157297013-1'
 }
 
 module.exports = siteConfig
