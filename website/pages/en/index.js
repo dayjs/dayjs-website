@@ -9,30 +9,6 @@ const React = require('react')
 
 const translate = require('../../server/translate.js').translate
 
-function Install() {
-  return (
-    <div className="dayjs-home-install">
-      <div className="container">
-        <div className="columns">
-          <div className="column">
-            <h3 className="title is-2">Install</h3>
-            <div className="content install-content">
-              <p className="has-text-weight-semibold">
-                npm install dayjs --save
-                <span className="has-text-grey-light">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#npm</span>
-              </p>
-              <p className="has-text-weight-semibold">
-                yarn add dayjs
-                <span className="has-text-grey-light">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#yarn</span>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  )
-}
-
 class Banner extends React.Component {
   render() {
     const { siteConfig, language = '' } = this.props
@@ -43,7 +19,7 @@ class Banner extends React.Component {
 
     return (
       <div className="hero is-medium dayjs-home-banner">
-        <div className="hero-body banner-body">
+        <div className="">
           <div className="container">
             <h1 className="title is-1 banner-title">{siteConfig.title}</h1>
             <h2 className="subtitle has-text-weight-semibold banner-subtitle">{siteConfig.tagline}</h2>
@@ -57,7 +33,6 @@ class Banner extends React.Component {
             </div> */}
           </div>
         </div>
-        <Install />
       </div>
     )
   }

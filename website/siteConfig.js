@@ -13,7 +13,7 @@ const users = []
 
 const siteConfig = {
   title: 'Day.js', // Title for your website.
-  tagline: '⏰ Fast 2KB immutable date library alternative to Moment.js with the same modern API.',
+  tagline: '2kb modern JavaScript date utility library',
   url: 'https://dayjs.github.io/website', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
@@ -78,7 +78,7 @@ const siteConfig = {
   },
 
   // Add custom scripts here that would be placed in <script> tags.
-  // scripts: ['https://buttons.github.io/buttons.js'],
+  scripts: ['https://buttons.github.io/buttons.js'],
 
   stylesheets: ['https://unpkg.com/bulma@0.7.5/css/bulma.min.css'],
 

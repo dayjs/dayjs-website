@@ -36,19 +36,6 @@ class Footer extends React.Component {
             )}
           </a>
           <div>
-            <h5>Docs</h5>
-            <a href={this.docUrl('Installation', this.props.language)}>
-              Installation
-            </a>
-            <a href={this.docUrl('api/Parsing', this.props.language)}>
-              API Documentation
-            </a>
-            <a href={this.docUrl('Plugins', this.props.language)}>Plugins</a>
-            <a href={this.docUrl('Internationalization', this.props.language)}>
-              Internationalization
-            </a>
-          </div>
-          <div>
             <h5>Community</h5>
             <a
               href="https://gitter.im/iamkun/dayjs"
@@ -60,9 +47,6 @@ class Footer extends React.Component {
           </div>
           <div>
             <h5>Social</h5>
-            <a href="https://github.com/dayjs" target="_blank">
-              GitHub
-            </a>
             <a
               className="github-button"
               href={this.props.config.repoUrl}
@@ -72,7 +56,7 @@ class Footer extends React.Component {
               data-count-aria-label="# stargazers on GitHub"
               aria-label="Star this project on GitHub"
             >
-              dayjs
+              GitHub
             </a>
           </div>
           <div>
