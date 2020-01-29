@@ -18,7 +18,12 @@ class Banner extends React.Component {
     const docUrl = doc => `${baseUrl}${docsPart}${langPart}${doc}`
 
     return (
-      <div className="hero is-medium dayjs-home-banner">
+      <div 
+        className="hero is-medium dayjs-home-banner"
+        style={{
+          padding: '20px'
+        }}
+      >
         <div className="">
           <div className="container">
             <h1 className="title is-1 banner-title">{siteConfig.title}</h1>
@@ -40,7 +45,9 @@ class Banner extends React.Component {
 
 function Intro() {
   return (
-    <div className="dayjs-home-intro">
+    <div className="dayjs-home-intro" style={{
+      padding: '20px'
+    }}>
       <div className="container">
         <div className="columns is-multiline">
           <div className="column is-full">
