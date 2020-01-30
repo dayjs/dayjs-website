@@ -29,6 +29,7 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
+    { search: true },
     { doc: 'installation/installation', label: 'Docs' },
     // { blog: true, label: 'Blog' },
     { href: 'https://github.com/dayjs', label: 'GitHub' },
@@ -101,7 +102,12 @@ const siteConfig = {
   // template. For example, if you need your repo's URL...
   repoUrl: 'https://github.com/iamkun/dayjs',
   cname: 'day.js.org',
-  gaTrackingId: 'UA-157297013-1'
+  gaTrackingId: 'UA-157297013-1',
+  algolia: {
+    apiKey: '015f468476ca8256cf1c8e8fb6d82cc3',
+    indexName: 'dayjs',
+    algoliaOptions: {} // Optional, if provided by Algolia
+  },
 }
 
 module.exports = siteConfig
