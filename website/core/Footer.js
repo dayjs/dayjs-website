@@ -56,10 +56,18 @@ class Footer extends React.Component {
             >
               Gitter
             </a>
+            <a
+              href="./sitemap.xml"
+              target="_blank"
+            >
+              Sitemap
+            </a>
           </div>
         </section>
 
-        <section className="copyright">{this.props.config.copyright}</section>
+        <section className="copyright">
+          {this.props.config.copyright}
+        </section>
         <script src="https://buttons.github.io/buttons.js" async></script>
       </footer>
     )
