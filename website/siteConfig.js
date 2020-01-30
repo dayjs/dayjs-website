@@ -13,7 +13,7 @@ const users = []
 
 const siteConfig = {
   title: 'Day.js', // Title for your website.
-  tagline: '2kb modern JavaScript date utility library',
+  tagline: '2kb JavaScript date utility library',
   url: 'https://dayjs.github.io/website', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:

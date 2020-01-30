@@ -29,7 +29,7 @@ class Banner extends React.Component {
               className="button" 
               href={docUrl('installation/installation.html')}
             >
-            Get Start
+            Get Started
             </a>
           </div>
           {/* <div className="banner-buttons">
