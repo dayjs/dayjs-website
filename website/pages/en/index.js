@@ -20,31 +20,26 @@ class Banner extends React.Component {
     return (
       <div 
         className="hero is-medium dayjs-home-banner"
-        style={{
-          padding: '20px'
-        }}
       >
-        <div className="">
-          <div className="container">
-            <h1 className="title is-1 banner-title">{siteConfig.title}</h1>
-            <h2 className="subtitle has-text-weight-semibold banner-subtitle">{siteConfig.tagline}</h2>
-            <div className="pluginWrapper buttonWrapper">
-              <a 
-                className="button" 
-                href={docUrl('installation/installation.html')}
-              >
-              Get Start
-              </a>
-            </div>
-            {/* <div className="banner-buttons">
-              <a href={docUrl('Installation')}>
-                <button className="button is-normal">GET STARTED</button>
-              </a>
-              <a href={docUrl('api/Parsing')}>
-                <button className="button is-normal">API DOCUMENTATION</button>
-              </a>
-            </div> */}
+        <div className="container wrapper">
+          <h1 className="title is-1 banner-title">{siteConfig.title}</h1>
+          <h2 className="subtitle has-text-weight-semibold banner-subtitle">{siteConfig.tagline}</h2>
+          <div className="pluginWrapper buttonWrapper">
+            <a 
+              className="button" 
+              href={docUrl('installation/installation.html')}
+            >
+            Get Start
+            </a>
           </div>
+          {/* <div className="banner-buttons">
+            <a href={docUrl('Installation')}>
+              <button className="button is-normal">GET STARTED</button>
+            </a>
+            <a href={docUrl('api/Parsing')}>
+              <button className="button is-normal">API DOCUMENTATION</button>
+            </a>
+          </div> */}
         </div>
       </div>
     )
@@ -53,10 +48,8 @@ class Banner extends React.Component {
 
 function Intro() {
   return (
-    <div className="dayjs-home-intro" style={{
-      padding: '20px'
-    }}>
-      <div className="container">
+    <div className="dayjs-home-intro">
+      <div className="container wrapper">
         <div className="columns is-multiline">
           <div className="column is-full">
             <h3 className="title is-2 intro-header">Features</h3>
