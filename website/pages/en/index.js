@@ -28,6 +28,14 @@ class Banner extends React.Component {
           <div className="container">
             <h1 className="title is-1 banner-title">{siteConfig.title}</h1>
             <h2 className="subtitle has-text-weight-semibold banner-subtitle">{siteConfig.tagline}</h2>
+            <div className="pluginWrapper buttonWrapper">
+              <a 
+                className="button" 
+                href={docUrl('installation/installation.html')}
+              >
+              Get Start
+              </a>
+            </div>
             {/* <div className="banner-buttons">
               <a href={docUrl('Installation')}>
                 <button className="button is-normal">GET STARTED</button>
