@@ -27,7 +27,7 @@ class Banner extends React.Component {
           <div className="pluginWrapper buttonWrapper">
             <a 
               className="button" 
-              href={docUrl('installation/installation.html')}
+              href={docUrl('installation/installation')}
             >
             Get Started
             </a>
