@@ -69,6 +69,14 @@ class Footer extends React.Component {
           {this.props.config.copyright}
         </section>
         <script src="https://buttons.github.io/buttons.js" async></script>
+        <script src="https://unpkg.com/dayjs@1.8.20/dayjs.min.js" async></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              console.log('%c Feel free to try sample codes here 😃', 'background: #222; color: #EE6A55');
+            `
+          }}
+        />
       </footer>
     )
   }
