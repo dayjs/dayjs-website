@@ -3,35 +3,7 @@
   --main-background: #eee;
   --main-text-color: #000;
   --main-text-color-light: rgba(0, 0, 0, 0.7);
-  --clock-opacity: 1;
   --banner-background: rgba(238, 238, 238, 0.6);
-}
-
-[data-theme='dark'] {
-  --main-color: #fb6052;
-  --main-background: #20232a;
-  --main-text-color: #fff;
-  --main-text-color-light: rgba(255, 255, 255, 0.7);
-  --clock-opacity: 0.6;
-  --banner-background: transparent;
-}
-
-.button {
-  height: auto;
-}
-
-@media only screen and (max-width: 767px) {
-  .columns {
-    margin: 0;
-  }
-
-  .title.is-1 {
-    font-size: 2.5rem;
-  }
-
-  .title.is-3 {
-    font-size: 1.5rem;
-  }
 }
 
 .fixedHeaderContainer {
@@ -42,25 +14,10 @@
   color: #fff;
 }
 
-.navigationSlider .slidingNav ul {
-  background: #20232a;
-}
-
 .dayjs-home-banner {
   position: relative;
   background: var(--main-background);
   overflow: hidden;
-}
-
-/* @media only screen and (max-width: 767px) {
-  .dayjs-home-banner {
-    overflow: hidden;
-  }
-} */
-
-.dayjs-home-banner .banner-body {
-  background: var(--banner-background);
-  z-index: 1;
 }
 
 .dayjs-home-banner .banner-title,
@@ -80,68 +37,9 @@
   font-size: 16px;
 }
 
-.dayjs-home-banner .banner-buttons button {
-  margin: 1em 1em 0 0;
-  padding-top: calc(0.375em - 1px);
-  padding-right: 0.75em;
-  padding-bottom: calc(0.375em - 1px);
-  padding-left: 0.75em;
-  background: var(--main-background);
-  color: var(--main-text-color);
-  border-color: var(--main-text-color);
-  font-weight: 600;
-}
-
-.dayjs-home-banner .banner-buttons button:hover {
-  background: var(--main-color);
-  color: #fff;
-  border-color: var(--main-color);
-}
-
-#banner-clock .paths > g {
-  fill-opacity: var(--clock-opacity);
-}
-
-.dayjs-home-install {
-  padding: 0 0.75em;
-  background: var(--banner-background);
-  z-index: 1;
-}
-
-.dayjs-home-install .title {
-  color: var(--main-text-color);
-}
-
-.dayjs-home-install .install-content {
-  width: 300px;
-  margin-bottom: 2em;
-  padding: 0.75em 1.5em;
-  background: var(--main-background);
-  color: var(--main-text-color);
-  border: 1px solid var(--main-text-color);
-  border-radius: 3px;
-}
-
-.dayjs-home-install .install-content p:last-child {
-  margin-bottom: 0;
-}
-
 .dayjs-home-intro {
   padding: 2em 0.75em;
   background: var(--main-background);
-}
-
-.dayjs-home-intro .intro-header {
-  margin-bottom: 1em;
-  color: var(--main-text-color);
-}
-
-.dayjs-home-intro .intro-column {
-  margin: 1em 0;
-}
-
-.dayjs-home-intro .intro-column:last-child {
-  margin-bottom: 3em;
 }
 
 .dayjs-home-intro .intro-title {
@@ -159,19 +57,6 @@
 
 .dayjs-home-intro h3 {
   font-size: 16px;
-}
-
-#theme-switch {
-  padding: 0 0.5em;
-  line-height: 2.2;
-  cursor: pointer;
-  user-select: none;
-}
-
-@media screen and (max-width: 1023px) {
-  #theme-switch {
-    line-height: 3;
-  }
 }
 
 .nav-footer .sitemap .nav-home {
