@@ -18,28 +18,17 @@ class Banner extends React.Component {
     const docUrl = doc => `${baseUrl}${docsPart}${langPart}${doc}`
 
     return (
-      <div 
-        className="hero is-medium dayjs-home-banner"
-      >
+      <div className="hero is-medium dayjs-home-banner">
         <div className="container wrapper">
           <h1 className="title is-1 banner-title">{siteConfig.title}</h1>
-          <h2 className="subtitle has-text-weight-semibold banner-subtitle">{siteConfig.tagline}</h2>
+          <h2 className="subtitle has-text-weight-semibold banner-subtitle">
+            Fast 2kB alternative to Moment.js with the same modern API
+          </h2>
           <div className="pluginWrapper buttonWrapper">
-            <a 
-              className="button" 
-              href={docUrl('installation/installation')}
-            >
-            Get Started
+            <a className="button" href={docUrl('installation/installation')}>
+              Get Started
             </a>
           </div>
-          {/* <div className="banner-buttons">
-            <a href={docUrl('Installation')}>
-              <button className="button is-normal">GET STARTED</button>
-            </a>
-            <a href={docUrl('api/Parsing')}>
-              <button className="button is-normal">API DOCUMENTATION</button>
-            </a>
-          </div> */}
         </div>
       </div>
     )
@@ -52,51 +41,34 @@ function Intro() {
       <div className="container wrapper">
         <div className="columns is-multiline">
           <div className="column is-full">
-            <h3 className="title is-2 intro-header">Features</h3>
+            <h2 className="title is-2 intro-header">Why Day.js?</h2>
           </div>
           <div className="column is-half intro-column">
-            <h3 className="title is-3 intro-title">
-              <translate>👀 Easy To Use</translate>
-            </h3>
+            <h3 className="title is-3 intro-title">2kB</h3>
             <p className="content is-medium has-text-weight-semibold intro-content">
-              <translate>
-                Day.js is a minimalist JavaScript library that parses, validates, manipulates, and displays dates and
-                times for modern browsers with a largely Moment.js-compatible API. If you use Moment.js, you already
-                know how to use Day.js.
-              </translate>
+            Less JavaScript to download, parse and execute, leaving more time for your code.
             </p>
           </div>
           <div className="column is-half intro-column">
-            <h3 className="title is-3 intro-title">
-              <translate>💪 Immutable And 🔥 Chainable</translate>
-            </h3>
+            <h3 className="title is-3 intro-title">Simple</h3>
             <p className="content is-medium has-text-weight-semibold intro-content">
-              <translate>
-                With immutable and chainable support, you can safely and easily to modify the existing dayjs instance in
-                Day.js. All operations will be intuitive. Without any pains from now!
-              </translate>
+              Day.js is a minimalist JavaScript library that parses, validates, manipulates, and displays dates and
+              times for modern browsers with a largely Moment.js-compatible API.
             </p>
+            <p>If you use Moment.js, you already know how to use Day.js.</p>
           </div>
           <div className="column is-half intro-column">
-            <h3 className="title is-3 intro-title">
-              <translate>⚙️ Powerful Plugin Systems</translate>
-            </h3>
+            <h3 className="title is-3 intro-title">Immutable</h3>
             <p className="content is-medium has-text-weight-semibold intro-content">
-              <translate>
-                Want more functionalities? The Plugin Systems will take you flying. A plugin is an independent module
-                that can be added to Day.js to extend functionality or add new features.
-              </translate>
+              All API operations that change the Day.js object will return a new instance instead.
             </p>
+            <p>This helps prevent bugs and avoid long debugging sessions.</p>
           </div>
           <div className="column is-half intro-column">
-            <h3 className="title is-3 intro-title">
-              <translate>🌐 I18n Support</translate>
-            </h3>
+            <h3 className="title is-3 intro-title">I18n</h3>
             <p className="content is-medium has-text-weight-semibold intro-content">
-              <translate>
-                Day.js has great support for internationalization. But none of them will be included in your build
-                unless you use it.
-              </translate>
+              Day.js has great support for internationalization. But none of them will be included in your build unless
+              you use them.
             </p>
           </div>
         </div>

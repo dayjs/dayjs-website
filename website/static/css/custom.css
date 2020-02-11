@@ -72,6 +72,14 @@
   margin-bottom: 1em;
 }
 
+.dayjs-home-banner h2 {
+  font-size: 18px;
+}
+
+.dayjs-home-banner h3 {
+  font-size: 16px;
+}
+
 .dayjs-home-banner .banner-buttons button {
   margin: 1em 1em 0 0;
   padding-top: calc(0.375em - 1px);
@@ -124,7 +132,7 @@
 }
 
 .dayjs-home-intro .intro-header {
-  margin-bottom: -1em;
+  margin-bottom: 1em;
   color: var(--main-text-color);
 }
 
@@ -143,6 +151,14 @@
 .dayjs-home-intro .intro-content {
   width: 85%;
   color: var(--main-text-color-light);
+}
+
+.dayjs-home-intro h2 {
+  font-size: 20px;
+}
+
+.dayjs-home-intro h3 {
+  font-size: 16px;
 }
 
 #theme-switch {
