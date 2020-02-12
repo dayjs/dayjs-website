@@ -1,6 +1,6 @@
 ---
 id: loading-into-browser
-title: Loading locales in the browser
+title: Loading plugin in the browser
 ---
 
 ```html

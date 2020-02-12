@@ -1,6 +1,6 @@
 ---
 id: loading-into-nodejs
-title: Loading locales in NodeJS
+title: Loading locale in NodeJS
 ---
 
 ```javascript

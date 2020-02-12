@@ -1,6 +1,6 @@
 ---
 id: loading-into-browser
-title: Loading locales in the browser
+title: Loading locale in the browser
 ---
 
 
