@@ -15,7 +15,7 @@ dayjs().format()
 
 #### Have trouble importing Day.js?
 
-If your `tsconfig.json` contains the following config, you must do the default import workflow `import dayjs from 'dayjs';`:
+If your `tsconfig.json` contains the following config, you must do the default import workflow `import dayjs from 'dayjs'`:
 
 ```json
 { //tsconfig.json
@@ -25,7 +25,7 @@ If your `tsconfig.json` contains the following config, you must do the default i
   }
 }
 ```
-If you don't have these config above, the default import won't work, and you'll continue to have to use `import * as dayjs from 'dayjs'`;
+If you don't have these config above, the default import won't work, and you'll continue to have to use `import * as dayjs from 'dayjs'`
 
 ### Locale and plugin import
 
