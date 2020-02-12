@@ -2,6 +2,7 @@
 id: typescript
 title: Typescript
 ---
+Day.js ships with official type declarations for TypeScript in NPM package out of the box.
 
 Install via NPM
 ```console
