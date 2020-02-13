@@ -25,7 +25,13 @@ const render = (tokens, idx) => {
   const token = tokens[idx]
   const pluginName = token.content.plugin
   const pluginSnakeName = pluginName.replace(/([A-Z])/g, "-$1").toLowerCase().slice(1)
-  return `Requires <a href="../plugin/${pluginSnakeName}"><code>${token.content.plugin}</code></a> plugin`
+  return `<blockquote>
+  This dependent on 
+  <a href="../plugin/${pluginSnakeName}">
+    <code>${token.content.plugin}</code>
+  </a>
+  plugin to work
+  </blockquote>`
 }
 
 const pluginNotice = ctx => {
