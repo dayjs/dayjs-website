@@ -2,8 +2,7 @@
 id: string-format
 title: String + Format
 ---
-
-Requires [`CustomParseFormat`](../plugin/custom-parse-format) plugin
+@>CustomParseFormat
 
 If you know the format of an input string, you can use that to parse a date.
 

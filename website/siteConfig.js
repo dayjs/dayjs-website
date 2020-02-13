@@ -10,8 +10,9 @@
 
 // List of projects/orgs using your project for the users page.
 const users = []
-
+const markdownPlugins = require('./plugin') 
 const siteConfig = {
+  markdownPlugins: [markdownPlugins],
   title: 'Day.js', // Title for your website.
   tagline: '2kB JavaScript date utility library',
   url: 'https://day.js.org', // Your website URL
