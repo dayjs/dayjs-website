@@ -5,7 +5,7 @@ title: CustomParseFormat
 CustomParseFormat extends `dayjs()` constructor to support custom formats of input strings.
 
 ```javascript
-import customParseFormat from 'dayjs/plugin/customParseFormat'
+var customParseFormat = require('dayjs/plugin/customParseFormat')
 
 dayjs.extend(customParseFormat)
 
