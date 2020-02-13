@@ -3,7 +3,7 @@ id: string
 title: String
 ---
 
-You can create a Day.js object by passing an [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) format strings.
+Parse the given string in [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) format and return a Day.js object instance.
 
 ```js
 dayjs('2018-04-04T16:00:00.000Z')
