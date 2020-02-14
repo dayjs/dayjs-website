@@ -48,4 +48,28 @@ dayjs('2019-01-25').format('DD/MM/YYYY') // '25/01/2019'
 | `a`    | am pm            |                                       |
 
 - More available formats `Q Do k kk X x ...` in plugin [`AdvancedFormat`](../plugin/advanced-format)
-- Localized format options `L LT LTS ...` in plugin [`LocalizedFormat`](../plugin/localized-format)
+
+### Localized formats
+Because preferred formatting differs based on locale, there are a few localized format tokens that can be used based on its locale.
+
+@>LocalizedFormat
+
+```javascript
+dayjs.extend(LocalizedFormat)
+dayjs().format('L LT')
+```
+
+#### List of localized formats
+| Format | English Locale            | Sample Output                     |
+| ------ | ------------------------- | --------------------------------- |
+| `LT`   | h:mm A                    | 8:02 PM                           |
+| `LTS`  | h:mm:ss A                 | 8:02:18 PM                        |
+| `L`    | MM/DD/YYYY                | 08/16/2018                        |
+| `LL`   | MMMM D, YYYY              | August 16, 2018                   |
+| `LLL`  | MMMM D, YYYY h:mm A       | August 16, 2018 8:02 PM           |
+| `LLLL` | dddd, MMMM D, YYYY h:mm A | Thursday, August 16, 2018 8:02 PM |
+| `l`    | M/D/YYYY                  | 8/16/2018                         |
+| `ll`   | MMM D, YYYY               | Aug 16, 2018                      |
+| `lll`  | MMM D, YYYY h:mm A        | Aug 16, 2018 8:02 PM              |
+| `llll` | ddd, MMM D, YYYY h:mm A   | Thu, Aug 16, 2018 8:02 PM         |
+
