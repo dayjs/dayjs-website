@@ -11,9 +11,15 @@ dayjs.extend(customParseFormat)
 dayjs("12-25-1995", "MM-DD-YYYY")
 ```
 
+You can also pass the locale key as the third parameter to `dayjs()` and `dayjs.utc()`.
+```js
+require('dayjs/locale/es')
+dayjs('2018 Enero 15', 'YYYY MMMM DD', 'es')
+```
+
 ### List of all available parsing tokens
 
-| Format | Output           | Description                       |
+| Input  | Example          | Description                       |
 | ------ | ---------------- | --------------------------------- |
 | `YY`   | 18               | Two-digit year                    |
 | `YYYY` | 2018             | Four-digit year                   |
