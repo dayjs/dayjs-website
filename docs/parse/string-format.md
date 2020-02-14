@@ -11,7 +11,7 @@ dayjs.extend(customParseFormat)
 dayjs("12-25-1995", "MM-DD-YYYY")
 ```
 
-You can also pass the locale key as the third parameter to `dayjs()` and `dayjs.utc()`.
+Pass the locale key as the third parameter to parse locale-aware date time string.
 ```js
 require('dayjs/locale/es')
 dayjs('2018 Enero 15', 'YYYY MMMM DD', 'es')

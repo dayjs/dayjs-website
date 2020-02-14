@@ -3,13 +3,14 @@ id: unix-timestamp
 title: Unix Timestamp (seconds)
 ---
 
-
-### Unix Timestamp (seconds) `.unix(value: number)`
-
-Returns a `Dayjs` from a Unix timestamp (seconds since the Unix Epoch)
+Create a Day.js object from a Unix timestamp (seconds since the Unix Epoch).
 
 ```js
 dayjs.unix(1318781876)
-dayjs.unix(1318781876.721)
 ```
 
+This is implemented as `dayjs(timestamp * 1000)`, so partial seconds in the input timestamp are included.
+
+```js
+dayjs.unix(1318781876.721)
+```
