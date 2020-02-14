@@ -5,6 +5,8 @@ title: Millisecond
 
 Gets or sets the millisecond.
 
+Accepts numbers from 0 to 999. If the range is exceeded, it will bubble up to the seconds.
+
 ```js
 dayjs().millisecond()
 dayjs().millisecond(1)

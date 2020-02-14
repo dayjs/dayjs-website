@@ -3,4 +3,17 @@ id: get-set
 title: Get + Set
 ---
 
-The Day.js object is immutable, that is, all API operations that change the Day.js object in some way will return a new instance of it.
+Day.js uses overloaded getters and setters, that is to say, calling these methods without parameters acts as a getter, and calling them with a parameter acts as a setter.
+
+These map to the corresponding function on the native `Date` object.
+
+```js
+dayjs().second(30).valueOf() === new Date().setSeconds(30);
+dayjs().second()   === new Date().getSeconds();
+```
+
+<!-- If you are in [UTC mode](UTC-mode), they will map to the UTC equivalent.
+
+dayjs.utc().seconds(30).valueOf() === new Date().setUTCSeconds(30);
+dayjs.utc().seconds()   === new Date().getUTCSeconds(); -->
+
