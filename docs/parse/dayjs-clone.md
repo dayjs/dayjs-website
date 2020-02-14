@@ -3,11 +3,16 @@ id: dayjs-clone
 title: Dayjs Clone
 ---
 
-### Clone `.clone() | dayjs(original: Dayjs)`
-
-Returns a cloned `Dayjs`.
+All Day.js objects are **immutable**. Still, `dayjs#clone` can create a clone of the current object if you need one.
 
 ```js
-dayjs().clone()
-dayjs(dayjs('2019-01-25')) // passing a Dayjs object to a constructor will also clone it
+var a = dayjs()
+var b = a.clone()
+// a and b are two separate Day.js object
+```
+
+Calling `dayjs()` on a Day.js obejct will clone it as well.
+```js
+var a = dayjs()
+var b = dayjs(a)
 ```
