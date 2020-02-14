@@ -3,8 +3,12 @@ id: start-of
 title: Start of Time
 ---
 
-Returns a cloned `Dayjs` set to the start of the specified unit of time.
+Mutates the current Day.js object by setting it to the start of a unit of time and returns the corresponding new instance.
 
 ```js
-dayjs().startOf('week') // Depends on `weekStart` in locale
+dayjs().startOf('year')
 ```
+
+Units are case insensitive, and support plural and short forms.
+
+[List of all available units](../get-set/get#list-of-all-available-units)
