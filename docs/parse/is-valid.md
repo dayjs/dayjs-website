@@ -3,9 +3,7 @@ id: is-valid
 title: Validation
 ---
 
-### Validation `.isValid()`
-
-Returns a `boolean` indicating whether the `Dayjs`'s date is valid.
+This returns a `boolean` indicating whether the Day.js object contains a valid date or not.
 
 ```js
 dayjs().isValid()
