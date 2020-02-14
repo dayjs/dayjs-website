@@ -3,11 +3,10 @@ id: manipulate
 title: Manipulate
 ---
 
-`Dayjs` object can be manipulated in many ways.
+Once you have a Day.js object, you may want to manipulate it in some way.
+
+Day.js supports method chaining like this:
 
 ```js
-dayjs('2019-01-25')
-  .add(1, 'day')
-  .subtract(1, 'year')
-  .toString() // Fri, 26 Jan 2018 00:00:00 GMT
+dayjs('2019-01-25').add(1, 'day').subtract(1, 'year').year(2009).toString()
 ```
