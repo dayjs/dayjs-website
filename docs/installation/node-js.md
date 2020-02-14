@@ -8,7 +8,7 @@ Install via NPM
 npm install dayjs --save
 ```
 ```js
-import dayjs from 'dayjs'
-// var dayjs = require('dayjs');
+var dayjs = require('dayjs')
+//import dayjs from 'dayjs' // ES 2015
 dayjs().format()
 ```

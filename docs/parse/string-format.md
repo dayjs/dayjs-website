@@ -7,6 +7,7 @@ If you know the format of an input string, you can use that to parse a date.
 @>CustomParseFormat
 
 ```js
+dayjs.extend(customParseFormat)
 dayjs("12-25-1995", "MM-DD-YYYY")
 ```
 

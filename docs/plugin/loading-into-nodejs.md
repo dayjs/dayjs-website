@@ -4,8 +4,8 @@ title: Loading plugin in NodeJS
 ---
 
 ```javascript
-import dayjs from 'dayjs'
-import AdvancedFormat from 'dayjs/plugin/advancedFormat' // load on demand
+var AdvancedFormat = require('dayjs/plugin/advancedFormat') // load on demand
+// import AdvancedFormat from 'dayjs/plugin/advancedFormat' // ES 2015
 
 dayjs.extend(AdvancedFormat) // use plugin
 ```
