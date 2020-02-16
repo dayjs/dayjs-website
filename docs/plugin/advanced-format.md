@@ -2,13 +2,10 @@
 id: advanced-format
 title: AdvancedFormat
 ---
-
-
-- AdvancedFormat extends `dayjs().format` API to supply more format options.
+AdvancedFormat extends `dayjs().format` API to supply more format options.
 
 ```javascript
-import advancedFormat from 'dayjs/plugin/advancedFormat'
-
+var advancedFormat = require('dayjs/plugin/advancedFormat')
 dayjs.extend(advancedFormat)
 
 dayjs().format('Q Do k kk X x')
