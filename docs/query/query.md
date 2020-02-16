@@ -3,4 +3,4 @@ id: query
 title: Query
 ---
 
- Query intro
+ There are several methods to query a Day.js object.
