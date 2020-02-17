@@ -2,11 +2,10 @@
 id: to-array
 title: ToArray
 ---
-
-- ToArray adds `.toArray()` API to return an `array` that mirrors the parameters
+ToArray adds `.toArray()` API to return an `array` that mirrors the parameters
 
 ```javascript
-import toArray from 'dayjs/plugin/toArray'
+var toArray  = require('dayjs/plugin/toArray')
 
 dayjs.extend(toArray)
 

@@ -3,10 +3,10 @@ id: min-max
 title: MinMax
 ---
 
-- MinMax adds `.min` `.max` APIs to return a `dayjs` to compare given dayjs instances.
+MinMax adds `.min` `.max` APIs to return a `dayjs` to compare given dayjs instances.
 
 ```javascript
-import minMax from 'dayjs/plugin/minMax'
+var minMax  = require('dayjs/plugin/minMax')
 
 dayjs.extend(minMax)
 

@@ -2,11 +2,10 @@
 id: to-object
 title: ToObject
 ---
-
-- ToObject adds `.toObject()` API to return an `object` with the date's properties.
+ToObject adds `.toObject()` API to return an `object` with the date's properties.
 
 ```javascript
-import toObject from 'dayjs/plugin/toObject'
+var toObject  = require('dayjs/plugin/toObject')
 
 dayjs.extend(toObject)
 

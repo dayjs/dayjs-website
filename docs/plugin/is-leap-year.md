@@ -2,11 +2,10 @@
 id: is-leap-year
 title: IsLeapYear
 ---
-
-- IsLeapYear adds `.isLeapYear` API to returns a `boolean` indicating whether the `Dayjs`'s year is a leap year or not.
+IsLeapYear adds `.isLeapYear` API to returns a `boolean` indicating whether the `Dayjs`'s year is a leap year or not.
 
 ```javascript
-import isLeapYear from 'dayjs/plugin/isLeapYear'
+var isLeapYear  = require('dayjs/plugin/isLeapYear')
 
 dayjs.extend(isLeapYear)
 

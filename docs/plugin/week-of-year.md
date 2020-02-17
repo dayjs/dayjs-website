@@ -2,11 +2,10 @@
 id: week-of-year
 title: weekOfYear
 ---
-
-- WeekOfYear adds `.week()` API to returns a `number` indicating the `Dayjs`'s week of the year.
+WeekOfYear adds `.week()` API to returns a `number` indicating the `Dayjs`'s week of the year.
 
 ```javascript
-import weekOfYear from 'dayjs/plugin/weekOfYear'
+var weekOfYear  = require('dayjs/plugin/weekOfYear')
 
 dayjs.extend(weekOfYear)
 

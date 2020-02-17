@@ -2,11 +2,10 @@
 id: calendar
 title: Calendar
 ---
-
-- Calendar adds `.calendar` API to return a `string` to display calendar time
+Calendar adds `.calendar` API to return a `string` to display calendar time
 
 ```javascript
-import calendar from 'dayjs/plugin/calendar'
+var calendar = require('dayjs/plugin/calendar')
 
 dayjs.extend(calendar)
 

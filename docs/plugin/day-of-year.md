@@ -2,11 +2,10 @@
 id: day-of-year
 title: DayOfYear
 ---
-
-- DayOfYear adds `.dayOfYear()` API to returns a `number` indicating the `Dayjs`'s day of the year, or to set the day of the year.
+DayOfYear adds `.dayOfYear()` API to returns a `number` indicating the `Dayjs`'s day of the year, or to set the day of the year.
 
 ```javascript
-import dayOfYear from 'dayjs/plugin/dayOfYear'
+var dayOfYear  = require('dayjs/plugin/dayOfYear')
 
 dayjs.extend(dayOfYear)
 

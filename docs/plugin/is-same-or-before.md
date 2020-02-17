@@ -3,10 +3,10 @@ id: is-same-or-before
 title: IsSameOrBefore
 ---
 
-- IsSameOrBefore adds `.isSameOrBefore()` API to returns a `boolean` indicating if a date is same of before another date.
+IsSameOrBefore adds `.isSameOrBefore()` API to returns a `boolean` indicating if a date is same of before another date.
 
 ```javascript
-import isSameOrBefore from 'dayjs/plugin/isSameOrBefore'
+var isSameOrBefore  = require('dayjs/plugin/isSameOrBefore')
 
 dayjs.extend(isSameOrBefore)
 

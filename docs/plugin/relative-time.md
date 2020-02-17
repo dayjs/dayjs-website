@@ -2,11 +2,10 @@
 id: relative-time
 title: RelativeTime
 ---
-
-- RelativeTime adds `.from` `.to` `.fromNow` `.toNow` APIs to formats date to relative time strings (e.g. 3 hours ago).
+RelativeTime adds `.from` `.to` `.fromNow` `.toNow` APIs to formats date to relative time strings (e.g. 3 hours ago).
 
 ```javascript
-import relativeTime from 'dayjs/plugin/relativeTime'
+var relativeTime  = require('dayjs/plugin/relativeTime')
 
 dayjs.extend(relativeTime)
 

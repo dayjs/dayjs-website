@@ -3,13 +3,10 @@ id: utc
 title: UTC
 ---
 
-
-### UTC
-
-- UTC adds `.utc` `.local` `.isUTC` APIs to parse or display in UTC.
+UTC adds `.utc` `.local` `.isUTC` APIs to parse or display in UTC.
 
 ```javascript
-import utc from 'dayjs/plugin/utc'
+var utc  = require('dayjs/plugin/utc')
 
 dayjs.extend(utc)
 
@@ -34,18 +31,18 @@ By default, Day.js parses and displays in local time.
 
 If you want to parse or display in UTC, you can use `dayjs.utc()` instead of `dayjs()`.
 
-### dayjs.utc `dayjs.utc(dateType?: string | number | Date | Dayjs, format? string)`
+#### dayjs.utc `dayjs.utc(dateType?: string | number | Date | Dayjs, format? string)`
 
 Returns a `Dayjs` object in UTC mode.
 
-### Use UTC time `.utc()`
+#### Use UTC time `.utc()`
 
 Returns a cloned `Dayjs` object with a flag to use UTC time.
 
-### Use local time `.local()`
+#### Use local time `.local()`
 
 Returns a cloned `Dayjs` object with a flag to use local time.
 
-### isUTC mode `.isUTC()`
+#### isUTC mode `.isUTC()`
 
 Returns a `boolean` indicating current `Dayjs` object is in UTC mode or not.

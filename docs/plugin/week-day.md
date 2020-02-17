@@ -2,12 +2,10 @@
 id: week-day
 title: WeekDay
 ---
-
-
-- WeekDay adds `.weekday()` API to get or set locale aware day of the week.
+WeekDay adds `.weekday()` API to get or set locale aware day of the week.
 
 ```javascript
-import weekday from 'dayjs/plugin/weekday'
+var weekday  = require('dayjs/plugin/weekday')
 
 dayjs.extend(weekday)
 // when Monday is the first day of the week

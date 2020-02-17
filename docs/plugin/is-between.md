@@ -2,11 +2,10 @@
 id: is-between
 title: IsBetween
 ---
-
-- IsBetween adds `.isBetween()` API to returns a `boolean` indicating if a date is between two other dates.
+IsBetween adds `.isBetween()` API to returns a `boolean` indicating if a date is between two other dates.
 
 ```javascript
-import isBetween from 'dayjs/plugin/isBetween'
+var isBetween  = require('dayjs/plugin/isBetween')
 
 dayjs.extend(isBetween)
 
