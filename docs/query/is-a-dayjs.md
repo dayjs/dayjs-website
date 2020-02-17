@@ -3,7 +3,7 @@ id: is-a-dayjs
 title: Is a Dayjs
 ---
 
-Returns a `boolean` indicating whether a variable is a dayjs object or not.
+This indicates whether a variable is a Day.js object or not.
 
 ```js
 dayjs.isDayjs(dayjs()) // true
