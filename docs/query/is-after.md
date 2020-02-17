@@ -2,10 +2,17 @@
 id: is-after
 title: Is After 
 ---
-
-Returns a `boolean` indicating whether the `Dayjs`'s date is after the other supplied `Dayjs`'s.
+This indicates whether the Day.js object is after the other supplied date-time.
 
 ```js
-dayjs().isAfter(dayjs()) // false
-dayjs().isAfter(dayjs(), 'year') // false
+dayjs().isAfter(dayjs('2011-01-01')) // default milliseconds
 ```
+If you want to limit the granularity to a unit other than milliseconds, pass it as the second parameter.
+
+```js
+dayjs().isAfter('2011-01-01', 'year')
+```
+
+Units are case insensitive, and support plural and short forms.
+
+[List of all available units](../get-set/get#list-of-all-available-units)
