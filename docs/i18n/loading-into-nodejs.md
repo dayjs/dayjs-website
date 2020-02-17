@@ -2,13 +2,18 @@
 id: loading-into-nodejs
 title: Loading locale in NodeJS
 ---
+Loading locale on demand.
 
 ```javascript
-require('dayjs/locale/es') // load on demand
-var locale_es = require('dayjs/locale/es') // load and get locale_es locale object
-// import 'dayjs/locale/es' // ES 2015 
-// import locale_es from 'dayjs/locale/es'
+require('dayjs/locale/de')
+// import 'dayjs/locale/de' // ES 2015 
 
-dayjs.locale('es') // use locale globally
-dayjs().locale('es').format() // use locale in a specific instance
+dayjs.locale('de') // use locale globally
+dayjs().locale('de').format() // use locale in a specific instance
+```
+
+You can also load and get the locale object for further use.
+```javascript
+var locale_de = require('dayjs/locale/de')
+// import locale_de from 'dayjs/locale/de'  // ES 2015 
 ```

@@ -4,7 +4,7 @@ title: Browser
 ---
 
 ```html
-<script src="dayjs.js"></script>
+<script src="path/to/dayjs/dayjs.min.js"></script>
 <script>
   dayjs().format()
 </script>
