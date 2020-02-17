@@ -2,7 +2,6 @@
 id: loading-into-browser
 title: Loading locale in the browser
 ---
-
 Loading locale on demand.
 
 ```html

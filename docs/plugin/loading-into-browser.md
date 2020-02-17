@@ -2,12 +2,12 @@
 id: loading-into-browser
 title: Loading plugin in the browser
 ---
+Loading plugin on demand.
 
 ```html
-<script src="https://unpkg.com/dayjs"></script>
+<script src="path/to/dayjs/plugin/advancedFormat"></script>
 <!-- Load plugin as window.dayjs_plugin_NAME -->
-<script src="https://unpkg.com/dayjs/plugin/advancedFormat"></script>
 <script>
-  dayjs.extend(dayjs_plugin_advancedFormat)
+  dayjs.extend(window.dayjs_plugin_advancedFormat)
 </script>
 ```
