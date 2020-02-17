@@ -6,9 +6,8 @@ title: IsoWeeksInYear
 IsoWeeksInYear adds `.isoWeeksInYear()` API to return a `number` to get the number of weeks in year, according to ISO weeks.
 
 ```javascript
-var isoWeeksInYear  = require('dayjs/plugin/isoWeeksInYear')
-var isLeapYear  = require('dayjs/plugin/isLeapYear') // rely on isLeapYear plugin
-
+var isoWeeksInYear = require('dayjs/plugin/isoWeeksInYear')
+var isLeapYear = require('dayjs/plugin/isLeapYear') // rely on isLeapYear plugin
 dayjs.extend(isoWeeksInYear)
 dayjs.extend(isLeapYear)
 

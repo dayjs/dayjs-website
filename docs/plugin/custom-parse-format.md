@@ -6,7 +6,6 @@ CustomParseFormat extends `dayjs()` constructor to support custom formats of inp
 
 ```javascript
 var customParseFormat = require('dayjs/plugin/customParseFormat')
-
 dayjs.extend(customParseFormat)
 
 dayjs('05/02/69 1:02:03 PM -05:00', 'MM/DD/YY H:mm:ss A Z')

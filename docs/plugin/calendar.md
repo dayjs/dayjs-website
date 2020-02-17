@@ -6,7 +6,6 @@ Calendar adds `.calendar` API to return a `string` to display calendar time
 
 ```javascript
 var calendar = require('dayjs/plugin/calendar')
-
 dayjs.extend(calendar)
 
 dayjs().calendar(dayjs('2008-01-01'))

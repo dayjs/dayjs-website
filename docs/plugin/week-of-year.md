@@ -5,8 +5,7 @@ title: weekOfYear
 WeekOfYear adds `.week()` API to returns a `number` indicating the `Dayjs`'s week of the year.
 
 ```javascript
-var weekOfYear  = require('dayjs/plugin/weekOfYear')
-
+var weekOfYear = require('dayjs/plugin/weekOfYear')
 dayjs.extend(weekOfYear)
 
 dayjs('2018-06-27').week() // 26

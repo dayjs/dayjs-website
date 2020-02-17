@@ -5,8 +5,7 @@ title: IsBetween
 IsBetween adds `.isBetween()` API to returns a `boolean` indicating if a date is between two other dates.
 
 ```javascript
-var isBetween  = require('dayjs/plugin/isBetween')
-
+var isBetween = require('dayjs/plugin/isBetween')
 dayjs.extend(isBetween)
 
 dayjs('2010-10-20').isBetween('2010-10-19', dayjs('2010-10-25'), 'year')

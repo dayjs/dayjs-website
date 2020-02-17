@@ -6,8 +6,7 @@ title: UTC
 UTC adds `.utc` `.local` `.isUTC` APIs to parse or display in UTC.
 
 ```javascript
-var utc  = require('dayjs/plugin/utc')
-
+var utc = require('dayjs/plugin/utc')
 dayjs.extend(utc)
 
 // default local time
