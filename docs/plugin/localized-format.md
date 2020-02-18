@@ -5,8 +5,8 @@ title: LocalizedFormat
 LocalizedFormat extends `dayjs().format` API to supply localized format options.
 
 ```javascript
-var LocalizedFormat = require('dayjs/plugin/localizedFormat')
-dayjs.extend(LocalizedFormat)
+var localizedFormat = require('dayjs/plugin/localizedFormat')
+dayjs.extend(localizedFormat)
 
 dayjs().format('L LT')
 ```
