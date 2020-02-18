@@ -42,6 +42,10 @@ Returns a cloned `Dayjs` object with a flag to use UTC time.
 
 Returns a cloned `Dayjs` object with a flag to use local time.
 
+#### Set UTC offset `.utcOffset()`
+
+Returns a cloned `Dayjs` object with a new UTC offset.
+
 #### isUTC mode `.isUTC()`
 
 Returns a `boolean` indicating current `Dayjs` object is in UTC mode or not.
