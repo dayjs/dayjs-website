@@ -1,7 +1,18 @@
 {
   "docs": {
     "Installation": ["installation/installation", "installation/node-js", "installation/browser", "installation/typescript", "installation/download"],
-    "Parse": ["parse/parse", "parse/now", "parse/string", "parse/string-format", "parse/unix-timestamp-milliseconds","parse/unix-timestamp", "parse/date", "parse/dayjs-clone", "parse/is-valid"],
+    "Parse": [
+      "parse/parse", 
+      "parse/now", 
+      "parse/string", 
+      "parse/string-format", 
+      "parse/unix-timestamp-milliseconds",
+      "parse/unix-timestamp", 
+      "parse/date", 
+      "parse/utc", 
+      "parse/dayjs-clone", 
+      "parse/is-valid"
+    ],
     "Get + Set": ["get-set/get-set", "get-set/millisecond", "get-set/second", "get-set/minute", "get-set/hour", "get-set/date", "get-set/day", "get-set/month", "get-set/year", "get-set/get", "get-set/set"],
     "Manipulate": ["manipulate/manipulate", "manipulate/add", "manipulate/subtract", "manipulate/start-of", "manipulate/end-of", "manipulate/utc-offset"],
     "Display": ["display/display", "display/format", "display/difference", "display/unix-timestamp-milliseconds", "display/unix-timestamp", "display/days-in-month", "display/as-javascript-date", "display/as-json", "display/as-iso-string", "display/as-string"],

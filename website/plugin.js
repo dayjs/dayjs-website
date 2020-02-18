@@ -24,7 +24,12 @@ const parse = md => {
 const render = (tokens, idx) => {
   const token = tokens[idx]
   const pluginName = token.content.plugin
-  const pluginSnakeName = pluginName.replace(/([A-Z])/g, "-$1").toLowerCase().slice(1)
+  let pluginSnakeName
+  if (['UTC'].indexOf(pluginName) === -1) {
+    pluginSnakeName = pluginName.replace(/([A-Z])/g, "-$1").toLowerCase().slice(1)
+  } else {
+    pluginSnakeName = pluginName.toLowerCase()
+  }
   return `<blockquote>
   This dependent on 
   <a href="../plugin/${pluginSnakeName}">
