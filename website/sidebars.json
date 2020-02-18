@@ -14,7 +14,16 @@
       "parse/is-valid"
     ],
     "Get + Set": ["get-set/get-set", "get-set/millisecond", "get-set/second", "get-set/minute", "get-set/hour", "get-set/date", "get-set/day", "get-set/month", "get-set/year", "get-set/get", "get-set/set"],
-    "Manipulate": ["manipulate/manipulate", "manipulate/add", "manipulate/subtract", "manipulate/start-of", "manipulate/end-of", "manipulate/utc-offset"],
+    "Manipulate": [
+      "manipulate/manipulate", 
+      "manipulate/add", 
+      "manipulate/subtract", 
+      "manipulate/start-of", 
+      "manipulate/end-of", 
+      "manipulate/local", 
+      "manipulate/utc", 
+      "manipulate/utc-offset"
+    ],
     "Display": ["display/display", "display/format", "display/difference", "display/unix-timestamp-milliseconds", "display/unix-timestamp", "display/days-in-month", "display/as-javascript-date", "display/as-json", "display/as-iso-string", "display/as-string"],
     "Query": [
       "query/query",

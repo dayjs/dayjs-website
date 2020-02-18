@@ -14,9 +14,9 @@ While in UTC mode, all display methods will display in UTC time instead of local
 dayjs.extend(utc)
 
 // default local time
-dayjs().format() //2019-03-06T17:11:55+08:00
+dayjs().format() //2019-03-06T08:00:00+08:00
 // UTC mode
-dayjs.utc().format() // 2019-03-06T09:11:55Z
+dayjs.utc().format() // 2019-03-06T00:00:00Z
 ```
 
 Additionally, while in UTC mode, all getters and setters will internally use the `Date#getUTC*` and `Date#setUTC*` methods instead of the `Date#get*` and `Date#set*` methods.
@@ -25,4 +25,4 @@ Additionally, while in UTC mode, all getters and setters will internally use the
 dayjs.utc().seconds(30).valueOf()// => new Date().setUTCSeconds(30);
 dayjs.utc().seconds()// => new Date().getUTCSeconds();
 ```
-To switch from UTC to local time, you can use #utc or #local.
+To switch from UTC to local time, you can use [dayjs#utc](../manipulate/utc) or [dayjs#local](../manipulate/local).
