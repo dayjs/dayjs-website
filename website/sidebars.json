@@ -49,6 +49,7 @@
       "display/from",
       "display/to-now",
       "display/to",
+      "display/calendar-time",
       "display/difference",
       "display/unix-timestamp-milliseconds",
       "display/unix-timestamp",
