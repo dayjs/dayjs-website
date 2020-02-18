@@ -50,8 +50,10 @@
       "display/unix-timestamp",
       "display/days-in-month",
       "display/as-javascript-date",
+      "display/as-array",
       "display/as-json",
       "display/as-iso-string",
+      "display/as-object",
       "display/as-string"
     ],
     "Query": [
