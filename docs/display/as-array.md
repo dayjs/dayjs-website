@@ -3,7 +3,7 @@ id: as-array
 title: As Array
 ---
 
-Return an array that mirrors the parameters
+Returns an array that mirrors the parameters
 
 @>ToArray
 

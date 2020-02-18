@@ -45,6 +45,10 @@
     "Display": [
       "display/display",
       "display/format",
+      "display/from-now",
+      "display/from",
+      "display/to-now",
+      "display/to",
       "display/difference",
       "display/unix-timestamp-milliseconds",
       "display/unix-timestamp",
