@@ -77,6 +77,13 @@ class Footer extends React.Component {
             `
           }}
         />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+            var versionNode = document.querySelectorAll("header>a")[0];
+            versionNode.insertAdjacentHTML('afterend', '<span class="github-star-btn"><a class="github-button" href="https://github.com/iamkun/dayjs" data-size="large" data-icon="octicon-star" data-show-count="true">Star</a></span>');
+          `}}
+        />
       </footer>
     )
   }

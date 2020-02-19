@@ -64,3 +64,20 @@
   padding: 0;
   opacity: 1;
 }
+
+.github-star-btn {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+}
+
+.github-star-btn>span{
+  display: flex;
+}
+
+@media (max-width:568px) {
+	.github-star-btn {
+    display: none;
+  }
+}
