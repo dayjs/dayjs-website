@@ -67,8 +67,6 @@ class Footer extends React.Component {
         <section className="copyright">
           {this.props.config.copyright}
         </section>
-        <script src="https://buttons.github.io/buttons.js" async></script>
-        <script src="https://unpkg.com/dayjs@1.8.20/dayjs.min.js" async></script>
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -83,6 +81,8 @@ class Footer extends React.Component {
             versionNode.insertAdjacentHTML('afterend', '<span class="github-star-btn"><a class="github-button" href="https://github.com/iamkun/dayjs" data-size="large" data-show-count="true">Star</a></span>');
           `}}
         />
+        <script src="https://buttons.github.io/buttons.js" async></script>
+        <script src="https://unpkg.com/dayjs@1.8.20/dayjs.min.js" async></script>
       </footer>
     )
   }
