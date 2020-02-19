@@ -35,7 +35,9 @@
       "get-set/year",
       "get-set/iso-weeks-in-year",
       "get-set/get",
-      "get-set/set"
+      "get-set/set",
+      "get-set/max",
+      "get-set/min"
     ],
     "Manipulate": [
       "manipulate/manipulate",
