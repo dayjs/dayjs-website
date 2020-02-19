@@ -29,6 +29,7 @@
       "get-set/day",
       "get-set/weekday",
       "get-set/day-of-year",
+      "get-set/week",
       "get-set/month",
       "get-set/quarter",
       "get-set/year",
