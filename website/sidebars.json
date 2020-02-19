@@ -27,6 +27,7 @@
       "get-set/hour",
       "get-set/date",
       "get-set/day",
+      "get-set/day-of-year",
       "get-set/month",
       "get-set/year",
       "get-set/get",
