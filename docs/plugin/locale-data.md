@@ -10,3 +10,35 @@ dayjs.extend(localeData)
 
 dayjs().localeData()
 ```
+
+Available methods: 
+
+```js
+dayjs.months()
+dayjs.monthsShort()
+dayjs.weekdays()
+dayjs.weekdaysShort()
+dayjs.weekdaysMin()
+
+globalLocaleData = dayjs.localeData()
+globalLocaleData.firstDayOfWeek()
+globalLocaleData.months()
+globalLocaleData.monthsShort()
+globalLocaleData.weekdays()
+globalLocaleData.weekdaysShort()
+globalLocaleData.weekdaysMin()
+
+globalLocaleData.months(dayjs())
+globalLocaleData.monthsShort(dayjs())
+globalLocaleData.weekdays(dayjs())
+globalLocaleData.weekdaysShort(dayjs())
+globalLocaleData.weekdaysMin(dayjs())
+
+instanceLocaleData = dayjs().localeData()
+instanceLocaleData.firstDayOfWeek()
+instanceLocaleData.months()
+instanceLocaleData.monthsShort()
+instanceLocaleData.weekdays()
+instanceLocaleData.weekdaysShort()
+instanceLocaleData.weekdaysMin()
+```
