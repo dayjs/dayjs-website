@@ -6,7 +6,7 @@ title: Date
 Create a Day.js object with a pre-existing native Javascript `Date` object.
 
 ```js
-var d = new Date(2018, 8, 18);
+var d = new Date(2018, 8, 18)
 var day = dayjs(d);
 ```
 
