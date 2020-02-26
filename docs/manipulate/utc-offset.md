@@ -15,7 +15,7 @@ Note that once you set an offset, it's fixed and won't change on its own (i.e th
 ```js
 dayjs.extend(utc)
 
-dayjs().utcOffset(120);
+dayjs().utcOffset(120)
 ```
 
 If the input is less than 16 and greater than -16, it will interpret your input as hours instead.

@@ -9,7 +9,8 @@ jobs:
     steps:
       - checkout
       - run: git fetch --all
-      - run: git pull --all
+      - run: git branch
+      - run: git status
       - run: git remote add mirror https://gitee.com/dayjs/dayjs.git
       - run: git push --all mirror -f
 notify:
