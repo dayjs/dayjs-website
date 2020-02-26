@@ -6,6 +6,3 @@ jobs:
         - gh-pages
     docker:
       - image: circleci/node:10
-notify:
-  webhooks:
-    - url: https://hook.bearychat.com/=bw9Gj/circleci/69ef21d626d508766394cd8ce705d6fe

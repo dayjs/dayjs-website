@@ -12,7 +12,7 @@ dayjs().get(unit) === dayjs()[unit]()
 Units are case insensitive, and support plural and short forms.
 
 ```js
-dayjs().get('year');
+dayjs().get('year')
 dayjs().get('month'); // start 0
 dayjs().get('date');
 dayjs().get('hour');
