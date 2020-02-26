@@ -8,13 +8,13 @@ Day.js uses overloaded getters and setters, that is to say, calling these method
 These map to the corresponding function on the native `Date` object.
 
 ```js
-dayjs().second(30).valueOf() // => new Date().setSeconds(30);
-dayjs().second() // => new Date().getSeconds();
+dayjs().second(30).valueOf() // => new Date().setSeconds(30)
+dayjs().second() // => new Date().getSeconds()
 ```
 
 If you are in [UTC mode](../parse/utc), they will map to the UTC equivalent.
 
 ```js
-dayjs.utc().seconds(30).valueOf()// => new Date().setUTCSeconds(30);
-dayjs.utc().seconds()// => new Date().getUTCSeconds();
+dayjs.utc().seconds(30).valueOf()// => new Date().setUTCSeconds(30)
+dayjs.utc().seconds()// => new Date().getUTCSeconds()
 ```
