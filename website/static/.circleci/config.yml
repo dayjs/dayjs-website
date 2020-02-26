@@ -13,4 +13,5 @@ jobs:
       - checkout
       - run: git fetch --all
       - run: git remote add mirror git@gitee.com:dayjs/dayjs.git
+      - run: ssh-keyscan gitee.com >> ~/.ssh/known_hosts
       - run: git push --all mirror -f
