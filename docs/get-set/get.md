@@ -15,7 +15,7 @@ Units are case insensitive, and support plural and short forms.
 dayjs().get('year')
 dayjs().get('month') // start 0
 dayjs().get('date')
-dayjs().get('hour');
+dayjs().get('hour')
 dayjs().get('minute');
 dayjs().get('second');
 dayjs().get('millisecond');

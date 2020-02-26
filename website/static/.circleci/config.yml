@@ -11,9 +11,9 @@ jobs:
           fingerprints:
             - "99:c9:08:9d:f5:d2:f3:1d:4f:3e:15:94:73:c5:bc:57"
       - checkout
+      - run: git fetch --all
       - run: git remote add mirror git@gitee.com:dayjs/dayjs.git
       - run: ssh-keyscan gitee.com >> ~/.ssh/known_hosts
       - run: git push mirror -f
-      - run: git checkout master
-      - run: git pull -f
-      - run: git push mirror -f
+      - run: git checkout -b master-1 origin/master
+      - run: git push mirror master-1:master -f
