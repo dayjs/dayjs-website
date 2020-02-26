@@ -21,6 +21,6 @@ dayjs().utcOffset(120)
 If the input is less than 16 and greater than -16, it will interpret your input as hours instead.
 ```
 // these are equivalent
-dayjs().utcOffset(8);  // set hours offset
-dayjs().utcOffset(480);  // set minutes offset (8 * 60)
+dayjs().utcOffset(8)  // set hours offset
+dayjs().utcOffset(480)  // set minutes offset (8 * 60)
 ```
