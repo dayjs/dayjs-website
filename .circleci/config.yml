@@ -2,9 +2,9 @@ version: 2
 jobs:
   build:
     branches:
-        only:
-          - master
-          - dev
+      only:
+        - master
+        - dev
     docker:
       - image: circleci/node:10
     steps:
