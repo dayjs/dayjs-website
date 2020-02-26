@@ -11,7 +11,7 @@ var b = a.clone()
 // a and b are two separate Day.js object
 ```
 
-Calling `dayjs()` on a Day.js obejct will clone it as well.
+Calling `dayjs()` on a Day.js object will clone it as well.
 ```js
 var a = dayjs()
 var b = dayjs(a)
