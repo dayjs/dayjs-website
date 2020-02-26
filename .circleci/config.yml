@@ -3,8 +3,7 @@ jobs:
   build:
     branches:
       only:
-        - master
-        - dev
+        - gh-pages
     docker:
       - image: circleci/node:10
     steps:
