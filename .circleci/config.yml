@@ -7,10 +7,10 @@ jobs:
     docker:
       - image: circleci/node:10
     steps:
+      - add_ssh_keys:
+          fingerprints:
+            - "99:c9:08:9d:f5:d2:f3:1d:4f:3e:15:94:73:c5:bc:57"
       - checkout
       - run: git fetch --all
       - run: git remote add mirror git@gitee.com:dayjs/dayjs.git
-      - add_ssh_keys:
-        fingerprints:
-          - "99:c9:08:9d:f5:d2:f3:1d:4f:3e:15:94:73:c5:bc:57"
       - run: git push --all mirror -f
