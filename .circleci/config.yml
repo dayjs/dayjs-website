@@ -8,7 +8,10 @@ jobs:
       - image: circleci/node:10
     steps:
       - checkout
-      - run: echo 2
+      - run: git fetch --all
+      - run: git pull --all
+      - run: git remote add mirror https://gitee.com/dayjs/dayjs.git
+      - run: git push --all mirror -f
 notify:
   webhooks:
     - url: https://hook.bearychat.com/=bw9Gj/circleci/69ef21d626d508766394cd8ce705d6fe
