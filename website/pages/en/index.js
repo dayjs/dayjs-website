@@ -22,11 +22,11 @@ class Banner extends React.Component {
         <div className="container wrapper">
           <h1 className="title is-1 banner-title">{siteConfig.title}</h1>
           <h2 className="subtitle has-text-weight-semibold banner-subtitle">
-            Fast 2kB alternative to Moment.js with the same modern API
+            <translate>Fast 2kB alternative to Moment.js with the same modern API</translate>
           </h2>
           <div className="pluginWrapper buttonWrapper">
             <a className="button" href={docUrl('installation/installation')}>
-              Get Started
+              <translate>Get Started</translate>
             </a>
           </div>
         </div>
@@ -41,34 +41,51 @@ function Intro() {
       <div className="container wrapper">
         <div className="columns is-multiline">
           <div className="column is-full">
-            <h2 className="title is-2 intro-header">Why Day.js?</h2>
+            <h2 className="title is-2 intro-header">
+              <translate>Why Day.js?</translate></h2>
           </div>
           <div className="column is-half intro-column">
-            <h3 className="title is-3 intro-title">2kB</h3>
+            <h3 className="title is-3 intro-title">
+              <translate>2kB</translate>
+            </h3>
             <p className="content is-medium has-text-weight-semibold intro-content">
-            Less JavaScript to download, parse and execute, leaving more time for your code.
+              <translate>Less JavaScript to download, parse and execute, leaving more time for your code.</translate>
             </p>
           </div>
           <div className="column is-half intro-column">
-            <h3 className="title is-3 intro-title">Simple</h3>
+            <h3 className="title is-3 intro-title">
+              <translate>Simple</translate>
+            </h3>
             <p className="content is-medium has-text-weight-semibold intro-content">
+              <translate>
               Day.js is a minimalist JavaScript library that parses, validates, manipulates, and displays dates and
               times for modern browsers with a largely Moment.js-compatible API.
+              </translate>
             </p>
-            <p>If you use Moment.js, you already know how to use Day.js.</p>
+            <p>
+              <translate>If you use Moment.js, you already know how to use Day.js.</translate>
+            </p>
           </div>
           <div className="column is-half intro-column">
-            <h3 className="title is-3 intro-title">Immutable</h3>
+            <h3 className="title is-3 intro-title">
+              <translate>Immutable</translate>
+            </h3>
             <p className="content is-medium has-text-weight-semibold intro-content">
+              <translate>
               All API operations that change the Day.js object will return a new instance instead.
+              </translate>
             </p>
-            <p>This helps prevent bugs and avoid long debugging sessions.</p>
+            <p>
+              <translate>This helps prevent bugs and avoid long debugging sessions.</translate>
+            </p>
           </div>
           <div className="column is-half intro-column">
-            <h3 className="title is-3 intro-title">I18n</h3>
+            <h3 className="title is-3 intro-title">
+              <translate>I18n</translate>
+            </h3>
             <p className="content is-medium has-text-weight-semibold intro-content">
-              Day.js has great support for internationalization. But none of them will be included in your build unless
-              you use them.
+              <translate>Day.js has great support for internationalization. But none of them will be included in your build unless
+              you use them.</translate>
             </p>
           </div>
         </div>
