@@ -90,6 +90,14 @@ function Intro() {
           </div>
         </div>
       </div>
+      <div class="hide">
+        <translate desc="plugin">
+          This dependent on
+        </translate>
+        <translate desc="plugin">
+          plugin to work
+        </translate>
+      </div>
     </div>
   )
 }

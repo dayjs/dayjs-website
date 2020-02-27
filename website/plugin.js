@@ -1,3 +1,5 @@
+const translate = require(process.cwd() + '/node_modules/docusaurus/lib/server/translate.js').translate;
+
 const parse = md => {
   if (md.src.charCodeAt(md.pos) !== 64) { // @
     return false
@@ -31,11 +33,11 @@ const render = (tokens, idx) => {
     pluginSnakeName = pluginName.toLowerCase()
   }
   return `<blockquote>
-  This dependent on 
+  ${translate("This dependent on|plugin")} 
   <a href="../plugin/${pluginSnakeName}">
     <code>${token.content.plugin}</code>
   </a>
-  plugin to work
+  ${translate("plugin to work|plugin")} 
   </blockquote>`
 }
 
