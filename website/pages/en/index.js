@@ -90,7 +90,7 @@ function Intro() {
           </div>
         </div>
       </div>
-      <div class="hide">
+      <div className="hide">
         <translate desc="plugin">
           This dependent on
         </translate>
