@@ -3,6 +3,7 @@ id: iso-weeks-in-year
 title: Weeks In Year (ISO)
 ---
 Gets the number of weeks in the current year, according to [ISO weeks](https://en.wikipedia.org/wiki/ISO_week_date).
+
 @>IsoWeeksInYear
 
 ```js
