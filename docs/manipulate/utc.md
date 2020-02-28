@@ -4,7 +4,9 @@ title: UTC
 ---
 
 This returns a Day.js object with a flag to use UTC time.
+
 @>UTC
+
 ```js
 dayjs.extend(utc)
 

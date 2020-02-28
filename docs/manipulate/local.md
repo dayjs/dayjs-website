@@ -4,7 +4,9 @@ title: Local
 ---
 
 This returns a Day.js object with a flag to use local time.
+
 @>UTC
+
 ```js
 dayjs.extend(utc)
 
