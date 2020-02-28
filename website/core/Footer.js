@@ -56,7 +56,7 @@ class Footer extends React.Component {
               Gitter
             </a>
             <a
-              href="https://dayjs.gitee.io/"
+              href="https://dayjs.gitee.io/zh-CN"
               target="_blank"
               rel="noreferrer noopener"
             >
