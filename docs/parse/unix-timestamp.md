@@ -3,7 +3,7 @@ id: unix-timestamp
 title: Unix Timestamp (seconds)
 ---
 
-Create a Day.js object from a Unix timestamp (seconds since the Unix Epoch).
+Create a Day.js object from a Unix timestamp (10 digits, seconds since the Unix Epoch).
 
 ```js
 dayjs.unix(1318781876)
