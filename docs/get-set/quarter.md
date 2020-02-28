@@ -2,7 +2,7 @@
 id: quarter
 title: Quarter
 ---
-Gets or sets the quarter (1 to 4).
+Gets or sets the quarter.
 
 @>QuarterOfYear
 
