@@ -84,3 +84,7 @@
 .hide {
   display: none;
 }
+
+.tocToggler {
+  display: none;
+}
