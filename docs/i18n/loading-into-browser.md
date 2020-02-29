@@ -21,5 +21,3 @@ Get the locale object for further use.
 var customLocale = window.dayjs_locale_zh_cn // zh-cn -> zh_cn
 </script>
 ```
-
-Day.js is available on 
