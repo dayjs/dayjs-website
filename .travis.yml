@@ -12,5 +12,11 @@ script:
   - git config --global user.email "${GH_EMAIL}"
   - echo "machine github.com login ${GH_NAME} password ${GH_TOKEN}" > ~/.netrc
   - if [ "$TRAVIS_BRANCH" == "master" ] && [ "${TRAVIS_PULL_REQUEST}" == "false" ]; then
-      cd website && yarn install && GIT_USER="${GH_NAME}" yarn run publish-gh-pages;
+      sudo apt-get install default-jre;
+      wget https://artifacts.crowdin.com/repo/deb/crowdin.deb -O crowdin.deb;
+      sudo dpkg -i crowdin.deb;
+      cd website && yarn install && yarn run write-translations;
+      yarn run crowdin-upload;
+      yarn run crowdin-download;
+      GIT_USER="${GH_NAME}" yarn run publish-gh-pages;
     fi
