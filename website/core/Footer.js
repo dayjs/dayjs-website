@@ -90,6 +90,15 @@ class Footer extends React.Component {
         />
         <script src="https://buttons.github.io/buttons.js" async></script>
         <script src="https://unpkg.com/dayjs@1.8.20/dayjs.min.js" async></script>
+        <script>
+          var _hmt = _hmt || [];
+          (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?64b00098619046db5efa89be31dc6618";
+            var s = document.getElementsByTagName("script")[0]; 
+            s.parentNode.insertBefore(hm, s);
+          })();
+        </script>
       </footer>
     )
   }
