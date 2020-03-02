@@ -21,7 +21,21 @@ date1.diff('2018-06-05', 'month') // 7
 
 Units are case insensitive, and support plural and short forms.
 
-[List of all available units](../get-set/get#list-of-all-available-units)
+#### List of all available units
+
+| Unit          | Shorthand | Description                              |
+| ------------- | --------- | ---------------------------------------- |
+| `date`        | `D`       | Date of Month                            |
+| `day`         | `d`       | Day of Week (Sunday as 0, Saturday as 6) |
+| `week`        | `w`       | Week of Year                             |
+| `quarter`     | `Q`       | Quarter                                  |
+| `month`       | `M`       | Month (January as 0, December as 11)     |
+| `year`        | `y`       | Year                                     |
+| `hour`        | `h`       | Hour                                     |
+| `minute`      | `m`       | Minute                                   |
+| `second`      | `s`       | Second                                   |
+| `millisecond` | `ms`      | Millisecond                              |
+
 
 By default, `dayjs#diff` will truncate the result to zero decimal places, returning an integer. If you want a floating point number, pass true as the third argument. 
 

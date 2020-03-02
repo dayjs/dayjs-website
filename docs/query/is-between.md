@@ -20,7 +20,7 @@ dayjs().isBetween('2010-10-19', '2010-10-25', 'year')
 
 Units are case insensitive, and support plural and short forms.
 
-[List of all available units](../get-set/get#list-of-all-available-units)
+[List of all available units](../manipulate/start-of#list-of-all-available-units)
 
 The fourth parameter is about inclusivity. A `[` indicates inclusion of a value. A `(` indicates exclusion. 
 

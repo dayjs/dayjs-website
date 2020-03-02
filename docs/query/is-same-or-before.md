@@ -19,4 +19,4 @@ dayjs().isSameOrBefore('2011-01-01', 'year')
 
 Units are case insensitive, and support plural and short forms.
 
-[List of all available units](../get-set/get#list-of-all-available-units)
+[List of all available units](../manipulate/start-of#list-of-all-available-units)
