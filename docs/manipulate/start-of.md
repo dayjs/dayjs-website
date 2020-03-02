@@ -16,6 +16,7 @@ Units are case insensitive, and support plural and short forms.
 | Unit          | Shorthand | Description                               |
 | ------------- | --------- | ----------------------------------------- |
 | `year`        | `y`       | January 1st, 12:00 am this year           |
+| `quarter`     | `Q`       | Quarter @>>QuarterOfYear                 |
 | `month`       | `M`       | the first day of this month, 12:00 am     |
 | `week`        | `w`       | the first day of this week, 12:00 am      |
 | `date`        | `D`       | 12:00 am today                            |

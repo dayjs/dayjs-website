@@ -18,6 +18,7 @@ Units are case insensitive, and support plural and short forms.
 | `day`         | `d`       | Day of Week (Sunday as 0, Saturday as 6) |
 | `week`        | `w`       | Week of Year                             |
 | `month`       | `M`       | Month (January as 0, December as 11)     |
+| `quarter`     | `Q`       | Quarter @>>QuarterOfYear                 |
 | `year`        | `y`       | Year                                     |
 | `hour`        | `h`       | Hour                                     |
 | `minute`      | `m`       | Minute                                   |
