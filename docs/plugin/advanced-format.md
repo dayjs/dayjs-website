@@ -21,7 +21,7 @@ List of added formats:
 | `kk`   | 01-24                 | The hour, 2-digits, beginning at 1                    |
 | `X`    | 1360013296            | Unix Timestamp in second                              |
 | `x`    | 1360013296123         | Unix Timestamp in millisecond                         |
-| `w`    | 1 2 ... 52 53         | Week of year (depend: weekOfYear plugin)              |
-| `ww`   | 01 02 ... 52 53       | Week of year, 2-digits (depend: weekOfYear plugin)    |
-| `wo`   | 1st 2nd ... 52nd 53rd | Week of year with ordinal (depend: weekOfYear plugin) |
-| `gggg` | 2017                  | Week Year (depend: weekYear plugin)                   |
+| `w`    | 1 2 ... 52 53         | Week of year @>>WeekOfYear                 |
+| `ww`   | 01 02 ... 52 53       | Week of year, 2-digits @>>WeekOfYear       |
+| `wo`   | 1st 2nd ... 52nd 53rd | Week of year with ordinal @>>WeekOfYear    |
+| `gggg` | 2017                  | Week Year @>>WeekYear                      |

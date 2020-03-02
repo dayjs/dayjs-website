@@ -97,6 +97,12 @@ function Intro() {
         <translate desc="plugin">
           plugin to work
         </translate>
+        <translate desc="plugin">
+          dependent
+        </translate>
+        <translate desc="plugin">
+          plugin
+        </translate>
       </div>
     </div>
   )

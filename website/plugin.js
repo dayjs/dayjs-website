@@ -5,7 +5,7 @@ const parse = md => {
     return false
   }
 
-  const match = /@>([\S]+)/.exec(md.src)
+  const match = /@>>?([\S]+)/.exec(md.src)
   if (!match) return false
   
   md.pos += match[0].length
@@ -14,6 +14,7 @@ const parse = md => {
     type: 'pluginNotice',
     level: md.level,
     content: {
+      inline: md.src.indexOf('>>') > -1,
       plugin: match[1],
       match: match,
     },
@@ -31,6 +32,16 @@ const render = (tokens, idx) => {
     pluginSnakeName = pluginName.replace(/([A-Z])/g, "-$1").toLowerCase().slice(1)
   } else {
     pluginSnakeName = pluginName.toLowerCase()
+  }
+  const isInline = token.content.inline
+  if (isInline) {
+    return `(
+    ${translate("dependent|plugin")}
+    <a href="../plugin/${pluginSnakeName}">
+      <code>${token.content.plugin}</code>
+    </a>
+    ${translate("plugin|plugin")}
+    )`
   }
   return `<blockquote>
   ${translate("This dependent on|plugin")} 
