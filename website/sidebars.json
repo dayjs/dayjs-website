@@ -33,6 +33,7 @@
       "get-set/month",
       "get-set/quarter",
       "get-set/year",
+      "get-set/week-year",
       "get-set/iso-weeks-in-year",
       "get-set/get",
       "get-set/set",
@@ -112,7 +113,8 @@
       "plugin/update-locale",
       "plugin/utc",
       "plugin/week-day",
-      "plugin/week-of-year"
+      "plugin/week-of-year",
+      "plugin/week-year"
     ]
   },
   "docs-other": {
