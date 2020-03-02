@@ -46,6 +46,7 @@ dayjs('2019-01-25').format('DD/MM/YYYY') // '25/01/2019'
 | `ZZ`   | +0500            | The offset from UTC, 2-digits         |
 | `A`    | AM PM            |                                       |
 | `a`    | am pm            |                                       |
+| ...    |  ...             | Other formats @>>AdvancedFormat |
 
 - More available formats `Q Do k kk X x ...` in plugin [`AdvancedFormat`](../plugin/advanced-format)
 
