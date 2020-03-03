@@ -21,3 +21,12 @@ Get the locale object for further use.
 var customLocale = window.dayjs_locale_zh_cn // zh-cn -> zh_cn
 </script>
 ```
+
+Day.js is available on [CDN](../installation/browser#cdn-resource).
+
+```html
+<!-- CDN example (unpkg) -->
+<script src="https://unpkg.com/dayjs@1.8.21/dayjs.min.js"></script>
+<script src="https://unpkg.com/dayjs@1.8.21/locale/zh-cn.js"></script>
+<script>dayjs.locale('zh-cn')</script>
+```
