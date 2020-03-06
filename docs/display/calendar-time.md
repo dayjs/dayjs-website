@@ -23,6 +23,8 @@ dayjs().calendar(dayjs('2008-01-01'))
 |The next week (nextWeek)	|Sunday at 2:30 AM|
 |Everything else (sameElse)	|7/10/2011|
 
+These strings are localized, and [can be customized](../customization/calendar).
+
 You can also pass specifying calendar output formats as the second parameter.
 
 To escape characters, wrap them in square brackets (e.g. [Today]).

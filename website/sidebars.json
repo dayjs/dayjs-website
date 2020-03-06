@@ -119,7 +119,14 @@
       "plugin/week-year"
     ],
     "Customize": [
-      "customization/customization"
+      "customization/customization",
+      "customization/month-names",
+      "customization/month-abbreviations",
+      "customization/weekday-names",
+      "customization/weekday-abbreviations",
+      "customization/weekday-min",
+      "customization/relative-time",
+      "customization/calendar"
     ]
   },
   "docs-other": {

@@ -24,7 +24,7 @@ dayjs().fromNow(true) // 2 years
 
 #### List of breakdown range
 
-The base strings are customized by the current locale. Time is rounded to the nearest second.
+The base strings are localized by the current locale and [can be customized](../customization/relative-time). Time is rounded to the nearest second.
 
 | Range                    | Key | Sample Output                    |
 | ------------------------ | --- | -------------------------------- |
