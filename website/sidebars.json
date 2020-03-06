@@ -117,6 +117,9 @@
       "plugin/week-day",
       "plugin/week-of-year",
       "plugin/week-year"
+    ],
+    "Customize": [
+      "customization/customization"
     ]
   },
   "docs-other": {
