@@ -21,4 +21,4 @@ script:
       GIT_USER="${GH_NAME}" yarn run publish-gh-pages;
     fi
 notifications:
-  webhooks: https://hook.bearychat.com/=bw9Gj/circleci/69ef21d626d508766394cd8ce705d6fe
+  webhooks: https://hook.bearychat.com/=bw9Gj/travis/84ec798c29d49313e9bed10665d4f3b2
