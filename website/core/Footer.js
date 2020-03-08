@@ -63,7 +63,7 @@ class Footer extends React.Component {
               🇨🇳 China Mirror 中国镜像站点
             </a>
             <a
-              href="./sitemap.xml"
+              href="/sitemap.xml"
               target="_blank"
             >
               Sitemap
