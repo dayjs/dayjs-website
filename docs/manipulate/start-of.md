@@ -19,6 +19,7 @@ Units are case insensitive, and support plural and short forms.
 | `quarter`     | `Q`       | beginning of the current quarter, 1st day of months, 12:00 am @>>QuarterOfYear|
 | `month`       | `M`       | the first day of this month, 12:00 am     |
 | `week`        | `w`       | the first day of this week, 12:00 am      |
+| `isoWeek`     || the first day of this week according to ISO 8601, 12:00 am @>>IsoWeek|
 | `date`        | `D`       | 12:00 am today                            |
 | `day`         | `d`       | 12:00 am today                            |
 | `hour`        | `h`       | now, but with 0 mins, 0 secs, and 0 ms    |
