@@ -3,7 +3,7 @@ id: calendar-time
 title: Calendar Time
 ---
 
-Calendar time displays time relative to a given referenceTime (defaults to now), but does so slightly differently than `dayjs#fromNow`.
+Calendar time displays time relative to a given reference time (defaults to now) but does so slightly differently than `dayjs#fromNow`.
 
 @>Calendar
 
