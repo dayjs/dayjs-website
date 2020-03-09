@@ -3,6 +3,8 @@ id: browser
 title: Browser
 ---
 
+Day.js also works great in modern browsers.
+
 ```html
 <script src="path/to/dayjs/dayjs.min.js"></script>
 <script>
