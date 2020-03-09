@@ -37,7 +37,7 @@ const siteConfig = {
     { languages: true },
   ],
 
-  translationRecruitingLink: 'https://crowdin.com/project/dayjs',
+  translationRecruitingLink: 'https://github.com/dayjs/dayjs-website/issues/5',
 
   // If you have users set above, you add it here:
   // users,
