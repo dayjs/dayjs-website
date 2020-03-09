@@ -17,7 +17,7 @@ jobs:
       - run: git push mirror -f
       - run: git checkout -b master-1 origin/master
       - run: git push mirror master-1:master -f
-      - run: curl $(TriggerUrl)
+      - run: curl ${TriggerUrl}
 notify:
   webhooks:
     - url: https://hook.bearychat.com/=bw9Gj/circleci/69ef21d626d508766394cd8ce705d6fe
