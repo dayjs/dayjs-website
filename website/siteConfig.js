@@ -33,7 +33,7 @@ const siteConfig = {
     { search: true },
     { doc: 'installation/installation', label: 'Docs' },
     // { blog: true, label: 'Blog' },
-    { href: 'https://github.com/dayjs', label: 'GitHub' },
+    { href: 'https://github.com/iamkun/dayjs/', label: 'GitHub' },
     { languages: true },
   ],
 
