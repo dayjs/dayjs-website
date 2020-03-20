@@ -2,7 +2,7 @@
 id: add
 title: Add
 ---
-Mutates the current Day.js object by adding time and returns a new instance with a specified amount of time added.
+Returns a cloned Day.js object with a specified amount of time added.
 
 ```js
 dayjs().add(7, 'day')

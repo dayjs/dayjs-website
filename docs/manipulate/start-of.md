@@ -3,7 +3,7 @@ id: start-of
 title: Start of Time
 ---
 
-Mutates the current Day.js object by setting it to the start of a unit of time and returns the corresponding new instance.
+Returns a cloned Day.js object and set it to the start of a unit of time.
 
 ```js
 dayjs().startOf('year')

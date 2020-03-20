@@ -2,8 +2,7 @@
 id: subtract
 title: Subtract
 ---
-
-Mutates the current Day.js object by subtracting time and returns a new instance with a specified amount of time subtracted.
+Returns a cloned Day.js object with a specified amount of time subtracted.
 
 ```js
 dayjs().subtract(7, 'year')
