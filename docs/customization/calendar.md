@@ -21,3 +21,11 @@ dayjs.updateLocale('en', {
   }
 })
 ```
+
+Each of the `Locale#calendar` keys can also be a callback function with the scope of the current Day.js object and first argument a Day.js object that depicts now. It should return a formatting string.
+
+```js
+function callback (now) {
+    return '[hoy a la' + ((this.hour() !== 1) ? 's' : '') + ']' + now.format();
+}
+```
