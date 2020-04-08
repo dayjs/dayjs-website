@@ -33,7 +33,7 @@ export default (option, dayjsClass, dayjsFactory) => {
   const oldFormat = dayjsClass.prototype.format
   dayjsClass.prototype.format = function(arguments) {
     // original format result
-    const result = oldFormat(arguments)
+    const result = oldFormat.bind(this)(arguments)
     // return modified result
   }
 }
