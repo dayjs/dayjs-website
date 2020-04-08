@@ -95,7 +95,7 @@
   <span class="hljs-keyword">const</span> oldFormat = dayjsClass.prototype.format
   dayjsClass.prototype.format = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">arguments</span>) </span>{
     <span class="hljs-comment">// original format result</span>
-    <span class="hljs-keyword">const</span> result = oldFormat(<span class="hljs-built_in">arguments</span>)
+    <span class="hljs-keyword">const</span> result = oldFormat.bind(<span class="hljs-keyword">this</span>)(<span class="hljs-built_in">arguments</span>)
     <span class="hljs-comment">// return modified result</span>
   }
 }
