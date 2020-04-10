@@ -103,6 +103,7 @@
       "plugin/calendar",
       "plugin/custom-parse-format",
       "plugin/day-of-year",
+      "plugin/duration",
       "plugin/is-between",
       "plugin/is-leap-year",
       "plugin/is-same-or-after",
@@ -131,6 +132,29 @@
       "customization/weekday-min",
       "customization/relative-time",
       "customization/calendar"
+    ],
+    "Durations": [
+      "durations/durations",
+      "durations/creating",
+      "durations/clone",
+      "durations/humanize",
+      "durations/milliseconds",
+      "durations/seconds",
+      "durations/minutes",
+      "durations/hours",
+      "durations/days",
+      "durations/weeks",
+      "durations/months",
+      "durations/years",
+      "durations/add",
+      "durations/subtract",
+      "durations/diffing",
+      "durations/as",
+      "durations/get",
+      "durations/as-json",
+      "durations/is-a-duration",
+      "durations/as-iso-string",
+      "durations/locale"
     ]
   },
   "docs-other": {
