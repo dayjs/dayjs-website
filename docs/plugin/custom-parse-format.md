@@ -13,6 +13,8 @@ dayjs('05/02/69 1:02:03 PM -05:00', 'MM/DD/YY H:mm:ss A Z')
 
 dayjs('2018 Enero 15', 'YYYY MMMM DD', 'es')
 // Returns an instance containing '2018-01-15T00:00:00.000Z'
+
+dayjs('1970-00-00', 'YYYY-MM-DD', true) // strict parsing
 ```
 
 [List of all available parsing tokens](../parse/string-format#list-of-all-available-parsing-tokens)
