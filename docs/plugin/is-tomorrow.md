@@ -8,7 +8,7 @@ IsTomorrow adds `.isTomorrow()` API to indicates whether the Day.js object is to
 ```js
 var isTomorrow = require('dayjs/plugin/isTomorrow')
 
-dayjs.isTomorrow(isTomorrow)
+dayjs.extend(isTomorrow)
 
 dayjs().add(1, 'day').isTomorrow() // true
 ```
