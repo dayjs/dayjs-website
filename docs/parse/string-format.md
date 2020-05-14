@@ -25,6 +25,11 @@ dayjs('1970-00-00', 'YYYY-MM-DD', true).isValid() // false
 dayjs('1970-00-00', 'YYYY-MM-DD', 'es', true).isValid() // false
 ```
 
+If you don't know the exact format of an input string, but know it could be one of many, you can use an array of formats.
+```js
+dayjs("12-25-2001", ["YYYY", "YYYY-MM-DD"], 'es', true);
+```
+
 ### List of all available parsing tokens
 
 | Input  | Example          | Description                       |
