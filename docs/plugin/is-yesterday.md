@@ -8,7 +8,7 @@ IsYesterday adds `.isYesterday()` API to indicates whether the Day.js object is 
 ```js
 var isYesterday = require('dayjs/plugin/isYesterday')
 
-dayjs.isYesterday(isYesterday)
+dayjs.extend(isYesterday)
 
 dayjs().add(-1, 'day').isYesterday() // true
 ```
