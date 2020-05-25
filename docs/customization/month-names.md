@@ -25,7 +25,7 @@ If you need more processing to calculate the name of the month, (for example, if
 ```js
 dayjs.updateLocale("en", {
   months: function (dayjsInstance, format) {
-    // dayjsInstance is the moment currently being formatted
+    // dayjsInstance is the Day.js object currently being formatted
     // format is the formatting string
     if (/^MMMM/.test(format)) {
       // if the format starts with 'MMMM'
