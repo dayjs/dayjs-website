@@ -17,3 +17,5 @@ dayjs.updateLocale('en', {
   ]
 })
 ```
+
+`Locale#monthsShort` can be a callback function the same as [`Locale#months`](./month-names#additional-token-processing).
