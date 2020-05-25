@@ -95,7 +95,7 @@ dayjs.updateLocale(<span class="hljs-string">'en'</span>, {
 <p>If you need more processing to calculate the name of the month, (for example, if there is different grammar for different formats), <code>Locale#months</code> can be a function with the following signature. It should always return a month name.</p>
 <pre><code class="hljs css language-js">dayjs.updateLocale(<span class="hljs-string">"en"</span>, {
   <span class="hljs-attr">months</span>: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">dayjsInstance, format</span>) </span>{
-    <span class="hljs-comment">// dayjsInstance is the moment currently being formatted</span>
+    <span class="hljs-comment">// dayjsInstance is the Day.js object currently being formatted</span>
     <span class="hljs-comment">// format is the formatting string</span>
     <span class="hljs-keyword">if</span> (<span class="hljs-regexp">/^MMMM/</span>.test(format)) {
       <span class="hljs-comment">// if the format starts with 'MMMM'</span>
