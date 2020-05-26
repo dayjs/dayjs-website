@@ -116,6 +116,7 @@
       "plugin/locale-data",
       "plugin/localized-format",
       "plugin/min-max",
+      "plugin/object-support",
       "plugin/quarter-of-year",
       "plugin/relative-time",
       "plugin/to-array",
