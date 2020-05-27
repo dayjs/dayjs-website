@@ -14,7 +14,6 @@ Units are case insensitive, and support plural and short forms.
 
 | Unit          | Shorthand | Description                              |
 | ------------- | --------- | ---------------------------------------- |
-| `date`        | `D`       | Date of Month                            |
 | `day`         | `d`       | Day of Week (Sunday as 0, Saturday as 6) |
 | `week`        | `w`       | Week of Year                             |
 | `month`       | `M`       | Month (January as 0, December as 11)     |
