@@ -4,7 +4,7 @@ title: Week Year
 ---
 Gets the week-year according to the locale.
 
-@>weekYear
+@>WeekYear
 
 ```javascript
 dayjs.extend(weekYear)
