@@ -8,6 +8,7 @@ Gets the number of weeks in the current year, according to [ISO weeks](https://e
 
 ```js
 dayjs.extend(isoWeeksInYear)
+dayjs.extend(isLeapYear)
 
 dayjs('2004-01-01').isoWeeksInYear() // 53
 dayjs('2005-01-01').isoWeeksInYear() // 52
