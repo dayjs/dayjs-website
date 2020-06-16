@@ -111,8 +111,8 @@ dayjs(<span class="hljs-string">'2019-01-25'</span>).format(<span class="hljs-st
 <tr><td><code>s</code></td><td>0-59</td><td>秒</td></tr>
 <tr><td><code>ss</code></td><td>00-59</td><td>秒 两位数</td></tr>
 <tr><td><code>SSS</code></td><td>000-999</td><td>毫秒 三位数</td></tr>
-<tr><td><code>Z</code></td><td>+05:00</td><td>The offset from UTC, ±HH:mm</td></tr>
-<tr><td><code>ZZ</code></td><td>+0500</td><td>The offset from UTC, ±HHmm</td></tr>
+<tr><td><code>Z</code></td><td>+05:00</td><td>UTC 的偏移量，±HH:mm</td></tr>
+<tr><td><code>ZZ</code></td><td>+0500</td><td>UTC 的偏移量，±HHmm</td></tr>
 <tr><td><code>A</code></td><td>AM PM</td><td></td></tr>
 <tr><td><code>a</code></td><td>am pm</td><td></td></tr>
 <tr><td>...</td><td>...</td><td>其他格式 (
@@ -170,6 +170,24 @@ dayjs().format(<span class="hljs-string">'L LT'</span>)
               var s = document.getElementsByTagName("script")[0]; 
               s.parentNode.insertBefore(hm, s);
             })();
+          </script><script>
+            if (!window.location.href.includes('zh-CN')) {
+              var eElement = document.querySelector('.fixedHeaderContainer')
+              var div = document.createElement("div");
+              div.style.color = "white";
+              div.style.textAlign = "center";
+              div.innerHTML = "Black Lives Matter.";
+              var aLink = document.createElement("a");
+              var linkText = document.createTextNode("Support the Equal Justice Initiative.");
+              aLink.appendChild(linkText);
+              aLink.href = "https://support.eji.org/give/153413/#!/donation/checkout";
+              aLink.target = "_blank";
+              aLink.style.display = 'inline-block'
+              aLink.style.color = 'rgba(251, 96, 82, .6)'
+              aLink.style.marginLeft = '5px'
+              div.appendChild(aLink);
+              eElement.insertBefore(div, eElement.firstChild);
+            }
           </script></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
                 document.addEventListener('keyup', function(e) {
                   if (e.target !== document.body) {
