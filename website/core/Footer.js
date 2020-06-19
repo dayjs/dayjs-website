@@ -89,7 +89,14 @@ class Footer extends React.Component {
           `}}
         />
         <script src="https://buttons.github.io/buttons.js" async></script>
-        <script src="https://unpkg.com/dayjs@1.8.20/dayjs.min.js" async></script>
+        <script src="https://unpkg.com/dayjs@1.8.28/dayjs.min.js" async></script>
+        <script src="https://unpkg.com/dayjs@1.8.28/plugin/customParseFormat.js" async></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+            dayjs.extend(window.dayjs_plugin_customParseFormat)
+          `}}
+        />
         <script
           dangerouslySetInnerHTML={{
             __html: `
