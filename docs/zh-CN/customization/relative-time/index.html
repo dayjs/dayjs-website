@@ -126,10 +126,9 @@ dayjs.updateLocale(<span class="hljs-string">'en'</span>, {
 <span class="hljs-title">dayjs</span>.<span class="hljs-title">extend</span>(<span class="hljs-params">relativeTime, config</span>)
 </span></code></pre>
 <p><code>thresholds</code> 是一个 <code>Array</code> 的 <code>Object</code> 定义了每个一分钟、一小时等等的单位。 例如，默认情况下，超过45秒会被视为一分钟，超过22小时会被视为一天，依此类推。 要改变这个，可以传入一个新的 <code>thresholds</code>。</p>
-<pre><code class="hljs css language-js"><span class="hljs-comment">// 更严格的阈值配置</span>
+<pre><code class="hljs css language-js"><span class="hljs-comment">// strict thresholds</span>
 <span class="hljs-keyword">var</span> thresholds = [
   { <span class="hljs-attr">l</span>: <span class="hljs-string">'s'</span>, <span class="hljs-attr">r</span>: <span class="hljs-number">1</span> },
-  { <span class="hljs-attr">l</span>: <span class="hljs-string">'ss'</span>, <span class="hljs-attr">r</span>: <span class="hljs-number">59</span>, <span class="hljs-attr">d</span>: <span class="hljs-string">'second'</span> },
   { <span class="hljs-attr">l</span>: <span class="hljs-string">'m'</span>, <span class="hljs-attr">r</span>: <span class="hljs-number">1</span> },
   { <span class="hljs-attr">l</span>: <span class="hljs-string">'mm'</span>, <span class="hljs-attr">r</span>: <span class="hljs-number">59</span>, <span class="hljs-attr">d</span>: <span class="hljs-string">'minute'</span> },
   { <span class="hljs-attr">l</span>: <span class="hljs-string">'h'</span>, <span class="hljs-attr">r</span>: <span class="hljs-number">1</span> },
@@ -142,8 +141,20 @@ dayjs.updateLocale(<span class="hljs-string">'en'</span>, {
   { <span class="hljs-attr">l</span>: <span class="hljs-string">'yy'</span>, <span class="hljs-attr">d</span>: <span class="hljs-string">'year'</span> }
 ]
 </code></pre>
+<p>也可以添加自定义键值并更新相应的语言设置。</p>
+<pre><code class="hljs css language-js"><span class="hljs-keyword">var</span> thresholds = [
+  ...,
+  { <span class="hljs-attr">l</span>: <span class="hljs-string">'ss'</span>, <span class="hljs-attr">r</span>: <span class="hljs-number">59</span>, <span class="hljs-attr">d</span>: <span class="hljs-string">'second'</span> }
+]
+dayjs.updateLocale(<span class="hljs-string">'en'</span>, {
+  <span class="hljs-attr">relativeTime</span>: {
+    ...,
+    <span class="hljs-attr">ss</span>: <span class="hljs-string">"%d seconds"</span>
+  }
+})
+</code></pre>
 <p><code>rounding</code> 是一个根据语言配置在相对时间字符串展示之前处理数字的<code>Function</code> 。 要改变这个，可以传入一个新的 <code>rounding</code>。</p>
-<pre><code class="hljs css language-js"><span class="hljs-comment">// 默认是 Math.round </span>
+<pre><code class="hljs css language-js"><span class="hljs-comment">// Math.round by default</span>
 <span class="hljs-keyword">var</span> rounding = <span class="hljs-built_in">Math</span>.floor
 </code></pre>
 </span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/docs/zh-CN/customization/weekday-min"><span class="arrow-prev">← </span><span>Minimal Weekday Abbreviations</span></a><a class="docs-next button" href="/docs/zh-CN/customization/calendar"><span>Calendar</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="/img/logo.png" alt="Day.js" width="48" height="48"/></a><div><h5>Community</h5><a class="github-button" href="https://github.com/iamkun/dayjs" target="_blank" data-count-href="/iamkun/dayjs/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">GitHub</a><a href="https://gitter.im/iamkun/dayjs" target="_blank" rel="noreferrer noopener">Gitter</a><a href="https://dayjs.gitee.io/zh-CN" target="_blank" rel="noreferrer noopener">🇨🇳 China Mirror 中国镜像站点</a><a href="/sitemap.xml" target="_blank">Sitemap</a></div></section><section class="copyright">Copyright © 2020 Day.js</section><script>

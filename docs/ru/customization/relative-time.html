@@ -126,10 +126,9 @@ dayjs.updateLocale(<span class="hljs-string">'en'</span>, {
 <span class="hljs-title">dayjs</span>.<span class="hljs-title">extend</span>(<span class="hljs-params">relativeTime, config</span>)
 </span></code></pre>
 <p><code>thresholds</code> представляет собой <code>массив</code> <code>объектов</code>, определенный в тот момент, когда единица измерения рассматривается в качестве минуты, часа и так далее. Например, по умолчанию более 45 секунд считается минутой, более 22 часов считается днем и так далее. Чтобы изменить это, вам нужно передать новое значение в <code>thresholds</code>, как например тут.</p>
-<pre><code class="hljs css language-js"><span class="hljs-comment">//строгое задание пороговых значений</span>
+<pre><code class="hljs css language-js"><span class="hljs-comment">// strict thresholds</span>
 <span class="hljs-keyword">var</span> thresholds = [
   { <span class="hljs-attr">l</span>: <span class="hljs-string">'s'</span>, <span class="hljs-attr">r</span>: <span class="hljs-number">1</span> },
-  { <span class="hljs-attr">l</span>: <span class="hljs-string">'ss'</span>, <span class="hljs-attr">r</span>: <span class="hljs-number">59</span>, <span class="hljs-attr">d</span>: <span class="hljs-string">'second'</span> },
   { <span class="hljs-attr">l</span>: <span class="hljs-string">'m'</span>, <span class="hljs-attr">r</span>: <span class="hljs-number">1</span> },
   { <span class="hljs-attr">l</span>: <span class="hljs-string">'mm'</span>, <span class="hljs-attr">r</span>: <span class="hljs-number">59</span>, <span class="hljs-attr">d</span>: <span class="hljs-string">'minute'</span> },
   { <span class="hljs-attr">l</span>: <span class="hljs-string">'h'</span>, <span class="hljs-attr">r</span>: <span class="hljs-number">1</span> },
@@ -142,8 +141,20 @@ dayjs.updateLocale(<span class="hljs-string">'en'</span>, {
   { <span class="hljs-attr">l</span>: <span class="hljs-string">'yy'</span>, <span class="hljs-attr">d</span>: <span class="hljs-string">'year'</span> }
 ]
 </code></pre>
-<p><code>rounding</code> является <code>функцией</code> для обработки числа перед ее преобразованием в строку формата relativeTime указанной локали. Чтобы изменить это, вы можете передать новое значение в <code>rounding</code>, как например здесь.</p>
-<pre><code class="hljs css language-js"><span class="hljs-comment">// По умолчанию установлен Math.round </span>
+<p>You can also add your own thresholds key and update locale accordingly.</p>
+<pre><code class="hljs css language-js"><span class="hljs-keyword">var</span> thresholds = [
+  ...,
+  { <span class="hljs-attr">l</span>: <span class="hljs-string">'ss'</span>, <span class="hljs-attr">r</span>: <span class="hljs-number">59</span>, <span class="hljs-attr">d</span>: <span class="hljs-string">'second'</span> }
+]
+dayjs.updateLocale(<span class="hljs-string">'en'</span>, {
+  <span class="hljs-attr">relativeTime</span>: {
+    ...,
+    <span class="hljs-attr">ss</span>: <span class="hljs-string">"%d seconds"</span>
+  }
+})
+</code></pre>
+<p><code>rounding</code> is an <code>Function</code> to process the number before supplying it to the relativeTime format string specified in the locale. To change those you can pass a new <code>rounding</code> like this.</p>
+<pre><code class="hljs css language-js"><span class="hljs-comment">// Math.round by default</span>
 <span class="hljs-keyword">var</span> rounding = <span class="hljs-built_in">Math</span>.floor
 </code></pre>
 </span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/docs/ru/customization/weekday-min"><span class="arrow-prev">← </span><span>Минимальное сокращение дней недели</span></a><a class="docs-next button" href="/docs/ru/customization/calendar"><span>Календарь</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="/img/logo.png" alt="Day.js" width="48" height="48"/></a><div><h5>Community</h5><a class="github-button" href="https://github.com/iamkun/dayjs" target="_blank" data-count-href="/iamkun/dayjs/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">GitHub</a><a href="https://gitter.im/iamkun/dayjs" target="_blank" rel="noreferrer noopener">Gitter</a><a href="https://dayjs.gitee.io/zh-CN" target="_blank" rel="noreferrer noopener">🇨🇳 China Mirror 中国镜像站点</a><a href="/sitemap.xml" target="_blank">Sitemap</a></div></section><section class="copyright">Copyright © 2020 Day.js</section><script>

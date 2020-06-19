@@ -129,7 +129,6 @@ dayjs.updateLocale(<span class="hljs-string">'en'</span>, {
 <pre><code class="hljs css language-js"><span class="hljs-comment">// strict thresholds</span>
 <span class="hljs-keyword">var</span> thresholds = [
   { <span class="hljs-attr">l</span>: <span class="hljs-string">'s'</span>, <span class="hljs-attr">r</span>: <span class="hljs-number">1</span> },
-  { <span class="hljs-attr">l</span>: <span class="hljs-string">'ss'</span>, <span class="hljs-attr">r</span>: <span class="hljs-number">59</span>, <span class="hljs-attr">d</span>: <span class="hljs-string">'second'</span> },
   { <span class="hljs-attr">l</span>: <span class="hljs-string">'m'</span>, <span class="hljs-attr">r</span>: <span class="hljs-number">1</span> },
   { <span class="hljs-attr">l</span>: <span class="hljs-string">'mm'</span>, <span class="hljs-attr">r</span>: <span class="hljs-number">59</span>, <span class="hljs-attr">d</span>: <span class="hljs-string">'minute'</span> },
   { <span class="hljs-attr">l</span>: <span class="hljs-string">'h'</span>, <span class="hljs-attr">r</span>: <span class="hljs-number">1</span> },
@@ -141,6 +140,18 @@ dayjs.updateLocale(<span class="hljs-string">'en'</span>, {
   { <span class="hljs-attr">l</span>: <span class="hljs-string">'y'</span> },
   { <span class="hljs-attr">l</span>: <span class="hljs-string">'yy'</span>, <span class="hljs-attr">d</span>: <span class="hljs-string">'year'</span> }
 ]
+</code></pre>
+<p>You can also add your own thresholds key and update locale accordingly.</p>
+<pre><code class="hljs css language-js"><span class="hljs-keyword">var</span> thresholds = [
+  ...,
+  { <span class="hljs-attr">l</span>: <span class="hljs-string">'ss'</span>, <span class="hljs-attr">r</span>: <span class="hljs-number">59</span>, <span class="hljs-attr">d</span>: <span class="hljs-string">'second'</span> }
+]
+dayjs.updateLocale(<span class="hljs-string">'en'</span>, {
+  <span class="hljs-attr">relativeTime</span>: {
+    ...,
+    <span class="hljs-attr">ss</span>: <span class="hljs-string">"%d seconds"</span>
+  }
+})
 </code></pre>
 <p><code>rounding</code> is an <code>Function</code> to process the number before supplying it to the relativeTime format string specified in the locale. To change those you can pass a new <code>rounding</code> like this.</p>
 <pre><code class="hljs css language-js"><span class="hljs-comment">// Math.round by default</span>
