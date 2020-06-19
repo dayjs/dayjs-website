@@ -72,7 +72,6 @@ dayjs.extend(relativeTime, config)
 // strict thresholds
 var thresholds = [
   { l: 's', r: 1 },
-  { l: 's', r: 59, d: 'second' },
   { l: 'm', r: 1 },
   { l: 'mm', r: 59, d: 'minute' },
   { l: 'h', r: 1 },
@@ -84,6 +83,21 @@ var thresholds = [
   { l: 'y' },
   { l: 'yy', d: 'year' }
 ]
+```
+
+You can also add your own thresholds key and update locale accordingly.
+
+```js
+var thresholds = [
+  ...,
+  { l: 'ss', r: 59, d: 'second' }
+]
+dayjs.updateLocale('en', {
+  relativeTime: {
+    ...,
+    ss: "%d seconds"
+  }
+})
 ```
 
 `rounding` is an `Function` to process the number before supplying it to the relativeTime format string specified in the locale. To change those you can pass a new `rounding` like this.

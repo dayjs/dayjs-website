@@ -89,7 +89,32 @@ class Footer extends React.Component {
           `}}
         />
         <script src="https://buttons.github.io/buttons.js" async></script>
-        <script src="https://unpkg.com/dayjs@1.8.20/dayjs.min.js" async></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+            function loadScript(src) {
+              return new Promise(function (resolve, reject) {
+                  var s;
+                  s = document.createElement('script');
+                  s.src = 'https://unpkg.com/dayjs/' + src;
+                  s.onload = resolve;
+                  s.onerror = reject;
+                  document.head.appendChild(s);
+              });
+            }
+            var pluginArr = ['customParseFormat', 'utc', 'relativeTime']
+            loadScript('dayjs.min.js')
+              .then(function(){
+                Promise.all(pluginArr.map(function(p) {return loadScript('plugin/' + p + '.js')}))
+                  .then(function() {
+                    pluginArr.forEach(function(p) {
+                      dayjs.extend(window['dayjs_plugin_' + p])
+                    })
+                  })
+              })
+            
+          `}}
+        />
         <script
           dangerouslySetInnerHTML={{
             __html: `
