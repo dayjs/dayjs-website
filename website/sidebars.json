@@ -119,6 +119,7 @@
       "plugin/object-support",
       "plugin/quarter-of-year",
       "plugin/relative-time",
+      "plugin/timezone",
       "plugin/to-array",
       "plugin/to-object",
       "plugin/update-locale",
@@ -159,6 +160,12 @@
       "durations/is-a-duration",
       "durations/as-iso-string",
       "durations/locale"
+    ],
+    "Time Zone": [
+      "timezone/timezone",
+      "timezone/parsing-in-zone",
+      "timezone/converting-to-zone",
+      "timezone/guessing-user-timezone"
     ]
   },
   "docs-other": {
