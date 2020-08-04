@@ -10,7 +10,7 @@ npm install dayjs --save
 ```
 Import and use in your Typescript file
 ```js
-import * as dayjs from 'dayjs'
+import dayjs from 'dayjs';
 dayjs().format()
 ```
 
