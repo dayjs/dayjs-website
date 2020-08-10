@@ -3,9 +3,9 @@ id: timezone
 title: Time Zone
 ---
 
-Day.js supports time zone via the [Internationalization API](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl) in [supported environments](https://caniuse.com/#feat=internationalization). 
+Day.js supports time zone via the [Internationalization API](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl) in [supported environments](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat#Browser_compatibility). By using the built-in API, zero-byte time zone data needs to be included in code bundle.
 
-For legacy or unsupported environments, please use a proper polyfill. 
+For legacy or unsupported environments, please use a proper [polyfill](https://github.com/formatjs/date-time-format-timezone). 
 
 @>Timezone
 
