@@ -99,6 +99,7 @@
       "plugin/loading-into-nodejs",
       "plugin/loading-into-browser",
       "plugin/advanced-format",
+      "plugin/bad-mutable",
       "plugin/buddhist-era",
       "plugin/calendar",
       "plugin/custom-parse-format",

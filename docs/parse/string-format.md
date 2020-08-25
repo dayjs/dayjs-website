@@ -17,7 +17,7 @@ require('dayjs/locale/es')
 dayjs('2018 Enero 15', 'YYYY MMMM DD', 'es')
 ```
 
-You may specify a boolean for the last argument to use strict parsing. Strict parsing requires that the format and input match exactly, including delimeters.
+You may specify a boolean for the last argument to use strict parsing. Strict parsing requires that the format and input match exactly, including delimiters.
 
 ```js
 dayjs('1970-00-00', 'YYYY-MM-DD').isValid() // true
