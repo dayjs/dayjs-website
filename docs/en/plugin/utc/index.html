@@ -80,18 +80,17 @@ dayjs.extend(utc)
 
 <span class="hljs-comment">// default local time</span>
 dayjs().format() <span class="hljs-comment">//2019-03-06T17:11:55+08:00</span>
+
 <span class="hljs-comment">// UTC mode</span>
 dayjs.utc().format() <span class="hljs-comment">// 2019-03-06T09:11:55Z</span>
-dayjs()
-  .utc()
-  .format() <span class="hljs-comment">// 2019-03-06T09:11:55Z</span>
+
+<span class="hljs-comment">// convert local time to UTC time</span>
+dayjs().utc().format() <span class="hljs-comment">// 2019-03-06T09:11:55Z </span>
+
 <span class="hljs-comment">// While in UTC mode, all display methods will display in UTC time instead of local time.</span>
 <span class="hljs-comment">// And all getters and setters will internally use the Date#getUTC* and Date#setUTC* methods instead of the Date#get* and Date#set* methods.</span>
 dayjs.utc().isUTC() <span class="hljs-comment">// true</span>
-dayjs
-  .utc()
-  .local()
-  .format() <span class="hljs-comment">//2019-03-06T17:11:55+08:00</span>
+dayjs.utc().local().format() <span class="hljs-comment">//2019-03-06T17:11:55+08:00</span>
 dayjs.utc(<span class="hljs-string">'2018-01-01'</span>, <span class="hljs-string">'YYYY-MM-DD'</span>) <span class="hljs-comment">// with CustomParseFormat plugin</span>
 </code></pre>
 <p>By default, Day.js parses and displays in local time.</p>

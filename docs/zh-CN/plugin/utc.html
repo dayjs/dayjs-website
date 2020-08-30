@@ -78,20 +78,19 @@
 <pre><code class="hljs css language-javascript"><span class="hljs-keyword">var</span> utc = <span class="hljs-built_in">require</span>(<span class="hljs-string">'dayjs/plugin/utc'</span>)
 dayjs.extend(utc)
 
-<span class="hljs-comment">// 默认当地时间</span>
+<span class="hljs-comment">// default local time</span>
 dayjs().format() <span class="hljs-comment">//2019-03-06T17:11:55+08:00</span>
-<span class="hljs-comment">// UTC 模式</span>
+
+<span class="hljs-comment">// UTC mode</span>
 dayjs.utc().format() <span class="hljs-comment">// 2019-03-06T09:11:55Z</span>
-dayjs()
-  .utc()
-  .format() <span class="hljs-comment">// 2019-03-06T09:11:55Z</span>
-<span class="hljs-comment">// 在 UTC 模式下，所有的展示方法都将使用 UTC 而不是本地时区</span>
+
+<span class="hljs-comment">// convert local time to UTC time</span>
+dayjs().utc().format() <span class="hljs-comment">// 2019-03-06T09:11:55Z </span>
+
+<span class="hljs-comment">// While in UTC mode, all display methods will display in UTC time instead of local time.</span>
 <span class="hljs-comment">// 所有的 get 和 set 方法也都会使用 Date#getUTC* 和 Date#setUTC* 而不是 Date#get* and Date#set*</span>
 dayjs.utc().isUTC() <span class="hljs-comment">// true</span>
-dayjs
-  .utc()
-  .local()
-  .format() <span class="hljs-comment">//2019-03-06T17:11:55+08:00</span>
+dayjs.utc().local().format() <span class="hljs-comment">//2019-03-06T17:11:55+08:00</span>
 dayjs.utc(<span class="hljs-string">'2018-01-01'</span>, <span class="hljs-string">'YYYY-MM-DD'</span>) <span class="hljs-comment">// with CustomParseFormat plugin</span>
 </code></pre>
 <p>默认情况下，Day.js 会把时间解析成本地时间。</p>

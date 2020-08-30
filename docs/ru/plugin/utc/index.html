@@ -78,21 +78,20 @@
 <pre><code class="hljs css language-javascript"><span class="hljs-keyword">var</span> utc = <span class="hljs-built_in">require</span>(<span class="hljs-string">'dayjs/plugin/utc'</span>)
 dayjs.extend(utc)
 
-<span class="hljs-comment">// дефолтное местное время</span>
+<span class="hljs-comment">// default local time</span>
 dayjs().format() <span class="hljs-comment">//2019-03-06T17:11:55+08:00</span>
-<span class="hljs-comment">// UTC-режим</span>
+
+<span class="hljs-comment">// UTC mode</span>
 dayjs.utc().format() <span class="hljs-comment">// 2019-03-06T09:11:55Z</span>
-dayjs()
-  .utc()
-  .format() <span class="hljs-comment">// 2019-03-06T09:11:55Z</span>
-<span class="hljs-comment">// Пока объект находится в режиме UTC, все методы отображения будут отображать время в формате UTC вместо местного времени.</span>
+
+<span class="hljs-comment">// convert local time to UTC time</span>
+dayjs().utc().format() <span class="hljs-comment">// 2019-03-06T09:11:55Z </span>
+
+<span class="hljs-comment">// While in UTC mode, all display methods will display in UTC time instead of local time.</span>
 <span class="hljs-comment">// И все геттеры и сеттеры будут внутренне использовать методы Date#getUTC* и Date#setUTC* вместо Date#get* и Date#set*.</span>
 dayjs.utc().isUTC() <span class="hljs-comment">// true</span>
-dayjs
-  .utc()
-  .local()
-  .format() <span class="hljs-comment">//2019-03-06T17:11:55+08:00</span>
-dayjs.utc(<span class="hljs-string">'2018-01-01'</span>, <span class="hljs-string">'YYYY-MM-DD'</span>) <span class="hljs-comment">// с использованием плагина CustomParseFormat</span>
+dayjs.utc().local().format() <span class="hljs-comment">//2019-03-06T17:11:55+08:00</span>
+dayjs.utc(<span class="hljs-string">'2018-01-01'</span>, <span class="hljs-string">'YYYY-MM-DD'</span>) <span class="hljs-comment">// with CustomParseFormat plugin</span>
 </code></pre>
 <p>По умолчанию, Day.js преобразуется и отображается в формате локального времени.</p>
 <p>Если вы хотите преобразовать или отобразить дату в формате UTC, вы можете использовать <code>dayjs.utc()</code> вместо <code>dayjs()</code>.</p>
