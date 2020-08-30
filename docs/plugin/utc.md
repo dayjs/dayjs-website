@@ -13,7 +13,7 @@ dayjs.extend(utc)
 dayjs().format() //2019-03-06T17:11:55+08:00
 // UTC mode
 dayjs.utc().format() // 2019-03-06T09:11:55Z
-dayjs()
+dayjs
   .utc()
   .format() // 2019-03-06T09:11:55Z
 // While in UTC mode, all display methods will display in UTC time instead of local time.
