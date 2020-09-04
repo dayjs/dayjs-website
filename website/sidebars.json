@@ -166,7 +166,8 @@
       "timezone/timezone",
       "timezone/parsing-in-zone",
       "timezone/converting-to-zone",
-      "timezone/guessing-user-timezone"
+      "timezone/guessing-user-timezone",
+      "timezone/set-default-timezone"
     ]
   },
   "docs-other": {
