@@ -125,9 +125,9 @@
       "plugin/to-object",
       "plugin/update-locale",
       "plugin/utc",
-      "plugin/week-day",
       "plugin/week-of-year",
-      "plugin/week-year"
+      "plugin/week-year",
+      "plugin/weekday"
     ],
     "Customize": [
       "customization/customization",

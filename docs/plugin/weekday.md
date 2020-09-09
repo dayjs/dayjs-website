@@ -1,8 +1,8 @@
 ---
-id: week-day
-title: WeekDay
+id: weekday
+title: Weekday
 ---
-WeekDay adds `.weekday()` API to get or set locale aware day of the week.
+Weekday adds `.weekday()` API to get or set locale aware day of the week.
 
 ```javascript
 var weekday = require('dayjs/plugin/weekday')

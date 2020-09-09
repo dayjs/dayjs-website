@@ -4,7 +4,7 @@ title: Day of Week (Locale Aware)
 ---
 Gets or sets the day of the week according to the locale.
 
-@>WeekDay
+@>Weekday
 
 If the locale assigns Monday as the first day of the week, `dayjs().weekday(0)` will be Monday. If Sunday is the first day of the week, `dayjs().weekday(0)` will be Sunday.
 
