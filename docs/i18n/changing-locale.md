@@ -2,7 +2,7 @@
 id: changing-locale
 title: Changing locale globally
 ---
-By default, Day.js comes with English (United States) locale **only**.
+By default, Day.js comes with English locale **only**.
 
 If you need other locales, you can load them on demand.
 
