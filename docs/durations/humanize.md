@@ -5,9 +5,11 @@ title: Humanize
 
 Sometimes, you want all the goodness of `dayjs#from` but you don't want to have to create two Day.js objects, you just want to display a length of time.
 
+@>Duration
 @>RelativeTime
 
 ```javascript
+dayjs.extend(duration)
 dayjs.extend(relativeTime)
 dayjs.duration(1, "minutes").humanize(); // a minute
 dayjs.duration(2, "minutes").humanize(); // 2 minutes
