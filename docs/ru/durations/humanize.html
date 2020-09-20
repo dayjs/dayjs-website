@@ -77,15 +77,22 @@
         </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/dayjs/dayjs-website/issues/5/ru" target="_blank" rel="noreferrer noopener">Translate</a><h1 id="__docusaurus" class="postHeaderTitle">Облагораживание</h1></header><article><div><span><p>Иногда вы хотите получить все преимущества <code>dayjs#from</code>, но вам не нужно создавать два объекта Day.js, вы просто хотите отобразить продолжительность времени.</p>
 <p><blockquote>
   Это зависит от 
-  <a href="../plugin/relative-time">
-    <code>RelativeTime</code>
+  <a href="../plugin/duration">
+    <code>Duration</code>
   </a>
   плагин для работы 
-  </blockquote></p>
-<pre><code class="hljs css language-javascript">dayjs.extend(relativeTime)
-dayjs.duration(<span class="hljs-number">1</span>, <span class="hljs-string">"minutes"</span>).humanize(); <span class="hljs-comment">// минута</span>
-dayjs.duration(<span class="hljs-number">2</span>, <span class="hljs-string">"minutes"</span>).humanize(); <span class="hljs-comment">// 2 минуты</span>
-dayjs.duration(<span class="hljs-number">24</span>, <span class="hljs-string">"hours"</span>).humanize();  <span class="hljs-comment">// день</span>
+  </blockquote> <blockquote>
+  Это зависит от 
+  <a href="../plugin/duration">
+    <code>Duration</code>
+  </a>
+  плагин для работы 
+  </blockquote>Time</p>
+<pre><code class="hljs css language-javascript">dayjs.extend(duration)
+dayjs.extend(relativeTime)
+dayjs.duration(<span class="hljs-number">1</span>, <span class="hljs-string">"minutes"</span>).humanize(); <span class="hljs-comment">// a minute</span>
+dayjs.duration(<span class="hljs-number">2</span>, <span class="hljs-string">"minutes"</span>).humanize(); <span class="hljs-comment">// 2 minutes</span>
+dayjs.duration(<span class="hljs-number">24</span>, <span class="hljs-string">"hours"</span>).humanize();  <span class="hljs-comment">// a day</span>
 </code></pre>
 <p>По умолчанию, возвращаемая строка не имеет суффикса. Если вы хотите получить значение с суффиксом, передайте значение true как показано ниже.</p>
 <pre><code class="hljs css language-javascript">dayjs.duration(<span class="hljs-number">1</span>, <span class="hljs-string">"minutes"</span>).humanize(<span class="hljs-literal">true</span>); <span class="hljs-comment">// в течении минуты</span>

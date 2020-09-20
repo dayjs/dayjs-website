@@ -77,12 +77,19 @@
         </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/dayjs/dayjs-website/issues/5/zh-CN" target="_blank" rel="noreferrer noopener">Translate</a><h1 id="__docusaurus" class="postHeaderTitle">Humanize</h1></header><article><div><span><p>当仅仅是想显示一段时长，要得到类似 <code>dayjs#from</code> 的结果，但又不想创建两个 Day.js 对象时。</p>
 <p><blockquote>
   使用本功能需先配置 
-  <a href="../plugin/relative-time">
-    <code>RelativeTime</code>
+  <a href="../plugin/duration">
+    <code>Duration</code>
   </a>
   插件，才能正常运行 
-  </blockquote></p>
-<pre><code class="hljs css language-javascript">dayjs.extend(relativeTime)
+  </blockquote> <blockquote>
+  使用本功能需先配置 
+  <a href="../plugin/duration">
+    <code>Duration</code>
+  </a>
+  插件，才能正常运行 
+  </blockquote>Time</p>
+<pre><code class="hljs css language-javascript">dayjs.extend(duration)
+dayjs.extend(relativeTime)
 dayjs.duration(<span class="hljs-number">1</span>, <span class="hljs-string">"minutes"</span>).humanize(); <span class="hljs-comment">// a minute</span>
 dayjs.duration(<span class="hljs-number">2</span>, <span class="hljs-string">"minutes"</span>).humanize(); <span class="hljs-comment">// 2 minutes</span>
 dayjs.duration(<span class="hljs-number">24</span>, <span class="hljs-string">"hours"</span>).humanize();  <span class="hljs-comment">// a day</span>
