@@ -127,28 +127,6 @@ class Footer extends React.Component {
             })();
           `}}
         />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-            if (!window.location.href.includes('zh-CN')) {
-              var eElement = document.querySelector('.fixedHeaderContainer')
-              var div = document.createElement("div");
-              div.style.color = "white";
-              div.style.textAlign = "center";
-              div.innerHTML = "Black Lives Matter.";
-              var aLink = document.createElement("a");
-              var linkText = document.createTextNode("Support the Equal Justice Initiative.");
-              aLink.appendChild(linkText);
-              aLink.href = "https://support.eji.org/give/153413/#!/donation/checkout";
-              aLink.target = "_blank";
-              aLink.style.display = 'inline-block'
-              aLink.style.color = 'rgba(251, 96, 82, .6)'
-              aLink.style.marginLeft = '5px'
-              div.appendChild(aLink);
-              eElement.insertBefore(div, eElement.firstChild);
-            }
-          `}}
-        />
       </footer>
     )
   }
