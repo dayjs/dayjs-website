@@ -25,3 +25,5 @@ List of added formats:
 | `ww`   | 01 02 ... 52 53       | Week of year, 2-digits @>>WeekOfYear       |
 | `wo`   | 1st 2nd ... 52nd 53rd | Week of year with ordinal @>>WeekOfYear    |
 | `gggg` | 2017                  | Week Year @>>WeekYear                      |
+| `z`    | EST                   | Abbreviated named offset @>>Timezone                   |
+| `zzz`  | Eastern Standard Time | Unabbreviated named offset @>>Timezone                 |
