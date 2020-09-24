@@ -6,7 +6,7 @@ Day.js ships with official type declarations for TypeScript in NPM package out o
 
 Install via NPM
 ```console
-npm install dayjs --save
+npm install dayjs
 ```
 Import and use in your Typescript file
 ```js
