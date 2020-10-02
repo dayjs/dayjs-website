@@ -88,7 +88,7 @@
 a.format() <span class="hljs-comment">//2019-03-06T08:00:00+08:00</span>
 a.utc().format() <span class="hljs-comment">// 2019-03-06T00:00:00Z</span>
 </code></pre>
-<p>Passing true will change the time zone without changing the current time.</p>
+<p>传入 true 将只改变 UTC 模式而不改变本地时间。</p>
 <pre><code class="hljs"><span class="hljs-selector-tag">dayjs</span>(<span class="hljs-string">'2016-05-03 22:15:01'</span>)<span class="hljs-selector-class">.utc</span>(true)<span class="hljs-selector-class">.format</span>() 
 <span class="hljs-comment">// 2016-05-03T22:15:01Z</span>
 </code></pre>

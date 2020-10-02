@@ -94,7 +94,7 @@ dayjs().utcOffset(<span class="hljs-number">120</span>)
 <span class="hljs-function"><span class="hljs-title">dayjs</span><span class="hljs-params">()</span></span>.utcOffset(<span class="hljs-number">8</span>)  <span class="hljs-comment">// 设置小时偏移量</span>
 <span class="hljs-function"><span class="hljs-title">dayjs</span><span class="hljs-params">()</span></span>.utcOffset(<span class="hljs-number">480</span>)  <span class="hljs-comment">// 设置分钟偏移量 (8 * 60)</span>
 </code></pre>
-<p>Passing true to the second parameter will keep the same local time.</p>
+<p>第二个参数传入 true 可以只改变偏移量而保持本地时间不变。</p>
 <pre><code class="hljs"><span class="hljs-selector-tag">dayjs</span><span class="hljs-selector-class">.utc</span>(<span class="hljs-string">'2000-01-01T06:01:02Z'</span>)<span class="hljs-selector-class">.utcOffset</span>(<span class="hljs-number">1</span>, true)<span class="hljs-selector-class">.format</span>() 
 <span class="hljs-comment">// 2000-01-01T06:01:02+01:00</span>
 </code></pre>
