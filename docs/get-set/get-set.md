@@ -15,6 +15,6 @@ dayjs().second() // => new Date().getSeconds()
 If you are in [UTC mode](../parse/utc), they will map to the UTC equivalent.
 
 ```js
-dayjs.utc().seconds(30).valueOf()// => new Date().setUTCSeconds(30)
-dayjs.utc().seconds()// => new Date().getUTCSeconds()
+dayjs.utc().second(30).valueOf()// => new Date().setUTCSeconds(30)
+dayjs.utc().second()// => new Date().getUTCSeconds()
 ```
