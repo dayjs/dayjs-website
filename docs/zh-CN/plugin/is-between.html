@@ -78,13 +78,13 @@
 <pre><code class="hljs css language-javascript"><span class="hljs-keyword">var</span> isBetween = <span class="hljs-built_in">require</span>(<span class="hljs-string">'dayjs/plugin/isBetween'</span>)
 dayjs.extend(isBetween)
 
-<span class="hljs-comment">// To use `year` granularity pass the third parameter</span>
+<span class="hljs-comment">// 如果使用年份对比 `year` 则传入第三个参数</span>
 dayjs(<span class="hljs-string">'2010-10-20'</span>).isBetween(<span class="hljs-string">'2010-10-19'</span>, dayjs(<span class="hljs-string">'2010-10-25'</span>), <span class="hljs-string">'year'</span>)
 
-<span class="hljs-comment">// Parameter 4 is a string with two characters; '[' means inclusive, '(' exclusive</span>
-<span class="hljs-comment">// '()' excludes start and end date (default)</span>
-<span class="hljs-comment">// '[]' includes start and end date</span>
-<span class="hljs-comment">// '[)' includes the start date but excludes the stop</span>
+<span class="hljs-comment">// 第四个参数是两个字符 '[' 表示包含, '(' 表示不包含</span>
+<span class="hljs-comment">// '()' 不包含开始和结束的日期 (默认)</span>
+<span class="hljs-comment">// '[]' 包含开始和结束的日期</span>
+<span class="hljs-comment">// '[)' 包含开始日期但不包含结束日期</span>
 dayjs(<span class="hljs-string">'2016-10-30'</span>).isBetween(<span class="hljs-string">'2016-01-01'</span>, <span class="hljs-string">'2016-10-30'</span>, <span class="hljs-literal">null</span>, <span class="hljs-string">'[)'</span>)
 
 </code></pre>
