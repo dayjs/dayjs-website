@@ -96,25 +96,25 @@ dayjs(<span class="hljs-string">'2016-10-30'</span>).isBetween(<span class="hljs
           </script><script src="https://buttons.github.io/buttons.js" async=""></script><script>
             function loadScript(src) {
               return new Promise(function (resolve, reject) {
-                  var s;
-                  s = document.createElement('script');
+                  const s = document.createElement('script');
                   s.src = 'https://unpkg.com/dayjs/' + src;
                   s.onload = resolve;
                   s.onerror = reject;
                   document.head.appendChild(s);
               });
             }
-            var pluginArr = ['customParseFormat', 'utc', 'relativeTime']
-            loadScript('dayjs.min.js')
-              .then(function(){
-                Promise.all(pluginArr.map(function(p) {return loadScript('plugin/' + p + '.js')}))
-                  .then(function() {
-                    pluginArr.forEach(function(p) {
-                      dayjs.extend(window['dayjs_plugin_' + p])
-                    })
-                  })
-              })
-            
+            (async () => {
+              await loadScript('dayjs.min.js');
+              const
+                req = await fetch('https://api.github.com/repos/iamkun/dayjs/contents/src/plugin'),
+                plugins = await req.json(),
+                pluginNames = plugins.map(plugin => plugin.name);
+              for(let i = 0; i < pluginNames.length; i++){
+                const pluginName = pluginNames[i];
+                await loadScript('plugin/' + pluginName + '.js');
+                dayjs.extend(window['dayjs_plugin_' + pluginName]);
+              }
+            })();
           </script><script>
             var _hmt = _hmt || [];
             (function() {
