@@ -16,7 +16,7 @@ const siteConfig = {
   title: 'Day.js', // Title for your website.
   tagline: '2kB JavaScript date utility library',
   url: 'https://day.js.org', // Your website URL
-  baseUrl: '/', // Base URL for your project */
+  baseUrl: 'https://cdn.jsdelivr.net/gh/dayjs/dayjs-website@gh-pages/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
@@ -79,6 +79,7 @@ const siteConfig = {
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
     // theme: 'github'
+    themeUrl: 'https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/default.min.css'
   },
 
   // Add custom scripts here that would be placed in <script> tags.
