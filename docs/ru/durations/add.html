@@ -92,7 +92,7 @@ a.add(<span class="hljs-number">2</span>, <span class="hljs-string">'days'</span
             function loadScript(src) {
               return new Promise(function (resolve, reject) {
                   const s = document.createElement('script');
-                  s.src = 'https://unpkg.com/dayjs/' + src;
+                  s.src = 'https://cdn.jsdelivr.net/npm/dayjs/' + src;
                   s.onload = resolve;
                   s.onerror = reject;
                   document.head.appendChild(s);
