@@ -16,7 +16,7 @@ const siteConfig = {
   title: 'Day.js', // Title for your website.
   tagline: '2kB JavaScript date utility library',
   url: 'https://day.js.org', // Your website URL
-  baseUrl: 'https://cdn.jsdelivr.net/gh/dayjs/dayjs-website@gh-pages/', // Base URL for your project */
+  baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
