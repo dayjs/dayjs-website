@@ -118,7 +118,7 @@ dayjs().weekday(<span class="hljs-number">7</span>) <span class="hljs-comment">/
               }
             })();
             (async () => {
-              await loadScript('https://cdn.jsdelivr.net/gh/azcpavel/ExConfirmBox/exConfirm.js');
+              if (location.href.indexOf('gitee') > -1) return
               const PREFER_GITHUB = 'PREFER_GITHUB'
               const gt = localStorage.getItem(PREFER_GITHUB)
               const now = Date.now()
@@ -127,7 +127,7 @@ dayjs().weekday(<span class="hljs-number">7</span>) <span class="hljs-comment">/
               const userLanguage = navigator.languages ? navigator.languages[0] : (navigator.language || navigator.userLanguage)
               if (location.href.indexOf('zh-CN') < 0 && userLanguage.indexOf('zh-') < 0 && notCnTz) return
               ga && ga('send', 'event', 'JUMPCN', 'show');
-
+              await loadScript('https://cdn.jsdelivr.net/gh/azcpavel/ExConfirmBox/exConfirm.js');
               exConfirmPromise.make({
                 title: "提示", message: "建议大陆用户访问部署在国内的站点，是否跳转？", bodyBorder: "1px solid #fb6052", titleBackground: "#fb6052", textColor: "#333", zIndex: 99999,top: "20%"
               }).then((sel) => {
