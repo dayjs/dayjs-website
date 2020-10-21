@@ -130,7 +130,7 @@ class Footer extends React.Component {
               }).then((sel) => {
                 if (sel) {
                   ga && ga('send', 'event', 'JUMPCN', 'go');
-                  location.replace('https://dayjs.gitee.io/zh-CN');
+                  window.open('https://dayjs.gitee.io/zh-CN', '_blank');
                 } else {
                   localStorage.setItem(PREFER_GITHUB, now);
                 }
