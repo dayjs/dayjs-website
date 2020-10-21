@@ -114,8 +114,9 @@ dayjs(<span class="hljs-string">'2000-01-01'</span>).isLeapYear() <span class="h
               const gt = localStorage.getItem(PREFER_GITHUB)
               const now = Date.now()
               if (gt && 604800 * 1000 + gt > now) return // a week
+              const notCnTz = (new Date()).getTimezoneOffset() != -480
               const userLanguage = navigator.languages ? navigator.languages[0] : (navigator.language || navigator.userLanguage)
-              if (location.href.indexOf('zh-CN') < 0 && userLanguage.indexOf('zh-') < 0) return
+              if (location.href.indexOf('zh-CN') < 0 && userLanguage.indexOf('zh-') < 0 && notCnTz) return
               ga && ga('send', 'event', 'JUMPCN', 'show');
 
               exConfirmPromise.make({
