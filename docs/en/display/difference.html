@@ -150,7 +150,7 @@ date1.diff(<span class="hljs-string">'2018-06-05'</span>, <span class="hljs-stri
               }).then((sel) => {
                 if (sel) {
                   ga && ga('send', 'event', 'JUMPCN', 'go');
-                  location.replace('https://dayjs.gitee.io/zh-CN');
+                  window.open('https://dayjs.gitee.io/zh-CN', '_blank');
                 } else {
                   localStorage.setItem(PREFER_GITHUB, now);
                 }

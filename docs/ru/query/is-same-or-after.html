@@ -134,7 +134,7 @@ dayjs().isSameOrAfter(dayjs(<span class="hljs-string">'2011-01-01'</span>)) <spa
               }).then((sel) => {
                 if (sel) {
                   ga && ga('send', 'event', 'JUMPCN', 'go');
-                  location.replace('https://dayjs.gitee.io/zh-CN');
+                  window.open('https://dayjs.gitee.io/zh-CN', '_blank');
                 } else {
                   localStorage.setItem(PREFER_GITHUB, now);
                 }

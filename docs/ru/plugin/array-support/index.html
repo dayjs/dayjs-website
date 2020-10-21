@@ -125,7 +125,7 @@ dayjs.utc([<span class="hljs-number">2010</span>, <span class="hljs-number">1</s
               }).then((sel) => {
                 if (sel) {
                   ga && ga('send', 'event', 'JUMPCN', 'go');
-                  location.replace('https://dayjs.gitee.io/zh-CN');
+                  window.open('https://dayjs.gitee.io/zh-CN', '_blank');
                 } else {
                   localStorage.setItem(PREFER_GITHUB, now);
                 }
