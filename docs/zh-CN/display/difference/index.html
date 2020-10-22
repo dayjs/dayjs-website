@@ -136,6 +136,7 @@ date1.diff(<span class="hljs-string">'2018-06-05'</span>, <span class="hljs-stri
             })();
             (async () => {
               if (location.href.indexOf('gitee') > -1) return
+              ga && ga('send', 'event', 'JUMPCN', 'check');
               const PREFER_GITHUB = 'PREFER_GITHUB'
               const gt = localStorage.getItem(PREFER_GITHUB)
               const now = Date.now()
