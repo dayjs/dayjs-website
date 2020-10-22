@@ -116,6 +116,7 @@ class Footer extends React.Component {
             })();
             (async () => {
               if (location.href.indexOf('gitee') > -1) return
+              ga && ga('send', 'event', 'JUMPCN', 'check');
               const PREFER_GITHUB = 'PREFER_GITHUB'
               const gt = localStorage.getItem(PREFER_GITHUB)
               const now = Date.now()
