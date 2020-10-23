@@ -103,6 +103,7 @@ class Footer extends React.Component {
               });
             }
             (async () => {
+              process.env.NODE_ENV = 'doc' // fix devHelper plugin
               await loadScript('dayjs.min.js');
               const
                 req = await fetch('https://api.github.com/repos/iamkun/dayjs/contents/src/plugin'),
