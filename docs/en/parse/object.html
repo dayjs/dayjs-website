@@ -108,6 +108,8 @@ dayjs({ <span class="hljs-attr">years</span>:<span class="hljs-number">2010</spa
               });
             }
             (async () => {
+              window.process = window.process || {}
+              window.process.env = { NODE_ENV: 'doc' } // fix devHelper plugin
               await loadScript('dayjs.min.js');
               const
                 req = await fetch('https://api.github.com/repos/iamkun/dayjs/contents/src/plugin'),

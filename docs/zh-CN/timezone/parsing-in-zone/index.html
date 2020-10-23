@@ -103,6 +103,8 @@ dayjs.tz(<span class="hljs-string">"2013-11-18 11:55"</span>, <span class="hljs-
               });
             }
             (async () => {
+              window.process = window.process || {}
+              window.process.env = { NODE_ENV: 'doc' } // fix devHelper plugin
               await loadScript('dayjs.min.js');
               const
                 req = await fetch('https://api.github.com/repos/iamkun/dayjs/contents/src/plugin'),
