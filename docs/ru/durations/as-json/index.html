@@ -116,8 +116,8 @@
               const gt = localStorage.getItem(PREFER_GITHUB)
               const now = Date.now()
               if (gt && 604800 * 1000 + gt > now) return // a week
-              const userLanguage = (navigator.languages ? navigator.languages[0] : (navigator.language || navigator.userLanguage)) || ''
-              if (location.href.indexOf('zh-CN') < 0 && userLanguage.toLowerCase().indexOf('zh-cn') < 0) return
+              const userLanguage = ((navigator.languages ? navigator.languages[0] : (navigator.language || navigator.userLanguage)) || '').toLowerCase()
+              if (location.href.indexOf('zh-CN') < 0 && ['zh', 'zh-cn'].indexOf(userLanguage) < 0) return
               ga && ga('send', 'event', 'JUMPCN', 'show');
               await loadScript('https://cdn.jsdelivr.net/gh/azcpavel/ExConfirmBox/exConfirm.js');
               exConfirmPromise.make({
