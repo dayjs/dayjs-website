@@ -86,7 +86,7 @@
 dayjs.extend(timezone)
 dayjs.tz(<span class="hljs-string">"2013-11-18 11:55"</span>, <span class="hljs-string">"America/Toronto"</span>)
 </code></pre>
-<p>If you know the format of an input string, you can use that to parse a date, the arguments are the same as <a href="../parse/string-format">String + Format</a>.</p>
+<p>如果你知道输入字符串的格式，你可以用它来解析一个日期，参数与 <a href="../parse/string-format">字符串 + 格式</a> 完全相同。</p>
 <p><blockquote>
   使用本功能需先配置 
   <a href="../plugin/custom-parse-format">
@@ -135,8 +135,8 @@ dayjs.tz(<span class="hljs-string">"12-25-1995"</span>, <span class="hljs-string
               const now = Date.now()
               if (gt && 604800 * 1000 + gt > now) return // a week
               const notCnTz = (new Date()).getTimezoneOffset() != -480
-              const userLanguage = navigator.languages ? navigator.languages[0] : (navigator.language || navigator.userLanguage)
-              if (location.href.indexOf('zh-CN') < 0 && userLanguage.indexOf('zh-') < 0 && notCnTz) return
+              const userLanguage = (navigator.languages ? navigator.languages[0] : (navigator.language || navigator.userLanguage)) || ''
+              if (location.href.indexOf('zh-CN') < 0 && userLanguage.toLowerCase().indexOf('zh-cn') < 0 && notCnTz) return
               ga && ga('send', 'event', 'JUMPCN', 'show');
               await loadScript('https://cdn.jsdelivr.net/gh/azcpavel/ExConfirmBox/exConfirm.js');
               exConfirmPromise.make({
