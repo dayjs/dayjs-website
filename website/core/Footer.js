@@ -125,7 +125,7 @@ class Footer extends React.Component {
               if (gt && 604800 * 1000 + gt > now) return // a week
               const notCnTz = (new Date()).getTimezoneOffset() != -480
               const userLanguage = navigator.languages ? navigator.languages[0] : (navigator.language || navigator.userLanguage)
-              if (location.href.indexOf('zh-CN') < 0 && userLanguage.indexOf('zh-') < 0 && notCnTz) return
+              if (location.href.indexOf('zh-CN') < 0 && userLanguage.indexOf('zh-CN') < 0 && notCnTz) return
               ga && ga('send', 'event', 'JUMPCN', 'show');
               await loadScript('https://cdn.jsdelivr.net/gh/azcpavel/ExConfirmBox/exConfirm.js');
               exConfirmPromise.make({
