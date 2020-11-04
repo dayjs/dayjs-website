@@ -1,6 +1,7 @@
 var isCN = location.href.indexOf('zh-CN') > -1
+var isMobile = /Android|iPhone|iPad/i.test(navigator.userAgent)
 var sideNav = document.querySelector('nav.toc')
-if (sideNav) {
+if (sideNav && !isMobile) {
   var div = document.createElement("div");
   var imgName = isCN ? 'duohui-cn' : 'duohui'
   var title = isCN ? '赞助商' : 'Sponsors'
