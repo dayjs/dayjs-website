@@ -15,10 +15,10 @@ if (sideNav) {
   document.head.insertAdjacentHTML("beforeend", 
   `<style>
   .toc .sponsors {
-    padding-bottom: 10px;
+    padding-bottom: 5px;
   }
   .toc .sponsors .title{
-    padding-bottom: 5px;
+    padding-bottom: 10px;
     color: #777;
     font-weight: 300;
     font-size: 14px;
