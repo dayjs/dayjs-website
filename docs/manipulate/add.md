@@ -6,10 +6,10 @@ title: Add
 Returns a cloned Day.js object with a specified amount of time added.
 
 ```js
-dayjs().add(7, "day");
+dayjs().add(7, 'day');
 ```
 
-Units are case insensitive, and support plural and short forms. Please, note that short forms for month (M) and minute (m) are case sensitives.
+Units are case insensitive, and support plural and short forms. Note, short forms are case sensitive.
 
 #### List of all available units
 
