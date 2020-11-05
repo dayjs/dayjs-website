@@ -16,9 +16,9 @@ dayjs().get('year')
 dayjs().get('month') // start 0
 dayjs().get('date')
 dayjs().get('hour')
-dayjs().get('minute');
-dayjs().get('second');
-dayjs().get('millisecond');
+dayjs().get('minute')
+dayjs().get('second')
+dayjs().get('millisecond')
 ```
 
 #### List of all available units
