@@ -9,7 +9,7 @@ In general:
 dayjs().get(unit) === dayjs()[unit]()
 ```
 
-Units are case insensitive, and support plural and short forms.
+Units are case insensitive, and support plural and short forms. Please, note that short forms for month (M) and minute (m) are case sensitives.
 
 ```js
 dayjs().get('year')
