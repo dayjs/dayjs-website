@@ -17,7 +17,7 @@ To get the difference in another unit of measurement, pass that measurement as t
 
 ```js
 const date1 = dayjs('2019-01-25');
-date1.diff("2018-06-05", 'month'); // 7
+date1.diff('2018-06-05', 'month'); // 7
 ```
 
 Units are case insensitive, and support plural and short forms. Note, short forms are case sensitive.
