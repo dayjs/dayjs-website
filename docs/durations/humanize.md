@@ -6,6 +6,7 @@ title: Humanize
 Sometimes, you want all the goodness of `dayjs#from` but you don't want to have to create two Day.js objects, you just want to display a length of time.
 
 @>Duration
+
 @>RelativeTime
 
 ```javascript
