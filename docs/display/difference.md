@@ -6,6 +6,7 @@ title: Difference
 This indicates the difference between two date-time in the specified unit.
 
 To get the difference in milliseconds, use `dayjs#diff`.
+
 ```js
 const date1 = dayjs('2019-01-25')
 const date2 = dayjs('2018-06-05')
@@ -19,7 +20,7 @@ const date1 = dayjs('2019-01-25')
 date1.diff('2018-06-05', 'month') // 7
 ```
 
-Units are case insensitive, and support plural and short forms.
+Units are case insensitive, and support plural and short forms. Note, short forms are case sensitive.
 
 #### List of all available units
 
@@ -35,8 +36,7 @@ Units are case insensitive, and support plural and short forms.
 | `second`      | `s`       | Second                                   |
 | `millisecond` | `ms`      | Millisecond                              |
 
-
-By default, `dayjs#diff` will truncate the result to zero decimal places, returning an integer. If you want a floating point number, pass true as the third argument. 
+By default, `dayjs#diff` will truncate the result to zero decimal places, returning an integer. If you want a floating point number, pass true as the third argument.
 
 ```js
 const date1 = dayjs('2019-01-25')
