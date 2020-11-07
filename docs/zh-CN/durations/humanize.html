@@ -81,23 +81,24 @@
     <code>Duration</code>
   </a>
   插件，才能正常运行 
-  </blockquote> <blockquote>
+  </blockquote></p>
+<p><blockquote>
   使用本功能需先配置 
-  <a href="../plugin/duration">
-    <code>Duration</code>
+  <a href="../plugin/relative-time">
+    <code>RelativeTime</code>
   </a>
   插件，才能正常运行 
-  </blockquote>Time</p>
+  </blockquote></p>
 <pre><code class="hljs css language-javascript">dayjs.extend(duration)
 dayjs.extend(relativeTime)
 dayjs.duration(<span class="hljs-number">1</span>, <span class="hljs-string">"minutes"</span>).humanize(); <span class="hljs-comment">// a minute</span>
 dayjs.duration(<span class="hljs-number">2</span>, <span class="hljs-string">"minutes"</span>).humanize(); <span class="hljs-comment">// 2 minutes</span>
 dayjs.duration(<span class="hljs-number">24</span>, <span class="hljs-string">"hours"</span>).humanize();  <span class="hljs-comment">// a day</span>
 </code></pre>
-<p>默认情况下，返回的字符串是没有后缀。 如果需要后缀，则按如下所示传入 true。</p>
+<p>By default, the return string is suffixless. If you want a suffix, pass in true as seen below.</p>
 <pre><code class="hljs css language-javascript">dayjs.duration(<span class="hljs-number">1</span>, <span class="hljs-string">"minutes"</span>).humanize(<span class="hljs-literal">true</span>); <span class="hljs-comment">// in a minute</span>
 </code></pre>
-<p>对于当前时间之前的后缀，则传入负数。</p>
+<p>For suffixes before now, pass in a negative number.</p>
 <pre><code class="hljs css language-javascript">dayjs.duration(<span class="hljs-number">-1</span>, <span class="hljs-string">"minutes"</span>).humanize(<span class="hljs-literal">true</span>); <span class="hljs-comment">// a minute ago</span>
 </code></pre>
 </span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/docs/zh-CN/durations/clone"><span class="arrow-prev">← </span><span>Clone</span></a><a class="docs-next button" href="/docs/zh-CN/durations/milliseconds"><span>Milliseconds</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="/img/logo.png" alt="Day.js" width="48" height="48"/></a><div><h5>Community</h5><a class="github-button" href="https://github.com/iamkun/dayjs" target="_blank" data-count-href="/iamkun/dayjs/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">GitHub</a><a href="https://gitter.im/iamkun/dayjs" target="_blank" rel="noreferrer noopener">Gitter</a><a href="https://dayjs.gitee.io/zh-CN" target="_blank" rel="noreferrer noopener">🇨🇳 China Mirror 中国镜像站点</a><a href="/sitemap.xml" target="_blank">Sitemap</a></div></section><section class="copyright">Copyright © 2020 Day.js</section><script>
