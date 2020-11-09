@@ -107,6 +107,7 @@
       "plugin/calendar",
       "plugin/custom-parse-format",
       "plugin/day-of-year",
+      "plugin/dev-helper",
       "plugin/duration",
       "plugin/is-between",
       "plugin/is-leap-year",
