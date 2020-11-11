@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="zh-CN"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>DevHelper · Day.js</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="DevHelper adds some helper function to give you more hints and warnings while using Day.js."/><meta name="docsearch:language" content="zh-CN"/><meta property="og:title" content="DevHelper · Day.js"/><meta property="og:type" content="website"/><meta property="og:url" content="https://day.js.org/"/><meta property="og:description" content="DevHelper adds some helper function to give you more hints and warnings while using Day.js."/><meta name="twitter:card" content="summary"/><link rel="shortcut icon" href="/img/favicon.ico"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/default.min.css"/><script>
+<!DOCTYPE html><html lang="zh-CN"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>DevHelper · Day.js</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="DevHelper 可以在您使用 Day.js 时显示一些提示和警告方便开发。"/><meta name="docsearch:language" content="zh-CN"/><meta property="og:title" content="DevHelper · Day.js"/><meta property="og:type" content="website"/><meta property="og:url" content="https://day.js.org/"/><meta property="og:description" content="DevHelper 可以在您使用 Day.js 时显示一些提示和警告方便开发。"/><meta name="twitter:card" content="summary"/><link rel="shortcut icon" href="/img/favicon.ico"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/default.min.css"/><script>
               (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
               (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
               m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -74,13 +74,13 @@
                 };
               }
             });
-        </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/dayjs/dayjs-website/issues/5/zh-CN" target="_blank" rel="noreferrer noopener">Translate</a><h1 id="__docusaurus" class="postHeaderTitle">DevHelper</h1></header><article><div><span><p>DevHelper adds some helper function to give you more hints and warnings while using Day.js.</p>
-<p>Note, you can set <code>process.env.NODE_ENV</code> to <code>production</code> to disable the DevHelper in your production environment. And if you have enabled a JavaScript minifier like UglifyJS, it can remove the plugin from your production bundle automatically to save some bytes.</p>
+        </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/dayjs/dayjs-website/issues/5/zh-CN" target="_blank" rel="noreferrer noopener">Translate</a><h1 id="__docusaurus" class="postHeaderTitle">DevHelper</h1></header><article><div><span><p>DevHelper 可以在您使用 Day.js 时显示一些提示和警告方便开发。</p>
+<p>注意，您可以将 <code>process.env.NODE_ENV</code> 设置为 <code>production</code> 以禁用您的生产环境中的DevHelper。 如果您启用了像UglifyJS这样的 JavaScript 优化工具，它可以自动从生产包中移除此插件来减小打包体积。</p>
 <pre><code class="hljs css language-js"><span class="hljs-keyword">var</span> devHelper = <span class="hljs-built_in">require</span>(<span class="hljs-string">'dayjs/plugin/devHelper'</span>)
 
 dayjs.extend(devHelper)
 </code></pre>
-<p>You can also load this plugin on demand yourself.</p>
+<p>您也可自行实现按需加载此插件。</p>
 <pre><code class="hljs css language-js"><span class="hljs-keyword">if</span> (isInDevelopment) {
   <span class="hljs-comment">// load DevHelper plugin like above</span>
 }
