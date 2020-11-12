@@ -16,3 +16,5 @@ var dayjs = require('dayjs')
 //import dayjs from 'dayjs' // ES 2015
 dayjs().format()
 ```
+
+Check here for more information about loading [locale](../i18n/loading-into-nodejs) and [plugin](../plugin/loading-into-nodejs).

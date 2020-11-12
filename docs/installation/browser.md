@@ -19,3 +19,5 @@ title: Browser
 <script src="https://unpkg.com/dayjs@1.8.21/dayjs.min.js"></script>
 <script>dayjs().format()</script>
 ```
+
+Check here for more information about loading [locale](../i18n/loading-into-browser) and [plugin](../plugin/loading-into-browser).
