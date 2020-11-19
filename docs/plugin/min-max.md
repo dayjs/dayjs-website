@@ -4,6 +4,8 @@ title: MinMax
 ---
 
 MinMax adds `.min` `.max` APIs to return a `dayjs` to compare given dayjs instances.
+This accepts both multiple arguments and array that contains Day.js instance.
+
 
 ```javascript
 var minMax = require('dayjs/plugin/minMax')
