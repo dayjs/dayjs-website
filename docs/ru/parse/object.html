@@ -117,8 +117,10 @@ dayjs({ <span class="hljs-attr">years</span>:<span class="hljs-number">2010</spa
                 pluginNames = plugins.map(plugin => plugin.name);
               for(let i = 0; i < pluginNames.length; i++){
                 const pluginName = pluginNames[i];
-                await loadScript('plugin/' + pluginName + '.js');
-                dayjs.extend(window['dayjs_plugin_' + pluginName]);
+                if (pluginName !== 'badMutable') {
+                  await loadScript('plugin/' + pluginName + '.js');
+                  dayjs.extend(window['dayjs_plugin_' + pluginName]);
+                }
               }
             })();
             (async () => {

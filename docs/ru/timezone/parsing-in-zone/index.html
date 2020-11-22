@@ -123,8 +123,10 @@ dayjs.tz(<span class="hljs-string">"12-25-1995"</span>, <span class="hljs-string
                 pluginNames = plugins.map(plugin => plugin.name);
               for(let i = 0; i < pluginNames.length; i++){
                 const pluginName = pluginNames[i];
-                await loadScript('plugin/' + pluginName + '.js');
-                dayjs.extend(window['dayjs_plugin_' + pluginName]);
+                if (pluginName !== 'badMutable') {
+                  await loadScript('plugin/' + pluginName + '.js');
+                  dayjs.extend(window['dayjs_plugin_' + pluginName]);
+                }
               }
             })();
             (async () => {

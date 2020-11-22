@@ -115,8 +115,10 @@ a.local().format() <span class="hljs-comment">//2019-03-06T08:00:00+08:00</span>
                 pluginNames = plugins.map(plugin => plugin.name);
               for(let i = 0; i < pluginNames.length; i++){
                 const pluginName = pluginNames[i];
-                await loadScript('plugin/' + pluginName + '.js');
-                dayjs.extend(window['dayjs_plugin_' + pluginName]);
+                if (pluginName !== 'badMutable') {
+                  await loadScript('plugin/' + pluginName + '.js');
+                  dayjs.extend(window['dayjs_plugin_' + pluginName]);
+                }
               }
             })();
             (async () => {

@@ -112,8 +112,10 @@ today.add(<span class="hljs-number">1</span>, <span class="hljs-string">'day'</s
                 pluginNames = plugins.map(plugin => plugin.name);
               for(let i = 0; i < pluginNames.length; i++){
                 const pluginName = pluginNames[i];
-                await loadScript('plugin/' + pluginName + '.js');
-                dayjs.extend(window['dayjs_plugin_' + pluginName]);
+                if (pluginName !== 'badMutable') {
+                  await loadScript('plugin/' + pluginName + '.js');
+                  dayjs.extend(window['dayjs_plugin_' + pluginName]);
+                }
               }
             })();
             (async () => {
