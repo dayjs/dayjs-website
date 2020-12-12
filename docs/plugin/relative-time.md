@@ -8,7 +8,7 @@ RelativeTime adds `.from` `.to` `.fromNow` `.toNow` APIs to formats date to rela
 var relativeTime = require('dayjs/plugin/relativeTime')
 dayjs.extend(relativeTime)
 
-dayjs().from(dayjs('1990')) // 2 years ago
+dayjs().to(dayjs('1990')) // 2 years ago
 dayjs().from(dayjs(), true) // 2 years
 
 dayjs().fromNow()
