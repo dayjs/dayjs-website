@@ -24,3 +24,9 @@ Units are case insensitive, and support plural and short forms. Note, short form
 | `minute`      | `m`       | Minute                                   |
 | `second`      | `s`       | Second                                   |
 | `millisecond` | `ms`      | Millisecond                              |
+
+Alternatively, you can use [durations](../durations/durations) to add to Day.js object.
+
+```js
+dayjs().add(dayjs.duration({'days' : 1}))
+```
