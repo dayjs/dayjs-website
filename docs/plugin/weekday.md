@@ -8,6 +8,10 @@ Weekday adds `.weekday()` API to get or set locale aware day of the week.
 var weekday = require('dayjs/plugin/weekday')
 dayjs.extend(weekday)
 
+// when Sunday is the first day of the week
+dayjs().weekday(-7); // last Sunday
+dayjs().weekday(7); // next Sunday
+
 // when Monday is the first day of the week
 dayjs().weekday(-7) // last Monday
 dayjs().weekday(7) // next Monday
