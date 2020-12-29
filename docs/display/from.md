@@ -10,10 +10,9 @@ Returns the string of relative time from X.
 ```js
 dayjs.extend(relativeTime)
 
-var a = dayjs()
-var b = dayjs('1990-01-01')
+var a = dayjs('2000-01-01')
 
-a.from(b) // 2 years ago
+dayjs('1999-01-01').from(a) // a year ago
 ```
 
 If you pass true, you can get the value without the suffix.
@@ -21,9 +20,9 @@ If you pass true, you can get the value without the suffix.
 ```js
 dayjs.extend(relativeTime)
 
-var a = dayjs()
-a.from('1990-01-01') // 2 years ago
-a.from('1990-01-01', true) // 2 years
+var a = dayjs('2000-01-01')
+
+dayjs('1999-01-01').from(a, true) // a year
 ```
 
 [List of breakdown range](../display/from-now#list-of-breakdown-range)

@@ -10,7 +10,7 @@ Returns the string of relative time from now.
 ```js
 dayjs.extend(relativeTime)
 
-dayjs().fromNow() // 2 years ago
+dayjs('1999-01-01').fromNow() // 20 years ago
 ```
 
 If you pass true, you can get the value without the suffix.
@@ -18,8 +18,8 @@ If you pass true, you can get the value without the suffix.
 ```js
 dayjs.extend(relativeTime)
 
-dayjs().fromNow() // 2 years ago
-dayjs().fromNow(true) // 2 years
+dayjs('1999-01-01').fromNow() // 22 years ago
+dayjs('1999-01-01').fromNow(true) // 22 years
 ```
 
 #### List of breakdown range
