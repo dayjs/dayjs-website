@@ -84,17 +84,16 @@
   </blockquote></p>
 <pre><code class="hljs css language-js">dayjs.extend(relativeTime)
 
-<span class="hljs-keyword">var</span> a = dayjs()
-<span class="hljs-keyword">var</span> b = dayjs(<span class="hljs-string">'1990-01-01'</span>)
+<span class="hljs-keyword">var</span> a = dayjs(<span class="hljs-string">'2000-01-01'</span>)
 
-a.from(b) <span class="hljs-comment">// 2 года назад</span>
+dayjs(<span class="hljs-string">'1999-01-01'</span>).from(a) <span class="hljs-comment">// a year ago</span>
 </code></pre>
 <p>Если вы передаете true, вы можете получить значение без суффикса.</p>
 <pre><code class="hljs css language-js">dayjs.extend(relativeTime)
 
-<span class="hljs-keyword">var</span> a = dayjs()
-a.from(<span class="hljs-string">'1990-01-01'</span>) <span class="hljs-comment">// 2 года назад</span>
-a.from(<span class="hljs-string">'1990-01-01'</span>, <span class="hljs-literal">true</span>) <span class="hljs-comment">// 2 года</span>
+<span class="hljs-keyword">var</span> a = dayjs(<span class="hljs-string">'2000-01-01'</span>)
+
+dayjs(<span class="hljs-string">'1999-01-01'</span>).from(a, <span class="hljs-literal">true</span>) <span class="hljs-comment">// a year</span>
 </code></pre>
 <p><a href="../display/from-now#list-of-breakdown-range">Список разделения диапазонов</a></p>
 </span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/docs/ru/display/from-now"><span class="arrow-prev">← </span><span>Время от текущего момента</span></a><a class="docs-next button" href="/docs/ru/display/to-now"><span>Время до текущего момента</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="/img/logo.png" alt="Day.js" width="48" height="48"/></a><div><h5>Community</h5><a class="github-button" href="https://github.com/iamkun/dayjs" target="_blank" data-count-href="/iamkun/dayjs/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">GitHub</a><a href="https://gitter.im/iamkun/dayjs" target="_blank" rel="noreferrer noopener">Gitter</a><a href="https://dayjs.gitee.io/zh-CN" target="_blank" rel="noreferrer noopener">🇨🇳 China Mirror 中国镜像站点</a><a href="/sitemap.xml" target="_blank">Sitemap</a></div></section><section class="copyright">Copyright © 2020 Day.js</section><script>

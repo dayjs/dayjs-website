@@ -82,8 +82,12 @@
   </a>
   plugin to work 
   </blockquote></p>
-<p>If the locale assigns Monday as the first day of the week, <code>dayjs().weekday(0)</code> will be Monday. If Sunday is the first day of the week, <code>dayjs().weekday(0)</code> will be Sunday.</p>
+<p>If the locale assigns Sunday as the first day of the week, <code>dayjs().weekday(0)</code> will be Sunday. If Monday is the first day of the week, <code>dayjs().weekday(0)</code> will be Monday.</p>
 <pre><code class="hljs css language-js">dayjs.extend(weekday)
+
+<span class="hljs-comment">// when Sunday is the first day of the week</span>
+dayjs().weekday(<span class="hljs-number">-7</span>); <span class="hljs-comment">// last Sunday</span>
+dayjs().weekday(<span class="hljs-number">7</span>); <span class="hljs-comment">// next Sunday</span>
 
 <span class="hljs-comment">// when Monday is the first day of the week</span>
 dayjs().weekday(<span class="hljs-number">-7</span>) <span class="hljs-comment">// last Monday</span>
