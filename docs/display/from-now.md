@@ -18,7 +18,6 @@ If you pass true, you can get the value without the suffix.
 ```js
 dayjs.extend(relativeTime)
 
-dayjs('1999-01-01').fromNow() // 22 years ago
 dayjs('1999-01-01').fromNow(true) // 22 years
 ```
 
