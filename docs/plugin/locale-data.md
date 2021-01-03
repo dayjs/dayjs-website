@@ -36,6 +36,7 @@ globalLocaleData.weekdays(dayjs())
 globalLocaleData.weekdaysShort(dayjs())
 globalLocaleData.weekdaysMin(dayjs())
 globalLocaleData.meridiem()
+globalLocaleData.ordinal()
 
 instanceLocaleData = dayjs().localeData()
 instanceLocaleData.firstDayOfWeek()
@@ -46,4 +47,5 @@ instanceLocaleData.weekdaysShort()
 instanceLocaleData.weekdaysMin()
 instanceLocaleData.longDateFormat('L')
 instanceLocaleData.meridiem()
+instanceLocaleData.ordinal()
 ```
