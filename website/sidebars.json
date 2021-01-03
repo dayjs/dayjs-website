@@ -148,6 +148,7 @@
       "durations/creating",
       "durations/clone",
       "durations/humanize",
+      "durations/format",
       "durations/milliseconds",
       "durations/seconds",
       "durations/minutes",
