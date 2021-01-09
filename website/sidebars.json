@@ -122,6 +122,7 @@
       "plugin/localized-format",
       "plugin/min-max",
       "plugin/object-support",
+      "plugin/plural-get-set",
       "plugin/quarter-of-year",
       "plugin/relative-time",
       "plugin/timezone",
