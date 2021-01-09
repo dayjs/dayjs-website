@@ -1,6 +1,6 @@
 ---
 id: plural-get-set
-title: pluralGetSet
+title: PluralGetSet
 ---
 PluralGetSet adds plural getter & setter APIs `.milliseconds()`, `.seconds()`, `.minutes()`, `.hours()`, `.days()`, `.weeks()`, `.isoWeeks()`, `.months()`, `.quarters()`, `.years()`, '.dates()'.
 
