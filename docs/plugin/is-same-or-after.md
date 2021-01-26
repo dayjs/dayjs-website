@@ -3,7 +3,7 @@ id: is-same-or-after
 title: IsSameOrAfter
 ---
 
-IsSameOrAfter adds `.isSameOrAfter()` API to returns a `boolean` indicating if a date is same or after another date.
+IsSameOrAfter adds `.isSameOrAfter()` API to return a `boolean` indicating if a date is the same or after another date.
 
 ```javascript
 var isSameOrAfter = require('dayjs/plugin/isSameOrAfter')
