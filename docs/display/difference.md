@@ -20,9 +20,16 @@ const date1 = dayjs('2019-01-25')
 date1.diff('2018-06-05', 'month') // 7
 ```
 
-Units are case insensitive, and support plural and short forms. Note, short forms are case sensitive.
+By default, `dayjs#diff` will truncate the result to zero decimal places, returning an integer. If you want a floating point number, pass true as the third argument.
+
+```js
+const date1 = dayjs('2019-01-25')
+date1.diff('2018-06-05', 'month', true) // 7.645161290322581
+```
 
 #### List of all available units
+
+Units are case insensitive, and support plural and short forms. Note, short forms are case sensitive.
 
 | Unit          | Shorthand | Description                              |
 | ------------- | --------- | ---------------------------------------- |
@@ -36,9 +43,3 @@ Units are case insensitive, and support plural and short forms. Note, short form
 | `second`      | `s`       | Second                                   |
 | `millisecond` | `ms`      | Millisecond                              |
 
-By default, `dayjs#diff` will truncate the result to zero decimal places, returning an integer. If you want a floating point number, pass true as the third argument.
-
-```js
-const date1 = dayjs('2019-01-25')
-date1.diff('2018-06-05', 'month', true) // 7.645161290322581
-```
