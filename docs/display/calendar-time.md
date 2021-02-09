@@ -8,7 +8,7 @@ Calendar time displays time relative to a given reference time (defaults to now)
 @>Calendar
 
 ```js
-dayjs.extend(Calendar)
+dayjs.extend(calendar)
 
 dayjs().calendar()
 dayjs().calendar(dayjs('2008-01-01'))
