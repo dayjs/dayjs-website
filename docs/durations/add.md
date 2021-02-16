@@ -14,5 +14,13 @@ a.add({ days: 2 } ).days();
 a.add(2, 'days');
 ```
 
+Example 2;
+```javascript
+var now = dayjs();
+now.add('1', 'day');
+- or
+now.add('1', 'day').format('YYYY-MM-DD');
+```
+
 [List of all available units](./creating#list-of-all-available-units)
 
