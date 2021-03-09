@@ -10,7 +10,7 @@ npm install dayjs
 ```
 Import and use in your Typescript file
 ```js
-import * as dayjs from 'dayjs'
+import dayjs from 'dayjs'
 dayjs().format()
 ```
 
@@ -33,8 +33,8 @@ If you don't have these config above, the default import won't work, and you'll 
 To use locale and plugin, you first need to import the targeting language and plugin.
 
 ```js
-import * as dayjs from 'dayjs'
-import * as isLeapYear from 'dayjs/plugin/isLeapYear' // import plugin
+import dayjs from 'dayjs'
+import isLeapYear from 'dayjs/plugin/isLeapYear' // import plugin
 import 'dayjs/locale/zh-cn' // import locale
 
 dayjs.extend(isLeapYear) // use plugin
