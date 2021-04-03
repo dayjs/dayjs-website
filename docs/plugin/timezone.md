@@ -6,8 +6,8 @@ title: Timezone
 Timezone adds `dayjs.tz` `.tz` `.tz.guess` `.tz.setDefault` APIs to parse or display between time zones.
 
 ```javascript
-var utc = require('dayjs/plugin/utc') // dependent on utc plugin
-var timezone = require('dayjs/plugin/timezone')
+var utc = require('dayjs/plugin/utc')
+var timezone = require('dayjs/plugin/timezone') // dependent on utc plugin
 dayjs.extend(utc)
 dayjs.extend(timezone)
 
