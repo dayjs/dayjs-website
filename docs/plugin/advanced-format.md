@@ -11,15 +11,7 @@ dayjs.extend(advancedFormat)
 dayjs().format('Q Do k kk X x')
 ```
 
-If using 'z' or 'zzz' format options, AdvancedFormat also requires the UTC and Timezone plugins.
-
-```javascript
-var utc = require('dayjs/plugin/utc')
-dayjs.extend(utc)
-
-var timezone require('dayjs/plugin/timezone')
-dayjs.extend(timezone)
-```
+Note: some of the format options like `z` and `zzz` in the table below require additional plugins.
 
 List of added formats:
 
