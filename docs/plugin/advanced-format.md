@@ -11,6 +11,8 @@ dayjs.extend(advancedFormat)
 dayjs().format('Q Do k kk X x')
 ```
 
+Note: some of the format options like `z` and `zzz` in the table below require additional plugins.
+
 List of added formats:
 
 | Format | Output                | Description                                           |
