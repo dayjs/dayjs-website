@@ -57,7 +57,6 @@ dayjs("12-25-2001", ["YYYY", "YYYY-MM-DD"], 'es', true);
 | `ZZ`   | -0500            | Compact offset from UTC, 2-digits |
 | `A`    | AM PM            | Post or ante meridiem, upper-case |
 | `a`    | am pm            | Post or ante meridiem, lower-case |
-| `Do`   | 1st... 31st      | Day of Month with ordinal         |
 
 
 
