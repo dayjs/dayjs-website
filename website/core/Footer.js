@@ -142,7 +142,6 @@ class Footer extends React.Component {
             })();
           `}}
         />
-        <script src="/js/sponsors.js" async></script>
         <script src="/js/add.js" async></script>
         <script
           dangerouslySetInnerHTML={{

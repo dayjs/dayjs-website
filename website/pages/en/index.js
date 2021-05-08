@@ -88,18 +88,6 @@ function Intro() {
               you use them.</translate>
             </p>
           </div>
-          <div className="sponsor sponsor-en hide">
-            <h2 className="title is-2 intro-header">
-              Sponsors
-            </h2>
-            <a href="https://www.duohui.cn?utm_source=dayjs" title="多会 - 专业活动管理系统" target="_blank"><img height="60px" alt="多会" src="/img/sponsors/duohui.png"/></a >
-          </div>
-          <div className="sponsor sponsor-cn hide">
-            <h2 className="title is-2 intro-header">
-              赞助商
-            </h2>
-            <a href="https://www.duohui.cn?utm_source=dayjs" title="多会 - 专业活动管理系统" target="_blank"><img height="60px" alt="多会" src="/img/sponsors/duohui-cn.png"/></a >
-          </div>
         </div>
       </div>
       <div className="hide">
