@@ -13,7 +13,7 @@
     "rename-version": "docusaurus-rename-version"
   },
   "devDependencies": {
-    "docusaurus": "^1.13.0"
+    "docusaurus": "1.13.0"
   },
   "license": "MIT",
   "private": true
