@@ -22,7 +22,7 @@ dayjs.extend(relativeTime)
 
 var a = dayjs('2000-01-01')
 
-dayjs('1999-01-01').to(a, true) // a years
+dayjs('1999-01-01').to(a, true) // a year
 ```
 
 [List of breakdown range](../display/from-now#list-of-breakdown-range)
