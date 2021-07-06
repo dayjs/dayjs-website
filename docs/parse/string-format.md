@@ -58,6 +58,8 @@ dayjs("12-25-2001", ["YYYY", "YYYY-MM-DD"], 'es', true);
 | `A`    | AM PM            | Post or ante meridiem, upper-case |
 | `a`    | am pm            | Post or ante meridiem, lower-case |
 | `Do`   | 1st... 31st      | Day of Month with ordinal         |
+| `X`    | 1410715640.579   | Unix timestamp                    |
+| `x`    | 1410715640579    | Unix ms timestamp                 |
 
 
 
