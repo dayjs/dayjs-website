@@ -7,7 +7,9 @@ Timezone adds `dayjs.tz` `.tz` `.tz.guess` `.tz.setDefault` APIs to parse or dis
 
 ```javascript
 var utc = require('dayjs/plugin/utc')
+// import * as utc from 'dayjs/plugin/utc' // ES 2015
 var timezone = require('dayjs/plugin/timezone') // dependent on utc plugin
+// import * as timezone from 'dayjs/plugin/timezone' // ES 2015
 dayjs.extend(utc)
 dayjs.extend(timezone)
 
