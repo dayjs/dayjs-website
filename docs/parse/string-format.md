@@ -34,8 +34,8 @@ dayjs("12-25-2001", ["YYYY", "YYYY-MM-DD"], 'es', true);
 
 | Input  | Example          | Description                       |
 | ------ | ---------------- | --------------------------------- |
-| `YY`   | 18               | Two-digit year                    |
-| `YYYY` | 2018             | Four-digit year                   |
+| `YY`   | 01               | Two-digit year                    |
+| `YYYY` | 2001             | Four-digit year                   |
 | `M`    | 1-12             | Month, beginning at 1             |
 | `MM`   | 01-12            | Month, 2-digits                   |
 | `MMM`  | Jan-Dec          | The abbreviated month name        |
