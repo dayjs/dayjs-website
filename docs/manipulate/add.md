@@ -15,9 +15,9 @@ Units are case insensitive, and support plural and short forms. Note, short form
 
 | Unit          | Shorthand | Description                              |
 | ------------- | --------- | ---------------------------------------- |
-| `day`         | `d`       | one day,or 24 hours |
-| `week`        | `w`       | Week of Year                             |
-| `month`       | `M`       | Month (January as 0, December as 11)     |
+| `day`         | `d`       | Day                                      |
+| `week`        | `w`       | Week                                     |
+| `month`       | `M`       | Month                                    |
 | `quarter`     | `Q`       | Quarter @>>QuarterOfYear                 |
 | `year`        | `y`       | Year                                     |
 | `hour`        | `h`       | Hour                                     |
