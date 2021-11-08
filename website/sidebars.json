@@ -123,6 +123,7 @@
       "plugin/min-max",
       "plugin/object-support",
       "plugin/plural-get-set",
+      "plugin/preparse-postformat",
       "plugin/quarter-of-year",
       "plugin/relative-time",
       "plugin/timezone",
