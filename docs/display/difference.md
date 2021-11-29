@@ -33,7 +33,7 @@ Units are case insensitive, and support plural and short forms. Note, short form
 
 | Unit          | Shorthand | Description                              |
 | ------------- | --------- | ---------------------------------------- |
-| `day`         | `d`       | Day of Week (Sunday as 0, Saturday as 6) |
+| `day`         | `d`       | Day                                      |
 | `week`        | `w`       | Week of Year                             |
 | `quarter`     | `Q`       | Quarter                                  |
 | `month`       | `M`       | Month (January as 0, December as 11)     |
