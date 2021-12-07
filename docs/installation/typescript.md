@@ -1,6 +1,6 @@
 ---
 id: typescript
-title: Typescript
+title: TypeScript
 ---
 Day.js ships with official type declarations for TypeScript in NPM package out of the box.
 
@@ -8,7 +8,7 @@ Install via NPM
 ```console
 npm install dayjs
 ```
-Import and use in your Typescript file
+Import and use in your TypeScript file
 ```js
 import * as dayjs from 'dayjs'
 dayjs().format()
