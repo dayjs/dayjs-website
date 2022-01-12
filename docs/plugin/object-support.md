@@ -12,14 +12,14 @@ dayjs.extend(objectSupport);
 dayjs({
   year: 2010,
   month: 1,
-  day: 12
+  date: 12
 });
 dayjs.utc({
   year: 2010,
   month: 1,
-  day: 12
+  date: 12
 });
-dayjs().set({ year: 2010, month: 1, day: 12 })
+dayjs().set({ year: 2010, month: 1, date: 12 })
 dayjs().add({ M: 1 })
 dayjs().subtract({ month: 1 })
 ```
