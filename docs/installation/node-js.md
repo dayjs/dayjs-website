@@ -12,7 +12,7 @@ npm install dayjs
 Then include it in your script:
 
 ```js
-var dayjs = require('dayjs')
+const dayjs = require('dayjs')
 //import dayjs from 'dayjs' // ES 2015
 dayjs().format()
 ```
