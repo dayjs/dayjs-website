@@ -63,4 +63,4 @@ const locale = {
 // ...
 ```
 
-[The tests](https://github.com/VehpuS/dayjs/blob/e565267d925b40af8c7e0663c303f9a397372d03/test/plugin/preParsePostFormat.test.js) should also give you a good idea on how to use the plugin if this isn't clear enough ;).
+[The tests](https://github.com/iamkun/dayjs/blob/dev/test/plugin/preParsePostFormat.test.js) should also give you a good idea on how to use the plugin if this isn't clear enough ;).
