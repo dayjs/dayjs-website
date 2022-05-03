@@ -18,7 +18,7 @@ Units are case insensitive, and support plural and short forms.
 | `year`        | `y`       | January 1st, 00:00 this year           |
 | `quarter`     | `Q`       | beginning of the current quarter, 1st day of months, 00:00 @>>QuarterOfYear|
 | `month`       | `M`       | the first day of this month, 00:00     |
-| `week`        | `w`       | the first day of this week, 00:00      |
+| `week`        | `w`       | the first day of this week, 00:00 (locale aware)      |
 | `isoWeek`     || the first day of this week according to ISO 8601, 00:00 @>>IsoWeek|
 | `date`        | `D`       | 00:00 today                            |
 | `day`         | `d`       | 00:00 today                            |
