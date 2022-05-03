@@ -18,4 +18,9 @@ dayjs().weekday(7); // next Sunday
 // when Monday is the first day of the week
 dayjs().weekday(-7) // last Monday
 dayjs().weekday(7) // next Monday
+
+
+// when Sunday is the first day of the week
+dayjs().weekday(-5) // last Tuesday (5th day before Sunday)
+dayjs().weekday(5) // next Friday (5th day after Sunday)
 ```
