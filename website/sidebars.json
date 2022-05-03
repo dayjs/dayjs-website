@@ -92,7 +92,6 @@
       "i18n/changing-locale",
       "i18n/instance-locale",
       "i18n/getting-locale",
-      "i18n/getting-locale",
       "i18n/listing-months-weekdays",
       "i18n/locale-data"
     ],
