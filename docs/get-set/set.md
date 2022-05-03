@@ -15,6 +15,10 @@ dayjs().set('date', 1)
 dayjs().set('month', 3) // April
 dayjs().set('second', 30)
 ```
+For multiply set:
+``` 
+dayjs().set('hour', 5).set('minute', 55).set('second', 15)
+```
 Units are case insensitive, and support plural and short forms.
 
 [List of all available units](./get#list-of-all-available-units)
