@@ -34,13 +34,14 @@ jobs:
       - name: Write English translations
         run: yarn run write-translations
         working-directory: 'website'
-      - name: Upload translations
-        run: yarn run crowdin-upload
-        working-directory: 'website'
-      - name: Download Translations
-        run:  yarn run crowdin-download
+      - name: Upload && download translations
+        env:
+          CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
+          CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
+        run: |
+          yarn run crowdin-upload
+          yarn run crowdin-download
         working-directory: 'website'
       - name: Publish to GitHub Pages
         run: GIT_USER=github-actions[bot] yarn run publish-gh-pages
         working-directory: 'website'
-      
