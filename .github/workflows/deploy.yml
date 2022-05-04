@@ -12,10 +12,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 16.x
-          cache: yarn
       - name: Init
         run: |
           cd website
@@ -24,6 +20,10 @@ jobs:
           run: sudo apt-get install default-jre
           run: wget https://artifacts.crowdin.com/repo/deb/crowdin.deb -O crowdin.deb
           run: sudo dpkg -i crowdin.deb
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16.x
+          cache: yarn
       - name: Install dependencies
         run: yarn install --frozen-lockfile
       - name: Write English translations
