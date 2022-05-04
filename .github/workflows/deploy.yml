@@ -13,9 +13,12 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Git config
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --global user.name github-actions[bot] 
           git config --global user.email 41898282+github-actions[bot]@users.noreply.github.com
+          echo "machine github.com login github-actions[bot] password ${GITHUB_TOKEN}" > ~/.netrc
       - name: Install Crowdin
         run: |
           wget https://artifacts.crowdin.com/repo/deb/crowdin.deb -O crowdin.deb;
