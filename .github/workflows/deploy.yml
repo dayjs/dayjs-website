@@ -16,12 +16,13 @@ jobs:
         with:
           node-version: 16.x
           cache: yarn
-        run: cd website
-        run: git config --global user.name github-actions[bot]
-        run: git config --global user.email 41898282+github-actions[bot]@users.noreply.github.com
-        run: sudo apt-get install default-jre
-        run: wget https://artifacts.crowdin.com/repo/deb/crowdin.deb -O crowdin.deb
-        run: sudo dpkg -i crowdin.deb
+        run: |
+          cd website
+          git config --global user.name github-actions[bot]
+          run: git config --global user.email 41898282+github-actions[bot]@users.noreply.github.com
+          run: sudo apt-get install default-jre
+          run: wget https://artifacts.crowdin.com/repo/deb/crowdin.deb -O crowdin.deb
+          run: sudo dpkg -i crowdin.deb
       - name: Install dependencies
         run: yarn install --frozen-lockfile
       - name: Write English translations
