@@ -1,4 +1,4 @@
-project_identifier_env: CROWDIN_PROJECT_ID
+project_identifier: "dayjs"
 api_key_env: CROWDIN_API_KEY_V1
 base_path: "./"
 preserve_hierarchy: true

@@ -31,9 +31,6 @@ jobs:
       - name: Write English translations
         run: yarn run write-translations
         working-directory: 'website'
-      - name: Write English translations
-        run: yarn run write-translations
-        working-directory: 'website'
       - name: Upload && download translations
         env:
           CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
