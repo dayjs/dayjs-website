@@ -16,6 +16,10 @@ jobs:
         run: |
           git config --global user.name github-actions[bot] 
           git config --global user.email 41898282+github-actions[bot]@users.noreply.github.com
+      - name: Install Crowdin
+        run: |
+          wget https://artifacts.crowdin.com/repo/deb/crowdin3.deb -O crowdin.deb
+          sudo dpkg -i crowdin.deb
       - uses: actions/setup-node@v3
         with:
           node-version: 16.x
@@ -26,5 +30,14 @@ jobs:
         working-directory: 'website'
       - name: Write English translations
         run: yarn run write-translations
+        working-directory: 'website'
+      - name: Write English translations
+        run: yarn run write-translations
+        working-directory: 'website'
+      - name: Download Translations
+        run:  yarn run crowdin-download
+        working-directory: 'website'
+      - name: Publish to GitHub Pages
+        run: GIT_USER=github-actions[bot] yarn run publish-gh-pages
         working-directory: 'website'
       
