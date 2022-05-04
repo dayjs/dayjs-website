@@ -13,13 +13,14 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Init
-        run: |
-          cd website
-          git config --global user.name github-actions[bot]
-          run: git config --global user.email 41898282+github-actions[bot]@users.noreply.github.com
-          run: sudo apt-get install default-jre
-          run: wget https://artifacts.crowdin.com/repo/deb/crowdin.deb -O crowdin.deb
-          run: sudo dpkg -i crowdin.deb
+        run: cd website
+      - name: Git config
+          run: git config --global user.name github-actions[bot] && git config --global user.email 41898282+github-actions[bot]@users.noreply.github.com
+      - name: Install Crowdin
+          run: |
+            sudo apt-get install default-jre
+            wget https://artifacts.crowdin.com/repo/deb/crowdin.deb -O crowdin.deb
+            sudo dpkg -i crowdin.deb
       - uses: actions/setup-node@v3
         with:
           node-version: 16.x
