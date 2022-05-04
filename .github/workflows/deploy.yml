@@ -11,18 +11,17 @@ jobs:
     if: github.ref == 'refs/heads/master'
     runs-on: ubuntu-latest
     steps:
-      - name: Open website folder
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16.x
+          cache: yarn
         run: cd website
         run: git config --global user.name github-actions[bot]
         run: git config --global user.email 41898282+github-actions[bot]@users.noreply.github.com
         run: sudo apt-get install default-jre
         run: wget https://artifacts.crowdin.com/repo/deb/crowdin.deb -O crowdin.deb
         run: sudo dpkg -i crowdin.deb
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 16.x
-          cache: yarn
       - name: Install dependencies
         run: yarn install --frozen-lockfile
       - name: Write English translations
