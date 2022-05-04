@@ -1,6 +1,6 @@
 ---
 id: preparse-postformat
-title: Pre-parse / Post-format Plugin
+title: PreParsePostFormat
 ---
 Pre-parse / Post-format lets you process the input before the parser and process the string output after the formatter. [Based on similar behavior for locales in moment.js](https://momentjs.com/docs/#/i18n/locale-data/).
 
@@ -14,6 +14,8 @@ e.g. [In the AR locale specifically, it is used to support Arabic numerals](http
 ```javascript
 // Arabic [ar]
 import dayjs from 'dayjs'
+import preParsePostFormat from 'dayjs/plugin/preParsePostFormat'
+dayjs.extend(preParsePostFormat)
 
 const months = 'يناير_فبراير_مارس_أبريل_مايو_يونيو_يوليو_أغسطس_سبتمبر_أكتوبر_نوفمبر_ديسمبر'.split('_')
 const symbolMap = {
