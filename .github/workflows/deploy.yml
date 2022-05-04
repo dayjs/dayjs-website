@@ -18,8 +18,8 @@ jobs:
           git config --global user.email 41898282+github-actions[bot]@users.noreply.github.com
       - name: Install Crowdin
         run: |
-          wget https://artifacts.crowdin.com/repo/deb/crowdin3.deb -O crowdin.deb
-          sudo dpkg -i crowdin.deb
+          wget https://artifacts.crowdin.com/repo/deb/crowdin.deb -O crowdin.deb;
+          sudo dpkg -i crowdin.deb;
       - uses: actions/setup-node@v3
         with:
           node-version: 16.x
