@@ -20,11 +20,13 @@ jobs:
         with:
           node-version: 16.x
           cache: yarn
-        working-directory: 'website'
+          cache-dependency-path: ./website/yarn.lock
       - name: Install dependencies
         run: yarn install --frozen-lockfile
+        working-directory: 'website'
       - name: Write English translations
         run: yarn run write-translations
+        working-directory: 'website'
       - name: Crowdin action
         uses: crowdin/github-action@1.4.8
         with:
@@ -34,3 +36,4 @@ jobs:
           CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
       - name: Publish to GitHub Pages
         run: GIT_USER=github-actions[bot] yarn run publish-gh-pages
+        working-directory: 'website'
