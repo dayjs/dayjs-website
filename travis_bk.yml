@@ -20,3 +20,6 @@ script:
       yarn run crowdin-download;
       GIT_USER="${GH_NAME}" yarn run publish-gh-pages;
     fi
+
+user_name: github-actions[bot]
+          user_email: 41898282+github-actions[bot]@users.noreply.github.com
