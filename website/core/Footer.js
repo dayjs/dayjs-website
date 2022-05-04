@@ -88,7 +88,7 @@ class Footer extends React.Component {
             versionNode.insertAdjacentHTML('afterend', '<span class="github-star-btn"><a class="github-button" href="https://github.com/iamkun/dayjs" data-size="large" data-show-count="true">Star</a></span>');
           `}}
         />
-        <script src="https://buttons.github.io/buttons.js" async></script>
+        <script async src="https://buttons.github.io/buttons.js" async></script>
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -154,6 +154,16 @@ class Footer extends React.Component {
             })();
           `}}
         />
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-049VSBGZWL"></script>
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-049VSBGZWL');
+        `}}
+      />
       </footer>
     )
   }
