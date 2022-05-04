@@ -18,11 +18,6 @@ jobs:
         run: |
           git config --global user.name github-actions[bot] 
           git config --global user.email 41898282+github-actions[bot]@users.noreply.github.com
-      - name: Install Crowdin
-        run: |
-          sudo apt-get install default-jre
-          wget https://artifacts.crowdin.com/repo/deb/crowdin.deb -O crowdin.deb
-          sudo dpkg -i crowdin.deb
       - uses: actions/setup-node@v3
         with:
           node-version: 16.x
@@ -31,11 +26,14 @@ jobs:
         run: yarn install --frozen-lockfile
       - name: Write English translations
         run: yarn run write-translations
-      - name: Build website
-        run: yarn build
-      - name: Upload translations
-        run: yarn run crowdin-upload
-      - name: Download translations
-        run: yarn run crowdin-download
+      - name: crowdin action
+        uses: crowdin/github-action@1.4.8
+        with:
+          upload_sources: true
+          download_translations: true
+          download_language: ['zh-CN', 'ru']
+        env:
+          CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
+          CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
       - name: Publish to GitHub Pages
         run: GIT_USER=github-actions[bot] yarn run publish-gh-pages
