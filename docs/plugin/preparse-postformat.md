@@ -4,7 +4,7 @@ title: Pre-parse / Post-format Plugin
 ---
 Pre-parse / Post-format lets you process the input before the parser and process the string output after the formatter. [Based on similar behavior for locales in moment.js](https://momentjs.com/docs/#/i18n/locale-data/).
 
-NOTE: this plugin requires the localeData plugin to be imported before it (as it depends on it's functionality). This is done [by design](https://github.com/iamkun/dayjs/pull/1255#issuecomment-753325420).
+NOTE: this plugin requires the localeData plugin to be imported before it (as it depends on it's functionality). 
 
 NOTE: this plugin also affects the relative time plugin, also by design (mimics the moment.js implementaiton behavior).
 
