@@ -10,10 +10,9 @@ jobs:
     name: Deploy to GitHub Pages
     if: github.ref == 'refs/heads/master'
     runs-on: ubuntu-latest
+    working-directory: 'website'
     steps:
       - uses: actions/checkout@v2
-      - name: Init
-        run: cd website
       - name: Git config
         run: |
           git config --global user.name github-actions[bot] 
@@ -26,10 +25,9 @@ jobs:
         run: yarn install --frozen-lockfile
       - name: Write English translations
         run: yarn run write-translations
-      - name: crowdin action
+      - name: Crowdin action
         uses: crowdin/github-action@1.4.8
         with:
-          upload_sources: true
           download_translations: true
         env:
           CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
