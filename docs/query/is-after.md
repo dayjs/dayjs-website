@@ -7,10 +7,10 @@ This indicates whether the Day.js object is after the other supplied date-time.
 ```js
 dayjs().isAfter(dayjs('2011-01-01')) // default milliseconds
 ```
-If you want to limit the granularity to a unit other than milliseconds, pass it as the second parameter.
+If you want to limit the granularity to a unit other than milliseconds, pass it as the second parameter. In that case the comparision respects the given unit and the units above.
 
 ```js
-dayjs().isAfter('2011-01-01', 'year')
+dayjs().isAfter('2011-01-01', 'month') // compares month and year
 ```
 
 Units are case insensitive, and support plural and short forms.

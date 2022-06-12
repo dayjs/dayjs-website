@@ -12,10 +12,10 @@ dayjs.extend(isBetween)
 dayjs('2010-10-20').isBetween('2010-10-19', dayjs('2010-10-25')) 
 // default milliseconds
 ```
-If you want to limit the granularity to a unit other than milliseconds, pass it as the third parameter.
+If you want to limit the granularity to a unit other than milliseconds, pass it as the third parameter. In that case the comparision respects the given unit and the units above.
 
 ```js
-dayjs().isBetween('2010-10-19', '2010-10-25', 'year')
+dayjs().isBetween('2010-10-19', '2010-10-25', 'month') // compares month and year
 ```
 
 Units are case insensitive, and support plural and short forms.
