@@ -6,6 +6,6 @@ title: Year
 Gets or sets the year.
 
 ```js
-dayjs().year()
-dayjs().year(2000)
+dayjs().year() // gets current year
+dayjs().year(2000) // returns new dayjs object
 ```
