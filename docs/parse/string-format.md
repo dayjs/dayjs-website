@@ -61,5 +61,6 @@ dayjs("12-25-2001", ["YYYY", "YYYY-MM-DD"], 'es', true);
 | `X`    | 1410715640.579   | Unix timestamp                    |
 | `x`    | 1410715640579    | Unix ms timestamp                 |
 
-
+List of all recognized separator characters:  
+`-_:.,()/`
 
