@@ -61,5 +61,18 @@ dayjs("12-25-2001", ["YYYY", "YYYY-MM-DD"], 'es', true);
 | `X`    | 1410715640.579   | Unix timestamp                    |
 | `x`    | 1410715640579    | Unix ms timestamp                 |
 
+### Differences to moment
+
+| title | parameters | dayjs | moment |
+|-------|------------|-------|--------|
+| invalid date with overflow | ('35/22/2010 99:88:77', 'DD-MM-YYYY HH:mm:ss') | '08-11-2011 04:29:17' | 'Invalid date' |
+| invalid date with overflow, strict | ('35/22/2010 99:88:77', 'DD-MM-YYYY HH:mm:ss', true) | 'Invalid Date' | 'Invalid date' |
+| '0' day or month (using default values) | ('1970-00-00', 'YYYY-MM-DD') | '1970-01-01' | 'Invalid date' |
+| '0' day or month (using default values), strict | ('1970-00-00', 'YYYY-MM-DD', true) | 'Invalid Date' | 'Invalid date' |
+| date not matching format | ('10/12/2014', 'YYYY-MM-DD') | '01-01-2014' | '12-20-2010' |
+| date not matching format, strict | ('10/12/2014', 'YYYY-MM-DD', true) | 'Invalid Date' | 'Invalid date' |
+| first match vs. longest match | ('2012-05-28 10:21:15', ['YYYY', 'YYYY-MM-DD', 'YYYY-MM-DD HH:mm:ss']) | '2012-01-01 00:00:00' | '2012-05-28 10:21:15' |
+| first match vs. longest match, strict | ('2012-05-28 10:21:15', ['YYYY', 'YYYY-MM-DD', 'YYYY-MM-DD HH:mm:ss'], true) | '2012-05-28 10:21:15' | '2012-05-28 10:21:15' |
+
 
 
