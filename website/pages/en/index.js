@@ -93,6 +93,9 @@ function Intro() {
       <div className="index_sponsors">
         <div className="title">Special Sponsors</div>
         <div className="list">
+          <a href="https://github.com/alan-eu" target="_blank">
+            <img src="https://avatars.githubusercontent.com/u/18175329?s=52&v=4"/>
+          </a>
           <a href="https://www.exoflare.com/open-source/?utm_source=dayjs&utm_campaign=open_source" target="_blank">
             <img src="https://user-images.githubusercontent.com/17680888/162761622-1407a849-0c41-4591-8aa9-f98114ec2092.png"/>
           </a>
