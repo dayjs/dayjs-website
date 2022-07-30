@@ -11,7 +11,20 @@ var timezone = require('dayjs/plugin/timezone') // dependent on utc plugin
 dayjs.extend(utc)
 dayjs.extend(timezone)
 
-dayjs.tz("2014-06-01 12:00", "America/New_York")
+const timestamp = "2014-06-01 12:00";
+const tz = "America/New_York"
+
+const djs = dayjs(timestamp); //assumes UTC
+//djs.toISOString() -> 2014-06-01T12:00:00.000Z
+//djs.format('YYYY-MM-DDTHH:mm:ss') -> 2014-06-01T12:00:00
+
+const djAmerica = djs.tz(tz)  //existing time treated as UTC
+//djAmerica.toISOString() -> 2014-06-01T12:00:00.000Z
+//djAmerica.format('YYYY-MM-DDTHH:mm:ss') -> 2014-06-01T08:00:00
+
+const djAmericaKeep = djs.tz(tz, true) //existing time treated as local time
+//djAmericaKeep.toISOString() -> 2014-06-01T16:00:00.000Z
+//djAmericaKeep.format('YYYY-MM-DDTHH:mm:ss') -> 2014-06-01T12:00:00
 
 dayjs("2014-06-01 12:00").tz("America/New_York")
 
