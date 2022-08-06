@@ -30,3 +30,5 @@ Alternatively, you can use [durations](../durations/durations) to add to Day.js 
 ```js
 dayjs().add(dayjs.duration({'days' : 1}))
 ```
+
+When decimal values are passed for **days** and **weeks**, they are rounded to the nearest integer before adding.
