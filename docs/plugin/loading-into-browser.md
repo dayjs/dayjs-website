@@ -15,8 +15,8 @@ Loading plugin on demand.
 Day.js is available on [CDN](../installation/browser#cdn-resource).
 
 ```html
-<!-- CDN example (unpkg) -->
-<script src="https://unpkg.com/dayjs@1.8.21/dayjs.min.js"></script>
-<script src="https://unpkg.com/dayjs@1.8.21/plugin/utc.js"></script>
+<!-- CDN example (jsDelivr) -->
+<script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/dayjs@1/plugin/utc.js"></script>
 <script>dayjs.extend(window.dayjs_plugin_utc)</script>
 ```

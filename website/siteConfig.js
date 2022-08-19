@@ -10,7 +10,7 @@
 
 // List of projects/orgs using your project for the users page.
 const users = []
-const markdownPlugins = require('./plugin') 
+const markdownPlugins = require('./plugin')
 const siteConfig = {
   markdownPlugins: [markdownPlugins],
   title: 'Day.js', // Title for your website.
@@ -50,7 +50,7 @@ const siteConfig = {
   /* Colors for website */
   colors: {
     primaryColor: '#fb6052',
-    secondaryColor: '#eb6052'
+    secondaryColor: '#eb6052',
   },
 
   /* Custom fonts for website */
@@ -79,13 +79,13 @@ const siteConfig = {
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
     // theme: 'github'
-    themeUrl: 'https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/default.min.css'
+    themeUrl: 'https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/default.min.css',
   },
 
   // Add custom scripts here that would be placed in <script> tags.
   // scripts: ['https://buttons.github.io/buttons.js'],
 
-  // stylesheets: ['https://unpkg.com/bulma@0.7.5/css/bulma.min.css'],
+  // stylesheets: ['https://cdn.jsdelivr.net/npm/bulma@0.7.5/css/bulma.min.css'],
 
   // On page navigation for the current documentation page.
   onPageNav: 'separate',
@@ -111,8 +111,8 @@ const siteConfig = {
     apiKey: '015f468476ca8256cf1c8e8fb6d82cc3',
     indexName: 'dayjs',
     algoliaOptions: {
-      facetFilters: ["language:LANGUAGE"]
-    }
+      facetFilters: ['language:LANGUAGE'],
+    },
   },
 }
 
