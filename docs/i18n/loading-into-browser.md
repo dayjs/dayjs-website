@@ -25,8 +25,8 @@ var customLocale = window.dayjs_locale_zh_cn // zh-cn -> zh_cn
 Day.js is available on [CDN](../installation/browser#cdn-resource).
 
 ```html
-<!-- CDN example (unpkg) -->
-<script src="https://unpkg.com/dayjs@1.8.21/dayjs.min.js"></script>
-<script src="https://unpkg.com/dayjs@1.8.21/locale/zh-cn.js"></script>
+<!-- CDN example (jsDelivr) -->
+<script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/dayjs@1/locale/zh-cn.js"></script>
 <script>dayjs.locale('zh-cn')</script>
 ```

@@ -61,6 +61,7 @@ dayjs("12-25-2001", ["YYYY", "YYYY-MM-DD"], 'es', true);
 | `X`    | 1410715640.579   | Unix timestamp                    |
 | `x`    | 1410715640579    | Unix ms timestamp                 |
 
+
 ### Differences to moment
 
 | title | parameters | dayjs | moment |
@@ -74,5 +75,9 @@ dayjs("12-25-2001", ["YYYY", "YYYY-MM-DD"], 'es', true);
 | first match vs. longest match | ('2012-05-28 10:21:15', ['YYYY', 'YYYY-MM-DD', 'YYYY-MM-DD HH:mm:ss']) | '2012-01-01 00:00:00' | '2012-05-28 10:21:15' |
 | first match vs. longest match, strict | ('2012-05-28 10:21:15', ['YYYY', 'YYYY-MM-DD', 'YYYY-MM-DD HH:mm:ss'], true) | '2012-05-28 10:21:15' | '2012-05-28 10:21:15' |
 
+
+
+### List of all recognized separator characters:  
+`-_:.,()/`
 
 
