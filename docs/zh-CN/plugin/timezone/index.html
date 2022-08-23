@@ -80,7 +80,20 @@
 dayjs.extend(utc)
 dayjs.extend(timezone)
 
-dayjs.tz(<span class="hljs-string">"2014-06-01 12:00"</span>, <span class="hljs-string">"America/New_York"</span>)
+<span class="hljs-keyword">const</span> datetime = <span class="hljs-string">"2014-06-01 12:00"</span>;
+<span class="hljs-keyword">const</span> tz = <span class="hljs-string">"America/New_York"</span>
+
+<span class="hljs-keyword">const</span> dayjsLocal = dayjs(timestamp); <span class="hljs-comment">//assumes UTC</span>
+<span class="hljs-comment">//dayjsLocal.toISOString() -&gt; 2014-06-01T12:00:00.000Z</span>
+<span class="hljs-comment">//dayjsLocal.format('YYYY-MM-DDTHH:mm:ss') -&gt; 2014-06-01T12:00:00</span>
+
+<span class="hljs-keyword">const</span> dayjsAmerica = dayjsLocal.tz(tz)  <span class="hljs-comment">//existing time treated as UTC</span>
+<span class="hljs-comment">//dayjsAmerica.toISOString() -&gt; 2014-06-01T12:00:00.000Z</span>
+<span class="hljs-comment">//dayjsAmerica.format('YYYY-MM-DDTHH:mm:ss') -&gt; 2014-06-01T08:00:00</span>
+
+<span class="hljs-keyword">const</span> dayjsAmericaKeep = dayjsLocal.tz(tz, <span class="hljs-literal">true</span>) <span class="hljs-comment">//existing time treated as local time</span>
+<span class="hljs-comment">//dayjsAmericaKeep.toISOString() -&gt; 2014-06-01T16:00:00.000Z</span>
+<span class="hljs-comment">//dayjsAmericaKeep.format('YYYY-MM-DDTHH:mm:ss') -&gt; 2014-06-01T12:00:00</span>
 
 dayjs(<span class="hljs-string">"2014-06-01 12:00"</span>).tz(<span class="hljs-string">"America/New_York"</span>)
 
