@@ -75,11 +75,12 @@
               }
             });
         </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://crowdin.com/project/dayjs/ru" target="_blank" rel="noreferrer noopener">Translate</a><h1 class="postHeaderTitle">Get + Set</h1></header><article><div><span><p>Day.js использует перегруженные геттеры и сеттеры, то есть вызов этих методов без параметров действует как геттер, а с параметром - как сеттер.</p>
-<p>Это сопоставления с соответствующей функцией нативного объекта <code>Date</code>.</p>
+<p>As dayjs objects are immutable, all setters will return a new dayjs instance.</p>
+<p>These map to the corresponding function on the native <code>Date</code> object.</p>
 <pre><code class="hljs css language-js">dayjs().second(<span class="hljs-number">30</span>).valueOf() <span class="hljs-comment">// =&gt; new Date().setSeconds(30)</span>
 dayjs().second() <span class="hljs-comment">// =&gt; new Date().getSeconds()</span>
 </code></pre>
-<p>Если вы находитесь в <a href="../parse/utc">режиме UTC</a>, они будут сопоставлены равносильно UTC.</p>
+<p>If you are in <a href="../parse/utc">UTC mode</a>, they will map to the UTC equivalent.</p>
 <pre><code class="hljs css language-js">dayjs.utc().second(<span class="hljs-number">30</span>).valueOf()<span class="hljs-comment">// =&gt; new Date().setUTCSeconds(30)</span>
 dayjs.utc().second()<span class="hljs-comment">// =&gt; new Date().getUTCSeconds()</span>
 </code></pre>

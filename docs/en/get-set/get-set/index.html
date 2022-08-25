@@ -75,6 +75,7 @@
               }
             });
         </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/dayjs/website/blob/master/docs/get-set/get-set.md" target="_blank" rel="noreferrer noopener">Edit</a><h1 class="postHeaderTitle">Get + Set</h1></header><article><div><span><p>Day.js uses overloaded getters and setters, that is to say, calling these methods without parameters acts as a getter, and calling them with a parameter acts as a setter.</p>
+<p>As dayjs objects are immutable, all setters will return a new dayjs instance.</p>
 <p>These map to the corresponding function on the native <code>Date</code> object.</p>
 <pre><code class="hljs css language-js">dayjs().second(<span class="hljs-number">30</span>).valueOf() <span class="hljs-comment">// =&gt; new Date().setSeconds(30)</span>
 dayjs().second() <span class="hljs-comment">// =&gt; new Date().getSeconds()</span>
