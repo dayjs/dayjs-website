@@ -10,5 +10,5 @@ Gets or sets the week of the year.
 dayjs.extend(weekOfYear)
 
 dayjs('2018-06-27').week() // 26
-dayjs('2018-06-27').week(5) // set week
+dayjs('2018-06-27').week(5) // returns new dayjs object
 ```

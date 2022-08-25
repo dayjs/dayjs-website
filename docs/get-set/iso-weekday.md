@@ -10,6 +10,6 @@ Gets or sets the [ISO day of the week](https://en.wikipedia.org/wiki/ISO_week_da
 ```javascript
 dayjs.extend(isoWeek)
 
-dayjs().isoWeekday()
+dayjs().isoWeekday() // gets the current ISO day of he week
 dayjs().isoWeekday(1); // Monday
 ```

@@ -10,5 +10,5 @@ Gets or sets the quarter.
 dayjs.extend(quarterOfYear)
 
 dayjs('2010-04-01').quarter() // 2
-dayjs('2010-04-01').quarter(2)
+dayjs('2010-04-01').quarter(2) // returns new dayjs object
 ```

@@ -5,6 +5,8 @@ title: Get + Set
 
 Day.js uses overloaded getters and setters, that is to say, calling these methods without parameters acts as a getter, and calling them with a parameter acts as a setter.
 
+As dayjs objects are immutable, all setters will return a new dayjs instance.
+
 These map to the corresponding function on the native `Date` object.
 
 ```js
