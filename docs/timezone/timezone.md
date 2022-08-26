@@ -16,8 +16,8 @@ dayjs.extend(timezone)
 
 // current time zone is 'Europe/Berlin' (offset +01:00)
 // Parsing
-dayjs.tz("2013-11-18T11:55:20", "America/Toronto") // '2013-11-18T11:55:20-05:00'
+dayjs.tz("2013-11-18 11:55:20", "America/Toronto") // '2013-11-18T11:55:20-05:00'
 
 // Converting (from time zone 'Europe/Berlin'!)
-dayjs("2013-11-18T11:55:20").tz("America/Toronto") // '2013-11-18T05:55:20-05:00'
+dayjs("2013-11-18 11:55:20").tz("America/Toronto") // '2013-11-18T05:55:20-05:00'
 ```
