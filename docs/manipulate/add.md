@@ -6,7 +6,11 @@ title: Add
 Returns a cloned Day.js object with a specified amount of time added.
 
 ```js
-dayjs().add(7, 'day')
+const a = dayjs
+const b = dayjs().add(7, 'day')
+
+// a -> the original value and will not change
+// b -> the manipulation result
 ```
 
 Units are case insensitive, and support plural and short forms. Note, short forms are case sensitive.
@@ -28,7 +32,7 @@ Units are case insensitive, and support plural and short forms. Note, short form
 Alternatively, you can use [durations](../durations/durations) to add to Day.js object.
 
 ```js
-dayjs().add(dayjs.duration({'days' : 1}))
+result = dayjs().add(dayjs.duration({'days' : 1}))
 ```
 
 When decimal values are passed for **days** and **weeks**, they are rounded to the nearest integer before adding.
