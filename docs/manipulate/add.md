@@ -7,7 +7,7 @@ Returns a cloned Day.js object with a specified amount of time added.
 
 ```js
 const a = dayjs
-const b = dayjs().add(7, 'day')
+const b = a.add(7, 'day')
 
 // a -> the original value and will not change
 // b -> the manipulation result
