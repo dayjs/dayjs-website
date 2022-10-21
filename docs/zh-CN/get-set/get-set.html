@@ -75,12 +75,12 @@
               }
             });
         </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://crowdin.com/project/dayjs/zh-CN" target="_blank" rel="noreferrer noopener">Translate</a><h1 class="postHeaderTitle">取值/赋值</h1></header><article><div><span><p>在设计上 Day.js 的 getter 和 setter 使用了相同的 API，也就是说，不传参数调用方法即为 getter，调用并传入参数为 setter。</p>
-<p>As dayjs objects are immutable, all setters will return a new dayjs instance.</p>
-<p>These map to the corresponding function on the native <code>Date</code> object.</p>
+<p>由于 dayjs 对象是不可变的，所有设置操作将返回一个新的 dayjs 实例。</p>
+<p>这些 API 调用了对应原生 <code>Date</code> 对象的方法。</p>
 <pre><code class="hljs css language-js">dayjs().second(<span class="hljs-number">30</span>).valueOf() <span class="hljs-comment">// =&gt; new Date().setSeconds(30)</span>
 dayjs().second() <span class="hljs-comment">// =&gt; new Date().getSeconds()</span>
 </code></pre>
-<p>If you are in <a href="../parse/utc">UTC mode</a>, they will map to the UTC equivalent.</p>
+<p>如果您处于 <a href="../parse/utc">UTC 模式</a>，将会调用对应的 UTC 方法。</p>
 <pre><code class="hljs css language-js">dayjs.utc().second(<span class="hljs-number">30</span>).valueOf()<span class="hljs-comment">// =&gt; new Date().setUTCSeconds(30)</span>
 dayjs.utc().second()<span class="hljs-comment">// =&gt; new Date().getUTCSeconds()</span>
 </code></pre>
