@@ -102,6 +102,7 @@
       "plugin/advanced-format",
       "plugin/array-support",
       "plugin/bad-mutable",
+      "plugin/bigint-support",
       "plugin/buddhist-era",
       "plugin/calendar",
       "plugin/custom-parse-format",
