@@ -93,6 +93,9 @@ function Intro() {
       <div className="index_sponsors">
         <div className="title">Special Sponsors</div>
         <div className="list">
+          <a href="https://toyokumo.co.jp" target="_blank">
+            <img src="https://user-images.githubusercontent.com/17680888/197092231-2367b5eb-1e43-467e-a311-23f7cd97b086.png"/>
+          </a>
           <a href="https://github.com/alan-eu" target="_blank">
             <img src="https://avatars.githubusercontent.com/u/18175329?s=52&v=4"/>
           </a>
