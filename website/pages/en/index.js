@@ -109,7 +109,7 @@ function Intro() {
       </div>
       <div className="hide">
         <translate desc="plugin">
-          This dependent on
+          This requires the
         </translate>
         <translate desc="plugin">
           plugin to work
