@@ -44,7 +44,7 @@ const render = (tokens, idx) => {
     )`
   }
   return `<blockquote>
-  ${translate("This dependent on|plugin")} 
+  ${translate("This requires the|plugin")}
   <a href="../plugin/${pluginSnakeName}">
     <code>${token.content.plugin}</code>
   </a>
