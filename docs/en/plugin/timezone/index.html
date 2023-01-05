@@ -77,10 +77,11 @@
         </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/dayjs/website/blob/master/docs/plugin/timezone.md" target="_blank" rel="noreferrer noopener">Edit</a><h1 class="postHeaderTitle">Timezone</h1></header><article><div><span><p>Timezone adds <code>dayjs.tz</code> <code>.tz</code> <code>.tz.guess</code> <code>.tz.setDefault</code> APIs to parse or display between time zones.</p>
 <pre><code class="hljs css language-javascript"><span class="hljs-keyword">var</span> utc = <span class="hljs-built_in">require</span>(<span class="hljs-string">'dayjs/plugin/utc'</span>)
 <span class="hljs-keyword">var</span> timezone = <span class="hljs-built_in">require</span>(<span class="hljs-string">'dayjs/plugin/timezone'</span>) <span class="hljs-comment">// dependent on utc plugin</span>
+
 dayjs.extend(utc)
 dayjs.extend(timezone)
 
-<span class="hljs-keyword">const</span> datetime = <span class="hljs-string">"2014-06-01 12:00"</span>;
+<span class="hljs-keyword">const</span> timestamp = <span class="hljs-string">"2014-06-01 12:00"</span>
 <span class="hljs-keyword">const</span> tz = <span class="hljs-string">"America/New_York"</span>
 
 <span class="hljs-keyword">const</span> dayjsLocal = dayjs(timestamp); <span class="hljs-comment">//assumes UTC</span>
@@ -94,14 +95,31 @@ dayjs.extend(timezone)
 <span class="hljs-keyword">const</span> dayjsAmericaKeep = dayjsLocal.tz(tz, <span class="hljs-literal">true</span>) <span class="hljs-comment">//existing time treated as local time</span>
 <span class="hljs-comment">//dayjsAmericaKeep.toISOString() -&gt; 2014-06-01T16:00:00.000Z</span>
 <span class="hljs-comment">//dayjsAmericaKeep.format('YYYY-MM-DDTHH:mm:ss') -&gt; 2014-06-01T12:00:00</span>
-
-dayjs(<span class="hljs-string">"2014-06-01 12:00"</span>).tz(<span class="hljs-string">"America/New_York"</span>)
-
-dayjs.tz.guess()
-
-dayjs.tz.setDefault(<span class="hljs-string">"America/New_York"</span>)
 </code></pre>
-</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/docs/en/plugin/relative-time"><span class="arrow-prev">← </span><span class="function-name-prevnext">RelativeTime</span></a><a class="docs-next button" href="/docs/en/plugin/to-array"><span class="function-name-prevnext">ToArray</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="/img/logo.png" alt="Day.js" width="48" height="48"/></a><div><h5>Community</h5><a class="github-button" href="https://github.com/iamkun/dayjs" target="_blank" data-count-href="/iamkun/dayjs/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">GitHub</a><a href="https://gitter.im/iamkun/dayjs" target="_blank" rel="noreferrer noopener">Gitter</a><a href="https://dayjs.gitee.io/zh-CN" target="_blank" rel="noreferrer noopener">🇨🇳 China Mirror 中国镜像站点</a><a href="/sitemap.xml" target="_blank">Sitemap</a></div></section><section class="copyright">Copyright © 2022 Day.js</section><script>
+<p>Guessing the user timezone</p>
+<pre><code class="hljs css language-javascript">dayjs.tz.guess()
+</code></pre>
+<p>Parsing in a timezone</p>
+<pre><code class="hljs css language-javascript"><span class="hljs-keyword">const</span> d1 = dayjs.tz(<span class="hljs-string">'2013-11-18 11:55'</span>, <span class="hljs-string">'Asia/Taipei'</span>)
+d1.format() <span class="hljs-comment">// =&gt; 2013-11-18T11:55:00+08:00</span>
+d1.toISOString() <span class="hljs-comment">// =&gt; 2013-11-18T03:55:00.000Z</span>
+</code></pre>
+<p>Converting to a timezone</p>
+<pre><code class="hljs css language-javascript"><span class="hljs-keyword">const</span> d2 = dayjs.utc(<span class="hljs-string">'2013-11-18 11:55'</span>).tz(<span class="hljs-string">'Asia/Taipei'</span>)
+d2.format() <span class="hljs-comment">// =&gt; 2013-11-18T19:55:00+08:00</span>
+d2.toISOString() <span class="hljs-comment">// =&gt; 2013-11-18T11:55:00.000Z</span>
+</code></pre>
+<p>Set / reset the default timezone (used by 'tz')</p>
+<pre><code class="hljs css language-javascript"><span class="hljs-comment">// Setting the default timezone</span>
+dayjs.tz.setDefault(<span class="hljs-string">'America/New_York'</span>)
+
+<span class="hljs-comment">// Resetting the default timezone to the system timezone</span>
+dayjs.tz.setDefault()
+</code></pre>
+<h3><a class="anchor" aria-hidden="true" id="differences-to-moment"></a><a href="#differences-to-moment" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Differences to moment</h3>
+<p>Using the default timezone makes <code>moment(dateValue)</code> use this timezone (but <code>moment.tz(dateValue, timezone)</code> still requires the second parameter).</p>
+<p>But <code>dayjs(dateValue)</code> always uses the local timezone, even if <code>dayjs.tz.setDefault</code> is used; only <code>dayjs.tz(dateValue)</code> (without second parameter) uses the default timezone.</p>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/docs/en/plugin/relative-time"><span class="arrow-prev">← </span><span class="function-name-prevnext">RelativeTime</span></a><a class="docs-next button" href="/docs/en/plugin/to-array"><span class="function-name-prevnext">ToArray</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="/img/logo.png" alt="Day.js" width="48" height="48"/></a><div><h5>Community</h5><a class="github-button" href="https://github.com/iamkun/dayjs" target="_blank" data-count-href="/iamkun/dayjs/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">GitHub</a><a href="https://gitter.im/iamkun/dayjs" target="_blank" rel="noreferrer noopener">Gitter</a><a href="https://dayjs.gitee.io/zh-CN" target="_blank" rel="noreferrer noopener">🇨🇳 China Mirror 中国镜像站点</a><a href="/sitemap.xml" target="_blank">Sitemap</a></div></section><section class="copyright">Copyright © 2023 Day.js</section><script>
               console.log('%c Feel free to try sample codes here 😃', 'background: #222; color: #EE6A55');
             </script><script>
             var versionNode = document.querySelectorAll("header>a")[0];

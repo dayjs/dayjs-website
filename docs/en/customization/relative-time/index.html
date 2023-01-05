@@ -76,7 +76,7 @@
             });
         </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/dayjs/website/blob/master/docs/customization/relative-time.md" target="_blank" rel="noreferrer noopener">Edit</a><h1 class="postHeaderTitle">Relative Time</h1></header><article><div><span><p><code>Locale#relativeTime</code> should be an object of the replacement strings for <code>dayjs#from</code>.</p>
 <p><blockquote>
-  This dependent on 
+  This requires the
   <a href="../plugin/update-locale">
     <code>UpdateLocale</code>
   </a>
@@ -137,7 +137,7 @@ dayjs.updateLocale(<span class="hljs-string">'en'</span>, {
   { <span class="hljs-attr">l</span>: <span class="hljs-string">'dd'</span>, <span class="hljs-attr">r</span>: <span class="hljs-number">29</span>, <span class="hljs-attr">d</span>: <span class="hljs-string">'day'</span> },
   { <span class="hljs-attr">l</span>: <span class="hljs-string">'M'</span>, <span class="hljs-attr">r</span>: <span class="hljs-number">1</span> },
   { <span class="hljs-attr">l</span>: <span class="hljs-string">'MM'</span>, <span class="hljs-attr">r</span>: <span class="hljs-number">11</span>, <span class="hljs-attr">d</span>: <span class="hljs-string">'month'</span> },
-  { <span class="hljs-attr">l</span>: <span class="hljs-string">'y'</span> },
+  { <span class="hljs-attr">l</span>: <span class="hljs-string">'y'</span>, <span class="hljs-attr">r</span>: <span class="hljs-number">1</span> },
   { <span class="hljs-attr">l</span>: <span class="hljs-string">'yy'</span>, <span class="hljs-attr">d</span>: <span class="hljs-string">'year'</span> }
 ]
 </code></pre>
@@ -157,7 +157,7 @@ dayjs.updateLocale(<span class="hljs-string">'en'</span>, {
 <pre><code class="hljs css language-js"><span class="hljs-comment">// Math.round by default</span>
 <span class="hljs-keyword">var</span> rounding = <span class="hljs-built_in">Math</span>.floor
 </code></pre>
-</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/docs/en/customization/weekday-min"><span class="arrow-prev">← </span><span>Minimal Weekday Abbreviations</span></a><a class="docs-next button" href="/docs/en/customization/calendar"><span>Calendar</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="/img/logo.png" alt="Day.js" width="48" height="48"/></a><div><h5>Community</h5><a class="github-button" href="https://github.com/iamkun/dayjs" target="_blank" data-count-href="/iamkun/dayjs/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">GitHub</a><a href="https://gitter.im/iamkun/dayjs" target="_blank" rel="noreferrer noopener">Gitter</a><a href="https://dayjs.gitee.io/zh-CN" target="_blank" rel="noreferrer noopener">🇨🇳 China Mirror 中国镜像站点</a><a href="/sitemap.xml" target="_blank">Sitemap</a></div></section><section class="copyright">Copyright © 2022 Day.js</section><script>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/docs/en/customization/weekday-min"><span class="arrow-prev">← </span><span>Minimal Weekday Abbreviations</span></a><a class="docs-next button" href="/docs/en/customization/calendar"><span>Calendar</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="/img/logo.png" alt="Day.js" width="48" height="48"/></a><div><h5>Community</h5><a class="github-button" href="https://github.com/iamkun/dayjs" target="_blank" data-count-href="/iamkun/dayjs/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">GitHub</a><a href="https://gitter.im/iamkun/dayjs" target="_blank" rel="noreferrer noopener">Gitter</a><a href="https://dayjs.gitee.io/zh-CN" target="_blank" rel="noreferrer noopener">🇨🇳 China Mirror 中国镜像站点</a><a href="/sitemap.xml" target="_blank">Sitemap</a></div></section><section class="copyright">Copyright © 2023 Day.js</section><script>
               console.log('%c Feel free to try sample codes here 😃', 'background: #222; color: #EE6A55');
             </script><script>
             var versionNode = document.querySelectorAll("header>a")[0];
