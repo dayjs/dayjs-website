@@ -126,7 +126,7 @@ dayjs.updateLocale(<span class="hljs-string">'en'</span>, {
 <span class="hljs-title">dayjs</span>.<span class="hljs-title">extend</span>(<span class="hljs-params">relativeTime, config</span>)
 </span></code></pre>
 <p><code>thresholds</code> представляет собой <code>массив</code> <code>объектов</code>, определенный в тот момент, когда единица измерения рассматривается в качестве минуты, часа и так далее. Например, по умолчанию более 45 секунд считается минутой, более 22 часов считается днем и так далее. Чтобы изменить это, вам нужно передать новое значение в <code>thresholds</code>, как например тут.</p>
-<pre><code class="hljs css language-js"><span class="hljs-comment">// strict thresholds</span>
+<pre><code class="hljs css language-js"><span class="hljs-comment">//строгое задание пороговых значений</span>
 <span class="hljs-keyword">var</span> thresholds = [
   { <span class="hljs-attr">l</span>: <span class="hljs-string">'s'</span>, <span class="hljs-attr">r</span>: <span class="hljs-number">1</span> },
   { <span class="hljs-attr">l</span>: <span class="hljs-string">'m'</span>, <span class="hljs-attr">r</span>: <span class="hljs-number">1</span> },
