@@ -84,7 +84,7 @@ date1.diff(date2) <span class="hljs-comment">// 20214000000 默认单位是毫�
 <pre><code class="hljs css language-js"><span class="hljs-keyword">const</span> date1 = dayjs(<span class="hljs-string">'2019-01-25'</span>)
 date1.diff(<span class="hljs-string">'2018-06-05'</span>, <span class="hljs-string">'month'</span>) <span class="hljs-comment">// 7</span>
 </code></pre>
-<p>默认情况下 <code>dayjs#diff</code> 会将结果进位成整数。 如果要得到一个浮点数，将 true 作为第三个参数传入。</p>
+<p>默认情况下， <code>dayjs#diff</code> 会将结果截去小数部分，返回一个整数。 如果要得到一个浮点数，将 true 作为第三个参数传入。</p>
 <pre><code class="hljs css language-js"><span class="hljs-keyword">const</span> date1 = dayjs(<span class="hljs-string">'2019-01-25'</span>)
 date1.diff(<span class="hljs-string">'2018-06-05'</span>, <span class="hljs-string">'month'</span>, <span class="hljs-literal">true</span>) <span class="hljs-comment">// 7.645161290322581</span>
 </code></pre>
