@@ -3,10 +3,14 @@ id: node-js
 title: Node.js
 ---
 
-To get started with Day.js in your Node.js project, simply add the dependency with NPM.
+To get started with Day.js in your Node.js project, simply add the dependency to your Node.js package manager.
 
-```console
+```bash
 npm install dayjs
+# or
+yarn add dayjs
+# or
+pnpm add dayjs
 ```
 
 Then include it in your script:
