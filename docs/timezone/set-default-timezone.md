@@ -25,3 +25,17 @@ dayjs.tz.setDefault()
 ```
 
 Notice: `dayjs.tz.setDefault` will not affect existing `dayjs` objects.
+
+Or in the browser, through CDN:
+
+```html
+<script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.11.9/plugin/utc.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.11.9/plugin/timezone.min.js"></script>
+```
+
+```js
+dayjs.extend(dayjs_plugin_utc)
+dayjs.extend(dayjs_plugin_timezone)
+...
+```
+
