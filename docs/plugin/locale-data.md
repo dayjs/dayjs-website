@@ -49,3 +49,11 @@ instanceLocaleData.longDateFormat('L')
 instanceLocaleData.meridiem()
 instanceLocaleData.ordinal()
 ```
+
+
+Note: when you want use `longDateFormat('L')`, remember extend `localizedFormat`
+
+```js
+import localizedFormat from 'dayjs/plugin/localizedFormat';
+dayjs.extend(localizedFormat);
+```
