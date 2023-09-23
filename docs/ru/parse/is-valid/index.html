@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="ru"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Валидация · Day.js</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="Returns a `boolean` indicating whether the `Dayjs`&#x27;s date is valid."/><meta name="docsearch:language" content="ru"/><meta property="og:title" content="Валидация · Day.js"/><meta property="og:type" content="website"/><meta property="og:url" content="https://day.js.org/"/><meta property="og:description" content="Returns a `boolean` indicating whether the `Dayjs`&#x27;s date is valid."/><meta name="twitter:card" content="summary"/><link rel="shortcut icon" href="/img/favicon.ico"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/default.min.css"/><script>
+<!DOCTYPE html><html lang="ru"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Валидация · Day.js</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="Возвращает `boolean`, указывающее, действительна дата `Dayjs`."/><meta name="docsearch:language" content="ru"/><meta property="og:title" content="Валидация · Day.js"/><meta property="og:type" content="website"/><meta property="og:url" content="https://day.js.org/"/><meta property="og:description" content="Возвращает `boolean`, указывающее, действительна дата `Dayjs`."/><meta name="twitter:card" content="summary"/><link rel="shortcut icon" href="/img/favicon.ico"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/default.min.css"/><script>
               (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
               (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
               m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -74,18 +74,18 @@
                 };
               }
             });
-        </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://crowdin.com/project/dayjs/ru" target="_blank" rel="noreferrer noopener">Translate</a><h1 class="postHeaderTitle">Валидация</h1></header><article><div><span><p>Returns a <code>boolean</code> indicating whether the <code>Dayjs</code>'s date is valid.</p>
+        </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://crowdin.com/project/dayjs/ru" target="_blank" rel="noreferrer noopener">Translate</a><h1 class="postHeaderTitle">Валидация</h1></header><article><div><span><p>Возвращает <code>boolean</code>, указывающее, действительна дата <code>Dayjs</code>.</p>
 <ul>
-<li><p>Non-strict check.</p>
-<p>Only checks if the value could be parsed to a Date time.</p>
+<li><p>Нестрогая проверка.</p>
+<p>Проверяется только, если значение может быть передано до даты.</p>
 <pre><code class="hljs css language-js">dayjs(<span class="hljs-string">'2022-01-33'</span>).isValid();
-<span class="hljs-comment">// true, parsed to 2022-02-02</span>
-dayjs(<span class="hljs-string">'some invalid string'</span>).isValid();
+<span class="hljs-comment">// true, с точностью до 2022-02-02</span>
+dayjs(<span class="hljs-string">'какая-то недопустимая строка'</span>).isValid();
 <span class="hljs-comment">// false</span>
 </code></pre></li>
-<li><p>Strict check.</p>
-<p>Checks if the value could be parsed to a Date time and it is a valid date. The last two arguments <code>format</code> and <code>strict</code> must be provided. <blockquote>
-  This requires the
+<li><p>Строгая проверка.</p>
+<p>Проверяет, может ли значение быть обработано до даты является ли оно действительной датой. Последние два аргумента <code>format</code> и <code>strict</code> должны быть предоставлены. <blockquote>
+  Для этого необходим
   <a href="../plugin/custom-parse-format">
     <code>CustomParseFormat</code>
   </a>
