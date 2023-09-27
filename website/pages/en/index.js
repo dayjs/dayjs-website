@@ -96,6 +96,9 @@ function Intro() {
           <a href="https://toyokumo.co.jp" target="_blank">
             <img src="https://user-images.githubusercontent.com/17680888/197092231-2367b5eb-1e43-467e-a311-23f7cd97b086.png"/>
           </a>
+          <a href="https://github.com/ken-swyfft" target="_blank">
+            <img src="https://avatars.githubusercontent.com/u/65305317?s=52&v=4"/>
+          </a>
           <a href="https://github.com/alan-eu" target="_blank">
             <img src="https://avatars.githubusercontent.com/u/18175329?s=52&v=4"/>
           </a>
@@ -108,8 +111,8 @@ function Intro() {
           <a href="https://rxdb.info/?utm_source=day.js.org&utm_medium=banner&utm_campaign=day.js.org-sponsored" target="_blank">
             <img src="https://user-images.githubusercontent.com/17680888/200301812-9c9bd523-5dc4-4cab-b380-543fbcd3802c.svg"/>
           </a>
+          <a href="https://chudovo.com/front-end-development/ " target="_blank"><img src="https://github.com/iamkun/typescript/assets/17680888/8b800ccf-996b-4326-b79a-c71b834538ec"/></a>
           <a href="https://github.com/vendure-ecommerce" target="_blank"><img src="https://avatars.githubusercontent.com/u/39629390?s=52&v=4"/></a>
-          <a href="https://opencollective.com/docbot" target="_blank"><img src="https://images.opencollective.com/docbot/457761e/logo.png"/></a>
           <a href="https://opencollective.com/datawrapper" target="_blank"><img src="https://images.opencollective.com/datawrapper/c13e229/logo.png"/></a>
         </div>
       </div>
