@@ -111,7 +111,7 @@ function Intro() {
           <a href="https://rxdb.info/?utm_source=day.js.org&utm_medium=banner&utm_campaign=day.js.org-sponsored" target="_blank">
             <img src="https://user-images.githubusercontent.com/17680888/200301812-9c9bd523-5dc4-4cab-b380-543fbcd3802c.svg"/>
           </a>
-          <a href="https://chudovo.com/front-end-development/ " target="_blank"><img src="https://github-production-user-asset-6210df.s3.amazonaws.com/17680888/271001784-8b800ccf-996b-4326-b79a-c71b834538ec.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20230927%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230927T141533Z&X-Amz-Expires=300&X-Amz-Signature=5ddec618793f3c51c582b2c51ae0ba1f0c87e7e87b6a77c28196275480cbe5ed&X-Amz-SignedHeaders=host&actor_id=17680888&key_id=0&repo_id=494963411"/></a>
+          <a href="https://chudovo.com/front-end-development/ " target="_blank"><img src="https://day.js.org/img/sponsors/chudovo.svg"/></a>
           <a href="https://github.com/vendure-ecommerce" target="_blank"><img src="https://avatars.githubusercontent.com/u/39629390?s=52&v=4"/></a>
           <a href="https://opencollective.com/datawrapper" target="_blank"><img src="https://images.opencollective.com/datawrapper/c13e229/logo.png"/></a>
         </div>
