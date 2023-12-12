@@ -18,5 +18,5 @@ Format `PnYnMnDTnHnMnS` description:
 |D |	Day |
 |T |	Designator that precedes the time components. |
 |H |	Hour |
-|M |	Minute |
+|m |	Minute |
 |S |	Second |
