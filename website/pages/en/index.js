@@ -108,11 +108,9 @@ function Intro() {
           <a href="https://www.exoflare.com/open-source/?utm_source=dayjs&utm_campaign=open_source" target="_blank">
             <img src="https://user-images.githubusercontent.com/17680888/162761622-1407a849-0c41-4591-8aa9-f98114ec2092.png"/>
           </a>
-          <a href="https://rxdb.info/?utm_source=day.js.org&utm_medium=banner&utm_campaign=day.js.org-sponsored" target="_blank">
-            <img src="https://user-images.githubusercontent.com/17680888/200301812-9c9bd523-5dc4-4cab-b380-543fbcd3802c.svg"/>
+          <a href="https://github.com/storyblok" target="_blank">
+            <img src="https://avatars.githubusercontent.com/u/13880908?s=200&v=4"/>
           </a>
-          <a href="https://chudovo.com/front-end-development/ " target="_blank"><img src="https://day.js.org/img/sponsors/chudovo.svg"/></a>
-          <a href="https://github.com/vendure-ecommerce" target="_blank"><img src="https://avatars.githubusercontent.com/u/39629390?s=52&v=4"/></a>
           <a href="https://opencollective.com/anonstories" target="_blank"><img src="https://images.opencollective.com/anonstories/7e826c0/avatar/256.png"/></a>
           <a href="https://opencollective.com/datawrapper" target="_blank"><img src="https://images.opencollective.com/datawrapper/c13e229/logo.png"/></a>
         </div>
