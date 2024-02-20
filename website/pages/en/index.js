@@ -114,6 +114,7 @@ function Intro() {
           <a href="https://github.com/storyblok" target="_blank">
             <img src="https://avatars.githubusercontent.com/u/13880908?s=200&v=4"/>
           </a>
+          <a href="https://bestkru.com/ " target="_blank" alt><img alt="BestKru" src="https://avatars.githubusercontent.com/u/159320286"/></a>
           <a href="https://opencollective.com/anonstories" target="_blank"><img src="https://images.opencollective.com/anonstories/7e826c0/avatar/256.png"/></a>
           <a href="https://opencollective.com/datawrapper" target="_blank"><img src="https://images.opencollective.com/datawrapper/c13e229/logo.png"/></a>
         </div>
