@@ -37,7 +37,6 @@ jobs:
       - name: Upload && download translations
         env:
           CROWDIN_DAYJS_PROJECT_API_KEY: ${{ secrets.CROWDIN_DAYJS_PROJECT_API_KEY }}
-          CROWDIN_DAYJS_PROJECT_ID: fromJson(${{ secrets.CROWDIN_DAYJS_PROJECT_ID }})
         run: |
           pnpm run crowdin-upload
           pnpm run crowdin-download
