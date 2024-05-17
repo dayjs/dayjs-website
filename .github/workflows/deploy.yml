@@ -13,6 +13,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: pnpm/action-setup@v2
+        with:
+          package_json_file: 'website/package.json'
       - name: Git config
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
