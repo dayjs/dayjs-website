@@ -56,13 +56,6 @@ class Footer extends React.Component {
               Gitter
             </a>
             <a
-              href="https://dayjs.gitee.io/zh-CN"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              🇨🇳 China Mirror 中国镜像站点
-            </a>
-            <a
               href="/sitemap.xml"
               target="_blank"
             >
@@ -88,7 +81,7 @@ class Footer extends React.Component {
             versionNode.insertAdjacentHTML('afterend', '<span class="github-star-btn"><a class="github-button" href="https://github.com/iamkun/dayjs" data-size="large" data-show-count="true">Star</a></span>');
           `}}
         />
-        <script async src="https://buttons.github.io/buttons.js" async></script>
+        <script async src="https://buttons.github.io/buttons.js"></script>
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -117,28 +110,6 @@ class Footer extends React.Component {
                   dayjs.extend(window['dayjs_plugin_' + pluginName]);
                 }
               }
-            })();
-            (async () => {
-              if (location.href.indexOf('gitee') > -1) return
-              ga && ga('send', 'event', 'JUMPCN', 'check');
-              const PREFER_GITHUB = 'PREFER_GITHUB'
-              const gt = localStorage.getItem(PREFER_GITHUB)
-              const now = Date.now()
-              if (gt && 604800 * 1000 + gt > now) return // a week
-              const userLanguage = ((navigator.languages ? navigator.languages[0] : (navigator.language || navigator.userLanguage)) || '').toLowerCase()
-              if (location.href.indexOf('zh-CN') < 0 && ['zh', 'zh-cn'].indexOf(userLanguage) < 0) return
-              ga && ga('send', 'event', 'JUMPCN', 'show');
-              await loadScript('https://cdn.jsdelivr.net/gh/azcpavel/ExConfirmBox/exConfirm.js');
-              exConfirmPromise.make({
-                title: "提示", message: "建议大陆用户访问部署在国内的站点，是否跳转？", bodyBorder: "1px solid #fb6052", titleBackground: "#fb6052", textColor: "#333", zIndex: 99999,top: "20%"
-              }).then((sel) => {
-                if (sel) {
-                  ga && ga('send', 'event', 'JUMPCN', 'go');
-                  window.open('https://dayjs.gitee.io/zh-CN', '_blank');
-                } else {
-                  localStorage.setItem(PREFER_GITHUB, now);
-                }
-              });
             })();
           `}}
         />
