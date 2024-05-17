@@ -99,14 +99,8 @@ function Intro() {
           <a href="https://github.com/ken-swyfft" target="_blank">
             <img src="https://avatars.githubusercontent.com/u/65305317?s=52&v=4"/>
           </a>
-          <a href="https://github.com/alan-eu" target="_blank">
-            <img src="https://avatars.githubusercontent.com/u/18175329?s=52&v=4"/>
-          </a>
           <a href="https://opencollective.com/sight-and-sound-ministries" target="_blank">
             <img src="https://user-images.githubusercontent.com/17680888/232316426-cb99b4cf-0ccb-4e73-a6ce-e16dba6aadf4.png" />
-          </a>
-          <a href="https://chudovo.com/" target="_blank">
-            <img src="https://images.opencollective.com/chudovo/3c866f5/logo/256.png?height=256" />
           </a>
           <a href="https://www.exoflare.com/open-source/?utm_source=dayjs&utm_campaign=open_source" target="_blank">
             <img src="https://user-images.githubusercontent.com/17680888/162761622-1407a849-0c41-4591-8aa9-f98114ec2092.png"/>
@@ -115,8 +109,6 @@ function Intro() {
             <img src="https://avatars.githubusercontent.com/u/13880908?s=200&v=4"/>
           </a>
           <a href="https://bestkru.com/ " target="_blank" alt><img alt="BestKru" src="https://avatars.githubusercontent.com/u/159320286"/></a>
-          <a href="https://opencollective.com/anonstories" target="_blank"><img src="https://images.opencollective.com/anonstories/7e826c0/avatar/256.png"/></a>
-          <a href="https://opencollective.com/datawrapper" target="_blank"><img src="https://images.opencollective.com/datawrapper/c13e229/logo.png"/></a>
         </div>
       </div>
       <div className="hide">
