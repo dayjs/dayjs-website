@@ -4,4 +4,4 @@
 <p align="center">Fast <b>2kB</b> alternative to Moment.js with the same modern API</p>
 <br>
 
-[Day.js](https://github.com/iamkun/dayjs) website repo.  
+[Day.js](https://github.com/iamkun/dayjs) website repo. 
