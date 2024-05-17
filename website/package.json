@@ -7,13 +7,14 @@
     "build": "docusaurus-build",
     "publish-gh-pages": "docusaurus-publish",
     "write-translations": "docusaurus-write-translations",
-    "crowdin-upload": "crowdin --config ../crowdin.yaml upload sources --auto-update -b master",
-    "crowdin-download": "crowdin --config ../crowdin.yaml download -b master",
+    "crowdin-upload": "crowdin upload sources --config ../crowdin.yaml --auto-update -b master",
+    "crowdin-download": "crowdin download --config ../crowdin.yaml -b master",
     "version": "docusaurus-version",
     "rename-version": "docusaurus-rename-version"
   },
   "devDependencies": {
-    "docusaurus": "1.13.0"
+    "docusaurus": "1.13.0",
+    "@crowdin/cli": "^3.19.4"
   },
   "license": "MIT",
   "private": true

@@ -19,8 +19,14 @@ const languages = [
   {
     enabled: true,
     name: 'Русский',
-    tag: 'ru',
-  }
+    tag: 'ru-RU',
+  },
+  {
+    enabled: true,
+    name: 'Español',
+    tag: 'es-ES'
+  },
+
 ]
 
 module.exports = languages

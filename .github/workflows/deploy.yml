@@ -19,28 +19,24 @@ jobs:
           git config --global user.name github-actions[bot] 
           git config --global user.email 41898282+github-actions[bot]@users.noreply.github.com
           echo "machine github.com login github-actions[bot] password ${GITHUB_TOKEN}" > ~/.netrc
-      - name: Install Crowdin
-        run: |
-          wget https://artifacts.crowdin.com/repo/deb/crowdin.deb -O crowdin.deb;
-          sudo dpkg -i crowdin.deb;
       - uses: actions/setup-node@v3
         with:
           node-version: 16.x
-          cache: yarn
-          cache-dependency-path: ./website/yarn.lock
+          cache: pnpm
       - name: Install dependencies
-        run: yarn install --frozen-lockfile
+        run: pnpm install
         working-directory: 'website'
       - name: Write English translations
-        run: yarn run write-translations
+        run: pnpm run write-translations
         working-directory: 'website'
       - name: Upload && download translations
         env:
           CROWDIN_DAYJS_PROJECT_API_KEY: ${{ secrets.CROWDIN_DAYJS_PROJECT_API_KEY }}
+          CROWDIN_DAYJS_PROJECT_ID: ${{ secrets.CROWDIN_DAYJS_PROJECT_ID }}
         run: |
-          yarn run crowdin-upload
-          yarn run crowdin-download
+          pnpm run crowdin-upload
+          pnpm run crowdin-download
         working-directory: 'website'
       - name: Publish to GitHub Pages
-        run: GIT_USER=github-actions[bot] yarn run publish-gh-pages
+        run: GIT_USER=github-actions[bot] pnpm run publish-gh-pages
         working-directory: 'website'
