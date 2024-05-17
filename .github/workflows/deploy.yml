@@ -22,7 +22,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16.x
-          cache: pnpm
+          cache: 'pnpm'
       - name: Install dependencies
         run: pnpm install
         working-directory: 'website'
