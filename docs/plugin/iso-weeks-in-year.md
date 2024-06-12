@@ -8,11 +8,15 @@ IsoWeeksInYear adds `.isoWeeksInYear()` API to return a `number` to get the numb
 @>IsLeapYear
 
 ```javascript
-var isoWeeksInYear = require('dayjs/plugin/isoWeeksInYear')
-var isLeapYear = require('dayjs/plugin/isLeapYear') // dependent on isLeapYear plugin
-dayjs.extend(isoWeeksInYear)
-dayjs.extend(isLeapYear)
+var isoWeeksInYear = require("dayjs/plugin/isoWeeksInYear");
+// import isoWeeksInYear from 'dayjs/plugin/isoWeeksInYear' // ES 2015
 
-dayjs('2004-01-01').isoWeeksInYear() // 53
-dayjs('2005-01-01').isoWeeksInYear() // 52
+var isLeapYear = require("dayjs/plugin/isLeapYear"); // dependent on isLeapYear plugin
+// import isLeapYear from 'dayjs/plugin/isLeapYear' // ES 2015
+
+dayjs.extend(isoWeeksInYear);
+dayjs.extend(isLeapYear);
+
+dayjs("2004-01-01").isoWeeksInYear(); // 53
+dayjs("2005-01-01").isoWeeksInYear(); // 52
 ```

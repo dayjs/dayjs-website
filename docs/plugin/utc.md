@@ -6,23 +6,25 @@ title: UTC
 UTC adds `.utc` `.local` `.isUTC` APIs to parse or display in UTC.
 
 ```javascript
-var utc = require('dayjs/plugin/utc')
-dayjs.extend(utc)
+var utc = require("dayjs/plugin/utc");
+// import utc from 'dayjs/plugin/utc' // ES 2015
+
+dayjs.extend(utc);
 
 // default local time
-dayjs().format() //2019-03-06T17:11:55+08:00
+dayjs().format(); //2019-03-06T17:11:55+08:00
 
 // UTC mode
-dayjs.utc().format() // 2019-03-06T09:11:55Z
+dayjs.utc().format(); // 2019-03-06T09:11:55Z
 
 // convert local time to UTC time
-dayjs().utc().format() // 2019-03-06T09:11:55Z 
+dayjs().utc().format(); // 2019-03-06T09:11:55Z
 
 // While in UTC mode, all display methods will display in UTC time instead of local time.
 // And all getters and setters will internally use the Date#getUTC* and Date#setUTC* methods instead of the Date#get* and Date#set* methods.
-dayjs.utc().isUTC() // true
-dayjs.utc().local().format() //2019-03-06T17:11:55+08:00
-dayjs.utc('2018-01-01', 'YYYY-MM-DD') // with CustomParseFormat plugin
+dayjs.utc().isUTC(); // true
+dayjs.utc().local().format(); //2019-03-06T17:11:55+08:00
+dayjs.utc("2018-01-01", "YYYY-MM-DD"); // with CustomParseFormat plugin
 ```
 
 By default, Day.js parses and displays in local time.

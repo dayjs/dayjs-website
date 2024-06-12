@@ -2,14 +2,17 @@
 id: is-between
 title: IsBetween
 ---
+
 IsBetween adds `.isBetween()` API to returns a `boolean` indicating if a date is between two other dates.
 
 ```javascript
-var isBetween = require('dayjs/plugin/isBetween')
-dayjs.extend(isBetween)
+var isBetween = require("dayjs/plugin/isBetween");
+// import isBetween from 'dayjs/plugin/isBetween' // ES 2015
+
+dayjs.extend(isBetween);
 
 // To use `year` granularity pass the third parameter
-dayjs('2010-10-20').isBetween('2010-10-19', dayjs('2010-10-25'), 'year')
+dayjs("2010-10-20").isBetween("2010-10-19", dayjs("2010-10-25"), "year");
 
 // Parameter 4 is a string with two characters; '[' means inclusive, '(' exclusive
 // '()' excludes start and end date (default)
@@ -17,6 +20,5 @@ dayjs('2010-10-20').isBetween('2010-10-19', dayjs('2010-10-25'), 'year')
 // '[)' includes the start date but excludes the stop
 // Granuality offers the precision on start and end inclusive checks.
 // For example including the start date on day precision you should use 'day' as 3rd parameter.
-dayjs('2016-10-30').isBetween('2016-01-01', '2016-10-30', 'day', '[)')
-
+dayjs("2016-10-30").isBetween("2016-01-01", "2016-10-30", "day", "[)");
 ```
