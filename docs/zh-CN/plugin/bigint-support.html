@@ -76,6 +76,8 @@
             });
         </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://crowdin.com/project/dayjs/zh-CN" target="_blank" rel="noreferrer noopener">Translate</a><h1 class="postHeaderTitle">BigIntSupport</h1></header><article><div><span><p>BigIntSupport 扩展 <code>dayjs()</code>, <code>dayjs.unix</code> API 以支持 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/BigInt">BigInt</a> 参数。</p>
 <pre><code class="hljs css language-javascript"><span class="hljs-keyword">var</span> bigIntSupport = <span class="hljs-built_in">require</span>(<span class="hljs-string">"dayjs/plugin/bigIntSupport"</span>);
+<span class="hljs-comment">// import bigIntSupport from 'dayjs/plugin/bigIntSupport' // ES 2015</span>
+
 dayjs.extend(bigIntSupport);
 
 dayjs(BigInt(<span class="hljs-number">1666310421101</span>));

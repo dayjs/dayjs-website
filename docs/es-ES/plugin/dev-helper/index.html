@@ -76,9 +76,10 @@
             });
         </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://crowdin.com/project/dayjs/es-ES" target="_blank" rel="noreferrer noopener">Translate</a><h1 class="postHeaderTitle">DevHelper</h1></header><article><div><span><p>DevHelper añade algunas funciones de ayuda para darle más pistas y advertencias mientras usa Day.js.</p>
 <p>Ten en cuenta que puede establecer <code>process.env.NODE_ENV</code> en <code>production</code> para desactivar DevHelper en su entorno de producción. Y si ha habilitado un minifier JavaScript como UglifyJS, puede eliminar el plugin de su paquete de producción automáticamente para ahorrar algunos bytes.</p>
-<pre><code class="hljs css language-js"><span class="hljs-keyword">var</span> devHelper = <span class="hljs-built_in">require</span>(<span class="hljs-string">'dayjs/plugin/devHelper'</span>)
+<pre><code class="hljs css language-js"><span class="hljs-keyword">var</span> devHelper = <span class="hljs-built_in">require</span>(<span class="hljs-string">"dayjs/plugin/devHelper"</span>);
+<span class="hljs-comment">// import devHelper from 'dayjs/plugin/devHelper' // ES 2015</span>
 
-dayjs.extend(devHelper)
+dayjs.extend(devHelper);
 </code></pre>
 <p>También puede cargar este plugin bajo demanda.</p>
 <pre><code class="hljs css language-js"><span class="hljs-keyword">if</span> (isInDevelopment) {

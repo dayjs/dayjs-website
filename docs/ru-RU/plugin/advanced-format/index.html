@@ -75,10 +75,12 @@
               }
             });
         </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://crowdin.com/project/dayjs/ru-RU" target="_blank" rel="noreferrer noopener">Translate</a><h1 class="postHeaderTitle">AdvancedFormat</h1></header><article><div><span><p>AdvancedFormat расширяет API <code>dayjs().format</code> для предоставления большего количества форматов.</p>
-<pre><code class="hljs css language-javascript"><span class="hljs-keyword">var</span> advancedFormat = <span class="hljs-built_in">require</span>(<span class="hljs-string">'dayjs/plugin/advancedFormat'</span>)
-dayjs.extend(advancedFormat)
+<pre><code class="hljs css language-javascript"><span class="hljs-keyword">var</span> advancedFormat = <span class="hljs-built_in">require</span>(<span class="hljs-string">"dayjs/plugin/advancedFormat"</span>);
+<span class="hljs-comment">// import advancedFormat from 'dayjs/plugin/advancedFormat' // ES 2015</span>
 
-dayjs().format(<span class="hljs-string">'Q Do k kk X x'</span>)
+dayjs.extend(advancedFormat);
+
+dayjs().format(<span class="hljs-string">"Q Do k kk X x"</span>);
 </code></pre>
 <p>Примечание: некоторые параметры формата, такие как <code>z</code> и <code>zzz</code> в таблице ниже, требуют установки дополнительных плагинов.</p>
 <p>Список добавленных форматов:</p>

@@ -75,11 +75,12 @@
               }
             });
         </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://crowdin.com/project/dayjs/es-ES" target="_blank" rel="noreferrer noopener">Translate</a><h1 class="postHeaderTitle">IsTomorrow</h1></header><article><div><span><p>IsTomorrow añade la API <code>.isTomorrow()</code> para indicar si el objeto Day.js es mañana o no.</p>
-<pre><code class="hljs css language-js"><span class="hljs-keyword">var</span> isTomorrow = <span class="hljs-built_in">require</span>(<span class="hljs-string">'dayjs/plugin/isTomorrow'</span>)
+<pre><code class="hljs css language-js"><span class="hljs-keyword">var</span> isTomorrow = <span class="hljs-built_in">require</span>(<span class="hljs-string">"dayjs/plugin/isTomorrow"</span>);
+<span class="hljs-comment">// import isTomorrow from 'dayjs/plugin/isTomorrow' // ES 2015</span>
 
-dayjs.extend(isTomorrow)
+dayjs.extend(isTomorrow);
 
-dayjs().add(<span class="hljs-number">1</span>, <span class="hljs-string">'day'</span>).isTomorrow() <span class="hljs-comment">// true</span>
+dayjs().add(<span class="hljs-number">1</span>, <span class="hljs-string">"day"</span>).isTomorrow(); <span class="hljs-comment">// true</span>
 </code></pre>
 </span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/docs/es-ES/plugin/is-today"><span class="arrow-prev">← </span><span class="function-name-prevnext">IsToday</span></a><a class="docs-next button" href="/docs/es-ES/plugin/is-yesterday"><span class="function-name-prevnext">IsYesterday</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="/img/logo.png" alt="Day.js" width="48" height="48"/></a><div><h5>Community</h5><a class="github-button" href="https://github.com/iamkun/dayjs" target="_blank" data-count-href="/iamkun/dayjs/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">GitHub</a><a href="https://gitter.im/iamkun/dayjs" target="_blank" rel="noreferrer noopener">Gitter</a><a href="/sitemap.xml" target="_blank">Sitemap</a></div></section><section class="copyright">Copyright © 2024 Day.js</section><script>
               console.log('%c Feel free to try sample codes here 😃', 'background: #222; color: #EE6A55');

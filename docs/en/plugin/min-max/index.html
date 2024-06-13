@@ -76,11 +76,13 @@
             });
         </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/dayjs/website/blob/master/docs/plugin/min-max.md" target="_blank" rel="noreferrer noopener">Edit</a><h1 class="postHeaderTitle">MinMax</h1></header><article><div><span><p>MinMax adds <code>.min</code> <code>.max</code> APIs to return a <code>dayjs</code> to compare given dayjs instances.
 This accepts both multiple arguments and array that contains Day.js instance.</p>
-<pre><code class="hljs css language-javascript"><span class="hljs-keyword">var</span> minMax = <span class="hljs-built_in">require</span>(<span class="hljs-string">'dayjs/plugin/minMax'</span>)
-dayjs.extend(minMax)
+<pre><code class="hljs css language-javascript"><span class="hljs-keyword">var</span> minMax = <span class="hljs-built_in">require</span>(<span class="hljs-string">"dayjs/plugin/minMax"</span>);
+<span class="hljs-comment">// import minMax from 'dayjs/plugin/minMax' // ES 2015</span>
 
-dayjs.max(dayjs(), dayjs(<span class="hljs-string">'2018-01-01'</span>), dayjs(<span class="hljs-string">'2019-01-01'</span>))
-dayjs.min([dayjs(), dayjs(<span class="hljs-string">'2018-01-01'</span>), dayjs(<span class="hljs-string">'2019-01-01'</span>)])
+dayjs.extend(minMax);
+
+dayjs.max(dayjs(), dayjs(<span class="hljs-string">"2018-01-01"</span>), dayjs(<span class="hljs-string">"2019-01-01"</span>));
+dayjs.min([dayjs(), dayjs(<span class="hljs-string">"2018-01-01"</span>), dayjs(<span class="hljs-string">"2019-01-01"</span>)]);
 </code></pre>
 </span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/docs/en/plugin/localized-format"><span class="arrow-prev">← </span><span class="function-name-prevnext">LocalizedFormat</span></a><a class="docs-next button" href="/docs/en/plugin/object-support"><span class="function-name-prevnext">ObjectSupport</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="/img/logo.png" alt="Day.js" width="48" height="48"/></a><div><h5>Community</h5><a class="github-button" href="https://github.com/iamkun/dayjs" target="_blank" data-count-href="/iamkun/dayjs/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">GitHub</a><a href="https://gitter.im/iamkun/dayjs" target="_blank" rel="noreferrer noopener">Gitter</a><a href="/sitemap.xml" target="_blank">Sitemap</a></div></section><section class="copyright">Copyright © 2024 Day.js</section><script>
               console.log('%c Feel free to try sample codes here 😃', 'background: #222; color: #EE6A55');

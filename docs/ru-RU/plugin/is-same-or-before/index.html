@@ -75,10 +75,12 @@
               }
             });
         </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://crowdin.com/project/dayjs/ru-RU" target="_blank" rel="noreferrer noopener">Translate</a><h1 class="postHeaderTitle">IsSameOrBefore</h1></header><article><div><span><p>IsSameOrBefore добавляет API <code>.isSameOrBefore()</code>, которое возвращает <code>булево значение</code>, отображающее то, имеет ли указанная дата тоже значение, что и другая или же она (указанная дата) идет до нее.</p>
-<pre><code class="hljs css language-javascript"><span class="hljs-keyword">var</span> isSameOrBefore = <span class="hljs-built_in">require</span>(<span class="hljs-string">'dayjs/plugin/isSameOrBefore'</span>)
-dayjs.extend(isSameOrBefore)
+<pre><code class="hljs css language-javascript"><span class="hljs-keyword">var</span> isSameOrBefore = <span class="hljs-built_in">require</span>(<span class="hljs-string">"dayjs/plugin/isSameOrBefore"</span>);
+<span class="hljs-comment">// import isSameOrBefore from 'dayjs/plugin/isSameOrBefore' // ES 2015</span>
 
-dayjs(<span class="hljs-string">'2010-10-20'</span>).isSameOrBefore(<span class="hljs-string">'2010-10-19'</span>, <span class="hljs-string">'year'</span>)
+dayjs.extend(isSameOrBefore);
+
+dayjs(<span class="hljs-string">"2010-10-20"</span>).isSameOrBefore(<span class="hljs-string">"2010-10-19"</span>, <span class="hljs-string">"year"</span>);
 </code></pre>
 </span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/docs/ru-RU/plugin/is-same-or-after"><span class="arrow-prev">← </span><span class="function-name-prevnext">IsSameOrAfter</span></a><a class="docs-next button" href="/docs/ru-RU/plugin/is-today"><span class="function-name-prevnext">IsToday</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="/img/logo.png" alt="Day.js" width="48" height="48"/></a><div><h5>Community</h5><a class="github-button" href="https://github.com/iamkun/dayjs" target="_blank" data-count-href="/iamkun/dayjs/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">GitHub</a><a href="https://gitter.im/iamkun/dayjs" target="_blank" rel="noreferrer noopener">Gitter</a><a href="/sitemap.xml" target="_blank">Sitemap</a></div></section><section class="copyright">Copyright © 2024 Day.js</section><script>
               console.log('%c Feel free to try sample codes here 😃', 'background: #222; color: #EE6A55');

@@ -75,49 +75,51 @@
               }
             });
         </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://crowdin.com/project/dayjs/zh-CN" target="_blank" rel="noreferrer noopener">Translate</a><h1 class="postHeaderTitle">LocaleData</h1></header><article><div><span><p>LocaleData 增加了 <code>dayjs().localeData</code> API 来提供本地化数据。</p>
-<pre><code class="hljs css language-javascript"><span class="hljs-keyword">var</span> localeData = <span class="hljs-built_in">require</span>(<span class="hljs-string">'dayjs/plugin/localeData'</span>)
-dayjs.extend(localeData)
+<pre><code class="hljs css language-javascript"><span class="hljs-keyword">var</span> localeData = <span class="hljs-built_in">require</span>(<span class="hljs-string">"dayjs/plugin/localeData"</span>);
+<span class="hljs-comment">// import localeData from 'dayjs/plugin/localeData' // ES 2015</span>
 
-dayjs().localeData()
+dayjs.extend(localeData);
+
+dayjs().localeData();
 </code></pre>
 <p>支持的方法：</p>
-<pre><code class="hljs css language-js">dayjs.months()
-dayjs.monthsShort()
-dayjs.weekdays()
-dayjs.weekdaysShort()
-dayjs.weekdaysMin()
-dayjs.longDateFormat(<span class="hljs-string">'L'</span>)
+<pre><code class="hljs css language-js">dayjs.months();
+dayjs.monthsShort();
+dayjs.weekdays();
+dayjs.weekdaysShort();
+dayjs.weekdaysMin();
+dayjs.longDateFormat(<span class="hljs-string">"L"</span>);
 
-globalLocaleData = dayjs.localeData()
-globalLocaleData.firstDayOfWeek()
-globalLocaleData.months()
-globalLocaleData.monthsShort()
-globalLocaleData.weekdays()
-globalLocaleData.weekdaysShort()
-globalLocaleData.weekdaysMin()
-globalLocaleData.longDateFormat(<span class="hljs-string">'L'</span>)
+globalLocaleData = dayjs.localeData();
+globalLocaleData.firstDayOfWeek();
+globalLocaleData.months();
+globalLocaleData.monthsShort();
+globalLocaleData.weekdays();
+globalLocaleData.weekdaysShort();
+globalLocaleData.weekdaysMin();
+globalLocaleData.longDateFormat(<span class="hljs-string">"L"</span>);
 
-globalLocaleData.months(dayjs())
-globalLocaleData.monthsShort(dayjs())
-globalLocaleData.weekdays(dayjs())
-globalLocaleData.weekdaysShort(dayjs())
-globalLocaleData.weekdaysMin(dayjs())
-globalLocaleData.meridiem()
-globalLocaleData.ordinal()
+globalLocaleData.months(dayjs());
+globalLocaleData.monthsShort(dayjs());
+globalLocaleData.weekdays(dayjs());
+globalLocaleData.weekdaysShort(dayjs());
+globalLocaleData.weekdaysMin(dayjs());
+globalLocaleData.meridiem();
+globalLocaleData.ordinal();
 
-instanceLocaleData = dayjs().localeData()
-instanceLocaleData.firstDayOfWeek()
-instanceLocaleData.months()
-instanceLocaleData.monthsShort()
-instanceLocaleData.weekdays()
-instanceLocaleData.weekdaysShort()
-instanceLocaleData.weekdaysMin()
-instanceLocaleData.longDateFormat(<span class="hljs-string">'L'</span>)
-instanceLocaleData.meridiem()
-instanceLocaleData.ordinal()
+instanceLocaleData = dayjs().localeData();
+instanceLocaleData.firstDayOfWeek();
+instanceLocaleData.months();
+instanceLocaleData.monthsShort();
+instanceLocaleData.weekdays();
+instanceLocaleData.weekdaysShort();
+instanceLocaleData.weekdaysMin();
+instanceLocaleData.longDateFormat(<span class="hljs-string">"L"</span>);
+instanceLocaleData.meridiem();
+instanceLocaleData.ordinal();
 </code></pre>
 <p>Note: when you want use <code>longDateFormat('L')</code>, remember extend <code>localizedFormat</code></p>
-<pre><code class="hljs css language-js"><span class="hljs-keyword">import</span> localizedFormat <span class="hljs-keyword">from</span> <span class="hljs-string">'dayjs/plugin/localizedFormat'</span>;
+<pre><code class="hljs css language-js"><span class="hljs-keyword">import</span> localizedFormat <span class="hljs-keyword">from</span> <span class="hljs-string">"dayjs/plugin/localizedFormat"</span>;
 dayjs.extend(localizedFormat);
 </code></pre>
 </span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/docs/zh-CN/plugin/iso-weeks-in-year"><span class="arrow-prev">← </span><span class="function-name-prevnext">IsoWeeksInYear</span></a><a class="docs-next button" href="/docs/zh-CN/plugin/localized-format"><span class="function-name-prevnext">LocalizedFormat</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="/img/logo.png" alt="Day.js" width="48" height="48"/></a><div><h5>Community</h5><a class="github-button" href="https://github.com/iamkun/dayjs" target="_blank" data-count-href="/iamkun/dayjs/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">GitHub</a><a href="https://gitter.im/iamkun/dayjs" target="_blank" rel="noreferrer noopener">Gitter</a><a href="/sitemap.xml" target="_blank">Sitemap</a></div></section><section class="copyright">Copyright © 2024 Day.js</section><script>

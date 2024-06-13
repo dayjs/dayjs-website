@@ -77,10 +77,12 @@
         </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://crowdin.com/project/dayjs/zh-CN" target="_blank" rel="noreferrer noopener">Translate</a><h1 class="postHeaderTitle">BuddhistEra</h1></header><article><div><span><p>BuddhistEra 扩展了 <code>dayjs().format</code> API 以支持佛历格式化。</p>
 <p>佛历是一个年份编号系统，主要用于柬埔寨、老挝、缅甸和泰国等东南亚国家以及斯里兰卡、马来西亚和新加坡的中国人，用于宗教或官方场合 (<a href="https://en.wikipedia.org/wiki/Buddhist_calendar">Wikipedia</a>)。</p>
 <p>要计算 BE 年，只需在年份中添加 543。 例如，1977 年 5 月 26 日 AD / CE 应显示为 2520 年 5 月 26 日 BE（1977 + 543）。</p>
-<pre><code class="hljs css language-javascript"><span class="hljs-keyword">var</span> buddhistEra = <span class="hljs-built_in">require</span>(<span class="hljs-string">'dayjs/plugin/buddhistEra'</span>)
-dayjs.extend(buddhistEra)
+<pre><code class="hljs css language-javascript"><span class="hljs-keyword">var</span> buddhistEra = <span class="hljs-built_in">require</span>(<span class="hljs-string">"dayjs/plugin/buddhistEra"</span>);
+<span class="hljs-comment">// import buddhistEra from 'dayjs/plugin/buddhistEra' // ES 2015</span>
 
-dayjs().format(<span class="hljs-string">'BBBB BB'</span>)
+dayjs.extend(buddhistEra);
+
+dayjs().format(<span class="hljs-string">"BBBB BB"</span>);
 </code></pre>
 <p>扩展的模版列表：</p>
 <table>

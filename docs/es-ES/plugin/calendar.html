@@ -75,18 +75,20 @@
               }
             });
         </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://crowdin.com/project/dayjs/es-ES" target="_blank" rel="noreferrer noopener">Translate</a><h1 class="postHeaderTitle">Calendario</h1></header><article><div><span><p>Calendar añade la API <code>.calendar</code> para devolver un <code>string</code> para mostrar la hora del calendario</p>
-<pre><code class="hljs css language-javascript"><span class="hljs-keyword">var</span> calendar = <span class="hljs-built_in">require</span>(<span class="hljs-string">'dayjs/plugin/calendar'</span>)
-dayjs.extend(calendar)
+<pre><code class="hljs css language-javascript"><span class="hljs-keyword">var</span> calendar = <span class="hljs-built_in">require</span>(<span class="hljs-string">"dayjs/plugin/calendar"</span>);
+<span class="hljs-comment">// import calendar from 'dayjs/plugin/calendar' // ES 2015</span>
 
-dayjs().calendar(dayjs(<span class="hljs-string">'2008-01-01'</span>))
+dayjs.extend(calendar);
+
+dayjs().calendar(dayjs(<span class="hljs-string">"2008-01-01"</span>));
 dayjs().calendar(<span class="hljs-literal">null</span>, {
-  <span class="hljs-attr">sameDay</span>: <span class="hljs-string">'[Today at] h:mm A'</span>, <span class="hljs-comment">// El mismo día ( Hoy a las 2:30 AM )</span>
-  <span class="hljs-attr">nextDay</span>: <span class="hljs-string">'[Mañana at] h:mm A'</span>, <span class="hljs-comment">// Al día siguiente ( Mañana a las 2:30 AM )</span>
-  <span class="hljs-attr">nextWeek</span>: <span class="hljs-string">'dddd [at] h:mm A'</span>, <span class="hljs-comment">// La semana siguiente ( Domingo a las 2:30 AM )</span>
-  <span class="hljs-attr">lastDay</span>: <span class="hljs-string">'[Yesterday at] h:mm A'</span>, <span class="hljs-comment">// El día anterior ( Ayer a las 2:30 AM )</span>
-  <span class="hljs-attr">lastWeek</span>: <span class="hljs-string">'[Last] dddd [at] h:mm A'</span>, <span class="hljs-comment">// La semana pasada ( el lunes pasado a las 2:30 AM )</span>
-  <span class="hljs-attr">sameElse</span>: <span class="hljs-string">'DD/MM/YYYY'</span> <span class="hljs-comment">// Todo lo demás ( 17/10/2011 )</span>
-})
+  <span class="hljs-attr">sameDay</span>: <span class="hljs-string">"[Today at] h:mm A"</span>, <span class="hljs-comment">// The same day ( Today at 2:30 AM )</span>
+  <span class="hljs-attr">nextDay</span>: <span class="hljs-string">"[Tomorrow at] h:mm A"</span>, <span class="hljs-comment">// The next day ( Tomorrow at 2:30 AM )</span>
+  <span class="hljs-attr">nextWeek</span>: <span class="hljs-string">"dddd [at] h:mm A"</span>, <span class="hljs-comment">// The next week ( Sunday at 2:30 AM )</span>
+  <span class="hljs-attr">lastDay</span>: <span class="hljs-string">"[Yesterday at] h:mm A"</span>, <span class="hljs-comment">// The day before ( Yesterday at 2:30 AM )</span>
+  <span class="hljs-attr">lastWeek</span>: <span class="hljs-string">"[Last] dddd [at] h:mm A"</span>, <span class="hljs-comment">// Last week ( Last Monday at 2:30 AM )</span>
+  <span class="hljs-attr">sameElse</span>: <span class="hljs-string">"DD/MM/YYYY"</span>, <span class="hljs-comment">// Everything else ( 17/10/2011 )</span>
+});
 </code></pre>
 </span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/docs/es-ES/plugin/buddhist-era"><span class="arrow-prev">← </span><span class="function-name-prevnext">BuddhistEra</span></a><a class="docs-next button" href="/docs/es-ES/plugin/custom-parse-format"><span>Personalizar parseo de formato</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="/img/logo.png" alt="Day.js" width="48" height="48"/></a><div><h5>Community</h5><a class="github-button" href="https://github.com/iamkun/dayjs" target="_blank" data-count-href="/iamkun/dayjs/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">GitHub</a><a href="https://gitter.im/iamkun/dayjs" target="_blank" rel="noreferrer noopener">Gitter</a><a href="/sitemap.xml" target="_blank">Sitemap</a></div></section><section class="copyright">Copyright © 2024 Day.js</section><script>
               console.log('%c Feel free to try sample codes here 😃', 'background: #222; color: #EE6A55');

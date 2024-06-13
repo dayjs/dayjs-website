@@ -75,12 +75,16 @@
               }
             });
         </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/dayjs/website/blob/master/docs/plugin/week-year.md" target="_blank" rel="noreferrer noopener">Edit</a><h1 class="postHeaderTitle">WeekYear</h1></header><article><div><span><p>WeekYear adds <code>.weekYear()</code> API to get locale aware week of the year.</p>
-<pre><code class="hljs css language-javascript"><span class="hljs-keyword">var</span> weekYear = <span class="hljs-built_in">require</span>(<span class="hljs-string">'dayjs/plugin/weekYear'</span>) <span class="hljs-comment">// dependent on weekOfYear plugin</span>
-<span class="hljs-keyword">var</span> weekOfYear = <span class="hljs-built_in">require</span>(<span class="hljs-string">'dayjs/plugin/weekOfYear'</span>)
-dayjs.extend(weekOfYear)
-dayjs.extend(weekYear)
+<pre><code class="hljs css language-javascript"><span class="hljs-keyword">var</span> weekYear = <span class="hljs-built_in">require</span>(<span class="hljs-string">"dayjs/plugin/weekYear"</span>); <span class="hljs-comment">// dependent on weekOfYear plugin</span>
+<span class="hljs-comment">// import weekYear from 'dayjs/plugin/weekYear' // ES 2015</span>
 
-dayjs().weekYear()
+<span class="hljs-keyword">var</span> weekOfYear = <span class="hljs-built_in">require</span>(<span class="hljs-string">"dayjs/plugin/weekOfYear"</span>);
+<span class="hljs-comment">// import weekOfYear from 'dayjs/plugin/weekOfYear' // ES 2015</span>
+
+dayjs.extend(weekOfYear);
+dayjs.extend(weekYear);
+
+dayjs().weekYear();
 </code></pre>
 </span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/docs/en/plugin/week-of-year"><span class="arrow-prev">← </span><span class="function-name-prevnext">weekOfYear</span></a><a class="docs-next button" href="/docs/en/plugin/weekday"><span>Weekday</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="/img/logo.png" alt="Day.js" width="48" height="48"/></a><div><h5>Community</h5><a class="github-button" href="https://github.com/iamkun/dayjs" target="_blank" data-count-href="/iamkun/dayjs/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">GitHub</a><a href="https://gitter.im/iamkun/dayjs" target="_blank" rel="noreferrer noopener">Gitter</a><a href="/sitemap.xml" target="_blank">Sitemap</a></div></section><section class="copyright">Copyright © 2024 Day.js</section><script>
               console.log('%c Feel free to try sample codes here 😃', 'background: #222; color: #EE6A55');

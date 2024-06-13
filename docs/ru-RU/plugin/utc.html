@@ -75,23 +75,25 @@
               }
             });
         </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://crowdin.com/project/dayjs/ru-RU" target="_blank" rel="noreferrer noopener">Translate</a><h1 class="postHeaderTitle">UTC</h1></header><article><div><span><p>UTC добавляет API <code>.utc</code> <code>.local</code> <code>.isUTC</code> для возможности разбора или отображения данных в формате UTC.</p>
-<pre><code class="hljs css language-javascript"><span class="hljs-keyword">var</span> utc = <span class="hljs-built_in">require</span>(<span class="hljs-string">'dayjs/plugin/utc'</span>)
-dayjs.extend(utc)
+<pre><code class="hljs css language-javascript"><span class="hljs-keyword">var</span> utc = <span class="hljs-built_in">require</span>(<span class="hljs-string">"dayjs/plugin/utc"</span>);
+<span class="hljs-comment">// import utc from 'dayjs/plugin/utc' // ES 2015</span>
 
-<span class="hljs-comment">// дефолтное локальное время</span>
-dayjs().format() <span class="hljs-comment">//2019-03-06T17:11:55+08:00</span>
+dayjs.extend(utc);
 
-<span class="hljs-comment">// UTC режим</span>
-dayjs.utc().format() <span class="hljs-comment">// 2019-03-06T09:11:55Z</span>
+<span class="hljs-comment">// default local time</span>
+dayjs().format(); <span class="hljs-comment">//2019-03-06T17:11:55+08:00</span>
 
-<span class="hljs-comment">// конвертация локального времени в UTC</span>
-dayjs().utc().format() <span class="hljs-comment">// 2019-03-06T09:11:55Z</span>
+<span class="hljs-comment">// UTC mode</span>
+dayjs.utc().format(); <span class="hljs-comment">// 2019-03-06T09:11:55Z</span>
 
-<span class="hljs-comment">// В режиме UTC, все методы будут отображены в временной зоне UTC вместо локальной.</span>
+<span class="hljs-comment">// convert local time to UTC time</span>
+dayjs().utc().format(); <span class="hljs-comment">// 2019-03-06T09:11:55Z</span>
+
+<span class="hljs-comment">// While in UTC mode, all display methods will display in UTC time instead of local time.</span>
 <span class="hljs-comment">// И все геттеры и сеттеры будут внутренне использовать методы Date#getUTC* и Date#setUTC* вместо Date#get* и Date#set*.</span>
-dayjs.utc().isUTC() <span class="hljs-comment">// true</span>
-dayjs.utc().local().format() <span class="hljs-comment">//2019-03-06T17:11:55+08:00</span>
-dayjs.utc(<span class="hljs-string">'2018-01-01'</span>, <span class="hljs-string">'YYYY-MM-DD'</span>) <span class="hljs-comment">// с CustomParseFormat плагином</span>
+dayjs.utc().isUTC(); <span class="hljs-comment">// true</span>
+dayjs.utc().local().format(); <span class="hljs-comment">//2019-03-06T17:11:55+08:00</span>
+dayjs.utc(<span class="hljs-string">"2018-01-01"</span>, <span class="hljs-string">"YYYY-MM-DD"</span>); <span class="hljs-comment">// with CustomParseFormat plugin</span>
 </code></pre>
 <p>По умолчанию, Day.js преобразуется и отображается в формате локального времени.</p>
 <p>Если вы хотите преобразовать или отобразить дату в формате UTC, вы можете использовать <code>dayjs.utc()</code> вместо <code>dayjs()</code>.</p>

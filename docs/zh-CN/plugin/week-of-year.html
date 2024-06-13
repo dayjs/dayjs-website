@@ -75,11 +75,13 @@
               }
             });
         </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://crowdin.com/project/dayjs/zh-CN" target="_blank" rel="noreferrer noopener">Translate</a><h1 class="postHeaderTitle">weekOfYear</h1></header><article><div><span><p>WeekOfYear 增加了 <code>.week()</code> API 返回一个 <code>number</code> 来表示 Day.js 的日期是年中第几周。</p>
-<pre><code class="hljs css language-javascript"><span class="hljs-keyword">var</span> weekOfYear = <span class="hljs-built_in">require</span>(<span class="hljs-string">'dayjs/plugin/weekOfYear'</span>)
-dayjs.extend(weekOfYear)
+<pre><code class="hljs css language-javascript"><span class="hljs-keyword">var</span> weekOfYear = <span class="hljs-built_in">require</span>(<span class="hljs-string">"dayjs/plugin/weekOfYear"</span>);
+<span class="hljs-comment">// import weekOfYear from 'dayjs/plugin/weekOfYear' // ES 2015</span>
 
-dayjs(<span class="hljs-string">'2018-06-27'</span>).week() <span class="hljs-comment">// 26</span>
-dayjs(<span class="hljs-string">'2018-06-27'</span>).week(<span class="hljs-number">5</span>) <span class="hljs-comment">// 设置周</span>
+dayjs.extend(weekOfYear);
+
+dayjs(<span class="hljs-string">"2018-06-27"</span>).week(); <span class="hljs-comment">// 26</span>
+dayjs(<span class="hljs-string">"2018-06-27"</span>).week(<span class="hljs-number">5</span>); <span class="hljs-comment">// set week</span>
 </code></pre>
 </span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/docs/zh-CN/plugin/utc"><span class="arrow-prev">← </span><span>UTC</span></a><a class="docs-next button" href="/docs/zh-CN/plugin/week-year"><span class="function-name-prevnext">WeekYear</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="/img/logo.png" alt="Day.js" width="48" height="48"/></a><div><h5>Community</h5><a class="github-button" href="https://github.com/iamkun/dayjs" target="_blank" data-count-href="/iamkun/dayjs/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">GitHub</a><a href="https://gitter.im/iamkun/dayjs" target="_blank" rel="noreferrer noopener">Gitter</a><a href="/sitemap.xml" target="_blank">Sitemap</a></div></section><section class="copyright">Copyright © 2024 Day.js</section><script>
               console.log('%c Feel free to try sample codes here 😃', 'background: #222; color: #EE6A55');

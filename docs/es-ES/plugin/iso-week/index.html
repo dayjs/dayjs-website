@@ -75,13 +75,14 @@
               }
             });
         </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://crowdin.com/project/dayjs/es-ES" target="_blank" rel="noreferrer noopener">Translate</a><h1 class="postHeaderTitle">IsoWeek</h1></header><article><div><span><p>IsoWeek añade la API <code>.isoWeek()</code> para obtener o establecer la semana ISO del año. Y añade <code>.isoWeekday()</code> para obtener o establecer el día ISO de la semana y <code>.isoWeekYear()</code> para obtener ISO semanal, y extiende las APIs <code>.startOf</code> y <code>.endOf</code> para soportar la unidad <code>isoWeek</code>.</p>
-<pre><code class="hljs css language-javascript"><span class="hljs-keyword">var</span> isoWeek = <span class="hljs-built_in">require</span>(<span class="hljs-string">'dayjs/plugin/isoWeek'</span>)
+<pre><code class="hljs css language-javascript"><span class="hljs-keyword">var</span> isoWeek = <span class="hljs-built_in">require</span>(<span class="hljs-string">"dayjs/plugin/isoWeek"</span>);
+<span class="hljs-comment">// import isoWeek from 'dayjs/plugin/isoWeek' // ES 2015</span>
 
-dayjs.extend(isoWeek)
+dayjs.extend(isoWeek);
 
-dayjs().isoWeek()
-dayjs().isoWeekday()
-dayjs().isoWeekYear()
+dayjs().isoWeek();
+dayjs().isoWeekday();
+dayjs().isoWeekYear();
 </code></pre>
 </span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/docs/es-ES/plugin/is-yesterday"><span class="arrow-prev">← </span><span class="function-name-prevnext">IsYesterday</span></a><a class="docs-next button" href="/docs/es-ES/plugin/iso-weeks-in-year"><span class="function-name-prevnext">IsoWeeksInYear</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="/img/logo.png" alt="Day.js" width="48" height="48"/></a><div><h5>Community</h5><a class="github-button" href="https://github.com/iamkun/dayjs" target="_blank" data-count-href="/iamkun/dayjs/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">GitHub</a><a href="https://gitter.im/iamkun/dayjs" target="_blank" rel="noreferrer noopener">Gitter</a><a href="/sitemap.xml" target="_blank">Sitemap</a></div></section><section class="copyright">Copyright © 2024 Day.js</section><script>
               console.log('%c Feel free to try sample codes here 😃', 'background: #222; color: #EE6A55');
