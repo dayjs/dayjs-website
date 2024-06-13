@@ -7,6 +7,8 @@ BigIntSupport extends `dayjs()`, `dayjs.unix` APIs to support [BigInt](https://d
 
 ```javascript
 var bigIntSupport = require("dayjs/plugin/bigIntSupport");
+// import bigIntSupport from 'dayjs/plugin/bigIntSupport' // ES 2015
+
 dayjs.extend(bigIntSupport);
 
 dayjs(BigInt(1666310421101));

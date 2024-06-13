@@ -8,9 +8,10 @@ DevHelper adds some helper function to give you more hints and warnings while us
 Note, you can set `process.env.NODE_ENV` to `production` to disable the DevHelper in your production environment. And if you have enabled a JavaScript minifier like UglifyJS, it can remove the plugin from your production bundle automatically to save some bytes.
 
 ```js
-var devHelper = require('dayjs/plugin/devHelper')
+var devHelper = require("dayjs/plugin/devHelper");
+// import devHelper from 'dayjs/plugin/devHelper' // ES 2015
 
-dayjs.extend(devHelper)
+dayjs.extend(devHelper);
 ```
 
 You can also load this plugin on demand yourself.

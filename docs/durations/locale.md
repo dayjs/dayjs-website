@@ -8,8 +8,11 @@ You can get or set the locale of a duration using `locale`. The locale will affe
 @>RelativeTime
 
 ```javascript
-require('dayjs/locale/es')
+require("dayjs/locale/es");
+// import es from 'dayjs/plugin/es' // ES 2015
 
 dayjs.duration(1, "minutes").locale("en").humanize(); // a minute
+
 dayjs.duration(1, "minutes").locale("es").humanize(); // un minuto
+// dayjs.duration(1, "minutes").locale(es).humanize(); // ES 2015
 ```

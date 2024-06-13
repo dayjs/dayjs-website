@@ -10,10 +10,12 @@ Buddhist Era is a year numbering system that primarily used in mainland Southeas
 To calculate BE year manually, just add 543 to year. For example 26 May 1977 AD/CE should display as 26 May 2520 BE (1977 + 543).
 
 ```javascript
-var buddhistEra = require('dayjs/plugin/buddhistEra')
-dayjs.extend(buddhistEra)
+var buddhistEra = require("dayjs/plugin/buddhistEra");
+// import buddhistEra from 'dayjs/plugin/buddhistEra' // ES 2015
 
-dayjs().format('BBBB BB')
+dayjs.extend(buddhistEra);
+
+dayjs().format("BBBB BB");
 ```
 
 List of added formats:
