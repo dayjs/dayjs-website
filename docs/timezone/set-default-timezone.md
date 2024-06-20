@@ -9,6 +9,9 @@ You can still custom a different timezone in a specific `dayjs` object.
 
 @>Timezone
 ```javascript
+import utc from "dayjs/plugin/utc";
+import timezone from "dayjs/plugin/timezone";
+
 dayjs.extend(utc)
 dayjs.extend(timezone)
 
