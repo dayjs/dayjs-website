@@ -114,7 +114,8 @@ function Intro() {
           <a href="https://github.com/storyblok" target="_blank">
             <img src="https://avatars.githubusercontent.com/u/13880908?s=200&v=4"/>
           </a>
-          <a href="https://bestkru.com/ " target="_blank" alt><img alt="BestKru" src="https://avatars.githubusercontent.com/u/159320286"/></a>
+          <a href="https://bestkru.com/" target="_blank" alt><img alt="BestKru" src="https://avatars.githubusercontent.com/u/159320286"/></a>
+          <a href="https://route4me.com" target="_blank" alt><img alt="Route Optimizer and Route Planner Software" src="https://github.com/user-attachments/assets/3fbc86c5-98a9-49c2-beae-1969026fcd76"/></a>
         </div>
       </div>
       <div className="hide">
