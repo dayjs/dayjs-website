@@ -105,6 +105,9 @@ function Intro() {
           <a href="https://chudovo.com/" target="_blank">
             <img src="https://images.opencollective.com/chudovo/3c866f5/logo/256.png?height=256" />
           </a>
+          <a href="https://www.honrev.com" target="_blank">
+            <img width="70" src="https://github.com/user-attachments/assets/b3203350-34c1-4637-b8b1-d9b8bab346d3"/>
+          </a>
           <a href="https://github.com/alan-eu" target="_blank">
             <img src="https://avatars.githubusercontent.com/u/18175329?s=52&v=4" />
           </a>
