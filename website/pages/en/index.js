@@ -99,11 +99,14 @@ function Intro() {
           <a href="https://github.com/ken-swyfft" target="_blank">
             <img src="https://avatars.githubusercontent.com/u/65305317?s=52&v=4"/>
           </a>
-          <a href="https://opencollective.com/sight-and-sound-ministries" target="_blank">
-            <img src="https://user-images.githubusercontent.com/17680888/232316426-cb99b4cf-0ccb-4e73-a6ce-e16dba6aadf4.png" />
-          </a>
           <a href="https://chudovo.com/" target="_blank">
             <img src="https://images.opencollective.com/chudovo/3c866f5/logo/256.png?height=256" />
+          </a>
+          <a href="https://www.ratrav.com" target="_blank">
+            <img width="70" src="https://images.opencollective.com/ratrav/8bad59c/logo/256.png?height=256" />
+          </a>
+          <a href="https://opencollective.com/sight-and-sound-ministries" target="_blank">
+            <img src="https://user-images.githubusercontent.com/17680888/232316426-cb99b4cf-0ccb-4e73-a6ce-e16dba6aadf4.png" />
           </a>
           <a href="https://www.honrev.com" target="_blank">
             <img width="70" src="https://github.com/user-attachments/assets/b3203350-34c1-4637-b8b1-d9b8bab346d3"/>
