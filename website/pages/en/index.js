@@ -121,7 +121,7 @@ function Intro() {
             <img src="https://avatars.githubusercontent.com/u/13880908?s=200&v=4"/>
           </a>
           <a href="https://bestkru.com/" target="_blank" alt><img alt="BestKru" src="https://avatars.githubusercontent.com/u/159320286"/></a>
-          <a href="https://handsontable.com/docs/react-data-grid/?utm_source=Dayjs_homepage&utm_medium=sponsorship&utm_campaign=library_sponsorship_2024" target="_blank" alt><img src="https://github.com/user-attachments/assets/b752d677-fe8e-4089-960f-084ef1459582"/></a>
+          <a href="https://handsontable.com/docs/react-data-grid/?utm_source=Dayjs_homepage&utm_medium=sponsorship&utm_campaign=library_sponsorship" target="_blank" alt><img src="https://github.com/user-attachments/assets/426c3476-dc34-44d1-a904-ed58dbd20dd6"/></a>
           <a href="https://route4me.com" target="_blank" alt><img alt="Route Optimizer and Route Planner Software" src="https://github.com/user-attachments/assets/3fbc86c5-98a9-49c2-beae-1969026fcd76"/></a>
         </div>
       </div>
