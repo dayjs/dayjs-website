@@ -124,6 +124,11 @@ function Intro() {
         <div style={{marginTop: '24px',textAlign: 'left'}}>
           Balancing coding projects and academics? Discover professional <b><a style={{color: '#000'}} href="https://edubirdie.com/essay-writers-for-hire" target="_blank">essay writers</a></b> who can help streamline your workload.
         </div>
+        <div style={{marginTop: '24px',textAlign: 'left'}}>
+          <a style={{color: '#000'}} href="https://essaypro.com/pay-for-research-paper" target="_blank">
+            Anchor - pay EssayPro to write my research paper
+          </a>
+        </div>
       </div>
       <div className="hide">
         <translate desc="plugin">
