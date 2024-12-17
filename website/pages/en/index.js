@@ -126,7 +126,7 @@ function Intro() {
         </div>
         <div style={{marginTop: '24px',textAlign: 'left'}}>
           <a style={{color: '#000'}} href="https://essaypro.com/pay-for-research-paper" target="_blank">
-            Anchor - pay EssayPro to write my research paper
+            pay EssayPro to write my research paper
           </a>
         </div>
       </div>
