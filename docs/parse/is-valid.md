@@ -20,5 +20,5 @@ Returns a `boolean` indicating whether the `Dayjs`'s date is valid.
   @>CustomParseFormat
   ```js
   dayjs('2022-02-31', 'YYYY-MM-DD', true).isValid();
-  // false
+  // true
   ```
