@@ -119,7 +119,7 @@ function Intro() {
           <a href="https://route4me.com" target="_blank" alt><img alt="Route Optimizer and Route Planner Software" src="https://github.com/user-attachments/assets/3fbc86c5-98a9-49c2-beae-1969026fcd76"/></a>
         </div>
         <div style={{marginTop: '24px',textAlign: 'left'}}>
-          Balancing coding projects and academics? Discover professional <b><a style={{color: '#000'}} href="https://edubirdie.com/essay-writers-for-hire" target="_blank">essay writers</a></b> who can help streamline your workload.
+          Balancing coding projects and academics? Discover a professional <b><a style={{color: '#000'}} href="https://edubirdie.com/" target="_blank">essay service</a></b> that can help streamline your workload.
         </div>
         <div style={{marginTop: '24px',textAlign: 'left'}}>
           <a style={{color: '#000'}} href="https://essaypro.com/pay-for-research-paper" target="_blank">
