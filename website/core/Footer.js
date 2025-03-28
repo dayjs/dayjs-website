@@ -116,6 +116,23 @@ class Footer extends React.Component {
         <script
           dangerouslySetInnerHTML={{
             __html: `
+            const url = window.location.href;
+            const wrapper = document.querySelector('.mainContainer .wrapper');
+            if (url.includes('installation/installation')) {
+              const a = document.createElement('a');
+              a.href = 'https://handsontable.com/docs/react-data-grid/?utm_source=Dayjs_homepage&utm_medium=sponsorship&utm_campaign=library_sponsorship';
+              a.target = '_blank';
+              const img = document.createElement('img');
+              img.src = '/handsontable.png';
+              img.style.width = '240px';
+              a.appendChild(img);
+              wrapper.appendChild(a);
+            }
+          `}}
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
             var _hmt = _hmt || [];
             (function() {
               var hm = document.createElement("script");
