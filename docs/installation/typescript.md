@@ -13,6 +13,14 @@ Import and use in your TypeScript file
 import * as dayjs from 'dayjs'
 dayjs().format()
 ```
+> ⚠️ Some TS repo have reported getting `this expression is not callable.
+  Type 'typeof dayjs' has no call signatures.ts(2349)`
+
+Alternative import 👇️ is a known resolution. 
+
+```ts
+import { default as dayjs } from 'dayjs';
+```
 
 #### Have trouble importing Day.js?
 
