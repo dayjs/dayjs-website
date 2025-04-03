@@ -108,6 +108,9 @@ function Intro() {
           <a href="https://chudovo.com/front-end-development/" target="_blank">
             <img src="https://images.opencollective.com/chudovo/3c866f5/logo/256.png?height=256"/>
           </a>
+          <a href="https://opencollective.com/storyviewer" target="_blank">
+            <img src="https://images.opencollective.com/storyviewer/4886c69/avatar/256.png?height=256" />
+          </a>
           <a href="https://github.com/radioplusexperts" target="_blank">
             <img src="https://avatars.githubusercontent.com/u/188567998?v=4"/>
           </a>
