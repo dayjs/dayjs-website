@@ -132,6 +132,10 @@ function Intro() {
             pay EssayPro to write my research paper
           </a>
         </div>
+        <div style={{marginTop: '24px',textAlign: 'left'}}>
+          Pay-as-you-go <b><a style={{color: '#000'}} href="https://homeworkguy.live" target="_blank">online class help</a></b> with weekly
+        expert support, no upfront payment.
+        </div>
       </div>
       <div className="hide">
         <translate desc="plugin">
