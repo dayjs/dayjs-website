@@ -129,6 +129,9 @@ function Intro() {
           EssayService.com allows you to <a style={{color: '#000'}} href="https://essayservice.com/ai-essay-writer" target="_blank">generate high-quality essays instantly</a>, providing students with custom-written papers that are both timely and plagiarism-free.
         </div>
         <div style={{marginTop: '24px',textAlign: 'left'}}>
+          Thousands of students rely on write my essay <a style={{color: '#000'}} href="https://essayhub.com/" target="_blank">EssayHub.com</a> to handle their toughest assignments with ease.
+        </div>
+        <div style={{marginTop: '24px',textAlign: 'left'}}>
           <a style={{color: '#000'}} href="https://essaypro.com/pay-for-research-paper" target="_blank">
             pay EssayPro to write my research paper
           </a>
