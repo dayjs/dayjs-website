@@ -132,6 +132,9 @@ function Intro() {
           Thousands of students rely on write my essay <a style={{color: '#000'}} href="https://essayhub.com/" target="_blank">EssayHub.com</a> to handle their toughest assignments with ease.
         </div>
         <div style={{marginTop: '24px',textAlign: 'left'}}>
+          WriteMyEssay.com is a <a style={{color: '#000'}} href="https://www.writemyessay.com/" target="_blank">reliable company that will write your essay</a>, ensuring top-notch quality and timely delivery every time. 
+        </div>
+        <div style={{marginTop: '24px',textAlign: 'left'}}>
           <a style={{color: '#000'}} href="https://essaypro.com/pay-for-research-paper" target="_blank">
             pay EssayPro to write my research paper
           </a>
