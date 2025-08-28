@@ -3,7 +3,7 @@ id: locale-data
 title: LocaleData
 ---
 
-LocaleData extends `dayjs().localeData` API to supply locale data.
+LocaleData extends the `dayjs().localeData` API to supply locale data.
 
 ```javascript
 var localeData = require("dayjs/plugin/localeData");
@@ -53,7 +53,7 @@ instanceLocaleData.meridiem();
 instanceLocaleData.ordinal();
 ```
 
-Note: when you want use `longDateFormat('L')`, remember extend `localizedFormat`
+Note: when you want to use `longDateFormat('L')`, remember to extend `localizedFormat`:
 
 ```js
 import localizedFormat from "dayjs/plugin/localizedFormat";
