@@ -102,12 +102,6 @@ function Intro() {
           <a href="https://opencollective.com/sight-sound" target="_blank">
             <img src="https://images.opencollective.com/sight-sound/54f7220/logo/256.png?height=256" />
           </a>
-          <a href="https://www.exoflare.com/open-source/?utm_source=dayjs&utm_campaign=open_source" target="_blank">
-            <img src="https://user-images.githubusercontent.com/17680888/162761622-1407a849-0c41-4591-8aa9-f98114ec2092.png"/>
-          </a>
-          <a href="https://chudovo.com/front-end-development/" target="_blank">
-            <img src="https://images.opencollective.com/chudovo/3c866f5/logo/256.png?height=256"/>
-          </a>
           <a href="https://opencollective.com/storyviewer" target="_blank">
             <img src="https://images.opencollective.com/storyviewer/4886c69/avatar/256.png?height=256" />
           </a>
@@ -142,6 +136,9 @@ function Intro() {
         <div style={{marginTop: '24px',textAlign: 'left'}}>
           Pay-as-you-go <b><a style={{color: '#000'}} href="https://homeworkguy.live" target="_blank">online class help</a></b> with weekly
         expert support, no upfront payment.
+        </div>
+        <div style={{marginTop: '24px',textAlign: 'left'}}>
+          <b><a style={{color: '#000'}} href="https://paperwriter.com/" target="_blank">Best paper writing service</a></b> trusted by students for high-quality, plagiarism-free work
         </div>
       </div>
       <div className="hide">
