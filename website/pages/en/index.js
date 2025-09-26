@@ -113,6 +113,17 @@ function Intro() {
           <a href="https://route4me.com" target="_blank" alt><img alt="Route Optimizer and Route Planner Software" src="https://github.com/user-attachments/assets/3fbc86c5-98a9-49c2-beae-1969026fcd76"/></a>
           <a href="https://github.com/sentdm" target="_blank" alt><img alt="" src="https://avatars.githubusercontent.com/u/153308555?s=200&v=4"/></a>
         </div>
+        <div style={{marginTop: '24px'}} className="text-center">
+          <a style={{color: '#000'}} href="https://go.warp.dev/dayjs" target="_blank" rel="noopener noreferrer">
+            <img
+              alt="Warp sponsorship"
+              style={{width: '350px'}}
+              src="https://cdn.jsdelivr.net/gh/warpdotdev/brand-assets@main/Github/Sponsor/Warp-Github-LG-02.png"
+            />
+            <br />
+            <b>Warp is built for coding with multiple AI agents</b>
+          </a>
+        </div>
         <div style={{marginTop: '24px',textAlign: 'left'}}>
           Balancing coding projects and academics? Discover a professional <b><a style={{color: '#000'}} href="https://edubirdie.com/" target="_blank">essay service</a></b> that can help streamline your workload.
         </div>
