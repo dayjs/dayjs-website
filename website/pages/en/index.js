@@ -154,6 +154,9 @@ function Intro() {
         <div style={{ marginTop: '24px', textAlign: 'left' }}>
           <b><a style={{ color: '#000' }} href="https://paperwriter.com/" target="_blank">Best paper writing service</a></b> trusted by students for high-quality, plagiarism-free work
         </div>
+        <div style={{ marginTop: '24px', textAlign: 'left' }}>
+          paper writing help at <b><a style={{ color: '#000' }} href="https://writepaper.com/" target="_blank">WritePaper</a></b>
+        </div>
       </div>
       <div className="hide">
         <translate desc="plugin">
