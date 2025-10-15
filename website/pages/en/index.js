@@ -157,6 +157,9 @@ function Intro() {
         <div style={{ marginTop: '24px', textAlign: 'left' }}>
           <a style={{ color: '#000' }} href="https://writepaper.com/" target="_blank">paper writing help at WritePaper</a>
         </div>
+        <div style={{ marginTop: '24px', textAlign: 'left' }}>
+          DoMyEssay is a reliable <a style={{ color: '#000' }} href="https://domyessay.com/" target="_blank">educational platform that writes essays for students</a>, offering expert assistance tailored to academic needs.
+        </div>
       </div>
       <div className="hide">
         <translate desc="plugin">
