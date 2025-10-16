@@ -102,6 +102,9 @@ function Intro() {
           <a href="https://opencollective.com/sight-sound" target="_blank">
             <img src="https://images.opencollective.com/sight-sound/54f7220/logo/256.png?height=256" />
           </a>
+          <a href="https://opencollective.com/filerev" target="_blank">
+            <img src="https://images.opencollective.com/filerev/93a8f05/logo/256.png?height=256" />
+          </a>
           <a href="https://github.com/radioplusexperts" target="_blank">
             <img src="https://avatars.githubusercontent.com/u/188567998?v=4" />
           </a>
