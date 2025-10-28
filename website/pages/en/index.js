@@ -129,6 +129,17 @@ function Intro() {
             <b>Warp is built for coding with multiple AI agents</b>
           </a>
         </div>
+        <div style={{ marginTop: '24px' }} className="text-center">
+          <a style={{ color: '#000' }} href="https://app.requestly.io/api-client/?utm_source=github&utm_medium=partnered&utm_campaign=rq_dayjs_github" target="_blank" rel="noopener noreferrer">
+            <img
+              alt="Requestly sponsorship"
+              style={{ width: '350px' }}
+              src="https://github.com/user-attachments/assets/24670320-997d-4d62-9bca-955c59fe883d"
+            />
+            <br />
+            <b>Requestly - Free & Open-Source alternative to Postman</b>
+          </a>
+        </div>
         <div style={{ marginTop: '24px', textAlign: 'left' }}>
           <a style={{ color: '#000' }} href="https://chudovo.com/front-end-development/" target="_blank" rel="noopenernoreferrer">
             Chudovo - Front-end development services
