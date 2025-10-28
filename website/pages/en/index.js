@@ -112,6 +112,9 @@ function Intro() {
             <img src="https://avatars.githubusercontent.com/u/13880908?s=200&v=4" />
           </a>
           <a href="https://github.com/Ayo1984" target="_blank"><img width="70" src="https://avatars.githubusercontent.com/u/117122666?v=4" /></a>
+          <a href="https://github.com/anonstories" target="_blank">
+            <img width="70" src="https://avatars.githubusercontent.com/u/240702364?v=4" />
+          </a>
           <a href="https://bestkru.com/" target="_blank" alt><img alt="BestKru" src="https://avatars.githubusercontent.com/u/159320286" /></a>
           <a href="https://handsontable.com/docs/react-data-grid/?utm_source=Dayjs_homepage&utm_medium=sponsorship&utm_campaign=library_sponsorship" target="_blank" alt><img src="https://github.com/user-attachments/assets/426c3476-dc34-44d1-a904-ed58dbd20dd6" /></a>
           <a href="https://route4me.com" target="_blank" alt><img alt="Route Optimizer and Route Planner Software" src="https://github.com/user-attachments/assets/3fbc86c5-98a9-49c2-beae-1969026fcd76" /></a>
@@ -130,7 +133,7 @@ function Intro() {
           </a>
         </div>
         <div style={{ marginTop: '24px' }} className="text-center">
-          <a style={{ color: '#000' }} href="https://app.requestly.io/api-client/?utm_source=github&utm_medium=partnered&utm_campaign=rq_dayjs_github" target="_blank" rel="noopener noreferrer">
+          <a style={{ color: '#000' }} href="https://requestly.com/?utm_source=github&utm_medium=partnered&utm_campaign=rq_dayjs_github" target="_blank" rel="noopener noreferrer">
             <img
               alt="Requestly sponsorship"
               style={{ width: '350px' }}
