@@ -1,9 +1,9 @@
 ---
 id: start-of
-title: Start of Time
+title: Start of Unit of Time
 ---
 
-Returns a cloned Day.js object and set it to the start of a unit of time.
+Returns a cloned Day.js object and set it to the start of a unit of time (ex. month, week, etc.).
 
 ```js
 dayjs().startOf('year')

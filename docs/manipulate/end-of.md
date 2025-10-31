@@ -1,8 +1,8 @@
 ---
 id: end-of
-title: End of Time
+title: End of Unit of Time
 ---
-Returns a cloned Day.js object and set it to the end of a unit of time.
+Returns a cloned Day.js object and set it to the end of a unit of time (ex. month, week, etc.).
 
 ```js
 dayjs().endOf('month')
