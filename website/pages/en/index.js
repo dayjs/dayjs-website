@@ -108,6 +108,9 @@ function Intro() {
           <a href="https://github.com/radioplusexperts" target="_blank">
             <img src="https://avatars.githubusercontent.com/u/188567998?v=4" />
           </a>
+          <a href="https://opencollective.com/carboneio" target="_blank">
+            <img width="70" src="https://images.opencollective.com/carboneio/fe2066c/logo/256.png?height=256" />
+          </a>
           <a href="https://github.com/storyblok" target="_blank">
             <img src="https://avatars.githubusercontent.com/u/13880908?s=200&v=4" />
           </a>
@@ -164,10 +167,6 @@ function Intro() {
           <a style={{ color: '#000' }} href="https://essaypro.com/pay-for-research-paper" target="_blank">
             pay EssayPro to write my research paper
           </a>
-        </div>
-        <div style={{ marginTop: '24px', textAlign: 'left' }}>
-          Pay-as-you-go <b><a style={{ color: '#000' }} href="https://homeworkguy.live" target="_blank">online class help</a></b> with weekly
-          expert support, no upfront payment.
         </div>
         <div style={{ marginTop: '24px', textAlign: 'left' }}>
           <b><a style={{ color: '#000' }} href="https://paperwriter.com/" target="_blank">Best paper writing service</a></b> trusted by students for high-quality, plagiarism-free work
