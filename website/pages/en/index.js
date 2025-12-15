@@ -111,9 +111,6 @@ function Intro() {
           <a href="https://opencollective.com/carboneio" target="_blank">
             <img width="70" src="https://images.opencollective.com/carboneio/fe2066c/logo/256.png?height=256" />
           </a>
-          <a href="https://github.com/storyblok" target="_blank">
-            <img src="https://avatars.githubusercontent.com/u/13880908?s=200&v=4" />
-          </a>
           <a href="https://github.com/Ayo1984" target="_blank"><img width="70" src="https://avatars.githubusercontent.com/u/117122666?v=4" /></a>
           <a href="https://anonstories.com" target="_blank">
             <img alt="Instagram Story Viewer" width="70" src="https://avatars.githubusercontent.com/u/240702364?v=4" />
@@ -133,17 +130,6 @@ function Intro() {
             />
             <br />
             <b>Warp is built for coding with multiple AI agents</b>
-          </a>
-        </div>
-        <div style={{ marginTop: '24px' }} className="text-center">
-          <a style={{ color: '#000' }} href="https://requestly.com/?utm_source=github&utm_medium=partnered&utm_campaign=rq_dayjs_github" target="_blank" rel="noopener noreferrer">
-            <img
-              alt="Requestly sponsorship"
-              style={{ width: '350px' }}
-              src="https://github.com/user-attachments/assets/24670320-997d-4d62-9bca-955c59fe883d"
-            />
-            <br />
-            <b>Requestly - Free & Open-Source alternative to Postman</b>
           </a>
         </div>
         <div style={{ marginTop: '24px', textAlign: 'left' }}>
