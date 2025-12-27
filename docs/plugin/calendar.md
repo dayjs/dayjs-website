@@ -11,7 +11,7 @@ var calendar = require("dayjs/plugin/calendar");
 
 dayjs.extend(calendar);
 
-dayjs().calendar(dayjs("2008-01-01"));
+dayjs("2008-01-01").calendar();
 dayjs().calendar(null, {
   sameDay: "[Today at] h:mm A", // The same day ( Today at 2:30 AM )
   nextDay: "[Tomorrow at] h:mm A", // The next day ( Tomorrow at 2:30 AM )
