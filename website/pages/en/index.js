@@ -122,8 +122,8 @@ function Intro() {
           <a href="https://handsontable.com/docs/react-data-grid/?utm_source=Dayjs_homepage&utm_medium=sponsorship&utm_campaign=library_sponsorship" target="_blank" alt><img src="https://github.com/user-attachments/assets/426c3476-dc34-44d1-a904-ed58dbd20dd6" /></a>
           <a href="https://route4me.com" target="_blank" alt><img alt="Route Optimizer and Route Planner Software" src="https://github.com/user-attachments/assets/3fbc86c5-98a9-49c2-beae-1969026fcd76" /></a>
           <a href="https://github.com/sentdm" target="_blank" alt><img alt="" src="https://avatars.githubusercontent.com/u/153308555?s=200&v=4" /></a>
-          <a href="https://github.com/blacksandsmedia" target="_blank">
-            <img width="70" src="https://avatars.githubusercontent.com/u/116517387?v=4" />
+          <a href="https://www.binance.com/en/square/profile/breferralcodes" target="_blank">
+            <img width="70" src="https://github.com/user-attachments/assets/6efef979-95b0-4d87-a0d7-f80d3c8322bc" />
           </a>
           <a href="https://chudovo.com/front-end-development" target="_blank" alt><img alt="" src="https://images.opencollective.com/chudovo/3c866f5/logo/256.png?height=256" /></a>
         </div>
