@@ -114,7 +114,6 @@ function Intro() {
           <a href="https://automatio.ai" target="_blank" alt="Automatio AI">
             <img width="70" src="https://avatars.githubusercontent.com/u/1984909?v=4" />
           </a>
-          <a href="https://github.com/Ayo1984" target="_blank"><img width="70" src="https://avatars.githubusercontent.com/u/117122666?v=4" /></a>
           <a href="https://anonstories.com" target="_blank">
             <img alt="Instagram Story Viewer" width="70" src="https://avatars.githubusercontent.com/u/240702364?v=4" />
           </a>
