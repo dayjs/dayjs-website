@@ -105,11 +105,14 @@ function Intro() {
           <a href="https://opencollective.com/filerev" target="_blank">
             <img src="https://images.opencollective.com/filerev/93a8f05/logo/256.png?height=256" />
           </a>
-          <a href="https://github.com/radioplusexperts" target="_blank">
-            <img src="https://avatars.githubusercontent.com/u/188567998?v=4" />
+          <a href="https://github.com/storyblok" target="_blank">
+            <img width="70" src="https://avatars.githubusercontent.com/u/13880908?s=200&v=4" />
           </a>
           <a href="https://opencollective.com/carboneio" target="_blank">
             <img width="70" src="https://images.opencollective.com/carboneio/fe2066c/logo/256.png?height=256" />
+          </a>
+          <a href="https://github.com/radioplusexperts" target="_blank">
+            <img src="https://avatars.githubusercontent.com/u/188567998?v=4" />
           </a>
           <a href="https://automatio.ai" target="_blank" alt="Automatio AI">
             <img width="70" src="https://avatars.githubusercontent.com/u/1984909?v=4" />
