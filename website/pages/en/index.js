@@ -105,9 +105,6 @@ function Intro() {
           <a href="https://opencollective.com/filerev" target="_blank">
             <img src="https://images.opencollective.com/filerev/93a8f05/logo/256.png?height=256" />
           </a>
-          <a href="https://github.com/storyblok" target="_blank">
-            <img width="70" src="https://avatars.githubusercontent.com/u/13880908?s=200&v=4" />
-          </a>
           <a href="https://opencollective.com/carboneio" target="_blank">
             <img width="70" src="https://images.opencollective.com/carboneio/fe2066c/logo/256.png?height=256" />
           </a>
@@ -128,17 +125,6 @@ function Intro() {
             <img width="70" src="https://github.com/user-attachments/assets/2295d157-0d3f-4dea-8dbd-60b038d425e2" />
           </a>
           <a href="https://chudovo.com/front-end-development" target="_blank" alt><img alt="" src="https://images.opencollective.com/chudovo/3c866f5/logo/256.png?height=256" /></a>
-        </div>
-        <div style={{ marginTop: '24px' }} className="text-center">
-          <a style={{ color: '#000' }} href="https://go.warp.dev/dayjs" target="_blank" rel="noopener noreferrer">
-            <img
-              alt="Warp sponsorship"
-              style={{ width: '350px' }}
-              src="https://cdn.jsdelivr.net/gh/warpdotdev/brand-assets@main/Github/Sponsor/Warp-Github-LG-02.png"
-            />
-            <br />
-            <b>Warp is built for coding with multiple AI agents</b>
-          </a>
         </div>
         <div style={{ marginTop: '24px', textAlign: 'left' }}>
           <a style={{ color: '#000' }} href="https://chudovo.com/front-end-development/" target="_blank" rel="noopenernoreferrer">
