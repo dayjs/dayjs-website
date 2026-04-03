@@ -121,12 +121,6 @@ function Intro() {
           <a href="https://www.binance.com/en/square/profile/breferralcodes" target="_blank">
             <img width="70" src="https://github.com/user-attachments/assets/2295d157-0d3f-4dea-8dbd-60b038d425e2" />
           </a>
-          <a href="https://chudovo.com/front-end-development" target="_blank" alt><img alt="" src="https://images.opencollective.com/chudovo/3c866f5/logo/256.png?height=256" /></a>
-        </div>
-        <div style={{ marginTop: '24px', textAlign: 'left' }}>
-          <a style={{ color: '#000' }} href="https://chudovo.com/front-end-development/" target="_blank" rel="noopenernoreferrer">
-            Chudovo - Front-end development services
-          </a>
         </div>
         <div style={{ marginTop: '24px', textAlign: 'left' }}>
           Balancing coding projects and academics? Discover a professional <b><a style={{ color: '#000' }} href="https://edubirdie.com/" target="_blank">essay service</a></b> that can help streamline your workload.
