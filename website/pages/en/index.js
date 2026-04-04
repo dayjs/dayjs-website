@@ -108,11 +108,14 @@ function Intro() {
           <a href="https://github.com/radioplusexperts" target="_blank">
             <img src="https://avatars.githubusercontent.com/u/188567998?v=4" />
           </a>
-          <a href="https://automatio.ai" target="_blank" alt="Automatio AI">
-            <img width="70" src="https://avatars.githubusercontent.com/u/1984909?v=4" />
-          </a>
           <a href="https://anonstories.com" target="_blank">
             <img alt="Instagram Story Viewer" width="70" src="https://avatars.githubusercontent.com/u/240702364?v=4" />
+          </a>
+          <a href="https://www.sayfone.com/call-rates " target="_blank">
+            <img alt="Sayfone Cheap international calls" width="70" src="https://github.com/user-attachments/assets/68f91139-b190-421b-bcd7-43a8e3d84fe7"/>
+          </a>
+          <a href="https://automatio.ai" target="_blank" alt="Automatio AI">
+            <img width="70" src="https://avatars.githubusercontent.com/u/1984909?v=4" />
           </a>
           <a href="https://bestkru.com/" target="_blank" alt><img alt="BestKru" src="https://avatars.githubusercontent.com/u/159320286" /></a>
           <a href="https://handsontable.com/docs/react-data-grid/?utm_source=Dayjs_homepage&utm_medium=sponsorship&utm_campaign=library_sponsorship" target="_blank" alt><img src="https://github.com/user-attachments/assets/426c3476-dc34-44d1-a904-ed58dbd20dd6" /></a>
