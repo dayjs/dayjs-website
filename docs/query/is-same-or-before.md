@@ -8,6 +8,9 @@ This indicates whether the Day.js object is the same or before another supplied 
 @>IsSameOrBefore
 
 ```js
+var isSameOrBefore = require("dayjs/plugin/isSameOrBefore");
+// import isSameOrBefore from 'dayjs/plugin/isSameOrBefore' // ES2015
+
 dayjs.extend(isSameOrBefore)
 dayjs().isSameOrBefore(dayjs('2011-01-01')) // default milliseconds
 ```
