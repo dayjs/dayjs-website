@@ -8,6 +8,7 @@ UTC adds `.utc` `.local` `.isUTC` APIs to parse or display in UTC.
 ```javascript
 var utc = require("dayjs/plugin/utc");
 // import utc from 'dayjs/plugin/utc' // ES 2015
+// import utc from 'dayjs/plugin/utc.js' // Typescript
 
 dayjs.extend(utc);
 
