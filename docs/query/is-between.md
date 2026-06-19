@@ -24,7 +24,7 @@ Units are case insensitive, and support plural and short forms.
 
 The fourth parameter is about inclusivity. A `[` indicates inclusion of a value. A `(` indicates exclusion. 
 
-If the inclusivity parameter is used, both indicators must be passed.
+If the inclusivity parameter is used, both indicators must be passed. If it is omitted, it defaults to `'()'` (exclusive).
 
 ```js
 dayjs('2016-10-30').isBetween('2016-01-01', '2016-10-30', null, '[)')
