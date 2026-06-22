@@ -105,9 +105,6 @@ function Intro() {
           <a href="https://opencollective.com/carboneio" target="_blank">
             <img width="70" src="https://images.opencollective.com/carboneio/fe2066c/logo/256.png?height=256" />
           </a>
-          <a href="https://github.com/radioplusexperts" target="_blank">
-            <img src="https://avatars.githubusercontent.com/u/188567998?v=4" />
-          </a>
           <a href="https://www.netrouting.com" target="_blank" alt="Netrouting Dedicated Servers">
             <img width="70" src="https://netrouting.com/wp-content/uploads/2026/04/Logo-netrouting.png"/>
           </a>
