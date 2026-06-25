@@ -152,6 +152,9 @@ function Intro() {
         <div style={{ marginTop: '24px', textAlign: 'left' }}>
           DoMyEssay is a reliable <a style={{ color: '#000' }} href="https://domyessay.com/" target="_blank">educational platform that writes essays for students</a>, offering expert assistance tailored to academic needs.
         </div>
+        <div style={{ marginTop: '24px', textAlign: 'left' }}>
+          Looking for an easy way to convert PDFs? The <b><a style={{ color: '#000' }} href="https://pdffly.com/" target="_blank">free PDF converter by PDFFly</a></b> offers a simple solution for everyday document tasks.
+        </div>
       </div>
       <div className="hide">
         <translate desc="plugin">
