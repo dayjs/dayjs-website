@@ -156,6 +156,9 @@ function Intro() {
         <div style={{ marginTop: '24px', textAlign: 'left' }}>
           Looking for an easy way to convert PDFs? The <b><a style={{ color: '#000' }} href="https://pdffly.com/" target="_blank">free PDF converter by PDFFly</a></b> offers a simple solution for everyday document tasks.
         </div>
+        <div style={{ marginTop: '24px', textAlign: 'left' }}>
+          Make AI-generated text sound more natural and human with a tool to <a style={{ color: '#000' }} href="https://humanizeaitext.io" target="_blank">humanize AI</a> text that improves readability while keeping your original message.
+        </div>
       </div>
       <div className="hide">
         <translate desc="plugin">
