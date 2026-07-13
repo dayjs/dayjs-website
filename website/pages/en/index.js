@@ -134,9 +134,6 @@ function Intro() {
           Balancing coding projects and academics? Discover a professional <b><a style={{ color: '#000' }} href="https://edubirdie.com/" target="_blank">essay service</a></b> that can help streamline your workload.
         </div>
         <div style={{ marginTop: '24px', textAlign: 'left' }}>
-          Thousands of students rely on write my essay <a style={{ color: '#000' }} href="https://essayhub.com/" target="_blank">EssayHub.com</a> to handle their toughest assignments with ease.
-        </div>
-        <div style={{ marginTop: '24px', textAlign: 'left' }}>
           WriteMyEssay.com is a <a style={{ color: '#000' }} href="https://www.writemyessay.com/" target="_blank">reliable company that will write your essay</a>, ensuring top-notch quality and timely delivery every time.
         </div>
         <div style={{ marginTop: '24px', textAlign: 'left' }}>
