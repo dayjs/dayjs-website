@@ -157,6 +157,9 @@ function Intro() {
         <div style={{ marginTop: '24px', textAlign: 'left' }}>
           Make AI-generated text sound more natural and human with a tool to <a style={{ color: '#000' }} href="https://humanizeaitext.io" target="_blank">humanize AI text</a> that improves readability while keeping your original message.
         </div>
+        <div style={{ marginTop: '24px', textAlign: 'left' }}>
+          Struggling with tight deadlines? Choose a trusted <a style={{ color: '#000' }} href="https://essayservice.com/" target="_blank">essay writing service</a> to get well-researched papers delivered on time.
+        </div>
       </div>
       <div className="hide">
         <translate desc="plugin">
