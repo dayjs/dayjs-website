@@ -164,7 +164,7 @@ function Intro() {
           If you need professional educational support, our <a style={{ color: '#000' }} href="https://essayhub.com/academic-ghost-writers" target="_blank">academic ghostwriting service</a> offers custom, plagiarism-free, and timely writing assistance for any assignment.
         </div>
         <div style={{ marginTop: '24px', textAlign: 'left' }}>
-          Looking for expert help to <a style={{ color: '#000' }} href="https://domyessay.com/write-my-research-paper" target="_blank">write my research paper?</a> Get fast, affordable, and plagiarism-free academic support 24/7.
+          Looking for expert help to <a style={{ color: '#000' }} href="https://domyessay.com/write-my-research-paper" target="_blank">write my research paper</a> Get fast, affordable, and plagiarism-free academic support 24/7.
         </div>
       </div>
       <div className="hide">
