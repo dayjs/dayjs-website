@@ -115,9 +115,6 @@ function Intro() {
           <a href="https://handsontable.com/docs/react-data-grid/?utm_source=Dayjs_homepage&utm_medium=sponsorship&utm_campaign=library_sponsorship" target="_blank" alt><img src="https://github.com/user-attachments/assets/426c3476-dc34-44d1-a904-ed58dbd20dd6" /></a>
           <a href="https://route4me.com" target="_blank" alt><img alt="Route Optimizer and Route Planner Software" src="https://github.com/user-attachments/assets/3fbc86c5-98a9-49c2-beae-1969026fcd76" /></a>
           <a href="https://github.com/sentdm" target="_blank" alt><img alt="" src="https://avatars.githubusercontent.com/u/153308555?s=200&v=4" /></a>
-          <a href="https://www.binance.com/en/square/profile/breferralcodes" target="_blank">
-            <img width="70" src="https://github.com/user-attachments/assets/07284cf9-decb-4373-95a2-849ce887d819" />
-          </a>
           <a href="https://onlydoc.com/" target="_blank" alt><img style={{ width: '160px' }} alt="" src="https://github.com/user-attachments/assets/f5d5938e-48a1-420b-af72-c4012d3941c1" /></a>
           <a href="https://chudovo.com/front-end-development" target="_blank" alt><img alt="" src="https://images.opencollective.com/chudovo/3c866f5/logo/256.png?height=256" /></a>
           <a href="https://unaimytext.com" target="_blank" alt><img alt="" src="https://github.com/user-attachments/assets/8510473a-c097-4bc9-8c61-b7515194f6f5" /></a>
