@@ -129,9 +129,6 @@ function Intro() {
           Balancing coding projects and academics? Discover a professional <b><a style={{ color: '#000' }} href="https://edubirdie.com/" target="_blank">essay service</a></b> that can help streamline your workload.
         </div>
         <div style={{ marginTop: '24px', textAlign: 'left' }}>
-          <a style={{ color: '#000' }} href="https://writepaper.com/" target="_blank">paper writing help at WritePaper</a>
-        </div>
-        <div style={{ marginTop: '24px', textAlign: 'left' }}>
           DoMyEssay is a reliable <a style={{ color: '#000' }} href="https://domyessay.com/" target="_blank">educational platform that writes essays for students</a>, offering expert assistance tailored to academic needs.
         </div>
         <div style={{ marginTop: '24px', textAlign: 'left' }}>
