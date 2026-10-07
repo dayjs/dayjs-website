@@ -56,7 +56,7 @@ Because preferred formatting differs based on locale, there are a few localized 
 @>LocalizedFormat
 
 ```javascript
-dayjs.extend(LocalizedFormat)
+dayjs.extend(localizedFormat)
 dayjs().format('L LT')
 ```
 
