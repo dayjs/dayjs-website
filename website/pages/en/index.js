@@ -116,8 +116,14 @@ function Intro() {
             <img alt="Sealed Rose — AI Deepfake Detector" width="70" src="https://github.com/user-attachments/assets/ae047f8f-3f64-499e-be6f-ea93a2f057ad"/>
           </a>
           <a href="https://onlydoc.com/" target="_blank" alt><img style={{ width: '160px' }} alt="" src="https://github.com/user-attachments/assets/f5d5938e-48a1-420b-af72-c4012d3941c1" /></a>
+          <a href="https://chudovo.com/front-end-development" target="_blank" alt><img alt="" src="https://images.opencollective.com/chudovo/3c866f5/logo/256.png?height=256" /></a>
           <a href="https://unaimytext.com" target="_blank" alt><img alt="" src="https://github.com/user-attachments/assets/8510473a-c097-4bc9-8c61-b7515194f6f5" /></a>
           <a href="https://www.buyvps.com" target="_blank" alt><img style={{ width: '160px' }} alt="" src="https://www.buyvps.com/wp-content/uploads/2026/02/logo-A-1.svg" /></a>
+        </div>
+        <div style={{ marginTop: '24px', textAlign: 'left' }}>
+          <a style={{ color: '#000' }} href="https://chudovo.com/front-end-development/" target="_blank" rel="noopenernoreferrer">
+            Chudovo - Front-end development services
+          </a>
         </div>
         <div style={{ marginTop: '24px', textAlign: 'left' }}>
           Balancing coding projects and academics? Discover a professional <b><a style={{ color: '#000' }} href="https://edubirdie.com/" target="_blank">essay service</a></b> that can help streamline your workload.
