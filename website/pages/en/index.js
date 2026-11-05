@@ -119,6 +119,7 @@ function Intro() {
           <a href="https://chudovo.com/front-end-development" target="_blank" alt><img alt="" src="https://images.opencollective.com/chudovo/3c866f5/logo/256.png?height=256" /></a>
           <a href="https://unaimytext.com" target="_blank" alt><img alt="" src="https://github.com/user-attachments/assets/8510473a-c097-4bc9-8c61-b7515194f6f5" /></a>
           <a href="https://www.buyvps.com" target="_blank" alt><img style={{ width: '160px' }} alt="" src="https://www.buyvps.com/wp-content/uploads/2026/02/logo-A-1.svg" /></a>
+          <a href="https://detectgpt.io/" target="_blank" alt rel="sponsored"><img style={{ width: '160px' }} alt="CoinPop" src="https://github.com/user-attachments/assets/77200824-2a32-42e1-8840-db2151bbac1a" /></a>
           <a href="https://coinpopbit.com/" target="_blank" alt><img style={{ width: '160px' }} alt="CoinPop" src="https://github.com/user-attachments/assets/a3e15340-9d92-44f4-9ab5-2acc7504b01d" /></a>
         </div>
         <div style={{ marginTop: '24px', textAlign: 'left' }}>
@@ -131,9 +132,6 @@ function Intro() {
         </div>
         <div style={{ marginTop: '24px', textAlign: 'left' }}>
           Looking for an easy way to convert PDFs? The <b><a style={{ color: '#000' }} href="https://pdffly.com/" target="_blank">free PDF converter by PDFFly</a></b> offers a simple solution for everyday document tasks.
-        </div>
-        <div style={{ marginTop: '24px', textAlign: 'left' }}>
-          Make AI-generated text sound more natural and human with a tool to <a style={{ color: '#000' }} href="https://humanizeaitext.io" target="_blank">humanize AI text</a> that improves readability while keeping your original message.
         </div>
         <div style={{ marginTop: '24px', textAlign: 'left' }}>
           Struggling with tight deadlines? Choose a trusted <a style={{ color: '#000' }} href="https://essayservice.com/" target="_blank">essay writing service</a> to get well-researched papers delivered on time.
