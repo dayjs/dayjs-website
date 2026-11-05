@@ -97,10 +97,10 @@ function Intro() {
             <img src="https://avatars.githubusercontent.com/u/65305317?s=52&v=4" />
           </a>
           <a href="https://opencollective.com/filerev" target="_blank">
-            <img src="https://images.opencollective.com/filerev/93a8f05/logo/256.png?height=256" />
+            <img src="https://github.com/user-attachments/assets/f4441432-f758-46f5-98ec-e29f7052bbe0" />
           </a>
           <a href="https://opencollective.com/carboneio" target="_blank">
-            <img width="70" src="https://images.opencollective.com/carboneio/fe2066c/logo/256.png?height=256" />
+            <img width="70" src="https://github.com/user-attachments/assets/d054421a-e381-4ed2-9eb8-a14e2e89c730" />
           </a>
           <a href="https://www.netrouting.com" target="_blank" alt="Netrouting Dedicated Servers">
             <img width="70" src="https://netrouting.com/wp-content/uploads/2026/04/Logo-netrouting.png"/>
@@ -116,10 +116,10 @@ function Intro() {
             <img alt="Sealed Rose — AI Deepfake Detector" width="70" src="https://github.com/user-attachments/assets/ae047f8f-3f64-499e-be6f-ea93a2f057ad"/>
           </a>
           <a href="https://onlydoc.com/" target="_blank" alt><img style={{ width: '160px' }} alt="" src="https://github.com/user-attachments/assets/f5d5938e-48a1-420b-af72-c4012d3941c1" /></a>
-          <a href="https://chudovo.com/front-end-development" target="_blank" alt><img alt="" src="https://images.opencollective.com/chudovo/3c866f5/logo/256.png?height=256" /></a>
+          <a href="https://chudovo.com/front-end-development" target="_blank" alt><img alt="" src="https://github.com/user-attachments/assets/319f838a-9d8d-46ef-b887-f1b247f2fcec" /></a>
           <a href="https://unaimytext.com" target="_blank" alt><img alt="" src="https://github.com/user-attachments/assets/8510473a-c097-4bc9-8c61-b7515194f6f5" /></a>
+          <a href="https://detectgpt.io/" target="_blank" alt rel="sponsored"><img width="70" alt="CoinPop" src="https://github.com/user-attachments/assets/77200824-2a32-42e1-8840-db2151bbac1a" /></a>
           <a href="https://www.buyvps.com" target="_blank" alt><img style={{ width: '160px' }} alt="" src="https://www.buyvps.com/wp-content/uploads/2026/02/logo-A-1.svg" /></a>
-          <a href="https://detectgpt.io/" target="_blank" alt rel="sponsored"><img style={{ width: '160px' }} alt="CoinPop" src="https://github.com/user-attachments/assets/77200824-2a32-42e1-8840-db2151bbac1a" /></a>
           <a href="https://coinpopbit.com/" target="_blank" alt><img style={{ width: '160px' }} alt="CoinPop" src="https://github.com/user-attachments/assets/a3e15340-9d92-44f4-9ab5-2acc7504b01d" /></a>
         </div>
         <div style={{ marginTop: '24px', textAlign: 'left' }}>
