@@ -6,6 +6,8 @@ If you know the format of an input string, you can use that to parse a date.
 
 @>CustomParseFormat
 
+Passing a format string (the second argument) requires the `CustomParseFormat` plugin. Without it, call `dayjs(string)` with no format — Day.js still accepts year-first ISO-like strings such as `YYYY-MM-DD` and `YYYY-MM-DDTHH:mm:ss` (see [String](./string)), and otherwise falls through to the JavaScript `Date` parser.
+
 ```js
 dayjs.extend(customParseFormat)
 dayjs("12-25-1995", "MM-DD-YYYY")
