@@ -53,10 +53,10 @@ dayjs('2019-01-25').format('DD/MM/YYYY') // '25/01/2019'
 ### Localized formats
 Because preferred formatting differs based on locale, there are a few localized format tokens that can be used based on its locale.
 
-@>LocalizedFormat
+@>localizedFormat
 
 ```javascript
-dayjs.extend(LocalizedFormat)
+dayjs.extend(localizedFormat)
 dayjs().format('L LT')
 ```
 
