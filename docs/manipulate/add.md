@@ -17,17 +17,19 @@ Units are case insensitive, and support plural and short forms. Note, short form
 
 #### List of all available units
 
-| Unit          | Shorthand | Description                              |
-| ------------- | --------- | ---------------------------------------- |
-| `day`         | `d`       | Day                                      |
-| `week`        | `w`       | Week                                     |
-| `month`       | `M`       | Month                                    |
-| `quarter`     | `Q`       | Quarter @>>QuarterOfYear                 |
-| `year`        | `y`       | Year                                     |
-| `hour`        | `h`       | Hour                                     |
-| `minute`      | `m`       | Minute                                   |
-| `second`      | `s`       | Second                                   |
-| `millisecond` | `ms`      | Millisecond                              |
+Plural forms (`days`, `weeks`, …) are accepted and treated the same as the singular unit.
+
+| Unit          | Plural         | Shorthand | Description                              |
+| ------------- | -------------- | --------- | ---------------------------------------- |
+| `day`         | `days`         | `d`       | Day                                      |
+| `week`        | `weeks`        | `w`       | Week                                     |
+| `month`       | `months`       | `M`       | Month                                    |
+| `quarter`     | `quarters`     | `Q`       | Quarter @>>QuarterOfYear                 |
+| `year`        | `years`        | `y`       | Year                                     |
+| `hour`        | `hours`        | `h`       | Hour                                     |
+| `minute`      | `minutes`      | `m`       | Minute                                   |
+| `second`      | `seconds`      | `s`       | Second                                   |
+| `millisecond` | `milliseconds` | `ms`      | Millisecond                              |
 
 Alternatively, you can use [durations](../durations/durations) to add to Day.js object.
 
