@@ -113,16 +113,16 @@ function Intro() {
           <a href="https://route4me.com" target="_blank" alt><img alt="Route Optimizer and Route Planner Software" src="https://github.com/user-attachments/assets/3fbc86c5-98a9-49c2-beae-1969026fcd76" /></a>
           <a href="https://github.com/sentdm" target="_blank" alt><img alt="" src="https://avatars.githubusercontent.com/u/153308555?s=200&v=4" /></a>
           <a href="https://onlydoc.com/" target="_blank" alt><img style={{ width: '160px' }} alt="" src="https://github.com/user-attachments/assets/f5d5938e-48a1-420b-af72-c4012d3941c1" /></a>
-          <a href="https://chudovo.com/front-end-development" target="_blank" alt><img alt="" src="https://github.com/user-attachments/assets/319f838a-9d8d-46ef-b887-f1b247f2fcec" /></a>
+          <a href="https://chudovo.com" target="_blank" alt><img alt="" src="https://github.com/user-attachments/assets/319f838a-9d8d-46ef-b887-f1b247f2fcec" /></a>
           <a href="https://unaimytext.com" target="_blank" alt><img alt="" src="https://github.com/user-attachments/assets/8510473a-c097-4bc9-8c61-b7515194f6f5" /></a>
           <a href="https://detectgpt.io/" target="_blank" alt rel="sponsored"><img width="70" alt="detectgpt" src="https://github.com/user-attachments/assets/77200824-2a32-42e1-8840-db2151bbac1a" /></a>
           <a href="https://www.buyvps.com" target="_blank" alt><img style={{ width: '160px' }} alt="" src="https://www.buyvps.com/wp-content/uploads/2026/02/logo-A-1.svg" /></a>
           <a href="https://coinpopbit.com/" target="_blank" alt><img style={{ width: '160px' }} alt="CoinPop" src="https://github.com/user-attachments/assets/a3e15340-9d92-44f4-9ab5-2acc7504b01d" /></a>
         </div>
         <div style={{ marginTop: '24px', textAlign: 'left' }}>
-          <a style={{ color: '#000' }} href="https://chudovo.com/front-end-development/" target="_blank" rel="noopenernoreferrer">
-            Chudovo - Front-end development services
-          </a>
+          Chudovo - <a style={{ color: '#000' }} href="https://chudovo.com/legacy-system-modernization/" target="_blank" rel="noopenernoreferrer">
+            Legacy system modernization
+          </a> and <a style={{ color: '#000' }} href="https://chudovo.com/legacy-migration/" target="_blank" rel="noopenernoreferrer">legacy migration services</a>
         </div>
         <div style={{ marginTop: '24px', textAlign: 'left' }}>
           Balancing coding projects and academics? Discover a professional <b><a style={{ color: '#000' }} href="https://edubirdie.com/" target="_blank">essay service</a></b> that can help streamline your workload.
